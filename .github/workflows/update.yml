@@ -1,0 +1,37 @@
+name: Actualizar Playlist IPTV
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Cada 6 horas
+  workflow_dispatch:      # Botón manual
+
+permissions:
+  contents: write         # PERMISO VITAL para guardar el JSON
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+        
+      - name: Ejecutar Cerebro
+        env: # Inyectamos las claves secretas
+          XT_HOST: ${{ secrets.XT_HOST }}
+          XT_USER: ${{ secrets.XT_USER }}
+          XT_PASS: ${{ secrets.XT_PASS }}
+        run: python cerebro.py
+        
+      - name: Guardar Cambios
+        run: |
+          git config --global user.name 'PrinceBot'
+          git config --global user.email 'bot@prince.tv'
+          git add playlist.json
+          git commit -m "Update Playlist" || exit 0
+          git push
