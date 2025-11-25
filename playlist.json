@@ -1,1161 +1,1175 @@
 {
     "meta": {
-        "updated": "Tue Nov 25 03:08:40 2025",
+        "updated": "Tue Nov 25 03:14:05 2025",
         "version": "v86_iron_cloud"
     },
     "live_tv": [
         {
             "title": "[GitHub_FreeTV] ABC News Albania \u24c9",
-            "id": "m3u_-1751882122017628377",
+            "id": "m3u_-3605008609135950269",
             "url": "https://www.twitch.tv/abcnewsal",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] News 24 \u24c8",
-            "id": "m3u_-1965036938472332572",
+            "id": "m3u_-8654117243185043856",
             "url": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] Ora News",
-            "id": "m3u_6263782785458034126",
+            "id": "m3u_6203248505356830704",
             "url": "https://live1.mediadesk.al/oranews.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] Top News \u24c9",
-            "id": "m3u_-8224144331619594386",
+            "id": "m3u_3474455446996242675",
             "url": "https://www.twitch.tv/topnewsal",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] TN Todo Noticias \u24ce",
-            "id": "m3u_-2443618843016606543",
+            "id": "m3u_-7977756028087900319",
             "url": "https://www.youtube.com/c/todonoticias/live",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] IP Noticias \u24ce",
-            "id": "m3u_1841457718176829854",
+            "id": "m3u_2099097258402830690",
             "url": "https://www.youtube.com/watch?v=IxQ2-6Y4y9w",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] Record News",
-            "id": "m3u_-3905005087208123308",
+            "id": "m3u_7206739995532286160",
             "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] Nopola News",
-            "id": "m3u_-4518663630753241573",
+            "id": "m3u_5015428625588156177",
             "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] DD News \u24ce",
-            "id": "m3u_8944274089405298877",
+            "id": "m3u_5938698610393521675",
             "url": "https://www.youtube.com/c/ddnews/live",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[GitHub_FreeTV] Al-Sharqiya News",
-            "id": "m3u_718157918914356017",
+            "id": "m3u_-7738543534755838057",
             "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "LIVE_TV"
+        },
+        {
+            "title": "[GitHub_FreeTV] TOKYO MX \u30c1\u30e3\u30f3\u30cd\u30eb",
+            "id": "m3u_8997735599202587324",
+            "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "LIVE_TV"
+        },
+        {
+            "title": "[GitHub_FreeTV] GB News",
+            "id": "m3u_-8997129778384821799",
+            "url": "https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Arg: TNT Sports (P)",
             "id": "2467",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2467.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2467.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/631461f8e5cf7fc21429e0649583c3ef.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Arg: TNT Sports (P)",
             "id": "2467",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2467.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2467.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/631461f8e5cf7fc21429e0649583c3ef.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Honduras: Canal 5",
             "id": "34247",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34247.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34247.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1ea837a058e4f805396513c6d548d119.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Azteca 1 Hd",
             "id": "3724",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3724.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3724.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/dc52335aea49526d8b6340f3f76554eb.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Azteca 7 Hd",
             "id": "2464",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2464.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2464.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/43fbf7656562fcf073188d28b5007f71.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Mex:  Canal 5",
             "id": "52621",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52621.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52621.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/5/5d/Canal_5_M%C3%A9xico_2007.svg/revision/latest/scale-to-width-down/200?cb=20210515040932&path-prefix=es",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Las Estrellas Hd",
             "id": "3723",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3723.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3723.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1ff37009470676f61359c9777da0cd47.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Las Estrellas Inter (P)",
             "id": "7",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/7.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/7.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1ff37009470676f61359c9777da0cd47.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] RepDom: Telemicro Canal 5",
             "id": "3592",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3592.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3592.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0bc2b9c6c9e297bc455a03b0ef713aa1.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: A&E Mundo Hd (P)",
             "id": "1143",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1143.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1143.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/285d6527bd60dc4e36159473e2b54a77.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: AMC Hd",
             "id": "1144",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1144.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1144.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/35d5b3b52197e6c65a4792e57ad01ab7.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Animal Planet",
             "id": "4412",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4412.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4412.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0e57813f2ff522ad5847fdb98831f119.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: AXN HD (P)",
             "id": "307",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/307.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/307.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/cae30e8874e3ba50714afffbb88758f7.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Bitme",
             "id": "301",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/301.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/301.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_ZoQk6EISShvdZZgwe_Ys2-wEzin9enpwA&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Cartoon Network Hd (P)",
             "id": "1140",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1140.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1140.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/266601cf98d5bfa5740872a11cd8ebf5.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Cinecanal",
             "id": "41582",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41582.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41582.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7wg_BBflwtePhLOlmztWa4wVfEb9_X5aag&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Cnn Espanol HD (P)",
             "id": "305",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/305.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/305.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ff22dd61495bc4548762bc11012a4d3.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: CNN International",
             "id": "52620",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52620.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52620.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/0/02/CNN_International_old.svg/revision/latest/scale-to-width-down/250?cb=20210624193131&path-prefix=es",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Comedy Central Hd",
             "id": "5486",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5486.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5486.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b23edb68198b642211de16ae74552ee8.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: De Pelicula",
             "id": "4599",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4599.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4599.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/865e54a8b026a6064bbdc19f5c309a54.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: De Pelicula Plus (P)",
             "id": "14",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/14.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/14.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2d1fbce8f89dd17103431026b42e5613.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Civilization",
             "id": "284",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/284.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/284.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29a482218c5b55e69c4d5cc69d4c9564.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Turbo",
             "id": "1157",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1157.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1157.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4heZg89iOpc9IJHp8oxP-lE07-UT5CT7vA&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Science",
             "id": "283",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/283.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/283.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9e53f942bf6ddf8bc2dfccdaffad9b30.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Hd",
             "id": "1158",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1158.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1158.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2a8125eff68d5229c5f7fdb9da112b2e.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery ID Hd (P)",
             "id": "314",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/314.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/314.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/355b8146c4862df10e188d188939882a.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Kids",
             "id": "5031",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5031.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5031.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8a703824b6afded41ca1f5146ed80125.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery Theater Hd",
             "id": "304",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/304.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/304.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4dea4e19766fc3d4b2f99f0c7b88dfc5.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Discovery World HD",
             "id": "282",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/282.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/282.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ac936f11df779162c4603f68c67b09c9.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Disney Channel Hd",
             "id": "303",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/303.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/303.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c9a18fbd54fbb8862cb47be63a1f5393.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Disney Jr (P)",
             "id": "302",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/302.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/302.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Distrito Comedia",
             "id": "8884",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8884.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8884.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9d0d9e8076398c2f6166d8d9497ec457.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: E! Entertainment",
             "id": "52643",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52643.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52643.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRodeL-P7jPV8o3CQvUb3wFhA64EhLj2gu3Iw&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: El Gourmet Hd (P)",
             "id": "313",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/313.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/313.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/dcd02df3f8a7fac332a122a23d218c97.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: EWTN (P)",
             "id": "9668",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9668.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9668.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d5e23f98c73f6175f6afc5166146d5.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Food Network Hd",
             "id": "20",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/20.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/20.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5ff91a3504c4ddfc81217ceb3da55fda.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Fx Hd",
             "id": "1148",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1148.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1148.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/620eaf3a6b041dd4310223e339b2eed4.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Galavision Hd",
             "id": "3591",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3591.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3591.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8af35384955f48b9b52e8e8228f71d6c.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Galavision Hd",
             "id": "3591",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3591.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3591.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8af35384955f48b9b52e8e8228f71d6c.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Glitz",
             "id": "296",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/296.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/296.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f30b8c19695cfe59cecb5a9eb357123b.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Hbo 2 Hd (p)",
             "id": "293",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/293.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/293.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/3ff1aae225e97190e2acc96b7f1999d0.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: HBO Family Hd",
             "id": "295",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/295.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/295.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/806c63f4be3eff258bc196f291639efb.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Hbo HD (P)",
             "id": "23",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/52fbc054ccc33a9bbbdfee2a405f962f.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: HBO Plus Hd",
             "id": "294",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/294.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/294.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/395205a6194ba8d3facf8e86f0673b7b.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Hbo Signature Hd",
             "id": "52711",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52711.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52711.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/LOZWagOzOa70WDGmOHX7X5Bmzr-6W0pqzuKjmLkzqlJO6in4afZQCD9FJ_fhGATBuHLhBBkk7ZUG0QCKze6oJ_GVBpC1UZriVd3jQwxmi6k.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: HBO Xtreme Hd (P)",
             "id": "1145",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1145.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1145.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/346b2fa3992571613beb6e57f6dfe9b7.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: History Channel Hd (P)",
             "id": "292",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/292.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/292.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/93b75697c852834ae00eda9f89fe0357.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Hola Tv",
             "id": "2463",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2463.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2463.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f51ad82232b96cce96c61ecbcefe5387.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: National Geographic Hd (P)",
             "id": "291",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/291.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/291.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/79fdd01ac16bd028b7d0f5db231c6ae9.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: NBC Universo",
             "id": "4361",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4361.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4361.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/df20a1e19aaefb0f6fe49bc5998a78e2.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: NBC Universo",
             "id": "4361",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4361.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4361.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/df20a1e19aaefb0f6fe49bc5998a78e2.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Nick 2 Hd",
             "id": "1142",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1142.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1142.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/203468c212764d84fb6a2596715687ce.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Nick Hd",
             "id": "1141",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1141.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1141.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5b9b9a4e7d6eb970ef06a221a2c7d9c6.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Nick JR",
             "id": "290",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/290.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/290.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c66386e0f22d302ba325f37c0dafbb50.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Pasiones Hd (P)",
             "id": "4194",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4194.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4194.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/6dc71135b5ef92a7fe8f0e8c1be31985.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: LifeTime",
             "id": "41580",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41580.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41580.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f91ed77fc80b772ba8746e115092266d.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Golden Edge",
             "id": "41581",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41581.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41581.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0SxaBfSd_nnNiUlTF6MWXcdYGEIyYeu1QQ&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Sony Hd",
             "id": "5484",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5484.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5484.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/bc43e9300f07877c0c73346e0dd565a0.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Space Hd (P)",
             "id": "15",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/15.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/15.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/21a94ef615203e3113e724e5075c5297.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Star Channel Hd (P)",
             "id": "298",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/298.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/298.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/061966926543f30d4e53981d4cc6d3e1.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo 47 New York",
             "id": "327",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/327.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/327.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo 47 New York",
             "id": "327",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/327.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/327.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo 51 Miami",
             "id": "326",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/326.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/326.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo 51 Miami",
             "id": "326",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/326.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/326.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Chicago",
             "id": "324",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/324.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/324.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Chicago",
             "id": "324",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/324.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/324.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Inter Hd (P)",
             "id": "22",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/22.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/22.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/181ac44cf0bfbb742f1d343e75126ce6.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Inter Hd (P)",
             "id": "22",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/22.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/22.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/181ac44cf0bfbb742f1d343e75126ce6.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Los Angeles",
             "id": "8151",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8151.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8151.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Los Angeles",
             "id": "8151",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8151.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8151.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Washington DC (P)",
             "id": "10237",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10237.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10237.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Telemundo Washington DC (P)",
             "id": "10237",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10237.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10237.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: TLNovelas (P)",
             "id": "4195",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4195.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4195.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/01c027971a1ead945811b2607a9cb489.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: TNT Novelas HD (P)",
             "id": "40200",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40200.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40200.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRde6obnRJHvx4WD88_66irMhPgAv_pzg-A3ayhepws-do3DHuQM1U64vURfeBBBtShaOo&usqp=CAU",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: TNT Hd (P)",
             "id": "311",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/311.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/311.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8c902e6165c251f276398dc6eed1b219.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: TNT Series Hd (P)",
             "id": "310",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/310.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/310.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c253fdd238d631050b305960f202365f.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Tooncast",
             "id": "287",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/287.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/287.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fe0691923cbe944af316fbf7a69517b0.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: True Tv Hd",
             "id": "5708",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5708.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5708.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b2906a524f89061506d623226b552ae3.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unicable",
             "id": "5485",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5485.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5485.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b498206d1159f8a33092c61ef42b864a.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unicable",
             "id": "5485",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5485.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5485.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b498206d1159f8a33092c61ef42b864a.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unimas HD",
             "id": "3590",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3590.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3590.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f71a935a2e9512637935685602cf1188.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unimas HD",
             "id": "3590",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3590.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3590.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f71a935a2e9512637935685602cf1188.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unimas NY",
             "id": "3589",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3589.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3589.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f71a935a2e9512637935685602cf1188.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Unimas NY",
             "id": "3589",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3589.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3589.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f71a935a2e9512637935685602cf1188.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Deportes",
             "id": "886",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/886.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/886.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Deportes",
             "id": "886",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/886.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/886.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Hd (P)",
             "id": "9669",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9669.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9669.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Hd (P)",
             "id": "9669",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9669.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/9669.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Miami Hd",
             "id": "3588",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3588.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3588.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Miami Hd",
             "id": "3588",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3588.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3588.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision New York",
             "id": "884",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/884.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/884.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision New York",
             "id": "884",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/884.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/884.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/22d0a44a4f4c624919faee22939aa273.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Washington DC (P)",
             "id": "10236",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10236.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10236.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/84bc31cfb528890d066d577a2d039fde.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Univision Washington DC (P)",
             "id": "10236",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10236.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/10236.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/84bc31cfb528890d066d577a2d039fde.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Universal",
             "id": "41583",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41583.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/41583.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcKojpjVUvGLxBDqXD3F2P4NuQ6dosHPNNg&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Universal Premier Hd",
             "id": "52706",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52706.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52706.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgwTCugGLltlEbv7FVTOuftK0LRHki_EWVLQ&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Universal Cinema Hd",
             "id": "52707",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52707.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52707.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcA5OtBj1V_sz2ofup_bgNkbwLElRQVtfRg&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Universal Comedy",
             "id": "52708",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52708.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52708.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOm-iccq4R5QW8LPEJ1nqSJygGM0s8f0N8w&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Universal Crime Hd",
             "id": "52709",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52709.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52709.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTv1azc7VceDWr74jDeBblAm2iIB8flDNfw&s",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Warner Channel HD (P)",
             "id": "309",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/309.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/309.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9096a4e03b39380b9335ef899eb98aed.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: DW Noticias",
             "id": "1903",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1903.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1903.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/24b0015849dc7c6ad7fbe9e7b92767b0.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: Warner HD",
             "id": "192",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/192.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/192.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fb34962d331b561085563adc9572a200.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: AXN Hd (P)",
             "id": "124",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/124.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/124.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/cae30e8874e3ba50714afffbb88758f7.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: AXN Movies (P)",
             "id": "125",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/125.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/125.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/23d88ced73c4d28df62a1c116aea4e66.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: Moviestar Cine Espanol (P)",
             "id": "174",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/174.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/174.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1b58add5858686060e0c5a3222d09b56.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] Es: Discovery Channel (P)",
             "id": "156",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/156.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/156.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/193ccffac4c68faf5377cdec2679f528.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PL: Discovery Life HD",
             "id": "3965",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3965.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3965.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1e5f8014f3b691011c111680067170d2.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PL: Eleven Sports 3 FHD",
             "id": "3969",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3969.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3969.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9ad5351ff109d363674ec61a13c5e8ce.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PL: Polsat News",
             "id": "3955",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3955.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3955.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9c3df18d527b742acd06dd6083be7779.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: AXN HD",
             "id": "876",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/876.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/876.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/cae30e8874e3ba50714afffbb88758f7.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: AXN Movies",
             "id": "1542",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1542.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1542.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c10e9a2497630ad522f6c1096fe14e91.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: AXN White",
             "id": "1541",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1541.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1541.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/23d88ced73c4d28df62a1c116aea4e66.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: Discovery Channel HD",
             "id": "422",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/422.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/422.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/193ccffac4c68faf5377cdec2679f528.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 1 FHD",
             "id": "426",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/426.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/426.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 2 FHD",
             "id": "427",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/427.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/427.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 3 FHD",
             "id": "428",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/428.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/428.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 4 FHD",
             "id": "429",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/429.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/429.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 5 FHD",
             "id": "430",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/430.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/430.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: ELEVEN SPORTS 6 FHD",
             "id": "431",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/431.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/431.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4ed5c30e6ec9816b038d8a0b8b1119db.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: EUROSPORT 1 FHD",
             "id": "433",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/433.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/433.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/sFmlE131NsvDNj4JdJ7IOMeuq129R8DhiUCOMh-_scJKwT5ZABAb3WInD_XgCgSwfaPXS2_ukvNiLBNeIeETmQ.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: Investigation Discovery HD",
             "id": "442",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/442.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/442.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0be9b5fac0bd86801cb17bdb302a5b19.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: RTP 1 FHD",
             "id": "452",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/452.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/452.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8b595c0b078b2bcb1f6c637f0ba8a7d6.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: RTP 2 FHD",
             "id": "453",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/453.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/453.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/377c1fa039ee03c330578122ecd29b7d.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: SIC FHD",
             "id": "458",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/458.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/458.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ce49d1b683136c7a5b1143c109d37d9c.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: SIC Mulher FHD",
             "id": "874",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/874.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/874.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/40182638d10bad10272d873205685985.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: SIC Noticias FHD",
             "id": "873",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/873.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/873.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ee46c3990c331a93b0237f8bfd83cbb5.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: SIC Radical FHD",
             "id": "875",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/875.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/875.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ce49d1b683136c7a5b1143c109d37d9c.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: SyFy FHD",
             "id": "877",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/877.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/877.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e330c00addda131f917fcc31fc3be686.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: TV Cine Action HD",
             "id": "470",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/470.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/470.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/adcc3f1285327a91310dc61f8e9c44c3.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: TV Cine Edition FHD",
             "id": "468",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/468.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/468.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/044e8fc3946bb886899dfb190a5478ed.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: TV Cine Emotion FHD",
             "id": "469",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/469.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/469.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/sFmlE131NsvDNj4JdJ7IOMeuq129R8DhiUCOMh-_scJKwT5ZABAb3WInD_XgCgSw4W4ezBzgwK_njP4G5P-vYA.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] PT: TV Cine TOP HD",
             "id": "467",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/467.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/467.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/044e8fc3946bb886899dfb190a5478ed.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: ABC",
             "id": "1151",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1151.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1151.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/d38831cf7867c6fb271ea7971a4a170c.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Animal Planet",
             "id": "323",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/323.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/323.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0e57813f2ff522ad5847fdb98831f119.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Bravo Tv",
             "id": "4002",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4002.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4002.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f695a5d251063889de87900d138c9800.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Cartoon Network",
             "id": "346",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/346.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/346.m3u8",
             "hdPosterUrl": "http://www.asistenciaremota24.com/images/canales/_37.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: CBS",
             "id": "1160",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1160.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1160.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fa0c8a39a778fddeb8d8f2439c962a18.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: CNN",
             "id": "3683",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3683.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3683.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/067202f24963af8a45a81367bcf97887.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Discovery Channel",
             "id": "1159",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1159.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1159.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/193ccffac4c68faf5377cdec2679f528.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Discovery Investigation",
             "id": "1156",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1156.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1156.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0be9b5fac0bd86801cb17bdb302a5b19.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Discovery Science",
             "id": "1898",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1898.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1898.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/806e2ce0911d916cdaec14cf9a41dee2.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Tlc Hd",
             "id": "1897",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1897.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1897.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9ad0c3de403b60897accba465280b2ee.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Discovery Velocity",
             "id": "1896",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1896.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1896.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ad79fef61a9bd324ed830d7bfe55e842.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Disney JR",
             "id": "1153",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1153.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1153.m3u8",
             "hdPosterUrl": "http://www.asistenciaremota24.com/images/canales/_93.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: E! Entertainment",
             "id": "345",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/345.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/345.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e8a1a09da90a68f4bf0504158eea8c8f.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Food Network",
             "id": "344",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/344.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/344.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5ff91a3504c4ddfc81217ceb3da55fda.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: FXM",
             "id": "1152",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1152.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1152.m3u8",
             "hdPosterUrl": "http://www.asistenciaremota24.com/images/canales/_172.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: FX",
             "id": "1155",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1155.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1155.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8ddb693c4d5a8f62c73cbc91de903789.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: Hallmark HD",
             "id": "4418",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4418.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4418.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/16e49dd4172affee0c5fdbb107bb41f0.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: HBO HD",
             "id": "328",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/328.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/328.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/52fbc054ccc33a9bbbdfee2a405f962f.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: HGTV",
             "id": "4004",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4004.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4004.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1ab4c48da3e27afcf8f047ca38a22d10.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: MSNBC",
             "id": "3743",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3743.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3743.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/bbeaea27a83e6b61126c1f37876268a6.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: National Geographic HD",
             "id": "337",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/337.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/337.m3u8",
             "hdPosterUrl": "http://www.asistenciaremota24.com/images/canales/_52.png",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: NBC Miami",
             "id": "336",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/336.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/336.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/76de322bea5ea48a6adfea4c0c3fd443.jpg",
             "group": "LIVE_TV"
         },
         {
             "title": "[LatinaPro_VIP] USA: NBC New York",
             "id": "3680",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3680.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3680.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4544bb06664827be9bcfcafb49374894.jpg",
             "group": "LIVE_TV"
         }
@@ -1164,812 +1178,812 @@
         {
             "title": "[LatinaPro_VIP] Ec: Directv Sports (P)",
             "id": "29321",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29321.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29321.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/cc0014b2e16037b5dcb3befb062e3f3e.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Ec: Directv Sports (P)",
             "id": "29321",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29321.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29321.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/cc0014b2e16037b5dcb3befb062e3f3e.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Ec: Directv Sports 2 (P)",
             "id": "269",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/269.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/269.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6qrZml6m_wS0lq9e40Fx3kTZmlrhsknaYw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Ec: Directv Sports 2 (P)",
             "id": "269",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/269.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/269.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6qrZml6m_wS0lq9e40Fx3kTZmlrhsknaYw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Ec: Gol Tv Hd (P)",
             "id": "40234",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/43f272a46e3fe6045437a59b28e61e15.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Ec: Gol Tv Hd (P)",
             "id": "40234",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/43f272a46e3fe6045437a59b28e61e15.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN 2 HD",
             "id": "5488",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5488.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5488.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e3d036fc00328bb677688d4ddb57ce9e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN 2 HD",
             "id": "5488",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5488.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5488.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e3d036fc00328bb677688d4ddb57ce9e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN 3 HD",
             "id": "5489",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5489.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5489.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c90f52dcf1ffbe6e41b1870211d477e5.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN 3 HD",
             "id": "5489",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5489.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5489.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c90f52dcf1ffbe6e41b1870211d477e5.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Espn Deportes",
             "id": "4190",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4190.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4190.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/245c14166145c50e430adb8b4160fe49.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Espn Deportes",
             "id": "4190",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4190.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4190.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/245c14166145c50e430adb8b4160fe49.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN Hd",
             "id": "5487",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5487.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5487.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e1bd9e9008c137da501e5e0dca12d8b9.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN Hd",
             "id": "5487",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5487.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5487.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e1bd9e9008c137da501e5e0dca12d8b9.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN PLUS",
             "id": "5490",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/40e64337cd1d5252dde0710ebc84f9bf.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: ESPN PLUS",
             "id": "5490",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/40e64337cd1d5252dde0710ebc84f9bf.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Deportes",
             "id": "342",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/342.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/342.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b67524d54921319c9b02f89444276967.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Deportes",
             "id": "342",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/342.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/342.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b67524d54921319c9b02f89444276967.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 1 Hd",
             "id": "4489",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4489.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4489.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b88ab5a849ebacbea981467921da314d.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 1 Hd",
             "id": "4489",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4489.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4489.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b88ab5a849ebacbea981467921da314d.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 2 Hd",
             "id": "4490",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4490.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4490.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/3242949a653f4cf5ced117ea877ebfb5.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 2 Hd",
             "id": "4490",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4490.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4490.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/3242949a653f4cf5ced117ea877ebfb5.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 3 hd",
             "id": "4491",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4491.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4491.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/820b128c3afc31349237f2c4f9689d6c.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mex: Fox Sports 3 hd",
             "id": "4491",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4491.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4491.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/820b128c3afc31349237f2c4f9689d6c.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mexico: TUDN Hd",
             "id": "34251",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34251.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34251.m3u8",
             "hdPosterUrl": "https://play-lh.googleusercontent.com/fisQ9nQ_TEtyvdMNLKfjxfuJEJQHvH5Dm6WTDeD95KjzzVRl2Pdeq8nys7eFid6Wvw",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Mexico: TUDN Hd",
             "id": "34251",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34251.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34251.m3u8",
             "hdPosterUrl": "https://play-lh.googleusercontent.com/fisQ9nQ_TEtyvdMNLKfjxfuJEJQHvH5Dm6WTDeD95KjzzVRl2Pdeq8nys7eFid6Wvw",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Bein Sports N",
             "id": "335",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/335.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/335.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b6f6502d89486343cfd75ad11d2898d7.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Bein Sports N",
             "id": "335",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/335.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/335.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b6f6502d89486343cfd75ad11d2898d7.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Directv Sports HD",
             "id": "333",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/333.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/333.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/d76ba766c1612107a82d6178e8f5720a.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Directv Sports 2 HD",
             "id": "332",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/332.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/332.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ce12f1c08bcf7051f969c3d3f7c34cf8.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Directv Sports Plus",
             "id": "19632",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/19632.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/19632.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/1cb727ee6749459347f0cbfed1761a54.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS (P)",
             "id": "21415",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21415.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21415.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/781ecc4c9acd46479c2a16fc5f818d98.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS 2 (P)",
             "id": "29322",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29322.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/29322.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/781ecc4c9acd46479c2a16fc5f818d98.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS 3 (P)",
             "id": "34117",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34117.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34117.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/781ecc4c9acd46479c2a16fc5f818d98.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS 4 (P)",
             "id": "40837",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40837.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40837.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/781ecc4c9acd46479c2a16fc5f818d98.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS 5 Solo Eventos",
             "id": "40838",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40838.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40838.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8371ffc54c2ab2c32789fc71a832a54e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN STAR PLUS 6 Solo Eventos",
             "id": "40839",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40839.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40839.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8371ffc54c2ab2c32789fc71a832a54e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN HD (P)",
             "id": "21",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ef0217f6c67ee4c1f840322a0fc4c610.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 2 HD (P)",
             "id": "6",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/6.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/6.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/973822139bde28ada94071e8bf9479b9.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Espn 3 Hd (P)",
             "id": "12",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/12.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/12.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/6e22b09ece58db8c5692ee8c88415334.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 4 Hd (P)",
             "id": "23288",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23288.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23288.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/6e7e3ae19e640f77019d8f73a3ba0608.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 5 Hd (P)",
             "id": "5",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/902c5fbe51b7fcaa210e92e7046da57c.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 6 Hd (P)",
             "id": "306",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/306.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/306.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2ef5557a4324ad01fba06cd598d75806.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 7 Hd (P)",
             "id": "11",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/11.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/11.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2b2c5781d9e86e8b8ba6bc66f79fdb88.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN Backup",
             "id": "50829",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50829.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50829.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a694c0cbf1c56aae292026d91d15db8d.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 2 Backup",
             "id": "50830",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50830.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50830.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/espn/images/7/79/ESPN2-Logo-D795.png/revision/latest/scale-to-width-down/284?cb=20130819193813",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 3 Backup",
             "id": "50831",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50831.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50831.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a0ca928385757f710e2de8201061f0b4.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 4 Backup",
             "id": "50832",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50832.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50832.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfx6VvH5StHtDrMuZ3wocAJdT_ZTYsVLMAw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 5 Backup",
             "id": "50833",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50833.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50833.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/907085002d003a37bd34affa1bb4633b.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 6 Backup",
             "id": "50834",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50834.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50834.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6VUhFxO7U4xEE3vn5OirOrhjFJtaS8nN_9g&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: ESPN 7 Backup",
             "id": "50835",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50835.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50835.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc-S1jyAq6cjYncKBJgvEmdS5FzAQj04KqYw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Fox Sports 2 (P)",
             "id": "2468",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2468.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/2468.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/lYdsXOoRMihlG1Qfer0NuZtzZmPohMmGRCH-6MJsAwKh4giVFDz6yru0eCntM0dAGhZ2A5WECGG-GZ-IfB8oBLxBC_lxP3Ir3gEDy-Ga2mFB4dwH4jjwysYGttgu9wK2AOZPgthQ1G083Vpd0S2t_RaXVgvnz39bajRG8Z94OOEGfXVMbz7tMYKP-xE9NNnm.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Lat: Fox Sports 3 HD (P)",
             "id": "297",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/297.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/297.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fbc6757c2907dc9e7149ee0140ab8efb.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 1 Hd",
             "id": "21103",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21103.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21103.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/91cfaa62b1dd09a451abbb7f5e2c55f8.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 1 Hd",
             "id": "21103",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21103.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21103.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/91cfaa62b1dd09a451abbb7f5e2c55f8.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 2 Hd",
             "id": "21104",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21104.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21104.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/7885e49660b12ebdb9ba4f78d9baeb81.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 2 Hd",
             "id": "21104",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21104.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/21104.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/7885e49660b12ebdb9ba4f78d9baeb81.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 3 Hd",
             "id": "23446",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23446.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23446.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/65f8251671907918d9d06e82837efbf4.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 3 Hd",
             "id": "23446",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23446.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23446.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/65f8251671907918d9d06e82837efbf4.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 4 Hd",
             "id": "23447",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23447.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23447.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8aa83faa996115319cff2b76928e0f0c.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn 4 Hd",
             "id": "23447",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23447.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23447.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/8aa83faa996115319cff2b76928e0f0c.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Dazn 1 Hd (Eventos)",
             "id": "52674",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52674.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52674.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Dazn 2 Hd (Eventos)",
             "id": "52675",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52675.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52675.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Dazn 3 Hd (Eventos)",
             "id": "52676",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52676.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52676.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn La Liga",
             "id": "27381",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/27381.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/27381.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2a10f78e338aaf7e53f613e5c121ea7c.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn La Liga",
             "id": "27381",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/27381.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/27381.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2a10f78e338aaf7e53f613e5c121ea7c.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones Hd (P)",
             "id": "150",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/150.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/150.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/7883fc16179754c760763c2a75f8a999.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones Hd (P)",
             "id": "150",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/150.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/150.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/7883fc16179754c760763c2a75f8a999.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 2 HD",
             "id": "23448",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23448.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23448.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a5218b4b86882d80db1cf87e5ae257df.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 2 HD",
             "id": "23448",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23448.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23448.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a5218b4b86882d80db1cf87e5ae257df.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 3 HD",
             "id": "23449",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23449.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23449.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/88de3de2c764482c564ead5cac8e2c86.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 3 HD",
             "id": "23449",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23449.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/23449.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/88de3de2c764482c564ead5cac8e2c86.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 4 HD",
             "id": "52681",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52681.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52681.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8X3bt5qZfD8bRmJ2juSUS1XCyHBsy-AOXg&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 4 HD",
             "id": "52681",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52681.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52681.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8X3bt5qZfD8bRmJ2juSUS1XCyHBsy-AOXg&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 5 HD",
             "id": "52682",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52682.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52682.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmk4sp-w7rHuzL766kB9HPAHhQWnkZLTozrQ&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 5 HD",
             "id": "52682",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52682.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52682.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmk4sp-w7rHuzL766kB9HPAHhQWnkZLTozrQ&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 6 HD",
             "id": "52683",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52683.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52683.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/UNG7GhY-NqYJrkGV9NHmcCzw3diY4rkzPq2rAVkbkSvZ_hTSjm_L1Jchimb7596UrtpI_w25-pCZRlhs6ibCjg.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Liga De Campeones 6 HD",
             "id": "52683",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52683.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52683.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/UNG7GhY-NqYJrkGV9NHmcCzw3diY4rkzPq2rAVkbkSvZ_hTSjm_L1Jchimb7596UrtpI_w25-pCZRlhs6ibCjg.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Moviestar Golf HD",
             "id": "162",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/162.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/162.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ecb749796a8d9e6a99531038938263b3.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Moviestar Golf HD",
             "id": "162",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/162.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/162.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/ecb749796a8d9e6a99531038938263b3.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn La Liga 2 HD",
             "id": "28273",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/28273.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/28273.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/00dddb376f87b97d156dfe8c8ab1aef0.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: Dazn La Liga 2 HD",
             "id": "28273",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/28273.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/28273.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/00dddb376f87b97d156dfe8c8ab1aef0.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga HD (P)",
             "id": "149",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/149.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/149.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/44e68b93b7d7c994311befab2829c948.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga HD (P)",
             "id": "149",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/149.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/149.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/44e68b93b7d7c994311befab2829c948.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga 2",
             "id": "148",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/148.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/148.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/44e68b93b7d7c994311befab2829c948.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga 2",
             "id": "148",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/148.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/148.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/44e68b93b7d7c994311befab2829c948.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga 3",
             "id": "53366",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53366.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53366.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/auk_UlBBSv0rZEqDD0fUI0be31QtvUpv2-UAftmqq4v8eMFVLON21wrN1fH0O15GSuso8iADMGFGuUYSXYiTgQ.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga 3",
             "id": "53366",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53366.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53366.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/auk_UlBBSv0rZEqDD0fUI0be31QtvUpv2-UAftmqq4v8eMFVLON21wrN1fH0O15GSuso8iADMGFGuUYSXYiTgQ.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga Hypermotion Hd",
             "id": "25247",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/25247.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/25247.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/0/01/LaLiga_Hypermotion_V.svg/revision/latest/scale-to-width-down/250?cb=20230704145241",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga Hypermotion Hd",
             "id": "25247",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/25247.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/25247.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/0/01/LaLiga_Hypermotion_V.svg/revision/latest/scale-to-width-down/250?cb=20230704145241",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga Hypermotion 2 Hd",
             "id": "52716",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52716.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52716.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/0/01/LaLiga_Hypermotion_V.svg/revision/latest/scale-to-width-down/250?cb=20230704145241",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] Es: La Liga Hypermotion 2 Hd",
             "id": "52716",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52716.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52716.m3u8",
             "hdPosterUrl": "https://static.wikia.nocookie.net/logopedia/images/0/01/LaLiga_Hypermotion_V.svg/revision/latest/scale-to-width-down/250?cb=20230704145241",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PL: TVP Sport Hd",
             "id": "3952",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3952.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3952.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a69e77d70a257bc7eae3fa726a2c087a.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PL: TVP Sport Hd",
             "id": "3952",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3952.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3952.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a69e77d70a257bc7eae3fa726a2c087a.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: Fox Comedy",
             "id": "3369",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3369.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3369.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/955a2892e75512f229e35d31e72f1d38.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: FOX Crime HD",
             "id": "435",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/435.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/435.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0974d6036120ff52f9b5253c2884f776.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: Fox HD",
             "id": "3365",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3365.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3365.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/sFmlE131NsvDNj4JdJ7IOMeuq129R8DhiUCOMh-_scJKwT5ZABAb3WInD_XgCgSwmfFwb-W_tiMRdbMhuL_ZYQ.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: FOX LIFE HD",
             "id": "436",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/436.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/436.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/fb08ad7d8527f3384521ad4967095b4c.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 1 HD",
             "id": "460",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/460.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/460.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a8cafe47ee3d6bfc4183abb8764a4908.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 2 HD",
             "id": "461",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/461.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/461.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/9f6006e18c1bd9a464fb4b307c6f6bfb.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 3 HD",
             "id": "462",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/462.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/462.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/0b83b957af30a42c4ed52f521d280952.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 4 FHD",
             "id": "463",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/463.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/463.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e19f59620b0b62f5caba1c2132c868b0.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 5 FHD",
             "id": "464",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/464.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/464.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/e90b883e0be0846635f47d85f82cebcf.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 6 HD",
             "id": "53620",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53620.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53620.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEepJ25yPrUIjjXLTO2t1SynMJBFILgu66dA&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 6 HD",
             "id": "53620",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53620.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/53620.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEepJ25yPrUIjjXLTO2t1SynMJBFILgu66dA&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 7",
             "id": "871",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/871.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/871.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRxYqnsSxzD23T8Xx-9w1nKjY44OI9_yvPw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV 7",
             "id": "871",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/871.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/871.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRxYqnsSxzD23T8Xx-9w1nKjY44OI9_yvPw&s",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] PT: SPORT TV Plus",
             "id": "459",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/459.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/459.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/30401f19203cf5590b3472593d51bf13.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: ESPN 2 HD",
             "id": "338",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/338.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/338.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/973822139bde28ada94071e8bf9479b9.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: FOX New York",
             "id": "4917",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4917.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4917.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f3005da8ef7d73638b30791bbb14180e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: Fox Sports 1",
             "id": "340",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/340.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/340.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/b88ab5a849ebacbea981467921da314d.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: Fox Sports 2",
             "id": "339",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/339.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/339.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/2bf9d282fc831b08d0adac0841918f9e.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: Gol Tv Espanol",
             "id": "331",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/331.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/331.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/97c032a9c4e85e9f4f1aef5f45f9c86d.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: MLB Network PS",
             "id": "343",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/343.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/343.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/693b88358e3b53c9defbefbe20baade4.jpg",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: NBA TV",
             "id": "3880",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3880.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3880.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/f89257ca4c438a426fb4db9383be7640.png",
             "group": "SPORTS"
         },
         {
             "title": "[LatinaPro_VIP] USA: NFL Network",
             "id": "1154",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1154.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1154.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/a0700906b14e5fa59477e0fcc204a935.png",
             "group": "SPORTS"
         }
@@ -1977,140 +1991,175 @@
     "music": [
         {
             "title": "[GitHub_FreeTV] AlbKanale Music TV \u24c8",
-            "id": "m3u_-3775987290041071069",
+            "id": "m3u_-5628561337292673210",
             "url": "https://albportal.net/albkanalemusic.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Retro Music Television \u24c8",
-            "id": "m3u_-9152820048620372328",
+            "id": "m3u_-2432146319563207423",
             "url": "https://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] MTV Uutiset Live",
-            "id": "m3u_-8603344946960553995",
+            "id": "m3u_1023792181497686328",
             "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] DELUXE MUSIC",
-            "id": "m3u_-879573709331851439",
+            "id": "m3u_-7043782794281176774",
             "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] DELUXE MUSIC RAP",
-            "id": "m3u_-7864740910385954333",
+            "id": "m3u_-7866018339865430969",
             "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio 1 \u24ce",
-            "id": "m3u_9120145359472099335",
+            "id": "m3u_-5896417041545128103",
             "url": "https://www.youtube.com/watch?v=I8dnZoF1nOE",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Oxygen Music",
-            "id": "m3u_7807150408066070926",
+            "id": "m3u_-3887446056971689341",
             "url": "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
+            "title": "[GitHub_FreeTV] Radio 105 TV \u24bc",
+            "id": "m3u_-4182885663242473430",
+            "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC"
+        },
+        {
             "title": "[GitHub_FreeTV] Radio KISS KISS TV",
-            "id": "m3u_-1340118489192841739",
+            "id": "m3u_-2100196357231009346",
             "url": "https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio Montecarlo TV \u24bc",
-            "id": "m3u_5635086028475283074",
+            "id": "m3u_6011809826806889745",
             "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Virgin Radio TV \u24bc",
-            "id": "m3u_-2450543508655507471",
+            "id": "m3u_-2161270401324821703",
             "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] FM Tv Marche",
-            "id": "m3u_8216497873923968121",
+            "id": "m3u_-5978004874419030967",
             "url": "https://bbtv.intvstream.net:3988/hybrid/play.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Giornale Radio Tv",
-            "id": "m3u_-589490256996564528",
+            "id": "m3u_-5825634706384830956",
             "url": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Onda Web Radio",
-            "id": "m3u_-2985169756052910853",
+            "id": "m3u_-6693749353875472297",
             "url": "http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio 3M InBlu",
-            "id": "m3u_1779845131168894367",
+            "id": "m3u_-8850999457438407770",
             "url": "https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio 51 Tv",
-            "id": "m3u_-8137480723406997145",
+            "id": "m3u_-9184147055592267279",
             "url": "https://59d7d6f47d7fc.streamlock.net/canale51/canale51/chunklist_w1193883900.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio Birikina Tv",
-            "id": "m3u_6950011685946076454",
+            "id": "m3u_1008595995900556362",
             "url": "https://tvd-bk.fluid.stream/RadioBirikinaTV/livestream/chunklist_w84398277.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio Ibiza",
-            "id": "m3u_-4283155783510921423",
+            "id": "m3u_4284755300793143273",
             "url": "https://str48.fluid.stream/RadioIbizaTV/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
+            "title": "[GitHub_FreeTV] Radio Italia Cina Tv",
+            "id": "m3u_7191197257853366819",
+            "url": "https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC"
+        },
+        {
             "title": "[GitHub_FreeTV] Radio Piter Pan Tv",
-            "id": "m3u_-676512267197344182",
+            "id": "m3u_-1103417712301411120",
             "url": "https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
             "title": "[GitHub_FreeTV] Radio Radio Tv",
-            "id": "m3u_600448096151482091",
+            "id": "m3u_-8963395832991907716",
             "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC"
         },
         {
+            "title": "[GitHub_FreeTV] Tele Radio Pace 1",
+            "id": "m3u_-1866537462664625186",
+            "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC"
+        },
+        {
+            "title": "[GitHub_FreeTV] Tele Radio Pace 2",
+            "id": "m3u_-8402188321767937284",
+            "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC"
+        },
+        {
+            "title": "[GitHub_FreeTV] Tele Radio Pace 4",
+            "id": "m3u_377213457397751754",
+            "url": "https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC"
+        },
+        {
             "title": "[GitHub_FreeTV] Radio Colonna Tv \u24ce",
-            "id": "m3u_-1826117571328008246",
+            "id": "m3u_2075675913591379638",
             "url": "https://www.youtube.com/radiocolonna/live",
             "hdPosterUrl": "",
             "group": "MUSIC"
@@ -2118,35 +2167,35 @@
         {
             "title": "[LatinaPro_VIP] Lat: Hbo Pop Hd",
             "id": "52710",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52710.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52710.m3u8",
             "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hDZ8-2SB38RnjhiA2XAUrd_xF_-jxYfAbg&s",
             "group": "MUSIC"
         },
         {
             "title": "[LatinaPro_VIP] Lat: MTV HD",
             "id": "5491",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5491.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5491.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
             "group": "MUSIC"
         },
         {
             "title": "[LatinaPro_VIP] Es: MTV (P)",
             "id": "169",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/169.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/169.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
             "group": "MUSIC"
         },
         {
             "title": "[LatinaPro_VIP] PL: Polsat Music FHD",
             "id": "3972",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3972.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3972.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/c4f05c68c32927b620946a89c7037012.png",
             "group": "MUSIC"
         },
         {
             "title": "[LatinaPro_VIP] PT: CMTV HD",
             "id": "420",
-            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/420.ts",
+            "url": "http://latinapro.net:25461/live/lazaroperez/perez3/420.m3u8",
             "hdPosterUrl": "http://latinapro.net:25461/images/75794ef192fc0a9af9db61241d61d89e.jpg",
             "group": "MUSIC"
         }
