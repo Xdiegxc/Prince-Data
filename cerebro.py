@@ -116,10 +116,12 @@ def categorize(name):
 # 4. PROCESAMIENTO PRINCIPAL
 # ==========================================
 
+# ... (INICIO IGUAL QUE ANTES) ...
+
 async def process_source(session, source, playlist):
     # --- LOGICA XTREAM ---
     if source['type'] == 'xtream':
-        # 1. LIVE TV (MODO IRON STREAM: .TS)
+        # 1. LIVE TV (VOLVEMOS A HLS STANDARD)
         raw_live = await fetch_xtream(session, source, ACTIONS["LIVE"])
         health_tasks = []
         
@@ -129,10 +131,8 @@ async def process_source(session, source, playlist):
             if cat:
                 stream_id = item.get('stream_id')
                 
-                # [CORRECCIÓN CRÍTICA 33%] 
-                # Usamos .ts directo. Roku lo digiere mejor como "mp4" o stream raw.
-                # NO usar .m3u8 aquí.
-                final_url = f"{source['host']}/live/{source['user']}/{source['pass']}/{stream_id}.ts"
+                # CORRECCIÓN: Usamos .m3u8. Es más compatible con Roku SI el User-Agent es correcto.
+                final_url = f"{source['host']}/live/{source['user']}/{source['pass']}/{stream_id}.m3u8"
                 
                 clean_obj = {
                     "title": f"[{source['alias']}] {name}",
@@ -238,3 +238,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
