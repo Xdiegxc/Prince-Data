@@ -16,14 +16,14 @@ logging.basicConfig(
     format='%(asctime)s | %(levelname)s | %(message)s',
     datefmt='%H:%M:%S'
 )
-logger = logging.getLogger("CerebroV96")
+logger = logging.getLogger("CerebroV97")
 
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
 USER_AGENT = "IPTVSmartersPro"
 
-# Configuración de Ingeniería de Red (Throttling)
+# Configuración de Ingeniería de Red
 MAX_CONCURRENT_CHECKS = 50  
 HTTP_TIMEOUT = 60           
 MAX_RETRIES = 3             
@@ -48,7 +48,9 @@ REGEX_MUSIC = r"(?i)\b(mtv|vh1|telehit|banda|musica|music|radio|fm|pop|rock|viva
 REGEX_KIDS = r"(?i)\b(kids|infantil|cartoon|nick|disney|discovery kids|paka paka|boing|clantv|cbeebies|zaz|toons|baby)\b"
 REGEX_DOCS = r"(?i)\b(discovery|history|nat geo|national geographic|documental|docu|a&e|misterio|science|viajes|travel|animal planet)\b"
 REGEX_GENERAL = r"(?i)\b(mexico|mx|usa|us|estados unidos|latino|lat|latam|tv abierta|cine|fhd|hevc|4k|azteca|televisa|estrellas|canal 5|imagen|multimedios|milenio|foro tv|noticias|news|telemundo|univision|hbo|tnt|space|universal|sony|warner|axn)\b"
-REGEX_PREMIERE = r"(?i)\b(2024|2025|noviembre|diciembre)\b"
+
+# V97: REGEX MÁS PERMISIVO (Eliminamos \b estricto para capturar "Movie2024" o "(2025)")
+REGEX_PREMIERE = r"(?i)(2024|2025|noviembre|diciembre)"
 
 REGEX_4K = r"(?i)\b(4k|uhd|2160p)\b"
 REGEX_FHD = r"(?i)\b(fhd|1080p|hevc)\b"
@@ -109,13 +111,10 @@ def transform_xtream_vod(item: Dict[str, Any], source_alias: str, type_group: st
 
 def transform_xtream_series_legacy(item: Dict[str, Any], source: Dict[str, Any]) -> Dict[str, Any]:
     """
-    V96: Inyecta la URL exacta de la API para obtener episodios.
-    Esto resuelve el problema 'No episodes found' en reproductores que no construyen la query.
+    V96.1: Enlace directo a API + V97 Estrenos
     """
     rating = clean_rating(item.get('rating'))
     raw_id = str(item.get('series_id') or item.get('stream_id'))
-    
-    # CONSTRUCCIÓN DE LA URL MAESTRA PARA EPISODIOS
     episodes_api_url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series_info&series_id={raw_id}"
 
     return {
@@ -130,13 +129,12 @@ def transform_xtream_series_legacy(item: Dict[str, Any], source: Dict[str, Any])
         "cast": item.get('cast', 'N/A'),
         "source_alias": source['alias'],
 
-        # --- FIX ROKU NO EPISODES ---
+        # --- FIX ROKU ---
         "series_id": raw_id, 
         "id": raw_id,
         "category_id": str(item.get('category_id', '0')),
-        "url": episodes_api_url,     # <--- La clave del éxito V96
-        "api_url": episodes_api_url, # <--- Respaldo
-        
+        "url": episodes_api_url, 
+        "api_url": episodes_api_url,
         "cover": item.get('cover') or item.get('stream_icon'), 
         "youtube_trailer": item.get('youtube_trailer', ''),
         "backdrop_path": item.get('backdrop_path', [])
@@ -176,8 +174,30 @@ async def check_health_throttled(session: aiohttp.ClientSession, url: str, semap
         return status in (200, 301, 302)
 
 # ==========================================
-# 5. LÓGICA DE PROCESAMIENTO
+# 5. LÓGICA DE PROCESAMIENTO (TRIANGULACIÓN DE ESTRENOS)
 # ==========================================
+
+def is_premiere(item: Dict[str, Any], name: str) -> bool:
+    """
+    V97 IQ 200: Lógica de Triangulación para detectar estrenos.
+    Verifica Nombre, Metadatos de Fecha y Timestamp de Agregado.
+    """
+    # 1. Chequeo por Nombre (Regex flexible)
+    if re.search(REGEX_PREMIERE, name): return True
+    
+    # 2. Chequeo por Metadata de Fecha (releasedate/year)
+    release_date = str(item.get('releasedate') or item.get('releaseDate') or item.get('year', ''))
+    if "2024" in release_date or "2025" in release_date: return True
+    
+    # 3. Chequeo por Reciente Agregado (Últimos 45 días = 3888000 seg)
+    # Algunos servidores ponen 'added' como timestamp entero o string
+    added = item.get('added')
+    if added and str(added).isdigit():
+        try:
+            if time.time() - float(added) < 3888000: return True
+        except: pass
+        
+    return False
 
 async def process_xtream(session, source, playlist, semaphore):
     # 1. LIVE TV
@@ -215,6 +235,7 @@ async def process_xtream(session, source, playlist, semaphore):
     url_vod = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['VOD']}"
     raw_vod = await fetch_with_retry(session, url_vod)
     if isinstance(raw_vod, list):
+        count_premieres = 0
         for item in raw_vod:
             name = item.get('name', '')
             if not re.search(GLOBAL_BLOCKLIST, name):
@@ -224,26 +245,30 @@ async def process_xtream(session, source, playlist, semaphore):
                 
                 playlist["movies"].append(obj)
                 
-                is_new = False
-                if re.search(REGEX_PREMIERE, name): is_new = True
-                elif item.get('added') and str(item['added']).isdigit():
-                     if time.time() - float(item['added']) < 2592000: is_new = True
-                
-                if is_new: playlist["premieres"].append(obj)
-        logger.info(f"[{source['alias']}] VOD: {len(raw_vod)} películas.")
+                # --- LÓGICA V97 TRIANGULADA ---
+                if is_premiere(item, name):
+                    playlist["premieres"].append(obj)
+                    count_premieres += 1
+                    
+        logger.info(f"[{source['alias']}] VOD: {len(raw_vod)} total | {count_premieres} estrenos detectados.")
 
-    # 3. SERIES (V96 FIX)
+    # 3. SERIES
     url_series = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['SERIES']}"
     raw_series = await fetch_with_retry(session, url_series)
     if isinstance(raw_series, list):
+        count_premieres_series = 0
         for item in raw_series:
             name = item.get('name', '')
             if not re.search(GLOBAL_BLOCKLIST, name):
-                # Se pasa el objeto 'source' completo para construir la URL de API
                 obj = transform_xtream_series_legacy(item, source)
                 playlist["series"].append(obj)
-                if re.search(REGEX_PREMIERE, name): playlist["premieres"].append(obj)
-        logger.info(f"[{source['alias']}] SERIES: {len(raw_series)} series (V96 API-Link Mode).")
+                
+                # --- LÓGICA V97 TRIANGULADA ---
+                if is_premiere(item, name):
+                    playlist["premieres"].append(obj)
+                    count_premieres_series += 1
+                    
+        logger.info(f"[{source['alias']}] SERIES: {len(raw_series)} total | {count_premieres_series} estrenos detectados.")
 
 async def process_m3u(session, source, playlist, semaphore):
     raw_text = await fetch_with_retry(session, source['url'])
@@ -274,7 +299,7 @@ async def process_m3u(session, source, playlist, semaphore):
 async def main():
     t0 = time.time()
     playlist = {
-        "meta": { "updated": time.ctime(), "version": "v96_direct_link", "user_agent": USER_AGENT },
+        "meta": { "updated": time.ctime(), "version": "v97_premiere_triangulation", "user_agent": USER_AGENT },
         "live_tv": [], "sports": [], "music": [], "kids": [], "docs": [],
         "movies": [], "series": [], "premieres": []
     }
