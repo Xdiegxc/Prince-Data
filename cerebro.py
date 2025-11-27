@@ -4,275 +4,303 @@ import asyncio
 import json
 import re
 import time
-from typing import List, Dict, Any
+import logging
+from typing import List, Dict, Any, Optional
+from dataclasses import dataclass, field
 
 # ==========================================
-# 1. CONFIGURACIÓN Y SECRETOS
+# 1. CONFIGURACIÓN DE ENTORNO Y LOGGING
 # ==========================================
+
+# Configuración de Logging Profesional
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s | %(levelname)s | %(message)s',
+    datefmt='%H:%M:%S'
+)
+logger = logging.getLogger("CerebroV95")
+
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
-
 USER_AGENT = "IPTVSmartersPro"
+
+# Configuración de Ingeniería de Red
+MAX_CONCURRENT_CHECKS = 50  # Semáforo: Máximo de conexiones simultáneas para health check
+HTTP_TIMEOUT = 60           # Segundos
+MAX_RETRIES = 3             # Intentos de re-conexión
 
 SOURCES: List[Dict[str, Any]] = [
     { "type": "xtream", "alias": "LatinaPro_VIP", "host": XT_HOST, "user": XT_USER, "pass": XT_PASS },
-    # Fuentes M3U de respaldo
     { "type": "m3u", "alias": "M3U_Publica", "url": "https://www.m3u.cl/lista/MX.m3u" },
     { "type": "m3u", "alias": "GitHub_FreeTV", "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8" }
 ]
 
-ACTIONS = { 
-    "LIVE": "get_live_streams", 
-    "VOD": "get_vod_streams",
-    "SERIES": "get_series"
-}
+ACTIONS = { "LIVE": "get_live_streams", "VOD": "get_vod_streams", "SERIES": "get_series" }
 
 # ==========================================
-# 2. FILTROS Y LÓGICA (IQ 200: Cubetas y QC)
+# 2. MOTORES DE EXPRESIÓN REGULAR (REGEX)
 # ==========================================
 
-# BLOQUEO DE BASURA Y CONTENIDO INCOMPATIBLE
 GLOBAL_BLOCKLIST = r"(?i)\b(spain|españa|colombia|peru|perú|argentina|ecuador|venezuela|bolivia|paraguay|brasil|brazil|portugal|french|italian|arab|korea|hindi|bengali|turkish|televicentro|tve|antena 3|telecinco|rtve|xxx|adult|porn|hdcam|cam|trailer)\b"
-
-# EXCLUSIÓN CRÍTICA DE FORMATOS NO COMPATIBLES CON REPRODUCTORES IPTV/ROKU
-# Solo permitimos extensiones de streaming conocidas (ts, m3u8, mp4, mov, avi, mkv, flv, wmv)
-# Se excluye YouTube, Twitch y dominios de streaming genéricos no-IPTV.
 STREAM_COMPATIBILITY_BLOCKLIST = r"(?i)(youtube\.com|youtu\.be|twitch\.tv|facebook\.com|dailymotion\.com)|(\.html|\.php|\.aspx|\.rss|\.xml)$"
 
-# NUEVAS CATEGORÍAS ADICIONALES
+# Categorización
 REGEX_SPORTS = r"(?i)\b(espn|fox|sport|deporte|tudn|dazn|nba|nfl|mlb|ufc|wwe|f1|gp|futbol|soccer|liga|match|gol|win|directv sports|claro sports|fighting|racing|tennis|golf|bein)\b"
 REGEX_MUSIC = r"(?i)\b(mtv|vh1|telehit|banda|musica|music|radio|fm|pop|rock|viva|beat|exa|concert|recital|deezer|spotify|tidal|k-pop|ritmoson|cmtv|htv|vevo)\b"
-REGEX_KIDS = r"(?i)\b(kids|infantil|cartoon|nick|disney|discovery kids|paka paka|boing|clantv|cbeebies|zaz|toons)\b" # <--- NUEVA
-REGEX_DOCS = r"(?i)\b(discovery|history|nat geo|national geographic|documental|docu|a&e|misterio|science|viajes|travel)\b" # <--- NUEVA
+REGEX_KIDS = r"(?i)\b(kids|infantil|cartoon|nick|disney|discovery kids|paka paka|boing|clantv|cbeebies|zaz|toons|baby)\b"
+REGEX_DOCS = r"(?i)\b(discovery|history|nat geo|national geographic|documental|docu|a&e|misterio|science|viajes|travel|animal planet)\b"
 REGEX_GENERAL = r"(?i)\b(mexico|mx|usa|us|estados unidos|latino|lat|latam|tv abierta|cine|fhd|hevc|4k|azteca|televisa|estrellas|canal 5|imagen|multimedios|milenio|foro tv|noticias|news|telemundo|univision|hbo|tnt|space|universal|sony|warner|axn)\b"
-
 REGEX_PREMIERE = r"(?i)\b(2024|2025|noviembre|diciembre)\b"
+
+# Detección de Calidad (Nuevo en V95)
+REGEX_4K = r"(?i)\b(4k|uhd|2160p)\b"
+REGEX_FHD = r"(?i)\b(fhd|1080p|hevc)\b"
+REGEX_HD = r"(?i)\b(hd|720p)\b"
 
 M3U_REGEX = r'#EXTINF:-1.*?(?:tvg-logo="(.*?)")?.*?(?:group-title="(.*?)")?,(.*?)\n(http.*)'
 
 # ==========================================
-# 3. UTILERÍAS DE NORMALIZACIÓN Y FILTRO
+# 3. UTILERÍAS DE NORMALIZACIÓN
 # ==========================================
 
 def clean_rating(value: Any) -> float:
-    """Sanitiza el rating (0.0 a 10.0)"""
     if not value: return 0.0
     try:
         val_str = str(value).lower()
         if "n/a" in val_str: return 0.0
-        if "/" in val_str: val_str = val_str.split('/')[0]
-        val_str = re.sub(r"[^0-9.]", "", val_str)
-        if val_str == "": return 0.0
+        val_str = re.sub(r"[^0-9.]", "", val_str.split('/')[0])
+        if not val_str: return 0.0
         r = float(val_str)
-        return r if r <= 10 else 10.0 
+        return r if r <= 10 else 10.0
     except: return 0.0
 
-def categorize(name: str) -> str | None:
-    """Logica de Cubetas Exclusivas para LIVE TV (Prioridad)"""
+def detect_quality(name: str) -> str:
+    """Infiere la calidad del stream basado en el nombre para Roku."""
+    if re.search(REGEX_4K, name): return "4K"
+    if re.search(REGEX_FHD, name): return "FHD"
+    if re.search(REGEX_HD, name): return "HD"
+    return "SD"
+
+def categorize(name: str) -> Optional[str]:
     if re.search(GLOBAL_BLOCKLIST, name): return None
-    
-    # 1. Prioridad: Exclusión
-    if re.search(REGEX_KIDS, name): return "KIDS" # <--- ALTA PRIORIDAD
-    
-    # 2. Prioridad Media
+    if re.search(REGEX_KIDS, name): return "KIDS"
     if re.search(REGEX_SPORTS, name): return "SPORTS"
     if re.search(REGEX_MUSIC, name): return "MUSIC"    
-    if re.search(REGEX_DOCS, name): return "DOCS" # <--- ALTA PRIORIDAD
-
-    # 3. Prioridad Baja
+    if re.search(REGEX_DOCS, name): return "DOCS"
     if re.search(REGEX_GENERAL, name): return "LIVE_TV"
     return None
 
 def is_url_compatible(url: str) -> bool:
-    """Verifica si la URL es un stream de IPTV compatible con Roku (QC)."""
-    if re.search(STREAM_COMPATIBILITY_BLOCKLIST, url):
-        return False
-    # Permite URLS con extensiones de streaming o sin extensión (asumiendo Xtream / API)
-    return True
+    return not bool(re.search(STREAM_COMPATIBILITY_BLOCKLIST, url))
 
-def transform_xtream_vod_item(item: Dict[str, Any], source_alias: str) -> Dict[str, Any]:
-    """Mapeo completo de Metadatos de VOD (Películas)"""
-    # ... (Mapeo es idéntico a V93, asegurando todos los campos de metadatos)
+def transform_xtream_vod(item: Dict[str, Any], source_alias: str, type_group: str) -> Dict[str, Any]:
     rating = clean_rating(item.get('rating'))
-    return {
-        "title": item.get('name', 'N/A'),
-        "contentId": str(item.get('stream_id')),
-        "url": None, 
-        "group": "MOVIE",
-        "hdPosterUrl": item.get('stream_icon'),
-        "rating": rating,
-        "plot": item.get('plot', 'Sin descripción.'),
-        "genre": item.get('genre', 'General'),      
-        "duration": item.get('duration', 'N/A'),
-        "releaseDate": item.get('releasedate', 'N/A'),
-        "director": item.get('director', 'N/A'),
-        "cast": item.get('cast', 'N/A'),
-        "source_alias": source_alias,
-    }
-
-def transform_xtream_series_item(item: Dict[str, Any], source_alias: str) -> Dict[str, Any]:
-    """Mapeo completo de Metadatos de Series"""
-    # ... (Mapeo es idéntico a V93)
-    rating = clean_rating(item.get('rating'))
-    return {
-        "title": item.get('name', 'N/A'),
-        "contentId": str(item.get('series_id')),
-        "group": "SERIES",
-        "hdPosterUrl": item.get('cover'),
-        "rating": rating,
-        "plot": item.get('plot', 'Sin descripción.'),
-        "genre": item.get('genre', 'General'),      
-        "releaseDate": item.get('releaseDate', 'N/A'),
-        "cast": item.get('cast', 'N/A'),
-        "source_alias": source_alias,
-    }
-
-# ==========================================
-# 4. MOTOR DE PROCESAMIENTO ASÍNCRONO
-# ==========================================
-
-# (fetch_xtream y fetch_and_parse_m3u son idénticos a V93)
-
-async def check_health(session: aiohttp.ClientSession, url: str) -> bool:
-    """Verificación de salud crítica usando el User-Agent específico de Roku."""
-    if not is_url_compatible(url):
-        # Fallar el health check si la URL no es compatible
-        return False
-        
-    try:
-        headers = {"User-Agent": USER_AGENT}
-        async with session.head(url, headers=headers, timeout=5.0) as response:
-            return response.status in (200, 301, 302)
-    except: 
-        return False
-
-# --- Sub-Procesos para Modularidad ---
-
-async def process_xtream_live(session, source, playlist):
-    raw_live = await fetch_xtream(session, source, ACTIONS["LIVE"])
-    tasks = []
-    for item in raw_live:
-        name = item.get('name', '')
-        cat = categorize(name)
-        if cat:
-            sid = item.get('stream_id')
-            url = f"{source['host']}/live/{source['user']}/{source['pass']}/{sid}.ts"
-            
-            # QC 1: Compatibilidad de URL
-            if not is_url_compatible(url): continue 
-
-            obj = {
-                "title": f"[{source['alias']}] {name}", 
-                "contentId": str(sid), 
-                "url": url,
-                "hdPosterUrl": item.get('stream_icon'), 
-                "group": cat
-            }
-            tasks.append((obj, check_health(session, url), cat))
-            
-    if tasks:
-        results = await asyncio.gather(*[t[1] for t in tasks])
-        for (obj, online, cat) in zip([t[0] for t in tasks], results, [t[2] for t in tasks]):
-            if online: 
-                playlist[cat.lower()].append(obj)
-
-async def process_m3u_live(session, source, playlist):
-    items = await fetch_and_parse_m3u(session, source)
-    tasks = []
-    for item in items:
-        name = item['name']
-        url = item['url']
-        cat = categorize(name)
-        
-        if cat:
-            # QC 1: Compatibilidad de URL
-            if not is_url_compatible(url): continue
-            
-            obj = {
-                "title": f"[{source['alias']}] {item['name']}", 
-                "contentId": item['stream_id'],
-                "url": url, 
-                "hdPosterUrl": item['stream_icon'], 
-                "group": cat
-            }
-            tasks.append((obj, check_health(session, url), cat))
-
-    if tasks:
-        results = await asyncio.gather(*[t[1] for t in tasks])
-        for (obj, online, cat) in zip([t[0] for t in tasks], results, [t[2] for t in tasks]):
-            if online: 
-                playlist[cat.lower()].append(obj)
-
-# (process_xtream_vod y process_xtream_series son idénticos a V93)
-
-async def process_source(session: aiohttp.ClientSession, source: Dict[str, Any], playlist: Dict[str, Any]):
-    """Función de alto nivel para procesar una fuente completa."""
-    if source['type'] == 'xtream':
-        print(f"[>] Procesando XTREAM: {source['alias']}")
-        await process_xtream_live(session, source, playlist)
-        await process_xtream_vod(session, source, playlist)
-        await process_xtream_series(session, source, playlist)
-
-    elif source['type'] == 'm3u':
-        print(f"[>] Procesando M3U: {source['alias']}")
-        await process_m3u_live(session, source, playlist)
-
-def deduplicate_playlist(playlist: Dict[str, Any]):
-    """Deduplicación Agresiva basada en un Hash del Título."""
-    unique_hashes = set()
-    total_removed = 0
+    quality = detect_quality(item.get('name', ''))
     
-    for key in ["live_tv", "sports", "music", "kids", "docs", "movies", "series", "premieres"]:
-        if key not in playlist: continue
-        
-        new_list = []
-        for item in playlist[key]:
-            # Usar un hash simple del título en minúsculas sin caracteres especiales
-            clean_title = re.sub(r'[^a-z0-9]', '', item['title'].lower())
-            item_hash = hash(clean_title)
-            
-            if item_hash not in unique_hashes:
-                new_list.append(item)
-                unique_hashes.add(item_hash)
+    return {
+        "title": item.get('name', 'N/A'),
+        "contentId": str(item.get('stream_id') or item.get('series_id')),
+        "group": type_group,
+        "hdPosterUrl": item.get('stream_icon') or item.get('cover'),
+        "rating": rating,
+        "plot": item.get('plot', 'Sin descripción.'),
+        "genre": item.get('genre', 'General'),      
+        "releaseDate": item.get('releasedate') or item.get('releaseDate', 'N/A'),
+        "cast": item.get('cast', 'N/A'),
+        "quality": quality, # <--- Nuevo campo V95
+        "source_alias": source_alias,
+    }
+
+# ==========================================
+# 4. NETWORKING AVANZADO (THROTTLING & RETRY)
+# ==========================================
+
+async def fetch_with_retry(session: aiohttp.ClientSession, url: str, method: str = "GET", headers: dict = None) -> Any:
+    """Realiza peticiones HTTP con lógica de reintento exponencial."""
+    for attempt in range(MAX_RETRIES):
+        try:
+            if method == "HEAD":
+                async with session.head(url, headers=headers, timeout=10) as response:
+                    return response.status
             else:
-                total_removed += 1
-                
-        playlist[key] = new_list
-    
-    print(f"[QC] Eliminados {total_removed} duplicados por título/hash.")
+                async with session.get(url, headers=headers, timeout=HTTP_TIMEOUT) as response:
+                    if response.status == 200:
+                        # Detección automática de tipo de respuesta
+                        ctype = response.headers.get('Content-Type', '').lower()
+                        if 'json' in ctype: return await response.json()
+                        return await response.text()
+                    elif response.status >= 500:
+                        # Error de servidor, vale la pena reintentar
+                        raise aiohttp.ClientError(f"Server Error {response.status}")
+                    else:
+                        return None # 404, 403, etc.
+        except Exception as e:
+            if attempt == MAX_RETRIES - 1:
+                logger.warning(f"Fallo final ({url}): {e}")
+                return None
+            sleep_time = 2 ** attempt # Backoff: 1s, 2s, 4s...
+            await asyncio.sleep(sleep_time)
+    return None
 
+async def check_health_throttled(session: aiohttp.ClientSession, url: str, semaphore: asyncio.Semaphore) -> bool:
+    """Verifica salud usando un semáforo para no saturar al proveedor."""
+    if not is_url_compatible(url): return False
+    
+    async with semaphore: # Adquiere un slot del semáforo
+        status = await fetch_with_retry(session, url, method="HEAD", headers={"User-Agent": USER_AGENT})
+        return status in (200, 301, 302)
+
+# ==========================================
+# 5. LÓGICA DE PROCESAMIENTO
+# ==========================================
+
+async def process_xtream(session, source, playlist, semaphore):
+    # 1. LIVE TV
+    url_live = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['LIVE']}"
+    raw_live = await fetch_with_retry(session, url_live)
+    
+    if isinstance(raw_live, list):
+        logger.info(f"[{source['alias']}] Analizando {len(raw_live)} canales en vivo...")
+        tasks = []
+        for item in raw_live:
+            cat = categorize(item.get('name', ''))
+            if cat:
+                sid = item.get('stream_id')
+                final_url = f"{source['host']}/live/{source['user']}/{source['pass']}/{sid}.ts"
+                
+                obj = {
+                    "title": f"[{source['alias']}] {item.get('name')}", 
+                    "contentId": str(sid), 
+                    "url": final_url,
+                    "hdPosterUrl": item.get('stream_icon'), 
+                    "group": cat,
+                    "quality": detect_quality(item.get('name', ''))
+                }
+                # Añadir tarea al pool con semáforo
+                tasks.append((obj, check_health_throttled(session, final_url, semaphore), cat))
+        
+        # Ejecutar verificaciones concurrentes pero limitadas
+        if tasks:
+            results = await asyncio.gather(*[t[1] for t in tasks])
+            added_count = 0
+            for (obj, online, cat) in zip([t[0] for t in tasks], results, [t[2] for t in tasks]):
+                if online: 
+                    playlist[cat.lower()].append(obj)
+                    added_count += 1
+            logger.info(f"[{source['alias']}] LIVE: {added_count} canales activos agregados.")
+
+    # 2. VOD (Movies)
+    url_vod = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['VOD']}"
+    raw_vod = await fetch_with_retry(session, url_vod)
+    if isinstance(raw_vod, list):
+        for item in raw_vod:
+            name = item.get('name', '')
+            if not re.search(GLOBAL_BLOCKLIST, name):
+                obj = transform_xtream_vod(item, source['alias'], "MOVIE")
+                # Construir URL final VOD
+                ext = item.get('container_extension', 'mp4')
+                obj['url'] = f"{source['host']}/movie/{source['user']}/{source['pass']}/{obj['contentId']}.{ext}"
+                
+                playlist["movies"].append(obj)
+                # Lógica Estrenos: Por nombre o por fecha 'added' (timestamp)
+                is_new = False
+                if re.search(REGEX_PREMIERE, name): is_new = True
+                elif item.get('added') and str(item['added']).isdigit():
+                     if time.time() - float(item['added']) < 2592000: is_new = True # 30 días
+                
+                if is_new: playlist["premieres"].append(obj)
+        logger.info(f"[{source['alias']}] VOD: {len(raw_vod)} películas procesadas.")
+
+    # 3. SERIES
+    url_series = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['SERIES']}"
+    raw_series = await fetch_with_retry(session, url_series)
+    if isinstance(raw_series, list):
+        for item in raw_series:
+            name = item.get('name', '')
+            if not re.search(GLOBAL_BLOCKLIST, name):
+                obj = transform_xtream_vod(item, source['alias'], "SERIES")
+                playlist["series"].append(obj)
+                if re.search(REGEX_PREMIERE, name): playlist["premieres"].append(obj)
+        logger.info(f"[{source['alias']}] SERIES: {len(raw_series)} series procesadas.")
+
+async def process_m3u(session, source, playlist, semaphore):
+    raw_text = await fetch_with_retry(session, source['url'])
+    if raw_text:
+        matches = re.findall(M3U_REGEX, raw_text, re.MULTILINE)
+        logger.info(f"[{source['alias']}] Analizando {len(matches)} items M3U...")
+        tasks = []
+        for logo, group, name, url in matches:
+            name = name.strip()
+            url = url.strip()
+            cat = categorize(name)
+            if cat:
+                obj = {
+                    "title": f"[{source['alias']}] {name}", 
+                    "contentId": f"m3u_{hash(url)}",
+                    "url": url, 
+                    "hdPosterUrl": logo, 
+                    "group": cat,
+                    "quality": detect_quality(name)
+                }
+                tasks.append((obj, check_health_throttled(session, url, semaphore), cat))
+        
+        if tasks:
+            results = await asyncio.gather(*[t[1] for t in tasks])
+            for (obj, online, cat) in zip([t[0] for t in tasks], results, [t[2] for t in tasks]):
+                if online: playlist[cat.lower()].append(obj)
 
 async def main():
     t0 = time.time()
-    # Estructura V94 (Añadiendo KIDS y DOCS)
     playlist = {
-        "meta": { "updated": time.ctime(), "version": "v94_strict_qc", "user_agent": USER_AGENT },
+        "meta": { "updated": time.ctime(), "version": "v95_neural_batching", "user_agent": USER_AGENT },
         "live_tv": [], "sports": [], "music": [], "kids": [], "docs": [],
         "movies": [], "series": [], "premieres": []
     }
     
-    timeout = aiohttp.ClientTimeout(total=90) # Aumento de timeout para seguridad
-    async with aiohttp.ClientSession(timeout=timeout, headers={"User-Agent": USER_AGENT}) as session:
-        await asyncio.gather(*[process_source(session, src, playlist) for src in SOURCES])
+    # SEMÁFORO GLOBAL: Controla la presión ejercida sobre TODOS los servidores
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
 
-    # Paso de Control de Calidad: Deduplicación
-    deduplicate_playlist(playlist)
+    timeout = aiohttp.ClientTimeout(total=None, sock_connect=30, sock_read=60)
+    conn = aiohttp.TCPConnector(limit=100) # Límite de conexiones del pool local
 
-    # Exportación
-    with open('playlist.json', 'w', encoding='utf-8') as f: 
-        json.dump(playlist, f, indent=4, ensure_ascii=False)
+    async with aiohttp.ClientSession(timeout=timeout, connector=conn, headers={"User-Agent": USER_AGENT}) as session:
+        tasks = []
+        for src in SOURCES:
+            if src['type'] == 'xtream':
+                tasks.append(process_xtream(session, src, playlist, semaphore))
+            elif src['type'] == 'm3u':
+                tasks.append(process_m3u(session, src, playlist, semaphore))
+        
+        await asyncio.gather(*tasks)
 
-    print(f"\n--- REPORTE V94 (Filtro Estricto) ---")
-    print(f"Tiempo Total: {time.time() - t0:.2f}s")
-    print(f"TV (General): {len(playlist['live_tv'])}")
-    print(f"TV (Deportes): {len(playlist['sports'])}")
-    print(f"TV (Música): {len(playlist['music'])}")
-    print(f"TV (Infantil): {len(playlist['kids'])}")
-    print(f"TV (Docs): {len(playlist['docs'])}")
-    print(f"VOD (Películas): {len(playlist['movies'])}")
-    print(f"VOD (Series): {len(playlist['series'])}")
-    print(f"ESTRENOS (Total): {len(playlist['premieres'])}")
+    # DEDUPLICACIÓN (QC FINAL)
+    logger.info("Iniciando Control de Calidad y Deduplicación...")
+    unique_hashes = set()
+    total_removed = 0
+    for key in playlist.keys():
+        if isinstance(playlist[key], list):
+            new_list = []
+            for item in playlist[key]:
+                # Hash compuesto para mayor precisión
+                clean_id = re.sub(r'[^a-z0-9]', '', item['title'].lower() + item.get('quality', ''))
+                item_hash = hash(clean_id)
+                if item_hash not in unique_hashes:
+                    new_list.append(item)
+                    unique_hashes.add(item_hash)
+                else:
+                    total_removed += 1
+            playlist[key] = new_list
+    
+    # GUARDADO SEGURO
+    try:
+        with open('playlist.json', 'w', encoding='utf-8') as f: 
+            json.dump(playlist, f, indent=4, ensure_ascii=False)
+        logger.info(f"Escritura exitosa. Eliminados {total_removed} duplicados.")
+    except Exception as e:
+        logger.error(f"Error crítico guardando JSON: {e}")
+
+    logger.info(f"--- REPORTE V95 --- Tiempo: {time.time() - t0:.2f}s")
 
 if __name__ == "__main__":
     asyncio.run(main())
