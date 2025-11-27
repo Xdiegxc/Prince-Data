@@ -5,7 +5,6 @@ import json
 import re
 import time
 import logging
-# CORRECCIÓN: Importación explícita de tipos para evitar NameError
 from typing import List, Dict, Any, Optional
 
 # ==========================================
@@ -17,15 +16,15 @@ logging.basicConfig(
     format='%(asctime)s | %(levelname)s | %(message)s',
     datefmt='%H:%M:%S'
 )
-logger = logging.getLogger("CerebroV95.1")
+logger = logging.getLogger("CerebroV96")
 
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
 USER_AGENT = "IPTVSmartersPro"
 
-# Configuración de Ingeniería de Red
-MAX_CONCURRENT_CHECKS = 50  # Semáforo
+# Configuración de Ingeniería de Red (Throttling)
+MAX_CONCURRENT_CHECKS = 50  
 HTTP_TIMEOUT = 60           
 MAX_RETRIES = 3             
 
@@ -108,17 +107,18 @@ def transform_xtream_vod(item: Dict[str, Any], source_alias: str, type_group: st
         "source_alias": source_alias,
     }
 
-def transform_xtream_series_legacy(item: Dict[str, Any], source_alias: str) -> Dict[str, Any]:
+def transform_xtream_series_legacy(item: Dict[str, Any], source: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Transformación Híbrida: Mantiene structure V95 pero inyecta los campos legacy
-    que Roku necesita para pedir episodios (series_id).
+    V96: Inyecta la URL exacta de la API para obtener episodios.
+    Esto resuelve el problema 'No episodes found' en reproductores que no construyen la query.
     """
     rating = clean_rating(item.get('rating'))
-    # Xtream a veces usa 'series_id' y a veces 'stream_id' en la lista de series.
     raw_id = str(item.get('series_id') or item.get('stream_id'))
     
+    # CONSTRUCCIÓN DE LA URL MAESTRA PARA EPISODIOS
+    episodes_api_url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series_info&series_id={raw_id}"
+
     return {
-        # --- CAMPOS V95 (Standard) ---
         "title": item.get('name', 'N/A'),
         "contentId": raw_id,
         "group": "SERIES",
@@ -128,14 +128,17 @@ def transform_xtream_series_legacy(item: Dict[str, Any], source_alias: str) -> D
         "genre": item.get('genre', 'General'),      
         "releaseDate": item.get('releaseDate') or item.get('releasedate', 'N/A'),
         "cast": item.get('cast', 'N/A'),
-        "source_alias": source_alias,
-        
-        # --- CAMPOS LEGACY (CRÍTICO PARA ROKU / EPISODIOS) ---
+        "source_alias": source['alias'],
+
+        # --- FIX ROKU NO EPISODES ---
         "series_id": raw_id, 
-        "stream_id": raw_id,
+        "id": raw_id,
+        "category_id": str(item.get('category_id', '0')),
+        "url": episodes_api_url,     # <--- La clave del éxito V96
+        "api_url": episodes_api_url, # <--- Respaldo
+        
         "cover": item.get('cover') or item.get('stream_icon'), 
         "youtube_trailer": item.get('youtube_trailer', ''),
-        "episode_run_time": item.get('episode_run_time', '0'),
         "backdrop_path": item.get('backdrop_path', [])
     }
 
@@ -229,18 +232,18 @@ async def process_xtream(session, source, playlist, semaphore):
                 if is_new: playlist["premieres"].append(obj)
         logger.info(f"[{source['alias']}] VOD: {len(raw_vod)} películas.")
 
-    # 3. SERIES (USANDO EL FIX LEGACY)
+    # 3. SERIES (V96 FIX)
     url_series = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={ACTIONS['SERIES']}"
     raw_series = await fetch_with_retry(session, url_series)
     if isinstance(raw_series, list):
         for item in raw_series:
             name = item.get('name', '')
             if not re.search(GLOBAL_BLOCKLIST, name):
-                # AQUI SE USA LA TRANSFORMACIÓN CORREGIDA
-                obj = transform_xtream_series_legacy(item, source['alias'])
+                # Se pasa el objeto 'source' completo para construir la URL de API
+                obj = transform_xtream_series_legacy(item, source)
                 playlist["series"].append(obj)
                 if re.search(REGEX_PREMIERE, name): playlist["premieres"].append(obj)
-        logger.info(f"[{source['alias']}] SERIES: {len(raw_series)} series (Legacy Mode).")
+        logger.info(f"[{source['alias']}] SERIES: {len(raw_series)} series (V96 API-Link Mode).")
 
 async def process_m3u(session, source, playlist, semaphore):
     raw_text = await fetch_with_retry(session, source['url'])
@@ -271,7 +274,7 @@ async def process_m3u(session, source, playlist, semaphore):
 async def main():
     t0 = time.time()
     playlist = {
-        "meta": { "updated": time.ctime(), "version": "v95.1_legacy_fix", "user_agent": USER_AGENT },
+        "meta": { "updated": time.ctime(), "version": "v96_direct_link", "user_agent": USER_AGENT },
         "live_tv": [], "sports": [], "music": [], "kids": [], "docs": [],
         "movies": [], "series": [], "premieres": []
     }
