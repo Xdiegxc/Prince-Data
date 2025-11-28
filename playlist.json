@@ -1,6 +1,6 @@
 {
     "meta": {
-        "updated": "Fri Nov 28 01:13:58 2025",
+        "updated": "Fri Nov 28 06:26:26 2025",
         "version": "v97_premiere_triangulation",
         "user_agent": "IPTVSmartersPro"
     },
@@ -879,7 +879,7 @@
         },
         {
             "title": "[GitHub_FreeTV] News 24 Ⓢ",
-            "contentId": "m3u_-7691285703445584469",
+            "contentId": "m3u_-7587195276522740812",
             "url": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -887,7 +887,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Record News",
-            "contentId": "m3u_-8440494176600606595",
+            "contentId": "m3u_4801461752464904873",
             "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -895,7 +895,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Chilevisión Noticias",
-            "contentId": "m3u_-1551088867143414648",
+            "contentId": "m3u_-6512478036446069206",
             "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvn/chvn.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -903,7 +903,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Nopola News",
-            "contentId": "m3u_-289897611956352199",
+            "contentId": "m3u_7065139091785617203",
             "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -911,7 +911,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Mega News",
-            "contentId": "m3u_1266953285970115322",
+            "contentId": "m3u_-5421565304637664983",
             "url": "https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S99841657/NU0xOarAMJ5X/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -919,7 +919,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Al-Sharqiya News",
-            "contentId": "m3u_-5919740830637463548",
+            "contentId": "m3u_5996935844486355756",
             "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -927,7 +927,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Cusano News 7",
-            "contentId": "m3u_-6450513138584727652",
+            "contentId": "m3u_2645607936485376293",
             "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -935,7 +935,7 @@
         },
         {
             "title": "[GitHub_FreeTV] LaC News 24",
-            "contentId": "m3u_-5145419404355024069",
+            "contentId": "m3u_-6991366447880452295",
             "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -943,7 +943,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Zerouno Tv News",
-            "contentId": "m3u_-5177183686971822659",
+            "contentId": "m3u_5763602574758642931",
             "url": "https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -951,7 +951,7 @@
         },
         {
             "title": "[GitHub_FreeTV] TOKYO MX チャンネル",
-            "contentId": "m3u_4076533721449354839",
+            "contentId": "m3u_-2186138066355923687",
             "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -959,7 +959,7 @@
         },
         {
             "title": "[GitHub_FreeTV] GB News",
-            "contentId": "m3u_-1679240720649200525",
+            "contentId": "m3u_-6426820098375726717",
             "url": "https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -967,7 +967,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Sky News Arabia",
-            "contentId": "m3u_8494114986071289980",
+            "contentId": "m3u_2162259402731445924",
             "url": "https://stream.skynewsarabia.com/hls/sna.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -975,7 +975,7 @@
         },
         {
             "title": "[GitHub_FreeTV] ABC News",
-            "contentId": "m3u_-7954272415577941441",
+            "contentId": "m3u_8098401111918132073",
             "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -983,7 +983,7 @@
         },
         {
             "title": "[GitHub_FreeTV] CBS News",
-            "contentId": "m3u_7026120411661557104",
+            "contentId": "m3u_6552625247089364681",
             "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -991,7 +991,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Sky News العربية",
-            "contentId": "m3u_8494114986071289980",
+            "contentId": "m3u_2162259402731445924",
             "url": "https://stream.skynewsarabia.com/hls/sna.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -999,7 +999,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Ticker News",
-            "contentId": "m3u_-7440401813536074087",
+            "contentId": "m3u_-8591038653240646716",
             "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1007,7 +1007,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Scripps News",
-            "contentId": "m3u_6373452463992516777",
+            "contentId": "m3u_-3349868618849632935",
             "url": "https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1015,7 +1015,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Global News",
-            "contentId": "m3u_-5377441985975560119",
+            "contentId": "m3u_-67056754789842072",
             "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1023,7 +1023,7 @@
         },
         {
             "title": "[GitHub_FreeTV] SABC News",
-            "contentId": "m3u_5850965226532092706",
+            "contentId": "m3u_358575750943853561",
             "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1031,7 +1031,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Bloomberg Television (US)",
-            "contentId": "m3u_-6859268887477713073",
+            "contentId": "m3u_-8529665813474865200",
             "url": "https://bloomberg.com/media-manifest/streams/us.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1039,7 +1039,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Sky News Weather Ⓖ",
-            "contentId": "m3u_-2021832912528284070",
+            "contentId": "m3u_-7182021639511373919",
             "url": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1047,7 +1047,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Televisa Telenovelas",
-            "contentId": "m3u_2235442358461583554",
+            "contentId": "m3u_-1057951686775765035",
             "url": "https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1055,7 +1055,7 @@
         },
         {
             "title": "[GitHub_FreeTV] CBS News – Pluto TV",
-            "contentId": "m3u_-3960633788683002861",
+            "contentId": "m3u_2757314323823701750",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6231ec4b62cd1f0007093c7b/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "LIVE_TV",
@@ -1713,7 +1713,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Rete 8 Sport",
-            "contentId": "m3u_7136298728530288936",
+            "contentId": "m3u_6558393083833329024",
             "url": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "SPORTS",
@@ -1721,7 +1721,7 @@
         },
         {
             "title": "[GitHub_FreeTV] M»Net Sport",
-            "contentId": "m3u_1696534460288206577",
+            "contentId": "m3u_6404021702386529507",
             "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
             "hdPosterUrl": "",
             "group": "SPORTS",
@@ -1729,7 +1729,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Suspilne Sport",
-            "contentId": "m3u_5012176384927795294",
+            "contentId": "m3u_1827334005957829447",
             "url": "http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8",
             "hdPosterUrl": "",
             "group": "SPORTS",
@@ -1737,7 +1737,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Sport – Pluto TV",
-            "contentId": "m3u_190485856713202629",
+            "contentId": "m3u_6741577322522082754",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "SPORTS",
@@ -1835,7 +1835,7 @@
         },
         {
             "title": "[GitHub_FreeTV] AlbKanale Music TV Ⓢ",
-            "contentId": "m3u_-2700858158837833282",
+            "contentId": "m3u_-2697496326544273660",
             "url": "https://albportal.net/albkanalemusic.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1843,7 +1843,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio HIT Orsk",
-            "contentId": "m3u_-7894702020222595958",
+            "contentId": "m3u_8227968313001818540",
             "url": "http://hithd.camsh.orsk.ru/hls/hithd.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1851,7 +1851,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Retro Music Television Ⓢ",
-            "contentId": "m3u_5436760913854276618",
+            "contentId": "m3u_7619393458969580130",
             "url": "https://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1859,7 +1859,7 @@
         },
         {
             "title": "[GitHub_FreeTV] MTV Sub",
-            "contentId": "m3u_-5705181653459585773",
+            "contentId": "m3u_4694670645680508169",
             "url": "https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1867,7 +1867,7 @@
         },
         {
             "title": "[GitHub_FreeTV] MTV Ava",
-            "contentId": "m3u_-1595741596895975619",
+            "contentId": "m3u_-8391457404696463314",
             "url": "https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1875,31 +1875,31 @@
         },
         {
             "title": "[GitHub_FreeTV] MTV Uutiset Live",
-            "contentId": "m3u_-5263376404800609570",
+            "contentId": "m3u_-7056428009376024152",
             "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
             "quality": "SD"
         },
         {
-            "title": "[GitHub_FreeTV] DELUXE MUSIC",
-            "contentId": "m3u_-6910935115556614673",
-            "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
-            "hdPosterUrl": "",
-            "group": "MUSIC",
-            "quality": "SD"
-        },
-        {
             "title": "[GitHub_FreeTV] DELUXE MUSIC DANCE BY KONTOR",
-            "contentId": "m3u_-8624738930292881682",
+            "contentId": "m3u_6663982928266808427",
             "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
             "quality": "SD"
         },
         {
+            "title": "[GitHub_FreeTV] DELUXE MUSIC RAP",
+            "contentId": "m3u_-7869877404736937506",
+            "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
+            "hdPosterUrl": "",
+            "group": "MUSIC",
+            "quality": "SD"
+        },
+        {
             "title": "[GitHub_FreeTV] Oxygen Music",
-            "contentId": "m3u_-3778552717969299569",
+            "contentId": "m3u_2027976836850430612",
             "url": "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1907,7 +1907,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Today FM",
-            "contentId": "m3u_-5911157635469106574",
+            "contentId": "m3u_-5878503315046781904",
             "url": "https://stream.audioxi.com/TDAAC",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1915,7 +1915,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Nova",
-            "contentId": "m3u_-678687991585142157",
+            "contentId": "m3u_-2658341203670230374",
             "url": "https://stream.audioxi.com/NOVA",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1923,7 +1923,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio KISS KISS TV",
-            "contentId": "m3u_-753447743309111496",
+            "contentId": "m3u_8491241989690322479",
             "url": "https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1931,7 +1931,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio ZETA",
-            "contentId": "m3u_1261923626984897364",
+            "contentId": "m3u_896337140867355462",
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1939,7 +1939,7 @@
         },
         {
             "title": "[GitHub_FreeTV] FM Tv Marche",
-            "contentId": "m3u_8299063690093139709",
+            "contentId": "m3u_-4851603954104958610",
             "url": "https://bbtv.intvstream.net:3988/hybrid/play.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1947,7 +1947,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Giornale Radio Tv",
-            "contentId": "m3u_3214920397266232452",
+            "contentId": "m3u_8194926804344276800",
             "url": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1955,7 +1955,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Onda Web Radio",
-            "contentId": "m3u_635759126364005242",
+            "contentId": "m3u_-1092281528468504952",
             "url": "http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1963,7 +1963,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio 3M InBlu",
-            "contentId": "m3u_-1202018699922353480",
+            "contentId": "m3u_7484680381973761660",
             "url": "https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1971,7 +1971,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio 51 Tv",
-            "contentId": "m3u_-5431688244371927542",
+            "contentId": "m3u_5237096389407045112",
             "url": "https://59d7d6f47d7fc.streamlock.net/canale51/canale51/chunklist_w1193883900.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1979,7 +1979,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Birikina Tv",
-            "contentId": "m3u_-985796865889200074",
+            "contentId": "m3u_-1881567399515461686",
             "url": "https://tvd-bk.fluid.stream/RadioBirikinaTV/livestream/chunklist_w84398277.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1987,7 +1987,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Bruno Tv",
-            "contentId": "m3u_9127733212735339164",
+            "contentId": "m3u_1391041763956569327",
             "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -1995,7 +1995,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Ibiza",
-            "contentId": "m3u_856059615689815035",
+            "contentId": "m3u_4081296683525283244",
             "url": "https://str48.fluid.stream/RadioIbizaTV/livestream/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2003,7 +2003,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Immagine Tv",
-            "contentId": "m3u_-279337993549508908",
+            "contentId": "m3u_722964491425471792",
             "url": "https://media.velcom.it:8081/RadioImmagineTV/index.fmp4.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2011,7 +2011,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Italia Cina Tv",
-            "contentId": "m3u_2047912503533594472",
+            "contentId": "m3u_631731141064379904",
             "url": "https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2019,7 +2019,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Libertà",
-            "contentId": "m3u_-5799048839989756634",
+            "contentId": "m3u_-2355297729724743095",
             "url": "https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2027,7 +2027,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio m2o Tv",
-            "contentId": "m3u_-8090888595400463185",
+            "contentId": "m3u_8199173169723375352",
             "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2035,7 +2035,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Monte Kronio Tv (R.M.K.)",
-            "contentId": "m3u_-5631551926719075745",
+            "contentId": "m3u_-5837107266788079084",
             "url": "https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2043,7 +2043,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Norba Tv",
-            "contentId": "m3u_-6559353053791761916",
+            "contentId": "m3u_1651501229558480788",
             "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2051,7 +2051,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Piter Pan Tv",
-            "contentId": "m3u_148085219884223714",
+            "contentId": "m3u_-4852068229568664400",
             "url": "https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2059,7 +2059,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Radio Tv",
-            "contentId": "m3u_-1593986244574277629",
+            "contentId": "m3u_7092204573054425387",
             "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2067,7 +2067,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Radiosa Tv",
-            "contentId": "m3u_6429246139218167648",
+            "contentId": "m3u_-8248182480958747489",
             "url": "https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2075,7 +2075,7 @@
         },
         {
             "title": "[GitHub_FreeTV] TRL Tele Radio Leo",
-            "contentId": "m3u_4580751395735185047",
+            "contentId": "m3u_-5910751586513447477",
             "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2083,7 +2083,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Tele Radio Pace 1",
-            "contentId": "m3u_-3292889017673233534",
+            "contentId": "m3u_2884746524956780788",
             "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2091,7 +2091,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Tele Radio Pace 2",
-            "contentId": "m3u_-8976135860623276732",
+            "contentId": "m3u_-3704938483571950910",
             "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2099,7 +2099,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Tele Radio Pace 3",
-            "contentId": "m3u_4487316633522637830",
+            "contentId": "m3u_-8392818547812800090",
             "url": "https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2107,7 +2107,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Tele Radio Pace 4",
-            "contentId": "m3u_-5590314274930098612",
+            "contentId": "m3u_-2535386113646922215",
             "url": "https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2115,7 +2115,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Vintage Radio Tv",
-            "contentId": "m3u_7893964506004515975",
+            "contentId": "m3u_-7313771267426767860",
             "url": "https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2123,7 +2123,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Zerouno Tv Music",
-            "contentId": "m3u_-4316845948932233142",
+            "contentId": "m3u_7196498181056002012",
             "url": "https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2131,7 +2131,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Rock TV",
-            "contentId": "m3u_9169389081376743460",
+            "contentId": "m3u_5236702314264904339",
             "url": "https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2139,7 +2139,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Now Rock",
-            "contentId": "m3u_7076566441069546939",
+            "contentId": "m3u_-3572515523935057786",
             "url": "https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2147,7 +2147,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Music Channel",
-            "contentId": "m3u_-8922697606487388577",
+            "contentId": "m3u_-1184651824944815269",
             "url": "http://media.boni-records.com/index.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2155,7 +2155,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Radio Italia Trend",
-            "contentId": "m3u_4749439073565767762",
+            "contentId": "m3u_985630942189487729",
             "url": "https://radioitalia-samsungitaly.amagi.tv/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2163,7 +2163,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Super! POP – Pluto TV",
-            "contentId": "m3u_283807906168524011",
+            "contentId": "m3u_-2158224804004078462",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f7b5bb49b90007cecaad/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2171,7 +2171,7 @@
         },
         {
             "title": "[GitHub_FreeTV] VH1+ Music Legends – Pluto TV",
-            "contentId": "m3u_-9007195512146462009",
+            "contentId": "m3u_-8150125263860841653",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62e8cc10ca869f00078efca8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2179,7 +2179,7 @@
         },
         {
             "title": "[GitHub_FreeTV] VH1+ Back to 90's – Pluto TV",
-            "contentId": "m3u_2708193664489153005",
+            "contentId": "m3u_5063539897240578042",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6552085aab05240008b05f6c/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2187,7 +2187,7 @@
         },
         {
             "title": "[GitHub_FreeTV] VH1+ Rock! – Pluto TV",
-            "contentId": "m3u_-7632010443781645733",
+            "contentId": "m3u_633317872939758012",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/636a4173e34fd50007534542/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2195,7 +2195,7 @@
         },
         {
             "title": "[GitHub_FreeTV] VH1+ Canzoni Italiane – Pluto TV",
-            "contentId": "m3u_-8907922641499667266",
+            "contentId": "m3u_-8776549922062177638",
             "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63724270c7c2360007b170e8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
             "hdPosterUrl": "",
             "group": "MUSIC",
@@ -2365,7 +2365,7 @@
         },
         {
             "title": "[GitHub_FreeTV] EBS Kids Ⓢ",
-            "contentId": "m3u_-4735702131888253211",
+            "contentId": "m3u_1425080745576749692",
             "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
             "hdPosterUrl": "",
             "group": "KIDS",
@@ -2373,7 +2373,7 @@
         },
         {
             "title": "[GitHub_FreeTV] Cartoon Network Arabic",
-            "contentId": "m3u_1504358283156130154",
+            "contentId": "m3u_-1918296052680596838",
             "url": "https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8",
             "hdPosterUrl": "",
             "group": "KIDS",
