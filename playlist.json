@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "Sun Nov 30 03:50:39 2025",
-    "version": "v98.1_MX_Strict_Final",
-    "focus": "Mexico_Only"
+    "generated_at": "Sun Nov 30 04:08:40 2025",
+    "version": "v98.2_Refined_Filters",
+    "focus": "Mexico_Refined"
   },
   "premieres": [
     {
@@ -5044,33 +5044,6 @@
       "source_alias": "LatinaPro_MX"
     },
     {
-      "title": "PT: AXN HD",
-      "contentId": "876",
-      "group": "live_tv",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/876.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/cae30e8874e3ba50714afffbb88758f7.jpg",
-      "quality": "HD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "PT: AXN Movies",
-      "contentId": "1542",
-      "group": "live_tv",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1542.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/c10e9a2497630ad522f6c1096fe14e91.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "PT: AXN White",
-      "contentId": "1541",
-      "group": "live_tv",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1541.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/23d88ced73c4d28df62a1c116aea4e66.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
       "title": "Peru: Gol Tv HD (P)",
       "contentId": "359",
       "group": "live_tv",
@@ -5388,39 +5361,39 @@
       "source_alias": "LatinaPro_MX"
     },
     {
-      "title": "PT: FOX Crime HD",
-      "contentId": "435",
+      "title": "USA: ESPN 2 HD",
+      "contentId": "338",
       "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/435.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/0974d6036120ff52f9b5253c2884f776.jpg",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/338.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/973822139bde28ada94071e8bf9479b9.jpg",
       "quality": "HD",
       "source_alias": "LatinaPro_MX"
     },
     {
-      "title": "PT: FOX LIFE HD",
-      "contentId": "436",
+      "title": "USA: FOX New York",
+      "contentId": "4917",
       "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/436.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/fb08ad7d8527f3384521ad4967095b4c.png",
-      "quality": "HD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "PT: Fox Comedy",
-      "contentId": "3369",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3369.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/955a2892e75512f229e35d31e72f1d38.png",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4917.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/f3005da8ef7d73638b30791bbb14180e.jpg",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
     {
-      "title": "PT: Fox HD",
-      "contentId": "3365",
+      "title": "USA: Fox Sports 1",
+      "contentId": "340",
       "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3365.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/sFmlE131NsvDNj4JdJ7IOMeuq129R8DhiUCOMh-_scJKwT5ZABAb3WInD_XgCgSwmfFwb-W_tiMRdbMhuL_ZYQ.png",
-      "quality": "HD",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/340.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/b88ab5a849ebacbea981467921da314d.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "USA: Fox Sports 2",
+      "contentId": "339",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/339.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/2bf9d282fc831b08d0adac0841918f9e.jpg",
+      "quality": "SD",
       "source_alias": "LatinaPro_MX"
     }
   ],
@@ -5495,27 +5468,10 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/b3c6c002540d94fb736fcaefbb143a8b.jpg",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "PT: Disney Channel HD",
-      "contentId": "423",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/423.ts",
-      "hdPosterUrl": "http://www.asistenciaremota24.com/images/canales/_92.jpg",
-      "quality": "HD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "PT: Disney Junior",
-      "contentId": "424",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/424.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
     }
   ],
   "docs": [],
+  "music": [],
   "movies": [
     {
       "title": "#Vivo (2020)",
