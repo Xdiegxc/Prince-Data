@@ -1,1 +1,3 @@
 aiohttp
+pydantic                                                                                                                                                                                                                                                                  │
+pydantic-settings
