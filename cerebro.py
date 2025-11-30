@@ -47,7 +47,7 @@ REGEX_MX_CHANNELS = r"(?i)\b(azteca|televisa|estrellas|canal 5|imagen|adn 40|for
 REGEX_PREMIUM_LATAM = r"(?i)\b(hbo|max|star|disney|espn|fox|f1|nfl|nba|ufc|premier|ligapro|gol|win|vix)\b"
 
 # Bloqueo explícito de basura que suele colarse
-REGEX_HARD_BLOCK = r"(?i)\b(spain|españa|eu|brazil|brasil|portugal|usa|uk|canada|adult|xxx|porn|hindi|arab|turk)\b"
+REGEX_HARD_BLOCK = r"(?i)\b(spain|españa|eu|brazil|brasil|portugal|usa|uk|canada|hindi|arab|turk)\b"
 
 # Detección de Calidad
 REGEX_4K = r"(?i)\b(4k|uhd|2160p)\b"
@@ -375,4 +375,5 @@ if __name__ == "__main__":
             asyncio.run(main())
         except KeyboardInterrupt:
             pass
+
 
