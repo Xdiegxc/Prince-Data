@@ -14,13 +14,13 @@ from typing import List, Dict, Any
 # ==========================================
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(message)s')
-logger = logging.getLogger("CerebroV100.2_RokuNative")
+logger = logging.getLogger("CerebroV100.3_GitSync")
 
-# Credenciales y Configuración
+# Credenciales
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
-USER_AGENT = "IPTVSmartersPro/100.2" 
+USER_AGENT = "IPTVSmartersPro/100.3" 
 
 # Tiempos
 HTTP_TIMEOUT = 20 
@@ -212,20 +212,18 @@ async def process_xtream(session, src, playlist, semaphore):
             if is_ok: playlist[item_obj.group].append(item_obj.to_dict())
 
 # ==========================================
-# 8. MAIN
+# 8. MAIN & GIT SYNC
 # ==========================================
 
 async def main():
     start = time.time()
     
-    # ESTRUCTURA CORREGIDA: Sin metadatos, solo listas.
-    # Esto evita el error "listData.Count()" en Roku.
+    # Estructura limpia para Roku (Sin metadatos extra)
     playlist = {
         "live_tv": [],
         "movies": [],
         "series": [], 
         "kids": []
-        # Eliminado: "generated_at"
     }
     
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
@@ -253,10 +251,24 @@ async def main():
     with open('playlist.json', 'w', encoding='utf-8') as f:
         json.dump(playlist, f, indent=2, ensure_ascii=False)
         
+    # --- GIT AUTO-SYNC FIX ---
     try:
+        # 1. Configurar Identidad (Seguridad ante entorno vacío)
+        subprocess.run(["git", "config", "--global", "user.name", "PrinceBot"], check=False)
+        subprocess.run(["git", "config", "--global", "user.email", "bot@princetv.com"], check=False)
+        
+        # 2. Add & Commit
         subprocess.run(["git", "add", "playlist.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Fix: Roku Native JSON Structure"], check=False)
-        subprocess.run(["git", "push", "origin", "main"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Auto-Update: V100.3 Sync Fix"], check=False)
+        
+        # 3. PULL REBASE (La solución al error: descarga antes de subir)
+        logger.info("Sincronizando con remoto (Pull Rebase)...")
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
+        
+        # 4. Push Final
+        logger.info("Subiendo a GitHub...")
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        
     except Exception as e:
         logger.error(f"Git error: {e}")
 
@@ -264,6 +276,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
