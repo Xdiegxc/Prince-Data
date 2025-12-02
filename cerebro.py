@@ -14,7 +14,7 @@ from typing import List, Dict, Any, Optional
 # ==========================================
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(message)s')
-logger = logging.getLogger("CerebroV100_Strict")
+logger = logging.getLogger("CerebroV100.1_Hotfix")
 
 # Credenciales y Configuración
 XT_HOST = os.getenv("XT_HOST")
@@ -34,7 +34,7 @@ XTREAM_SOURCES = [
     { "type": "xtream", "alias": "LatinaPro_Main", "host": XT_HOST, "user": XT_USER, "pass": XT_PASS },
 ]
 
-# Tus listas M3U (mezcla de APIs convertidas a M3U y archivos planos)
+# Tus listas M3U
 M3U_SOURCES = [
     {"alias": "Mirror_77", "url": "http://77.237.238.21:2082/get.php?username=VicTorC&password=Victo423&type=m3u_plus"},
     {"alias": "Latina_Direct", "url": "http://tvappapk@latinapro.net:25461/get.php?username=lazaroperez&password=perez3&type=m3u_plus"},
@@ -52,33 +52,28 @@ M3U_SOURCES = [
 # 3. FILTROS "ZERO TRUST" (ESTRICTOS)
 # ==========================================
 
-# Solo pasa si coincide con esto. Todo lo demás se borra.
 REGEX_MX_STRICT = r"(?i)\b(mx|mex|mexico|méxico|latam|latino|latin|spanish|español)\b"
 REGEX_MX_CHANNELS = r"(?i)\b(azteca|televisa|las estrellas|canal 5|imagen|adn 40|foro tv|milenio|multimedios|once|canal 22|tdn|tudn|afizzionados|univision|telemundo|fox sports|espn|hbo|cinemax|tnt|space|cinecanal|golden|edge)\b"
-
-# Palabras prohibidas absolutas (Safety net)
 REGEX_BLOCK = r"(?i)\b(xxx|adult|porn|brazil|brasil|portugal|uk|usa|french|italy|germany|turk|arab|hindi|korea|ru|russia)\b"
 
-# Clasificación
 REGEX_MOVIES = r"(?i)\b(movie|pelicula|film|vod|cinema|estreno|accion|terror|drama|comedia)\b"
 REGEX_SERIES = r"(?i)\b(serie|capitulo|temp|season|s0|e0)\b"
 REGEX_KIDS = r"(?i)\b(kids|infantil|cartoon|disney|nick|discovery k|jr)\b"
 
 # ==========================================
-# 4. MODELO DE DATOS COMPATIBLE CON ROKU
+# 4. MODELO DE DATOS
 # ==========================================
 
 @dataclass
 class StreamItem:
     title: str
-    url: str         # La app busca esto para reproducir
-    hdPosterUrl: str # La app busca esto para la imagen
-    group: str       # Categoría interna
-    contentId: str   # ID único
+    url: str         
+    hdPosterUrl: str 
+    group: str       
+    contentId: str   
     quality: str = "SD"
     source: str = ""
     
-    # Método para serializar a diccionario limpio
     def to_dict(self):
         return {
             "title": self.title,
@@ -89,65 +84,38 @@ class StreamItem:
         }
 
 # ==========================================
-# 5. LÓGICA DE NEGOCIO (EL CEREBRO)
+# 5. LÓGICA DE NEGOCIO
 # ==========================================
 
 class TrafficController:
     @staticmethod
     def is_strictly_mexican(title: str, group: str) -> bool:
-        """
-        Devuelve True SOLO si el contenido es confirmadamente de interés para MX.
-        """
         combined = f"{title} {group}".lower()
-        
-        # 1. Bloqueo Inmediato
         if re.search(REGEX_BLOCK, combined): return False
-        
-        # 2. Pase VIP (Canales conocidos)
         if re.search(REGEX_MX_CHANNELS, combined): return True
-        
-        # 3. Pase Regional (Debe decir explícitamente MX/Latino)
         if re.search(REGEX_MX_STRICT, combined): return True
-        
-        # 4. Si es Película/Serie, somos un poco más flexibles con el idioma si no dice "English"
         if (re.search(REGEX_MOVIES, combined) or re.search(REGEX_SERIES, combined)) and "english" not in combined:
             return True
-
         return False
 
     @staticmethod
     def classify_type(title: str, group: str, url: str) -> str:
-        """
-        Determina si es Live, Película o Serie basándose en extensión y nombre.
-        Corrige el error de poner canales en películas.
-        """
         combined = f"{title} {group}".lower()
         url_lower = url.lower()
         
-        # 1. Detección por extensión de archivo (La prueba más fiable)
         is_vod_file = url_lower.endswith(('.mp4', '.mkv', '.avi'))
         
-        # 2. Detección Semántica
-        if re.search(REGEX_SERIES, combined):
-            return "series" # Las series M3U son archivos sueltos, las mandamos a su propia categoría
-        
-        if re.search(REGEX_MOVIES, combined):
-            return "movies"
+        if re.search(REGEX_SERIES, combined): return "series"
+        if re.search(REGEX_MOVIES, combined): return "movies"
+        if re.search(REGEX_KIDS, combined): return "kids"
+        if is_vod_file: return "movies"
             
-        if re.search(REGEX_KIDS, combined):
-            return "kids"
-
-        # 3. Desempate
-        if is_vod_file:
-            return "movies" # Si es archivo estático y no dice serie, es película
-            
-        return "live_tv" # Por defecto, asumimos TV en vivo
+        return "live_tv"
 
     @staticmethod
     def clean_title(title: str) -> str:
-        # Limpia basura visual para que se vea bien en Roku
-        t = re.sub(r'^\d+\s*[-|]\s*', '', title) # Quita numeros iniciales "233 - "
-        t = re.sub(r'(MX:|LAT:|\||\[.*?\]|\(.*?\))', '', t) # Quita etiquetas tecnicas
+        t = re.sub(r'^\d+\s*[-|]\s*', '', title)
+        t = re.sub(r'(MX:|LAT:|\||\[.*?\]|\(.*?\))', '', t)
         return t.strip().title()
 
 # ==========================================
@@ -170,7 +138,6 @@ async def fetch_json(session, url):
     except: return None
 
 async def check_link(session, url, semaphore):
-    # Verificación ligera (HEAD) para no saturar
     async with semaphore:
         try:
             async with session.head(url, timeout=5, allow_redirects=True) as r:
@@ -178,7 +145,7 @@ async def check_link(session, url, semaphore):
         except: return False
 
 # ==========================================
-# 7. PROCESADORES (XTREAM Y M3U)
+# 7. PROCESADORES (CORREGIDOS)
 # ==========================================
 
 async def process_m3u(session, src, playlist, semaphore):
@@ -186,8 +153,6 @@ async def process_m3u(session, src, playlist, semaphore):
     if not data: return
     
     logger.info(f"Analizando M3U: {src['alias']}")
-    
-    # Regex optimizado para capturar items M3U
     pattern = re.compile(r'#EXTINF:(?P<dur>[-0-9]+)(?:.*?)group-title="(?P<grp>.*?)".*?,(?P<title>.*?)[\r\n]+(?P<url>http[^\s]+)', re.DOTALL)
     
     matches = pattern.finditer(data)
@@ -198,40 +163,34 @@ async def process_m3u(session, src, playlist, semaphore):
         raw_group = m.group('grp').strip()
         url = m.group('url').strip()
         
-        # 1. FILTRO ESTRICTO
         if not TrafficController.is_strictly_mexican(raw_title, raw_group):
             continue
             
-        # 2. CLASIFICACIÓN CORRECTA
         category = TrafficController.classify_type(raw_title, raw_group, url)
-        
-        # 3. LIMPIEZA
         clean_name = TrafficController.clean_title(raw_title)
         
         item = StreamItem(
             title=clean_name,
             url=url,
-            hdPosterUrl="", # M3U plano raramente tiene logos fiables, mejor dejar vacío o usar genérico en app
+            hdPosterUrl="",
             group=category,
             contentId=str(abs(hash(url))),
             source=src['alias']
         )
-        
+        # Guardamos TUPLA (item, corutina)
         tasks.append((item, check_link(session, url, semaphore)))
 
-    # Ejecutar validación
     if tasks:
         results = await asyncio.gather(*[t[1] for t in tasks])
         valid_count = 0
-        for (item, is_ok) in zip(tasks, results):
+        # CORRECCIÓN AQUÍ: Desempaquetamos ((item, _), is_ok)
+        for ((item_obj, _), is_ok) in zip(tasks, results):
             if is_ok:
-                playlist[item.group].append(item.to_dict())
+                playlist[item_obj.group].append(item_obj.to_dict())
                 valid_count += 1
-        logger.info(f"[{src['alias']}] Agregados: {valid_count} (Filtrados estictamente)")
+        logger.info(f"[{src['alias']}] Agregados: {valid_count}")
 
 async def process_xtream(session, src, playlist, semaphore):
-    # Solo procesamos LIVE TV de Xtream para asegurar calidad. 
-    # VOD de Xtream suele ser lento, usamos M3U para vod si hay, o solo Live.
     url = f"{src['host']}/player_api.php?username={src['user']}&password={src['pass']}&action=get_live_streams"
     data = await fetch_json(session, url)
     if not isinstance(data, list): return
@@ -241,7 +200,6 @@ async def process_xtream(session, src, playlist, semaphore):
         name = x.get('name', '')
         if TrafficController.is_strictly_mexican(name, "Live"):
             play_url = f"{src['host']}/live/{src['user']}/{src['pass']}/{x.get('stream_id')}.ts"
-            
             cat = "kids" if re.search(REGEX_KIDS, name, re.I) else "live_tv"
             
             item = StreamItem(
@@ -256,8 +214,9 @@ async def process_xtream(session, src, playlist, semaphore):
             
     if tasks:
         results = await asyncio.gather(*[t[1] for t in tasks])
-        for (item, is_ok) in zip(tasks, results):
-            if is_ok: playlist[item.group].append(item.to_dict())
+        # CORRECCIÓN AQUÍ TAMBIÉN
+        for ((item_obj, _), is_ok) in zip(tasks, results):
+            if is_ok: playlist[item_obj.group].append(item_obj.to_dict())
 
 # ==========================================
 # 8. MAIN
@@ -266,34 +225,30 @@ async def process_xtream(session, src, playlist, semaphore):
 async def main():
     start = time.time()
     
-    # ESTRUCTURA EXACTA QUE ESPERA TU APP (No anidada, listas directas)
     playlist = {
         "live_tv": [],
         "movies": [],
-        "series": [], # Ahora será una lista plana de episodios reproducibles
+        "series": [], 
         "kids": [],
         "generated_at": time.ctime()
     }
     
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
-    connector = aiohttp.TCPConnector(limit=100, ssl=False) # SSL False ayuda con servidores IPTV viejos
+    connector = aiohttp.TCPConnector(limit=100, ssl=False)
     
     async with aiohttp.ClientSession(connector=connector, headers={"User-Agent": USER_AGENT}) as session:
         tasks = []
         
-        # 1. Xtream
         if XT_HOST:
             for s in XTREAM_SOURCES:
                 tasks.append(process_xtream(session, s, playlist, semaphore))
         
-        # 2. M3U
         for m in M3U_SOURCES:
             tasks.append(process_m3u(session, m, playlist, semaphore))
             
         await asyncio.gather(*tasks)
         
-    # --- Deduplicación Final ---
-    # Elimina duplicados exactos de URL o Título
+    # Deduplicación
     for key in ["live_tv", "movies", "series", "kids"]:
         seen = set()
         unique = []
@@ -305,14 +260,12 @@ async def main():
         playlist[key] = unique
         playlist[key].sort(key=lambda x: x['title'])
 
-    # Guardar
     with open('playlist.json', 'w', encoding='utf-8') as f:
         json.dump(playlist, f, indent=2, ensure_ascii=False)
         
-    # Git Auto-Push
     try:
         subprocess.run(["git", "add", "playlist.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Fix: Strict MX Filter & Syntax"], check=False)
+        subprocess.run(["git", "commit", "-m", "Fix: Tuple Unpacking"], check=False)
         subprocess.run(["git", "push", "origin", "main"], capture_output=True)
     except Exception as e:
         logger.error(f"Git error: {e}")
@@ -321,6 +274,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
