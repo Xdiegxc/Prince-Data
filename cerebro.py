@@ -6,35 +6,34 @@ import re
 import time
 import logging
 import subprocess
-from dataclasses import dataclass, asdict
-from typing import List, Dict, Any, Optional
+from dataclasses import dataclass
+from typing import List, Dict, Any
 
 # ==========================================
 # 1. CONFIGURACIÓN Y LOGGING
 # ==========================================
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(message)s')
-logger = logging.getLogger("CerebroV100.1_Hotfix")
+logger = logging.getLogger("CerebroV100.2_RokuNative")
 
 # Credenciales y Configuración
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
-USER_AGENT = "IPTVSmartersPro/100.0" 
+USER_AGENT = "IPTVSmartersPro/100.2" 
 
-# Tiempos más agresivos para descartar basura rápido
+# Tiempos
 HTTP_TIMEOUT = 20 
 MAX_CONCURRENT_CHECKS = 150
 
 # ==========================================
-# 2. DEFINICIÓN DE FUENTES
+# 2. FUENTES
 # ==========================================
 
 XTREAM_SOURCES = [
     { "type": "xtream", "alias": "LatinaPro_Main", "host": XT_HOST, "user": XT_USER, "pass": XT_PASS },
 ]
 
-# Tus listas M3U
 M3U_SOURCES = [
     {"alias": "Mirror_77", "url": "http://77.237.238.21:2082/get.php?username=VicTorC&password=Victo423&type=m3u_plus"},
     {"alias": "Latina_Direct", "url": "http://tvappapk@latinapro.net:25461/get.php?username=lazaroperez&password=perez3&type=m3u_plus"},
@@ -49,7 +48,7 @@ M3U_SOURCES = [
 ]
 
 # ==========================================
-# 3. FILTROS "ZERO TRUST" (ESTRICTOS)
+# 3. FILTROS ESTRICTOS
 # ==========================================
 
 REGEX_MX_STRICT = r"(?i)\b(mx|mex|mexico|méxico|latam|latino|latin|spanish|español)\b"
@@ -102,14 +101,12 @@ class TrafficController:
     def classify_type(title: str, group: str, url: str) -> str:
         combined = f"{title} {group}".lower()
         url_lower = url.lower()
-        
         is_vod_file = url_lower.endswith(('.mp4', '.mkv', '.avi'))
         
         if re.search(REGEX_SERIES, combined): return "series"
         if re.search(REGEX_MOVIES, combined): return "movies"
         if re.search(REGEX_KIDS, combined): return "kids"
         if is_vod_file: return "movies"
-            
         return "live_tv"
 
     @staticmethod
@@ -145,7 +142,7 @@ async def check_link(session, url, semaphore):
         except: return False
 
 # ==========================================
-# 7. PROCESADORES (CORREGIDOS)
+# 7. PROCESADORES
 # ==========================================
 
 async def process_m3u(session, src, playlist, semaphore):
@@ -163,8 +160,7 @@ async def process_m3u(session, src, playlist, semaphore):
         raw_group = m.group('grp').strip()
         url = m.group('url').strip()
         
-        if not TrafficController.is_strictly_mexican(raw_title, raw_group):
-            continue
+        if not TrafficController.is_strictly_mexican(raw_title, raw_group): continue
             
         category = TrafficController.classify_type(raw_title, raw_group, url)
         clean_name = TrafficController.clean_title(raw_title)
@@ -177,13 +173,11 @@ async def process_m3u(session, src, playlist, semaphore):
             contentId=str(abs(hash(url))),
             source=src['alias']
         )
-        # Guardamos TUPLA (item, corutina)
         tasks.append((item, check_link(session, url, semaphore)))
 
     if tasks:
         results = await asyncio.gather(*[t[1] for t in tasks])
         valid_count = 0
-        # CORRECCIÓN AQUÍ: Desempaquetamos ((item, _), is_ok)
         for ((item_obj, _), is_ok) in zip(tasks, results):
             if is_ok:
                 playlist[item_obj.group].append(item_obj.to_dict())
@@ -214,7 +208,6 @@ async def process_xtream(session, src, playlist, semaphore):
             
     if tasks:
         results = await asyncio.gather(*[t[1] for t in tasks])
-        # CORRECCIÓN AQUÍ TAMBIÉN
         for ((item_obj, _), is_ok) in zip(tasks, results):
             if is_ok: playlist[item_obj.group].append(item_obj.to_dict())
 
@@ -225,12 +218,14 @@ async def process_xtream(session, src, playlist, semaphore):
 async def main():
     start = time.time()
     
+    # ESTRUCTURA CORREGIDA: Sin metadatos, solo listas.
+    # Esto evita el error "listData.Count()" en Roku.
     playlist = {
         "live_tv": [],
         "movies": [],
         "series": [], 
-        "kids": [],
-        "generated_at": time.ctime()
+        "kids": []
+        # Eliminado: "generated_at"
     }
     
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
@@ -238,18 +233,13 @@ async def main():
     
     async with aiohttp.ClientSession(connector=connector, headers={"User-Agent": USER_AGENT}) as session:
         tasks = []
-        
         if XT_HOST:
-            for s in XTREAM_SOURCES:
-                tasks.append(process_xtream(session, s, playlist, semaphore))
-        
-        for m in M3U_SOURCES:
-            tasks.append(process_m3u(session, m, playlist, semaphore))
-            
+            for s in XTREAM_SOURCES: tasks.append(process_xtream(session, s, playlist, semaphore))
+        for m in M3U_SOURCES: tasks.append(process_m3u(session, m, playlist, semaphore))
         await asyncio.gather(*tasks)
         
     # Deduplicación
-    for key in ["live_tv", "movies", "series", "kids"]:
+    for key in playlist:
         seen = set()
         unique = []
         for item in playlist[key]:
@@ -265,7 +255,7 @@ async def main():
         
     try:
         subprocess.run(["git", "add", "playlist.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Fix: Tuple Unpacking"], check=False)
+        subprocess.run(["git", "commit", "-m", "Fix: Roku Native JSON Structure"], check=False)
         subprocess.run(["git", "push", "origin", "main"], capture_output=True)
     except Exception as e:
         logger.error(f"Git error: {e}")
@@ -274,6 +264,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
