@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Dec  2 12:36:29 2025",
+    "generated_at": "Tue Dec  2 18:27:08 2025",
     "version": "v98.2_Refined_Filters",
     "focus": "Mexico_Refined"
   },
@@ -908,6 +908,17 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Coronas y citas para navidad (2024)",
+      "contentId": "55157",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55157.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyTiEAmeu0U1tCT-wQ9ArzM0IPTS26uq-HdOo9iyn6W4.jpg",
+      "plot": "Tras lesionarse el brazo, una artesana de coronas recibe la ayuda de una amable vecina para mantener su negocio a flote durante la ajetreada temporada navideña. Mientras trabajan juntas, surge entre ellas un vínculo inesperado y una conexión especial en estas fiestas.",
+      "genre": "Película de TV, Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Corte en el tiempo (2024)",
       "contentId": "52816",
       "group": "movies",
@@ -1228,6 +1239,18 @@
       "rating": 7.0,
       "plot": "Un perro y un agente de policía resultan heridos juntos en el trabajo. Una operación quirúrgica que les salva la vida cambia el curso de la historia cuando nace Policán. Mitad perro, mitad hombre, Policán ha jurado proteger y servir -siempre que no le distraigan las ardillas- mientras persigue tenazmente a su archienemigo: el supervillano felino Petey el Gato. Pero la rivalidad entre Policán y Petey se ve alterada por la llegada de un adorable gatito clon de Petey, Lil Petey, que cambia las reglas del juego para ambos.",
       "genre": "Familia, Animación, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Dos mundos, un deseo (2025)",
+      "contentId": "55159",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55159.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO34pcSZ5pklzyCuNN6o6XkmQ2DczPV5WrbX3mXlkg_Ps.jpg",
+      "rating": 7.7,
+      "plot": "Bilge y Can comienzan a escucharse telepáticamente veintiún años después de aquel encuentro mágico en el hospital infantil. Lo que parece ser un milagro termina siendo un secreto oculto, ya que el destino les reserva mucho más a pesar del tiempo: una aventura emocionante y una historia de amor épica.",
+      "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -3562,6 +3585,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Patrulla de aterrizaje: Protocolo bola de nieve (2025)",
+      "contentId": "55158",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55158.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGtv0Syv7vt3duAg7kM_BTWB0dC6Wqqh7P2KaIL-e1qE.jpg",
+      "rating": 8.0,
+      "plot": "Cuando sus misiones navideñas se tuercen, Wayne cree que tiene un gran problema con Papá Noel, lo que abre una bóveda de alegres contratiempos del pasado.",
+      "genre": "Animación",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Pedro el escamoso: más escamoso que nunca (2024)",
       "contentId": "214",
       "group": "series",
@@ -4144,6 +4179,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "TRON: Ares (2025)",
+      "contentId": "55161",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55161.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEwx3RODFsG6ky0x2Y4O68mnuaft4puJZFLGg7bc-iTQ.jpg",
+      "rating": 6.3,
+      "plot": "La historia de Ares, un programa muy sofisticado que se envía desde el mundo digital al mundo real en una misión peligrosa y que va a representar el primer encuentro de la humanidad con seres creados por la IA.",
+      "genre": "Ciencia ficción, Aventura, Acción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Taken from Rio Bravo (2024)",
       "contentId": "41462",
       "group": "movies",
@@ -4324,6 +4371,18 @@
       "rating": 8.0,
       "plot": "La historia jamás contada del origen de Optimus Prime y Megatron y de cómo pasaron de ser hermanos de armas que cambiaron el destino de Cybertron para siempre, a convertirse en enemigos acérrimos.",
       "genre": "Animación, Ciencia ficción, Aventura",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Trol 2 (2025)",
+      "contentId": "55160",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55160.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPGqyqw7UJ5SqtfCLFhHrLndbbqRRf1w8Oo-YAFuQ6UY.jpg",
+      "rating": 6.5,
+      "plot": "Cuando un nuevo y peligroso trol amenaza con devastar su país, Nora, Andreas y el comandante Kris se embarcan en la misión más peligrosa de sus vidas.",
+      "genre": "Acción, Fantasía, Suspense",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -10525,6 +10584,17 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Coronas y citas para navidad (2024)",
+      "contentId": "55157",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55157.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyTiEAmeu0U1tCT-wQ9ArzM0IPTS26uq-HdOo9iyn6W4.jpg",
+      "plot": "Tras lesionarse el brazo, una artesana de coronas recibe la ayuda de una amable vecina para mantener su negocio a flote durante la ajetreada temporada navideña. Mientras trabajan juntas, surge entre ellas un vínculo inesperado y una conexión especial en estas fiestas.",
+      "genre": "Película de TV, Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Coronavirus: El origen (2020)",
       "contentId": "17877",
       "group": "movies",
@@ -11947,6 +12017,18 @@
       "rating": 6.3,
       "plot": "Harold (Cho) y Kumar (Penn) hacen un viaje a Amsterdam para coger suministros pero, durante el viaje, son confundidos con dos terroristas islámicos con intenciones de secuestrar el avión. Les detienen y son enviados a la prisión americana de Guantánamo, Cuba. Allí empieza una historia hilarante que les llevará a las situaciones más surrealistas y desesperadas.",
       "genre": "Comedia, Aventura",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Dos mundos, un deseo (2025)",
+      "contentId": "55159",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55159.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO34pcSZ5pklzyCuNN6o6XkmQ2DczPV5WrbX3mXlkg_Ps.jpg",
+      "rating": 7.7,
+      "plot": "Bilge y Can comienzan a escucharse telepáticamente veintiún años después de aquel encuentro mágico en el hospital infantil. Lo que parece ser un milagro termina siendo un secreto oculto, ya que el destino les reserva mucho más a pesar del tiempo: una aventura emocionante y una historia de amor épica.",
+      "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -27620,6 +27702,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Patrulla de aterrizaje: Protocolo bola de nieve (2025)",
+      "contentId": "55158",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55158.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGtv0Syv7vt3duAg7kM_BTWB0dC6Wqqh7P2KaIL-e1qE.jpg",
+      "rating": 8.0,
+      "plot": "Cuando sus misiones navideñas se tuercen, Wayne cree que tiene un gran problema con Papá Noel, lo que abre una bóveda de alegres contratiempos del pasado.",
+      "genre": "Animación",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Patrulla trueno (2021)",
       "contentId": "22025",
       "group": "movies",
@@ -29568,6 +29662,18 @@
       "rating": 5.6,
       "plot": "Un grupo de élite militar de EE. UU., Rusia, Reino Unido, China y Francia unen fuerzas para luchar contra una red terrorista clandestina de élite.",
       "genre": "Acción, Bélica",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Romeo + Julieta de William Shakespeare (1996)",
+      "contentId": "55156",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55156.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOKKyoieXlHSzjac2YS78b5eUvzBpnauX0CWfgyCEthjg.jpg",
+      "rating": 6.8,
+      "plot": "En Verona Beach se suceden los enfrentamientos entre las dos familias más poderosas (los Montesco y los Capuleto), cuyo objetivo es conseguir el dominio de la ciudad. Fulgencio Capuleto organiza una fiesta a la que asiste, gracias a la mediación de su amigo Mercuccio, Romeo Montesco. Lo que los Capuleto pretenden es que su joven hija Julieta se comprometa con el arrogante Dave Paris, el hijo del gobernador. Pero, cuando Romeo y Julieta se miran, surgirá entre ellos desde el primer momento la chispa del amor. Adaptación moderna del clásico de Shakespeare.",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -31736,6 +31842,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "TRON: Ares (2025)",
+      "contentId": "55161",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55161.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEwx3RODFsG6ky0x2Y4O68mnuaft4puJZFLGg7bc-iTQ.jpg",
+      "rating": 6.3,
+      "plot": "La historia de Ares, un programa muy sofisticado que se envía desde el mundo digital al mundo real en una misión peligrosa y que va a representar el primer encuentro de la humanidad con seres creados por la IA.",
+      "genre": "Ciencia ficción, Aventura, Acción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "TRON: Legacy (2010)",
       "contentId": "24746",
       "group": "movies",
@@ -33382,6 +33500,18 @@
       "rating": 6.4,
       "plot": "Se ha puesto precio a la cabeza de la hija de un multimillonario que tiene la intención de acabar con el mayor sindicato del crimen de la ciudad. Un equipo de mercenarios retirados deberán enfrentarse a un grupo de asesinos profesionales, y detenerlos antes de que maten a su objetivo.",
       "genre": "Suspense, Acción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Trol 2 (2025)",
+      "contentId": "55160",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55160.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPGqyqw7UJ5SqtfCLFhHrLndbbqRRf1w8Oo-YAFuQ6UY.jpg",
+      "rating": 6.5,
+      "plot": "Cuando un nuevo y peligroso trol amenaza con devastar su país, Nora, Andreas y el comandante Kris se embarcan en la misión más peligrosa de sus vidas.",
+      "genre": "Acción, Fantasía, Suspense",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
