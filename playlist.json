@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Dec  5 18:22:27 2025",
+    "generated_at": "Sat Dec  6 01:14:00 2025",
     "version": "v98.2_Refined_Filters",
     "focus": "Mexico_Refined"
   },
@@ -4422,6 +4422,17 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Un Buen Ladrón (2025)",
+      "contentId": "55174",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55174.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBHEwKwla27SmEWAJ31f-3i7E28xFEp25QY7cujj0N5k.jpg",
+      "rating": 7.2,
+      "genre": "Crimen, Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Un Viaje de Sobriedad (2024)",
       "contentId": "53792",
       "group": "movies",
@@ -4502,6 +4513,18 @@
       "rating": 7.0,
       "plot": "En las profundidades de la Patagonia de los años 80, un guía de caza se topa con un espeluznante crimen en el que está implicada su sobrina, lo que le obliga a investigar y a enfrentarse a los inquietantes secretos de aquellos oscuros años en su búsqueda de justicia.",
       "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Una mujer sin filtro (2025)",
+      "contentId": "55173",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55173.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9COxVbVauFoD6p1WP6vFyzADzaoL31eBIfWvDgXdHdE.jpg",
+      "rating": 6.1,
+      "plot": "Una ejecutiva publicitaria sobrecargada de trabajo lidia con un jefe sexista, un marido perezoso, una amiga egocéntrica y una hermana difícil. Tras conocer a una sanadora mística, de repente pierde el control y empieza a decir lo que piensa sin tapujos.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -4757,6 +4780,18 @@
       "source_alias": "LatinaPro_MX",
       "series_id": "256",
       "api_url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=256"
+    },
+    {
+      "title": "Zona de caza (2025)",
+      "contentId": "55171",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55171.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOrhcaiwjP24gHf8_klS1ti7KB3xn7PXyne6aA-K7Ay60.jpg",
+      "rating": 6.7,
+      "plot": "Una madre que huye de su marido, relacionado con la mafia, encuentra refugio en casa de un vagabundo llamado Jake, pero cuando los hombres de su marido se acercan, Jake resulta ser más peligroso que cualquiera de los que ella huye.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
     },
     {
       "title": "Zorro (2024)",
@@ -32415,6 +32450,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "The Curse of the Clown Motel (2023)",
+      "contentId": "55172",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55172.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOvWJC_fMkmmgawbEOb-w0unwwz82HhNlVb6Z04u1dyJs.jpg",
+      "rating": 4.0,
+      "plot": "Cuando Alma regresa a casa para ayudar a su familia a que se reconozca su herencia nativa americana, todo lo que encuentra es el mundialmente famoso Clown Motel que se ha erigido en su tierra.",
+      "genre": "Terror, Acción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "The Darker the Lake (2022)",
       "contentId": "29531",
       "group": "movies",
@@ -33711,6 +33758,17 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Un Buen Ladrón (2025)",
+      "contentId": "55174",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55174.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBHEwKwla27SmEWAJ31f-3i7E28xFEp25QY7cujj0N5k.jpg",
+      "rating": 7.2,
+      "genre": "Crimen, Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Un Quijote Sin Mancha (1969)",
       "contentId": "18032",
       "group": "movies",
@@ -34171,6 +34229,18 @@
       "rating": 7.0,
       "plot": "En las profundidades de la Patagonia de los años 80, un guía de caza se topa con un espeluznante crimen en el que está implicada su sobrina, lo que le obliga a investigar y a enfrentarse a los inquietantes secretos de aquellos oscuros años en su búsqueda de justicia.",
       "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Una mujer sin filtro (2025)",
+      "contentId": "55173",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55173.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9COxVbVauFoD6p1WP6vFyzADzaoL31eBIfWvDgXdHdE.jpg",
+      "rating": 6.1,
+      "plot": "Una ejecutiva publicitaria sobrecargada de trabajo lidia con un jefe sexista, un marido perezoso, una amiga egocéntrica y una hermana difícil. Tras conocer a una sanadora mística, de repente pierde el control y empieza a decir lo que piensa sin tapujos.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -35631,6 +35701,18 @@
       "rating": 5.4,
       "plot": "En un futuro cercano, en una colonia de robots de última generación, el creador de la colonia contrata a un investigador privado para llevar a casa a su hija desaparecida.",
       "genre": "Ciencia ficción, Suspense, Misterio",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Zona de caza (2025)",
+      "contentId": "55171",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55171.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOrhcaiwjP24gHf8_klS1ti7KB3xn7PXyne6aA-K7Ay60.jpg",
+      "rating": 6.7,
+      "plot": "Una madre que huye de su marido, relacionado con la mafia, encuentra refugio en casa de un vagabundo llamado Jake, pero cuando los hombres de su marido se acercan, Jake resulta ser más peligroso que cualquiera de los que ella huye.",
+      "genre": "Acción, Suspense",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
