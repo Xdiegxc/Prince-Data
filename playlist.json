@@ -1,8 +1,7 @@
 {
   "meta": {
-    "generated_at": "Sun Dec  7 04:45:02 2025",
-    "version": "v99.2_Manual_Update",
-    "notes": "Includes Updated FoxSports"
+    "generated_at": "Sun Dec  7 04:53:46 2025",
+    "version": "v99.3_Fix_Logic"
   },
   "premieres": [
     {
@@ -5453,42 +5452,6 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/820b128c3afc31349237f2c4f9689d6c.jpg",
       "quality": "HD",
       "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "USA: ESPN 2 HD",
-      "contentId": "338",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/338.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/973822139bde28ada94071e8bf9479b9.jpg",
-      "quality": "HD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "USA: FOX New York",
-      "contentId": "4917",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4917.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/f3005da8ef7d73638b30791bbb14180e.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "USA: Fox Sports 1",
-      "contentId": "340",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/340.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/b88ab5a849ebacbea981467921da314d.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
-    },
-    {
-      "title": "USA: Fox Sports 2",
-      "contentId": "339",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/339.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/2bf9d282fc831b08d0adac0841918f9e.jpg",
-      "quality": "SD",
-      "source_alias": "LatinaPro_MX"
     }
   ],
   "kids": [
@@ -5497,6 +5460,24 @@
       "contentId": "5054",
       "group": "kids",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5054.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: Baby Tv",
+      "contentId": "130",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/130.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/1bc062452287810f48ebe9e785f8bf45.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: Boing (P)",
+      "contentId": "131",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/131.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/6aab4c963cd9cb201bb5d3609871075c.png",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -5519,6 +5500,51 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Es: Dreamworks",
+      "contentId": "184",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/184.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/OJ_LLAMA7ikgxcMX6uCVwQr1mRU-0D5QCoMFnpJ0qgfztdLFRC7wMSOnvVVr-6YZLTR89XYdDTcPDbYjU-DNuTZRm4HK5_IU9O3pVlY2ddU.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: Nick Junior (P)",
+      "contentId": "166",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/166.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/c66386e0f22d302ba325f37c0dafbb50.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Bitme",
+      "contentId": "301",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/301.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_ZoQk6EISShvdZZgwe_Ys2-wEzin9enpwA&s",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Cartoon Network Hd (P)",
+      "contentId": "1140",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1140.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/266601cf98d5bfa5740872a11cd8ebf5.png",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Kids",
+      "contentId": "5031",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5031.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/8a703824b6afded41ca1f5146ed80125.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Lat: Disney Channel Hd",
       "contentId": "303",
       "group": "kids",
@@ -5533,6 +5559,42 @@
       "group": "kids",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/302.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Nick 2 Hd",
+      "contentId": "1142",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1142.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/203468c212764d84fb6a2596715687ce.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Nick Hd",
+      "contentId": "1141",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1141.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/5b9b9a4e7d6eb970ef06a221a2c7d9c6.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Nick JR",
+      "contentId": "290",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/290.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/c66386e0f22d302ba325f37c0dafbb50.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Tooncast",
+      "contentId": "287",
+      "group": "kids",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/287.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/fe0691923cbe944af316fbf7a69517b0.png",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -5564,8 +5626,344 @@
       "source_alias": "LatinaPro_MX"
     }
   ],
-  "docs": [],
-  "music": [],
+  "docs": [
+    {
+      "title": "Es: Canal Cocina",
+      "contentId": "134",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/134.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/7528e20d41b00e01bd87893fc5656ad9.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: Discovery Channel (P)",
+      "contentId": "156",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/156.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/193ccffac4c68faf5377cdec2679f528.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: National Geographic Hd (P)",
+      "contentId": "168",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/168.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/79fdd01ac16bd028b7d0f5db231c6ae9.png",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: A&E Mundo Hd (P)",
+      "contentId": "1143",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1143.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/285d6527bd60dc4e36159473e2b54a77.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Animal Planet",
+      "contentId": "4412",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4412.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/0e57813f2ff522ad5847fdb98831f119.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Civilization",
+      "contentId": "284",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/284.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/29a482218c5b55e69c4d5cc69d4c9564.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Hd",
+      "contentId": "1158",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1158.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/2a8125eff68d5229c5f7fdb9da112b2e.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery ID Hd (P)",
+      "contentId": "314",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/314.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/355b8146c4862df10e188d188939882a.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Science",
+      "contentId": "283",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/283.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/9e53f942bf6ddf8bc2dfccdaffad9b30.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Theater Hd",
+      "contentId": "304",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/304.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/4dea4e19766fc3d4b2f99f0c7b88dfc5.png",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery Turbo",
+      "contentId": "1157",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1157.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4heZg89iOpc9IJHp8oxP-lE07-UT5CT7vA&s",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Discovery World HD",
+      "contentId": "282",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/282.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/ac936f11df779162c4603f68c67b09c9.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: El Gourmet Hd (P)",
+      "contentId": "313",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/313.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/dcd02df3f8a7fac332a122a23d218c97.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: Food Network Hd",
+      "contentId": "20",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/20.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/5ff91a3504c4ddfc81217ceb3da55fda.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: History Channel Hd (P)",
+      "contentId": "292",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/292.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/93b75697c852834ae00eda9f89fe0357.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: National Geographic Hd (P)",
+      "contentId": "291",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/291.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/79fdd01ac16bd028b7d0f5db231c6ae9.png",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "PL: Discovery Life HD",
+      "contentId": "3965",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3965.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/1e5f8014f3b691011c111680067170d2.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "PL: NAT GEO WILD",
+      "contentId": "3948",
+      "group": "docs",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3948.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/80c2c65fa9be01bf404e302a7f0c60ba.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    }
+  ],
+  "music": [
+    {
+      "title": "Bolivia: Radio Camargo",
+      "contentId": "5060",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5060.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio El Deber",
+      "contentId": "5056",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5056.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio Erbol",
+      "contentId": "5061",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5061.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio Fides",
+      "contentId": "5055",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5055.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio Folcklorica Uyuni",
+      "contentId": "5057",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5057.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio Kantuta Oruro",
+      "contentId": "5059",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5059.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Bolivia: Radio Potosi",
+      "contentId": "5058",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5058.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Colombia: RCN Radio",
+      "contentId": "5033",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5033.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Colombia: Radio Bomba FM Cali",
+      "contentId": "7983",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/7983.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Colombia: Radio Calidad",
+      "contentId": "5050",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5050.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Colombia: Radio Fantastica",
+      "contentId": "5035",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5035.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Colombia: Radio Uno Cali",
+      "contentId": "5331",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5331.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Es: MTV (P)",
+      "contentId": "169",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/169.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Espana: EsRadio",
+      "contentId": "8648",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8648.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Espana: Radio Bomba",
+      "contentId": "7982",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/7982.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Espana: Radio Kiss FM",
+      "contentId": "8650",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8650.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Espana: Radio Marca",
+      "contentId": "8653",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8653.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Espana: Radio Sevilla",
+      "contentId": "5332",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5332.ts",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Lat: MTV HD",
+      "contentId": "5491",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5491.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
+      "quality": "HD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "PL: Polsat Music FHD",
+      "contentId": "3972",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3972.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/c4f05c68c32927b620946a89c7037012.png",
+      "quality": "FHD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Peru: BHTV",
+      "contentId": "4314",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4314.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/4784811cbdda84a7b81878119c8f6ed0.png",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    }
+  ],
   "movies": [
     {
       "title": "#Vivo (2020)",
