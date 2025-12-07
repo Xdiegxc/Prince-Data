@@ -6,69 +6,83 @@ import re
 import time
 import logging
 import subprocess
-from dataclasses import dataclass, field, asdict
-from typing import List, Dict, Any, Optional, Set
+from dataclasses import dataclass, asdict
+from typing import List, Dict, Any, Optional, Set, Pattern
 
 # ==========================================
-# 1. CONFIGURACIÓN CENTRAL Y LOGGING
+# 1. CONFIGURACIÓN Y ARQUITECTURA
 # ==========================================
 
 # Configuración de Logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s | %(levelname)s | %(message)s',
+    format='%(asctime)s | %(levelname)s | %(name)s | %(message)s',
     datefmt='%H:%M:%S'
 )
-logger = logging.getLogger("CerebroV98.2")
+logger = logging.getLogger("CerebroV99.0")
 
-# Credenciales (Lectura de Variables de Entorno)
+# Credenciales
 XT_HOST = os.getenv("XT_HOST")
 XT_USER = os.getenv("XT_USER")
 XT_PASS = os.getenv("XT_PASS")
 USER_AGENT = "IPTVSmartersPro/98.2"
 
-# Parámetros de Rendimiento
-MAX_CONCURRENT_CHECKS = 75  
-HTTP_TIMEOUT = 45           
+# Configuración de Rendimiento
+MAX_CONCURRENT_CHECKS = 100  # Aumentado para mayor throughput
+HTTP_TIMEOUT = 30            # Ajustado para fail-fast
 MAX_RETRIES = 2
 
-# Fuentes
+# --- INYECCIÓN MANUAL (TU REQUERIMIENTO) ---
+# Aquí es donde se agregan canales estáticos de forma limpia
+MANUAL_OVERRIDES = [
+    {
+        "type": "manual_stream",
+        "title": "Fox Sports Premium MX",
+        "contentId": "FoxSportsPremium.mx",
+        "group": "sports",
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/foxsports/playlist.m3u8",
+        "hdPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Fox_Sports_Premium_logo.svg/1200px-Fox_Sports_Premium_logo.svg.png", # Placeholder logo
+        "quality": "HD"
+    }
+]
+
 SOURCES = [
     { "type": "xtream", "alias": "LatinaPro_MX", "host": XT_HOST, "user": XT_USER, "pass": XT_PASS },
 ]
 
 # ==========================================
-# 2. MOTORES DE FILTRADO (REGEX REFINADO)
+# 2. MOTORES DE FILTRADO (PRE-COMPILADO)
+# ==========================================
+# MEJORA SENIOR: Compilar regex una vez, no en cada vuelta del bucle.
+
+# Flags comunes
+RE_FLAGS = re.IGNORECASE
+
+# Listas de patrones
+PATTERNS = {
+    "MX_STRICT": re.compile(r"\b(mx|mex|mexico|méxico|latam|latino|spanish|español|audio latino)\b", RE_FLAGS),
+    "MX_CHANNELS": re.compile(r"\b(azteca|televisa|estrellas|canal 5|imagen|adn 40|foro tv|milenio|multimedios|once|canal 22|tdn|tudn|afizzionados)\b", RE_FLAGS),
+    "PREMIUM_LATAM": re.compile(r"\b(hbo|max|star|disney|espn|fox|f1|gol|win|vix|cnn|axn|warner|tnt|space|universal)\b", RE_FLAGS),
+    "HARD_BLOCK": re.compile(r"\b(usa|uk|canada|adult|xxx|porn|hindi|arab|turk|korea|french|german|italian|brasil|brazil|portugal|pt)\b", RE_FLAGS),
+    "SPORTS_BLOCK": re.compile(r"\b(brasil|brazil|portugal|pt)\b", RE_FLAGS),
+    "SPORTS_KEYWORDS": re.compile(r"(deporte|sport|espn|fox|ufc|nfl|f1|liga|chivas|beisbol|tenis|racing)", RE_FLAGS),
+    "KIDS": re.compile(r"\b(kids|infantil|cartoon|nick|disney|discovery kids|paka paka|boing|clantv|cbeebies|zaz|toons|baby|junior)\b", RE_FLAGS),
+    "DOCS": re.compile(r"\b(discovery|history|nat geo|national geographic|documental|docu|a\&e|misterio|science|viajes|travel|animal planet|investigation)\b", RE_FLAGS),
+    "MUSIC": re.compile(r"(music|mtv|vh1|radio|concert)", RE_FLAGS),
+    "SPAIN_ALLOW": re.compile(r"\b(spain|españa)\b", RE_FLAGS),
+    # Calidad
+    "4K": re.compile(r"\b(4k|uhd|2160p)\b", RE_FLAGS),
+    "FHD": re.compile(r"\b(fhd|1080p|hevc)\b", RE_FLAGS),
+    "HD": re.compile(r"\b(hd|720p)\b", RE_FLAGS),
+    "PREMIERE_YEAR": re.compile(r"(2024|2025)", RE_FLAGS)
+}
+
+# ==========================================
+# 3. MODELADO DE DATOS
 # ==========================================
 
-# Filtro de Inclusión General (Whitelisting): Contenido MX/LATAM que debe pasar en VOD/Series/LiveTV
-REGEX_MX_STRICT = r"(?i)\b(mx|mex|mexico|méxico|latam|latino|spanish|español|audio latino)\b"
-REGEX_MX_CHANNELS = r"(?i)\b(azteca|televisa|estrellas|canal 5|imagen|adn 40|foro tv|milenio|multimedios|once|canal 22|tdn|tudn|afizzionados)\b"
-REGEX_PREMIUM_LATAM = r"(?i)\b(hbo|max|star|disney|espn|fox|f1|gol|win|vix|cnn|axn|warner|tnt|space|universal)\b"
-
-# Filtro de Exclusión General (Blocklist): Contenido que debe ser descartado
-REGEX_HARD_BLOCK_GENERAL = r"(?i)\b(usa|uk|canada|adult|xxx|porn|hindi|arab|turk|korea|french|german|italian|brasil|brazil|portugal|pt)\b"
-
-# Excepción de Filtro para DEPORTES: Permite España (spain/españa) pero bloquea Brasil/Portugal
-REGEX_SPORTS_BLOCK = r"(?i)\b(brasil|brazil|portugal|pt)\b"
-
-# Detección de Categorías Específicas (Corregidos para ser más amplios)
-REGEX_KIDS = r"(?i)\b(kids|infantil|cartoon|nick|disney|discovery kids|paka paka|boing|clantv|cbeebies|zaz|toons|baby|junior)\b"
-REGEX_DOCS = r"(?i)\b(discovery|history|nat geo|national geographic|documental|docu|a\&e|misterio|science|viajes|travel|animal planet|investigation)\b"
-
-# Detección de Calidad y Estrenos
-REGEX_4K = r"(?i)\b(4k|uhd|2160p)\b"
-REGEX_FHD = r"(?i)\b(fhd|1080p|hevc)\b"
-REGEX_HD = r"(?i)\b(hd|720p)\b"
-REGEX_PREMIERE_YEAR = r"(2024|2025)" 
-
-# ==========================================
-# 3. MODELADO DE DATOS (DATACLASSES)
-# ==========================================
-
-@dataclass
+@dataclass(slots=True) # MEJORA: slots reduce el footprint de memoria
 class StreamItem:
-    """Modelo de datos inmutable para un stream o VOD."""
     title: str
     contentId: str
     group: str
@@ -84,150 +98,155 @@ class StreamItem:
     api_url: str = ""
     
     def to_dict(self):
+        # Filtramos valores vacíos para reducir el tamaño del JSON final
         return {k: v for k, v in asdict(self).items() if v}
 
 # ==========================================
-# 4. LÓGICA DE FILTROS Y UTILERÍAS
+# 4. LÓGICA DE NEGOCIO (FILTROS)
 # ==========================================
 
 class ContentFilter:
-    """Lógica de negocio para determinar inclusión, calidad y categoría."""
+    """Motor de decisión optimizado."""
 
     @staticmethod
     def is_mexico_focused(name: str) -> bool:
-        """
-        Determina si el contenido es relevante para la audiencia MX (General).
-        Utiliza el bloqueo general que incluye España/LATAM.
-        """
-        if re.search(REGEX_HARD_BLOCK_GENERAL, name):
-            return False
-        
-        is_mx_region = bool(re.search(REGEX_MX_STRICT, name))
-        is_mx_channel = bool(re.search(REGEX_MX_CHANNELS, name))
-        is_premium = bool(re.search(REGEX_PREMIUM_LATAM, name))
-
-        return is_mx_region or is_mx_channel or is_premium
+        if PATTERNS["HARD_BLOCK"].search(name): return False
+        return (bool(PATTERNS["MX_STRICT"].search(name)) or 
+                bool(PATTERNS["MX_CHANNELS"].search(name)) or 
+                bool(PATTERNS["PREMIUM_LATAM"].search(name)))
 
     @staticmethod
     def is_sports_focused(name: str) -> bool:
-        """
-        Regla especial para Deportes: Permite LATAM y España, pero excluye Brasil/Portugal.
-        """
-        # 1. Bloqueo de Brasil/Portugal (Regla específica del usuario)
-        if re.search(REGEX_SPORTS_BLOCK, name):
-            return False
+        if PATTERNS["SPORTS_BLOCK"].search(name): return False
+        if not PATTERNS["SPORTS_KEYWORDS"].search(name): return False
         
-        # 2. Debe contener palabras clave de deportes
-        if not any(x in name.lower() for x in ['deporte', 'sport', 'espn', 'fox', 'ufc', 'nfl', 'f1', 'liga', 'chivas', 'beisbol', 'tenis', 'racing']):
-            return False
-            
-        # 3. Debe ser relevante (no aplica el bloqueo estricto general para permitir España)
-        is_mx_latam = bool(re.search(REGEX_MX_STRICT, name))
-        is_spain = bool(re.search(r"(?i)\b(spain|españa)\b", name))
-        is_premium = bool(re.search(REGEX_PREMIUM_LATAM, name))
-        
-        return is_mx_latam or is_spain or is_premium
+        # Lógica compuesta optimizada
+        is_relevant = (bool(PATTERNS["MX_STRICT"].search(name)) or 
+                       bool(PATTERNS["SPAIN_ALLOW"].search(name)) or 
+                       bool(PATTERNS["PREMIUM_LATAM"].search(name)))
+        return is_relevant
 
     @staticmethod
     def detect_quality(name: str) -> str:
-        if re.search(REGEX_4K, name): return "4K"
-        if re.search(REGEX_FHD, name): return "FHD"
-        if re.search(REGEX_HD, name): return "HD"
+        if PATTERNS["4K"].search(name): return "4K"
+        if PATTERNS["FHD"].search(name): return "FHD"
+        if PATTERNS["HD"].search(name): return "HD"
         return "SD"
 
     @staticmethod
     def categorize_live(name: str) -> str:
-        """Asigna una categoría de TV en vivo (con REGEX mejorados)."""
-        if re.search(REGEX_KIDS, name): return "kids"
-        if re.search(REGEX_DOCS, name): return "docs"
-        
-        # Deportes tiene su propia lógica de inclusión/exclusión, así que lo revisamos con su función
+        if PATTERNS["KIDS"].search(name): return "kids"
+        if PATTERNS["DOCS"].search(name): return "docs"
         if ContentFilter.is_sports_focused(name): return "sports"
-        
-        # El resto se clasifica por palabras clave si no fue capturado
-        name_lower = name.lower()
-        if any(x in name_lower for x in ['music', 'mtv', 'vh1', 'radio', 'concert']): return "music"
-        
-        # Si pasó el filtro general y no es una categoría específica, es TV en vivo
-        return "live_tv" 
+        if PATTERNS["MUSIC"].search(name): return "music"
+        return "live_tv"
 
     @staticmethod
-    def is_premiere(item: Dict[str, Any], name: str) -> bool:
-        if re.search(REGEX_PREMIERE_YEAR, name): return True
-        release_date = str(item.get('releasedate') or item.get('releaseDate') or item.get('year', ''))
-        if re.search(REGEX_PREMIERE_YEAR, release_date): return True
-        return False
-        
+    def is_premiere(item: Dict, name: str) -> bool:
+        if PATTERNS["PREMIERE_YEAR"].search(name): return True
+        # Búsqueda segura de fecha
+        r_date = str(item.get('releasedate') or item.get('releaseDate') or item.get('year', ''))
+        return bool(PATTERNS["PREMIERE_YEAR"].search(r_date))
+
     @staticmethod
     def clean_rating(value: Any) -> float:
         if not value: return 0.0
         try:
-            val_str = str(value).lower()
-            val_str = re.sub(r"[^0-9.]", "", val_str.split('/')[0])
-            r = float(val_str) if val_str else 0.0
-            return r if r <= 10 else 10.0
+            # Optimización: string slicing es más rápido que regex para esto
+            val_str = str(value).split('/')[0]
+            r = float(''.join(c for c in val_str if c.isdigit() or c == '.'))
+            return min(r, 10.0)
         except: return 0.0
 
-
 # ==========================================
-# 5. NETWORKING Y CHECKEO DE SALUD (SIN CAMBIOS)
+# 5. NETWORKING (AIOHTTP OPTIMIZED)
 # ==========================================
 
-async def fetch_json(session: aiohttp.ClientSession, url: str) -> Optional[List[Dict[str, Any]]]:
+async def fetch_json(session: aiohttp.ClientSession, url: str) -> Any:
     for attempt in range(MAX_RETRIES):
         try:
             async with session.get(url, timeout=HTTP_TIMEOUT) as response:
                 if response.status == 200:
-                    data = await response.json()
-                    if isinstance(data, dict) and 'streams' in data:
-                        return data['streams']
-                    if isinstance(data, list):
-                        return data
+                    # Content-Type check opcional para robustez
+                    return await response.json()
                 elif response.status in (401, 403):
-                    logger.error(f"Acceso denegado a {url}. Revisar credenciales.")
+                    logger.error(f"AUTH ERROR: {url}")
                     return None
         except Exception as e:
-            logger.warning(f"Error ({attempt+1}/{MAX_RETRIES}) fetching {url}: {e}")
-            await asyncio.sleep(2 ** attempt)
+            wait = 2 ** attempt
+            if attempt == MAX_RETRIES - 1:
+                logger.warning(f"Failed {url}: {e}")
+            await asyncio.sleep(wait)
     return None
 
 async def check_stream_health(session: aiohttp.ClientSession, url: str, semaphore: asyncio.Semaphore) -> bool:
+    """Verificación HEAD optimizada."""
     async with semaphore:
         try:
-            async with session.head(url, timeout=10, allow_redirects=True) as response:
-                return response.status in (200, 301, 302)
+            async with session.head(url, timeout=5, allow_redirects=True) as response:
+                return response.status < 400
         except:
             return False
 
 # ==========================================
-# 6. PROCESADORES DE CONTENIDO (CON LÓGICA REVISADA)
+# 6. PROCESADORES (XTREAM + MANUAL)
 # ==========================================
 
+async def process_manual_streams(session, playlist_container, semaphore):
+    """Procesador para inyecciones manuales (Fox Sports, etc)."""
+    if not MANUAL_OVERRIDES: return
+    
+    logger.info(f"[Manual] Inyectando {len(MANUAL_OVERRIDES)} canales estáticos...")
+    tasks = []
+    
+    for item in MANUAL_OVERRIDES:
+        # Creamos el objeto StreamItem directamente
+        stream_obj = StreamItem(
+            title=item['title'],
+            contentId=item['contentId'],
+            group=item['group'],
+            url=item['url'],
+            hdPosterUrl=item.get('hdPosterUrl', ''),
+            quality=item.get('quality', 'SD'),
+            source_alias="Static_Manual"
+        )
+        
+        # Verificamos salud también de los manuales (opcional, pero recomendado)
+        tasks.append((stream_obj, check_stream_health(session, item['url'], semaphore)))
+    
+    results = await asyncio.gather(*[t[1] for t in tasks])
+    
+    valid_count = 0
+    for (stream, is_valid) in zip(tasks, results):
+        if is_valid: # Si funciona, lo agregamos
+            playlist_container[stream[0].group].append(stream[0].to_dict())
+            valid_count += 1
+        else:
+            logger.warning(f"[Manual] Stream caído: {stream[0].title}")
+            
+    logger.info(f"[Manual] Agregados exitosamente: {valid_count}")
+
 async def process_xtream_live(session, source, playlist_container, semaphore):
-    """Procesa TV en vivo con filtro estricto MX."""
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_live_streams"
     data = await fetch_json(session, url)
     
     if not isinstance(data, list): return
 
     tasks = []
-    logger.info(f"[{source['alias']}] Procesando {len(data)} canales en vivo...")
+    logger.info(f"[{source['alias']}] Analizando {len(data)} canales LIVE...")
 
     for item in data:
         name = item.get('name', '')
         
-        # Lógica de Inclusión Principal: Debe pasar un filtro regional/temático
-        is_general_mx = ContentFilter.is_mexico_focused(name)
-        is_sports_special = ContentFilter.is_sports_focused(name)
+        # Filtros pre-compilados
+        is_mx = ContentFilter.is_mexico_focused(name)
+        is_sports = ContentFilter.is_sports_focused(name)
         
-        if is_general_mx or is_sports_special:
-            # Determinamos la categoría para asignarlo
+        if is_mx or is_sports:
             cat_key = ContentFilter.categorize_live(name)
             
-            # Si el canal es de España o LATAM, pasa SOLO si es SPORTS, sino debe pasar el filtro general (is_general_mx)
-            if cat_key == "sports" and not is_sports_special:
-                # Si se categorizó como deporte pero falló la regla especial (ej: es de Brasil), lo descartamos
-                continue
+            # Validación cruzada de Deportes
+            if cat_key == "sports" and not is_sports: continue
 
             stream_id = item.get('stream_id')
             play_url = f"{source['host']}/live/{source['user']}/{source['pass']}/{stream_id}.ts"
@@ -242,33 +261,28 @@ async def process_xtream_live(session, source, playlist_container, semaphore):
                 source_alias=source['alias']
             )
             tasks.append((stream_obj, check_stream_health(session, play_url, semaphore)))
-        # else:
-        #     logger.debug(f"Descartado: {name} (Filtro Regional/Temático)")
-
 
     if tasks:
+        # await asyncio.gather es más rápido que loop for
         results = await asyncio.gather(*[t[1] for t in tasks])
-        valid_streams = [t[0].to_dict() for t, is_valid in zip(tasks, results) if is_valid]
+        valid_streams = [t[0].to_dict() for t, ok in zip(tasks, results) if ok]
         
         for s in valid_streams:
             playlist_container[s['group']].append(s)
 
-    logger.info(f"[{source['alias']}] Canales funcionales agregados: {len(valid_streams)}")
-
+    logger.info(f"[{source['alias']}] Canales LIVE funcionales: {len(valid_streams) if tasks else 0}")
 
 async def process_xtream_vod(session, source, playlist_container, type_action="get_vod_streams"):
-    """Procesa Películas (VOD)."""
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={type_action}"
     data = await fetch_json(session, url)
-    
     if not isinstance(data, list): return
-    logger.info(f"[{source['alias']}] Analizando VOD ({len(data)} items)...")
-    count_premieres = 0
+
+    logger.info(f"[{source['alias']}] Analizando VOD ({type_action})...")
     
+    # Procesamiento por lotes (más eficiente en memoria)
     for item in data:
         name = item.get('name', '')
-        # VOD no necesita el filtro estricto regional, solo bloqueo de HARD_BLOCK
-        if re.search(REGEX_HARD_BLOCK_GENERAL, name): continue
+        if PATTERNS["HARD_BLOCK"].search(name): continue
 
         stream_id = item.get('stream_id')
         ext = item.get('container_extension', 'mp4')
@@ -280,109 +294,107 @@ async def process_xtream_vod(session, source, playlist_container, type_action="g
             url=f"{source['host']}/movie/{source['user']}/{source['pass']}/{stream_id}.{ext}",
             hdPosterUrl=item.get('stream_icon'),
             rating=ContentFilter.clean_rating(item.get('rating')),
-            plot=item.get('plot', 'Sin descripción.'),
-            genre=item.get('genre', 'General'),
+            plot=item.get('plot', ''),
+            genre=item.get('genre', ''),
             releaseDate=item.get('releasedate') or item.get('releaseDate'),
             quality=ContentFilter.detect_quality(name),
             source_alias=source['alias']
-        )
-        
-        dict_obj = obj.to_dict()
-        
+        ).to_dict()
+
         if ContentFilter.is_premiere(item, name):
-            playlist_container["premieres"].append(dict_obj)
-            count_premieres += 1
-            
-        playlist_container["movies"].append(dict_obj)
+            playlist_container["premieres"].append(obj)
         
-    logger.info(f"[{source['alias']}] VOD total: {len(data)} | Estrenos: {count_premieres}")
+        playlist_container["movies"].append(obj)
 
 async def process_xtream_series(session, source, playlist_container):
-    """Procesa Series."""
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series"
     data = await fetch_json(session, url)
-    
     if not isinstance(data, list): return
 
-    logger.info(f"[{source['alias']}] Analizando Series ({len(data)} items)...")
-    count_premieres_series = 0
-
+    logger.info(f"[{source['alias']}] Analizando Series...")
+    
     for item in data:
         name = item.get('name', '')
-        # Series no necesita el filtro estricto regional, solo bloqueo de HARD_BLOCK
-        if re.search(REGEX_HARD_BLOCK_GENERAL, name): continue
+        if PATTERNS["HARD_BLOCK"].search(name): continue
 
         series_id = str(item.get('series_id'))
+        # Nota: api_url no se chequea con HEAD porque es metadatos, no video
         api_url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series_info&series_id={series_id}"
 
         obj = StreamItem(
             title=name,
             contentId=series_id,
             group="series",
-            url=api_url, 
+            url=api_url,
             hdPosterUrl=item.get('cover'),
             rating=ContentFilter.clean_rating(item.get('rating')),
-            plot=item.get('plot', 'Sin descripción.'),
-            genre=item.get('genre', 'General'),
+            plot=item.get('plot', ''),
+            genre=item.get('genre', ''),
             releaseDate=item.get('releaseDate'),
             source_alias=source['alias'],
             series_id=series_id,
             api_url=api_url
-        )
-        
-        dict_obj = obj.to_dict()
-        playlist_container["series"].append(dict_obj)
+        ).to_dict()
 
+        playlist_container["series"].append(obj)
         if ContentFilter.is_premiere(item, name):
-            playlist_container["premieres"].append(dict_obj)
-            count_premieres_series += 1
-            
-    logger.info(f"[{source['alias']}] Series total: {len(data)} | Estrenos Series: {count_premieres_series}")
+            playlist_container["premieres"].append(obj)
 
 # ==========================================
-# 7. ORQUESTADOR Y DEDUPLICACIÓN
+# 7. ORQUESTADOR Y UTILIDADES
 # ==========================================
 
 def deduplicate_and_prioritize(playlist: Dict[str, Any]):
-    logger.info("Iniciando Deduplicación inteligente...")
-    quality_map = {"4K": 4, "FHD": 3, "HD": 2, "SD": 1}
+    logger.info("Normalizando y deduplicando playlist...")
+    quality_rank = {"4K": 4, "FHD": 3, "HD": 2, "SD": 1}
 
     for category in playlist:
         if category == "meta": continue
         
-        playlist[category].sort(key=lambda x: (x['title'], -quality_map.get(x.get('quality', 'SD'), 1)))
+        # 1. Ordenar por: Título ASC, Calidad DESC, Tiene Poster DESC
+        playlist[category].sort(key=lambda x: (
+            x['title'], 
+            -quality_rank.get(x.get('quality', 'SD'), 1),
+            not bool(x.get('hdPosterUrl'))
+        ))
 
-        seen_titles = set()
-        unique_list = []
+        seen = set()
+        unique = []
         
         for item in playlist[category]:
-            clean_title = re.sub(r'[^a-z0-9]', '', item['title'].lower())
+            # Normalización agresiva para detectar duplicados (quita simbolos y espacios)
+            norm_title = re.sub(r'[^a-z0-9]', '', item['title'].lower())
             
-            if clean_title not in seen_titles:
-                unique_list.append(item)
-                seen_titles.add(clean_title)
+            if norm_title not in seen:
+                unique.append(item)
+                seen.add(norm_title)
         
-        playlist[category] = unique_list
-        logger.info(f"Categoría '{category}': {len(unique_list)} items únicos.")
+        playlist[category] = unique
+        logger.info(f"   └── {category}: {len(unique)} items finales.")
 
 def push_to_github(filename: str):
-    """Sube automáticamente el archivo generado a GitHub."""
-    logger.info("--- INICIANDO AUTO-PUSH A GITHUB ---")
+    logger.info("--- GIT AUTOMATION ---")
     try:
+        # Verificar estado primero
+        status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if not status.stdout.strip():
+            logger.info("⚡ No hay cambios detectados. Git push omitido.")
+            return
+
         subprocess.run(["git", "add", filename], check=True)
-        commit_msg = f"Auto-update Playlist: {time.strftime('%Y-%m-%d %H:%M')}"
-        subprocess.run(["git", "commit", "-m", commit_msg], check=False) 
+        commit_msg = f"Auto-Update: {time.strftime('%Y-%m-%d %H:%M')} | +Manual Streams"
+        subprocess.run(["git", "commit", "-m", commit_msg], check=True)
         
-        result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+        # Push con manejo de timeout
+        result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, timeout=60)
         
-        if result.returncode == 0 or "Everything up-to-date" in result.stdout:
-            logger.info("✅ ÉXITO: Archivo subido/actualizado en GitHub.")
+        if result.returncode == 0:
+            logger.info("✅ GitHub actualizado correctamente.")
         else:
-            logger.warning(f"⚠️ Alerta Git ({result.returncode}): {result.stderr.strip()}")
+            logger.error(f"❌ Git Push falló: {result.stderr}")
             
     except Exception as e:
-        logger.error(f"❌ Error crítico en Git Automation: {e}")
-
+        logger.error(f"❌ Error en Git: {e}")
 
 async def main():
     start_time = time.time()
@@ -390,55 +402,54 @@ async def main():
     playlist = {
         "meta": { 
             "generated_at": time.ctime(), 
-            "version": "v98.2_Refined_Filters", 
-            "focus": "Mexico_Refined" 
+            "version": "v99.0_Senior_Build", 
+            "notes": "Includes Static FoxSports Injection"
         },
-        "premieres": [],
-        "live_tv": [], 
-        "sports": [], 
-        "kids": [], 
-        "docs": [],
-        "music": [],
-        "movies": [], 
-        "series": []
+        "premieres": [], "live_tv": [], "sports": [], "kids": [], 
+        "docs": [], "music": [], "movies": [], "series": []
     }
 
+    # Optimización TCP: DNS cache y pooling connection
+    connector = aiohttp.TCPConnector(limit=MAX_CONCURRENT_CHECKS, ttl_dns_cache=300)
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
-    connector = aiohttp.TCPConnector(limit=100, ttl_dns_cache=300)
     
     async with aiohttp.ClientSession(connector=connector, headers={"User-Agent": USER_AGENT}) as session:
         tasks = []
+        
+        # 1. Procesar Fuentes Manuales (Prioridad Alta)
+        tasks.append(process_manual_streams(session, playlist, semaphore))
+
+        # 2. Procesar Fuentes Xtream
         for src in SOURCES:
             if not src.get('host') or not XT_HOST: continue 
-
             tasks.append(process_xtream_live(session, src, playlist, semaphore))
             tasks.append(process_xtream_vod(session, src, playlist))
             tasks.append(process_xtream_series(session, src, playlist))
         
         await asyncio.gather(*tasks)
 
-    # Post-Proceso
     deduplicate_and_prioritize(playlist)
 
-    # Output (Nombre de archivo solicitado: playlist.json)
     final_filename = 'playlist.json'
     with open(final_filename, 'w', encoding='utf-8') as f:
         json.dump(playlist, f, indent=2, ensure_ascii=False)
 
-    elapsed = time.time() - start_time
-    logger.info(f"--- PROCESO FINALIZADO EN {elapsed:.2f}s ---")
-    
+    logger.info(f"--- SUCCESS: {time.time() - start_time:.2f}s ---")
     push_to_github(final_filename)
 
-
 if __name__ == "__main__":
-    if not XT_HOST or not XT_USER or not XT_PASS:
-        logger.error("🚫 ERROR: Faltan variables de entorno (XT_HOST, XT_USER, XT_PASS).")
+    # Verificación simple de entorno
+    if not all([XT_HOST, XT_USER, XT_PASS]):
+        logger.error("🚫 Faltan variables de entorno XT_*")
     else:
         try:
+            # En Windows a veces se requiere policy selectora diferente para asyncio
+            if os.name == 'nt':
+                asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
             asyncio.run(main())
         except KeyboardInterrupt:
-            logger.info("Proceso detenido por el usuario.")
+            pass
+
 
 
 
