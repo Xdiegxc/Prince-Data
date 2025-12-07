@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "Sun Dec  7 01:24:50 2025",
-    "version": "v98.2_Refined_Filters",
-    "focus": "Mexico_Refined"
+    "generated_at": "Sun Dec  7 01:59:02 2025",
+    "version": "v99.1_Compat_Build",
+    "notes": "Includes Static FoxSports Injection"
   },
   "premieres": [
     {
