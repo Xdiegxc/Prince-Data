@@ -19,7 +19,7 @@ logging.basicConfig(
     format='%(asctime)s | %(levelname)s | %(name)s | %(message)s',
     datefmt='%H:%M:%S'
 )
-logger = logging.getLogger("CerebroV99.1")
+logger = logging.getLogger("CerebroV99.2")
 
 # Credenciales
 XT_HOST = os.getenv("XT_HOST")
@@ -32,15 +32,15 @@ MAX_CONCURRENT_CHECKS = 100
 HTTP_TIMEOUT = 30
 MAX_RETRIES = 2
 
-# --- INYECCIÓN MANUAL ---
+# --- INYECCIÓN MANUAL (ACTUALIZADO) ---
 MANUAL_OVERRIDES = [
     {
         "type": "manual_stream",
-        "title": "Fox Sports Premium MX",
+        "title": "Fox Sports Premium",  # Nombre actualizado
         "contentId": "FoxSportsPremium.mx",
         "group": "sports",
         "url": "https://live20.bozztv.com/akamaissh101/ssh101/foxsports/playlist.m3u8",
-        "hdPosterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Fox_Sports_Premium_logo.svg/1200px-Fox_Sports_Premium_logo.svg.png",
+        "hdPosterUrl": "https://i.imgur.com/3lOZWeD.png",  # Logo actualizado
         "quality": "HD"
     }
 ]
@@ -356,7 +356,7 @@ def push_to_github(filename: str):
             return
 
         subprocess.run(["git", "add", filename], check=True)
-        commit_msg = f"Auto-Update: {time.strftime('%Y-%m-%d %H:%M')} | +Manual Streams"
+        commit_msg = f"Auto-Update: {time.strftime('%Y-%m-%d %H:%M')} | +FoxSportsPremium"
         subprocess.run(["git", "commit", "-m", commit_msg], check=True)
         
         result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, timeout=60)
@@ -375,8 +375,8 @@ async def main():
     playlist = {
         "meta": { 
             "generated_at": time.ctime(), 
-            "version": "v99.1_Compat_Build", 
-            "notes": "Includes Static FoxSports Injection"
+            "version": "v99.2_Manual_Update", 
+            "notes": "Includes Updated FoxSports"
         },
         "premieres": [], "live_tv": [], "sports": [], "kids": [], 
         "docs": [], "music": [], "movies": [], "series": []
@@ -419,7 +419,6 @@ if __name__ == "__main__":
             asyncio.run(main())
         except KeyboardInterrupt:
             pass
-
 
 
 
