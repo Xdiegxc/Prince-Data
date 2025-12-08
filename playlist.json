@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Dec  7 18:21:30 2025",
+    "generated_at": "Mon Dec  8 01:18:04 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -25,6 +25,18 @@
       "rating": 7.1,
       "plot": "Años transcurridos tras los sucesos de \"28 semanas después\", el virus de la ira ha regresado y un grupo de supervivientes debe sobrevivir en un mundo asolado por hordas de infectados. Realizada con un iPhone 15 Pro Max y con la ayuda de numerosos accesorios especializados.",
       "genre": "Terror, Suspense, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "31 Minutos: Calurosa Navidad (2025)",
+      "contentId": "55180",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55180.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEVD3EeFY4e6NY1jCMJgMnZWC_heISJNeYKus4kDtFOY.jpg",
+      "rating": 7.4,
+      "plot": "Al periodista estrella de 31 Minutos, Juan Carlos Bodoque se le es encomendada la tarea de ir a recoger al Polo Norte los regalos de navidad de todo el pueblo de Titirilquén, sin embargo, la tentación al juego se hará presente en la misión de Bodoque. Mientras que Mario Hugo intenta montar un show navideño en el estudio de 31 minutos, pero todo termina saliendo mal.",
+      "genre": "Familia, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -1678,6 +1690,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "El último refugio (2025)",
+      "contentId": "55175",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55175.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOLXWa8TmikwBRtFPevy707Ovj7v-9hnxTOek1-zSSo68.jpg",
+      "rating": 7.1,
+      "plot": "En una noche de Navidad en 2013, Linn debe decidir entre proteger a un musulmán perseguido o entregarlo para asegurar la seguridad en un hospital en medio de una guerra civil en Bangui. Una intensa mirada a la brutalidad de la guerra y la lucha humanitaria en tiempos de caos.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Elevation (2024)",
       "contentId": "53490",
       "group": "movies",
@@ -1993,6 +2017,18 @@
       "rating": 7.0,
       "plot": "El Cuerpo de Cazadores de Demonios se enfrenta a los Doce Kizuki restantes antes de enfrentarse a Muzan en el Castillo del Infinito para derrotarlo de una vez por todas.",
       "genre": "Animación, Acción, Fantasía",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Ha llegado la nieve a Fraggle Rock (2025)",
+      "contentId": "55176",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55176.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObkkdSClziTHLmKPzoQ79ZZFrEXgXdQ9d2RKQezWWzoo.jpg",
+      "rating": 6.7,
+      "plot": "Cuando las fiestas se llenan de aventuras y retos inesperados, los Fraggle aprenden a valorar cada día por ser único y especial, como un copo de nieve.",
+      "genre": "Familia, Comedia, Animación",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -6394,6 +6430,18 @@
       "rating": 6.1,
       "plot": "La historia se ambienta en el año 490 a.C., unos diez años antes de la batalla de las Termópilas. El general griego Temistocles intenta unir las polis griegas para combatir a los persas invasores. Él dirigirá las tropas griegas que se enfrentarán con los persas en la decisiva batalla de Maratón. La derrota persa impedirá la invasión del país.",
       "genre": "Acción, Drama, Bélica",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "31 Minutos: Calurosa Navidad (2025)",
+      "contentId": "55180",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55180.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEVD3EeFY4e6NY1jCMJgMnZWC_heISJNeYKus4kDtFOY.jpg",
+      "rating": 7.4,
+      "plot": "Al periodista estrella de 31 Minutos, Juan Carlos Bodoque se le es encomendada la tarea de ir a recoger al Polo Norte los regalos de navidad de todo el pueblo de Titirilquén, sin embargo, la tentación al juego se hará presente en la misión de Bodoque. Mientras que Mario Hugo intenta montar un show navideño en el estudio de 31 minutos, pero todo termina saliendo mal.",
+      "genre": "Familia, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -16099,6 +16147,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "El último refugio (2025)",
+      "contentId": "55175",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55175.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOLXWa8TmikwBRtFPevy707Ovj7v-9hnxTOek1-zSSo68.jpg",
+      "rating": 7.1,
+      "plot": "En una noche de Navidad en 2013, Linn debe decidir entre proteger a un musulmán perseguido o entregarlo para asegurar la seguridad en un hospital en medio de una guerra civil en Bangui. Una intensa mirada a la brutalidad de la guerra y la lucha humanitaria en tiempos de caos.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "El último samurái (2003)",
       "contentId": "32014",
       "group": "movies",
@@ -18392,6 +18452,18 @@
       "rating": 6.3,
       "plot": "Henry Bogan, un asesino a sueldo, pretende retirarse porque se siente viejo. Sin embargo, hay alguien que no está dispuesto a permitírselo porque tiene la misión de matarlo: un clon suyo más joven, más rápido y más fuerte.",
       "genre": "Ciencia ficción, Acción, Aventura",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Ha llegado la nieve a Fraggle Rock (2025)",
+      "contentId": "55176",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55176.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObkkdSClziTHLmKPzoQ79ZZFrEXgXdQ9d2RKQezWWzoo.jpg",
+      "rating": 6.7,
+      "plot": "Cuando las fiestas se llenan de aventuras y retos inesperados, los Fraggle aprenden a valorar cada día por ser único y especial, como un copo de nieve.",
+      "genre": "Familia, Comedia, Animación",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -30425,6 +30497,42 @@
       "rating": 6.1,
       "plot": "La familia canina crece con cuatro cachorritos de lo más traviesos: Hope, Jingle, Charity y Noble. Los cachorros viajan con la señora Claus a PIneville, donde harán de sus travesuras y encantaran a los niños de ese lugar. Pero algo malo ocurre, el espiritu navideño comienza desaparecer. Santa Pups y la señora Claus deberán salvar que no se pierda el espiritu de la Navidad.",
       "genre": "Familia, Fantasía, Aventura",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Santa Clausula (1994)",
+      "contentId": "55177",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55177.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOLyKD9d4qhLoyPbEPUNIxPvdJLDMDkqstPrKoHSvzicI.jpg",
+      "rating": 6.5,
+      "plot": "Scott Calvin es el padre divorciado de Charlie. La relación entre ellos se ha vuelto insoportable, pero en Nochebuena Santa Claus muere al caer del techo de su casa. Con la ayuda de Charlie, Scott será capaz de reemplazarle temporalmente.",
+      "genre": "Fantasía, Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Santa Clausula 2 (2002)",
+      "contentId": "55178",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55178.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO72dHGaWnUGa-X8NwDPx7aNMMRbOydrAK2dh8NVEuA8I.jpg",
+      "rating": 6.0,
+      "plot": "Tim Allen vuelve en esta secuela navideña como Scott Calvin, que llevaba ocho años siendo un feliz Santa Claus. Ahora se enfrenta a un nuevo reto: si no se casa para Nochebuena, dejará de ser Santa Claus.",
+      "genre": "Fantasía, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Santa Clausula 3 (2006)",
+      "contentId": "55179",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55179.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOpIX_5DD36mtp4lvv_KzT0cFkGR-VVaWTB5DibaaolLk.jpg",
+      "rating": 5.6,
+      "plot": "Santa (Tim Allen), también el hombre corriente Scott Calvin, se enfrenta a una doble tarea: cómo mantener unida y feliz a su nueva familia, y cómo parar a Jack Frost (Martin Short) en su vil intento de destruir la Navidad. Aun a riesgo de revelar la ubicación secreta del Polo Norte, Scott invita a sus suegros (Ann-Margret y Alan Arkin) a compartir las vacaciones navideñas con él y su mujer Carol (Elizabeth Mitchell). A esta aventura se une la extensa familia de Scott: su hijo Charlie (Eric Lloyd), su ex mujer Laura Miller (Wendy Crewson), su marido, Neil Miller (Judge Reinhold) y su hija, Lucy (Liliana Mumy), que junto con el elfo Curtis (Spencer Breslin), tratarán de frustrar los planes de Jack Frost para hacerse con el control del Polo Norte...",
+      "genre": "Comedia, Familia, Aventura",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
