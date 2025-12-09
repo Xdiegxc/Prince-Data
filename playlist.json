@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Dec  9 12:36:37 2025",
+    "generated_at": "Tue Dec  9 18:22:00 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -767,6 +767,18 @@
       "rating": 6.5,
       "plot": "Después de los eventos de Oklahoma, el equipo de Cazafantasmas regresa a donde comenzó todo: ¡Nueva York! La historia de la familia Spengler continúa con un nuevo grupo de Cazafantasmas.",
       "genre": "Fantasía, Aventura, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Chainsaw Man - La película: El arco de Reze (2025)",
+      "contentId": "55184",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55184.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-nHXeKRhXl_6RZg7JTmTYxGfZngx3s6QgegVMC7hbw0.jpg",
+      "rating": 7.8,
+      "plot": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
+      "genre": "Animación, Acción, Romance",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -1561,6 +1573,18 @@
       "rating": 5.8,
       "plot": "Después de que una prueba experimental de drogas sale terriblemente mal, los sujetos de prueba sobrevivientes tienen que luchar contra el sueño y entre ellos para mantenerse con vida.",
       "genre": "Ciencia ficción, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "El hombre más afortunado de América (2025)",
+      "contentId": "55186",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55186.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUT6kmEkMqzLyf7X0tWypPyQAC1ZytpFZjgfuVzeFOzU.jpg",
+      "rating": 6.4,
+      "plot": "En 1984, un tipo desempleado experto en helados descubre que puede ganar un programa de televisión manipulando las tiradas de la ruleta. Pero su suerte cambia cuando los ejecutivos se dan cuenta de su truco. ¡No te pierdas los créditos para conocer al verdadero protagonista!",
+      "genre": "Drama, Historia, Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -2571,6 +2595,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "La familia McMullen (2025)",
+      "contentId": "55187",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55187.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZI6v6jDdpnbucwr4lK_e0IsohcGzU6IGKOXxrh1730w.jpg",
+      "rating": 6.0,
+      "plot": "Una familia unida enfrenta los altibajos de la vida mientras lidian con desafíos personales y relaciones cambiantes. Sus lazos se ponen a prueba, revelando lo complejo del amor y la lealtad familiar.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "La fuente de la eterna juventud (2025)",
       "contentId": "54102",
       "group": "movies",
@@ -3568,6 +3604,18 @@
       "rating": 6.2,
       "plot": "La primera escapada romántica de fin de semana de Iris e Isaac se tuerce de la forma más inesperada. Cuando la relación se desmorona, la desesperada esperanza de Iris de que la reticencia de su novio a comprometerse sea simplemente confusión la lleva a tomar medidas cada vez más desquiciadas para consolidar la relación.",
       "genre": "Romance, Comedia, Suspense",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Oh. What. Fun. (2025)",
+      "contentId": "55183",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55183.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObEN-SN1OGJQxOZwDl-OPmuFlsi9FjkW3FbKWQFgdU_Y.jpg",
+      "rating": 5.9,
+      "plot": "Claire Clauster es el nexo que mantiene unida a su caótica, aunque encantadora familia durante las vacaciones. Pero este año, tras planear una salida especial con ellos, cometen un error y la abandonan sola en casa. Harta y menospreciada, Claire emprende una aventura por su cuenta. Mientras su familia la busca, Claire descubre la magia de una Navidad atípica.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -10251,6 +10299,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Chainsaw Man - La película: El arco de Reze (2025)",
+      "contentId": "55184",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55184.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-nHXeKRhXl_6RZg7JTmTYxGfZngx3s6QgegVMC7hbw0.jpg",
+      "rating": 7.8,
+      "plot": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
+      "genre": "Animación, Acción, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Champions (2023)",
       "contentId": "32319",
       "group": "movies",
@@ -14779,6 +14839,18 @@
       "rating": 7.1,
       "plot": "Dos semanas después de escapar de su tóxica relación con el rico y brillante científico Adrian Griffin, Cecilia está convencida de que Adrian va a aparecer en cualquier momento… hasta que recibe una nota comunicándole el suicidio de su expareja.",
       "genre": "Suspense, Ciencia ficción, Terror",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "El hombre más afortunado de América (2025)",
+      "contentId": "55186",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55186.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUT6kmEkMqzLyf7X0tWypPyQAC1ZytpFZjgfuVzeFOzU.jpg",
+      "rating": 6.4,
+      "plot": "En 1984, un tipo desempleado experto en helados descubre que puede ganar un programa de televisión manipulando las tiradas de la ruleta. Pero su suerte cambia cuando los ejecutivos se dan cuenta de su truco. ¡No te pierdas los créditos para conocer al verdadero protagonista!",
+      "genre": "Drama, Historia, Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -21968,6 +22040,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "La familia McMullen (2025)",
+      "contentId": "55187",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55187.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZI6v6jDdpnbucwr4lK_e0IsohcGzU6IGKOXxrh1730w.jpg",
+      "rating": 6.0,
+      "plot": "Una familia unida enfrenta los altibajos de la vida mientras lidian con desafíos personales y relaciones cambiantes. Sus lazos se ponen a prueba, revelando lo complejo del amor y la lealtad familiar.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "La fiesta del más allá (2021)",
       "contentId": "22973",
       "group": "movies",
@@ -26784,6 +26868,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Navidad en Candy Cane Lane (2023)",
+      "contentId": "55182",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55182.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOX7JeNXlWMmm2yGRzezboqBFexpo0z1jcFO-UGaCVZFg.jpg",
+      "rating": 6.0,
+      "plot": "Después de que Chris, sin darse cuenta, haga un trato con una traviesa elfa llamada Pepper para mejorar sus posibilidades de ganar, ella lanza un hechizo mágico donde los 12 días de Navidad cobran vida y causan estragos en toda la ciudad. A riesgo de arruinar las fiestas para su familia, Chris, su esposa Carol y sus tres hijos deben correr contrarreloj para romper el hechizo de Pepper, luchar contra retorcidos personajes mágicos y salvar la Navidad para todos.",
+      "genre": "Comedia, Fantasía, Familia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Navidades con los StoryBots (2017)",
       "contentId": "18735",
       "group": "movies",
@@ -27447,6 +27543,18 @@
       "rating": 5.8,
       "plot": "Andrei (Bogdan Iancu) tiene 16 años, es un chico inseguro, y está colado por su sensual pero distante compañera de clase Ramona (Aggy K. Adams). Claro que todo cambia cuando conoce a la espectacular recepcionista de un hotel llamada Anemona (Holly Horne).",
       "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Oh. What. Fun. (2025)",
+      "contentId": "55183",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55183.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObEN-SN1OGJQxOZwDl-OPmuFlsi9FjkW3FbKWQFgdU_Y.jpg",
+      "rating": 5.9,
+      "plot": "Claire Clauster es el nexo que mantiene unida a su caótica, aunque encantadora familia durante las vacaciones. Pero este año, tras planear una salida especial con ellos, cometen un error y la abandonan sola en casa. Harta y menospreciada, Claire emprende una aventura por su cuenta. Mientras su familia la busca, Claire descubre la magia de una Navidad atípica.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -30191,6 +30299,18 @@
       "rating": 6.1,
       "plot": "La paz de Verona se ve perturbada por la rivalidad existente entre nobles familias: los Montesco y los Capuleto, enemigos irreconciliables. Tienen contínuos enfrentamientos y, para evitarlos, el príncipe de Verona comunica a los jefes que las dos familias responderán con sus vidas si se producen nuevas luchas. En un baile, tiene lugar una fiesta en honor a Julieta.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Rompenieves (2013)",
+      "contentId": "55185",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55185.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOKskfJ0L_oz2qYUXS0dTqQI6pY2OVHIq47HlbyNFxjaE.jpg",
+      "rating": 6.9,
+      "plot": "Un experimento para solucionar el calentamiento global acabó con la mayoría de vida existente en el planeta. El último tren llamado Snowpiercer (Rompenieves) se mueve en círculos por el mundo, a través de un desierto de hielo y nieve. Los últimos supervivientes de la Tierra se amontonan en sus vagones. El joven Curtis (Chris Evans) iniciará una revolución desde los vagones de cola.",
+      "genre": "Acción, Ciencia ficción, Drama",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
