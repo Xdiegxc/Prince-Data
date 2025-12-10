@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Dec 10 12:36:44 2025",
+    "generated_at": "Wed Dec 10 18:26:03 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -7733,6 +7733,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/b5822979efe9ca613df333b373f212b0.jpg",
       "rating": 6.2,
       "plot": "Hal Larsen es un muchacho superficial que sólo encuentra bellas a las chicas que parecen supermodelos. Sin embargo, después de ser sometido a una sesión de hipnosis por un conocido gurú, sólo será capaz de ver la belleza interior de las mujeres. Rosemary, una chica obesa y bondadosa, se cruzará en su camino y Hal se enamorará locamente de ella.",
+      "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Amor de calendario (2020)",
+      "contentId": "55188",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55188.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_ECOvkesM5iIpCkRKitOiziCjt22NbgcmrIhaOVFjbE.jpg",
+      "rating": 7.0,
+      "plot": "Sloane y Jackson odian las vacaciones, porque les obliga a pasar tiempo con sus respectivas familias y a tener que participar en comidas a las que no les apetece ir. Cuando ambos se conocen, deciden hacer todo lo posible por disfrutar de su tiempo libre de cualquier otra manera.",
       "genre": "Comedia, Romance",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
@@ -31635,6 +31647,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Sobreviviendo a la Navidad (2004)",
+      "contentId": "55189",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55189.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO1yBjcRY28hk1SsMbcHlJHikIuzvRjEW_HeTNorYlNNg.jpg",
+      "rating": 5.7,
+      "plot": "Consciente de que le espera otra Navidad solo, el rico ejecutivo Drew Latham (Ben Affleck) decide regresar a la idílica casa de su infancia para recordar la época navideña con su familia. El único problema es que las personas que ahora viven en la casa no son la familia de Drew. Decidido a disfrutar de unas fiestas navideñas a la vieja usanza, soborna a sus nuevos \"padres\" dándoles una pequeña fortuna con la condición de que le dejen pasar las fiestas en su casa y finjan que es su hijo. Cuando los Valco ya empiezan a preguntarse si hay dinero suficiente para aguantar a Drew y su idea de cómo debe ser la Navidad, su auténtica hija, Alicia, vuelve a casa nada dispuesta a adoptar al nuevo \"hermano\".",
+      "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Sobrevivientes despues del terremoto (2023)",
       "contentId": "40576",
       "group": "movies",
@@ -34627,6 +34651,18 @@
       "rating": 6.2,
       "plot": "Francia, 1809. El capitán Neuville es un gran seductor. Acaba de pedir la mano de la joven Pauline bajo la desconfiada mirada de la hermana mayor de ésta, Elisabeth. Sin embargo, Neuville es llamado a filas y Pauline deja de recibir noticias suyas. La joven se marchita con cada día que pasa y Elisabeth decide tomar la pluma y empezar una correspondencia con Pauline haciéndose pasar por Neuville, al que convierte en sus relatos en un verdadero héroe de guerra. El capitán acabará reapareciendo, muy a pesar de la joven.",
       "genre": "Historia, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Un vecino con pocas luces (2006)",
+      "contentId": "55190",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55190.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOzgf2XdmKkP2kSYiXaG_PQGyRoG4AGRU4W7YjLR7srmY.jpg",
+      "rating": 5.6,
+      "plot": "Para Steve Finch (Matthew Broderick), un optometrista de Massachussetts, la mejor época del año es la Navidad. Durante muchos años, ha conservado tradiciones que su mujer y sus hijos ya no pueden soportar. A pesar de ello, sigue teniendo un calendario del mes de diciembre repleto de actividades: la foto para la felicitación navideña, el ritual del árbol, los villancicos... Pero la felicidad de Steve se ve perturbada de repente por Buddy Hall (Danny DeVito), un astuto vendedor de coches que se instala en la casa de al lado.",
+      "genre": "Comedia, Familia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
