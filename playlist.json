@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Dec 11 12:37:54 2025",
+    "generated_at": "Thu Dec 11 18:24:43 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -73,6 +73,18 @@
       "rating": 7.1,
       "plot": "El ambicioso actor neoyorquino Edward se somete a una intervención quirúrgica radical para transformar drásticamente su aspecto. Como resultado, muchas cosas cambian en su vida y, sin embargo, todo sigue perturbadoramente igual. Aunque haya cambiado exteriormente y pueda empezar una nueva vida, sigue siendo quien es y no quien quiere ser. Entonces se pierde el papel de su vida y su nuevo rostro de ensueño se convierte en una pesadilla.",
       "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "A pesar de ti (2025)",
+      "contentId": "55195",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55195.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi7AO3Lk-idFq5TfLkHcHeUDR8SPnEllaCJU1tb9Jhjw.jpg",
+      "rating": 7.0,
+      "plot": "Morgan es una madre joven que intenta evitar que su hija Clara, de 16 años, cometa los mismos errores que ella, que se quedó embarazada y se casó demasiado joven, teniendo que aparcar sus propios sueños. La única persona que trae paz a la tensa relación madre-hija es Chris, su marido y padre de Clara. Pero esa paz se rompe cuando un trágico y extraño accidente trae desgarradoras consecuencias para ellas. Mientras lucha por reconstruir sus vidas, Morgan encuentra consuelo en la última persona que esperaba, mientras Clara se vuelve hacia el único chico que le han prohibido ver.",
+      "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -2244,6 +2256,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Jay Kelly (2025)",
+      "contentId": "55194",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55194.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOspA4tZr6yb1c_J_tCqGZZm9Zmrs0gFALDVd5gw-qgcE.jpg",
+      "rating": 5.9,
+      "plot": "La estrella del cine Jay Kelly se enfrenta a su pasado y su presente durante un viaje por Europa con su fiel representante en esta película de Noah Baumbach, nominado al Óscar.",
+      "genre": "Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Jefes de Estado (2025)",
       "contentId": "54215",
       "group": "movies",
@@ -3331,6 +3355,18 @@
       "source_alias": "LatinaPro_MX",
       "series_id": "291",
       "api_url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=291"
+    },
+    {
+      "title": "Merv (2025)",
+      "contentId": "55193",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55193.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr4uw0SQJZanBWVeM6VPDbw3hCbD-tzY2tgEC_w4MEz0.jpg",
+      "rating": 5.9,
+      "plot": "Cuando su querido perro Merv pierde la chispa tras su separación, Anna y Russ se ven obligados a aceptar el acuerdo de crianza compartida más incómodo del mundo. Con la esperanza de sacar a Merv de su depresión, Russ lo lleva de escapada a Florida, pero Anna aparece inesperadamente. Mientras Merv recupera el ánimo, parece que curar el corazón roto de su perro despierta otras chispas entre ellos.",
+      "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
     },
     {
       "title": "Mi amigo el pingüino (2024)",
@@ -6733,6 +6769,18 @@
       "rating": 7.6,
       "plot": "Narra la historia de José Hernández, el primer trabajador agrícola migrante en viajar al espacio. Una historia de perseverancia, comunidad y sacrificio para lograr un sueño imposible.",
       "genre": "Historia, Ciencia ficción, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "A pesar de ti (2025)",
+      "contentId": "55195",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55195.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi7AO3Lk-idFq5TfLkHcHeUDR8SPnEllaCJU1tb9Jhjw.jpg",
+      "rating": 7.0,
+      "plot": "Morgan es una madre joven que intenta evitar que su hija Clara, de 16 años, cometa los mismos errores que ella, que se quedó embarazada y se casó demasiado joven, teniendo que aparcar sus propios sueños. La única persona que trae paz a la tensa relación madre-hija es Chris, su marido y padre de Clara. Pero esa paz se rompe cuando un trágico y extraño accidente trae desgarradoras consecuencias para ellas. Mientras lucha por reconstruir sus vidas, Morgan encuentra consuelo en la última persona que esperaba, mientras Clara se vuelve hacia el único chico que le han prohibido ver.",
+      "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -20331,6 +20379,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Jay Kelly (2025)",
+      "contentId": "55194",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55194.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOspA4tZr6yb1c_J_tCqGZZm9Zmrs0gFALDVd5gw-qgcE.jpg",
+      "rating": 5.9,
+      "plot": "La estrella del cine Jay Kelly se enfrenta a su pasado y su presente durante un viaje por Europa con su fiel representante en esta película de Noah Baumbach, nominado al Óscar.",
+      "genre": "Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Jeepers Creepers (2001)",
       "contentId": "29192",
       "group": "movies",
@@ -25621,6 +25681,18 @@
       "contentId": "19126",
       "group": "movies",
       "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/19126.mp4",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Merv (2025)",
+      "contentId": "55193",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55193.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr4uw0SQJZanBWVeM6VPDbw3hCbD-tzY2tgEC_w4MEz0.jpg",
+      "rating": 5.9,
+      "plot": "Cuando su querido perro Merv pierde la chispa tras su separación, Anna y Russ se ven obligados a aceptar el acuerdo de crianza compartida más incómodo del mundo. Con la esperanza de sacar a Merv de su depresión, Russ lo lleva de escapada a Florida, pero Anna aparece inesperadamente. Mientras Merv recupera el ánimo, parece que curar el corazón roto de su perro despierta otras chispas entre ellos.",
+      "genre": "Comedia, Romance",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
