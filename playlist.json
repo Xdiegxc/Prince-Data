@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Dec 12 12:36:37 2025",
+    "generated_at": "Fri Dec 12 18:26:50 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -3853,6 +3853,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Puñales por la espalda: De entre los muertos (2025)",
+      "contentId": "55198",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55198.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOF4gg36nXadM8oBKSkHTCsOgUIrgOvldQC7CEvzhkDNA.jpg",
+      "rating": 7.6,
+      "plot": "El detective Benoit Blanc se une a un joven y honesto sacerdote para investigar un crimen totalmente imposible en la iglesia de un pequeño pueblo con una oscura historia.",
+      "genre": "Misterio, Crimen",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Real Madrid: Cómo no te voy a querer (2025)",
       "contentId": "259",
       "group": "series",
@@ -4391,6 +4403,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/55b725d60c08dc52549a1fa9dbb663ce.jpg",
       "rating": 6.4,
       "genre": "Acción, Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "The Running Man (2025)",
+      "contentId": "55199",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55199.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9CYoyVpYsUsHFHmCegUzFMf6VBVRKLYaOY8je-JdV_I.jpg",
+      "rating": 6.7,
+      "plot": "En una América distópica en el año 2025, Ben Richards participa en el violento reality show \"The Running Man\" con el fin de ganar suficiente dinero para revivir a su hija gravemente enferma.",
+      "genre": "Acción, Suspense, Ciencia ficción",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
@@ -12706,6 +12730,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Dragon Ball Z: La Batalla de los Dioses (2013)",
+      "contentId": "55196",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55196.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdbLfINeacucrcMtkSxxgB5jzX7nQbLbq40qCBjxpDPI.jpg",
+      "rating": 6.8,
+      "plot": "La historia se sitúa varios años después de la batalla con Majin Buu. Bils, el Dios de la destrucción que mantenía el equilibrio del universo, se ha despertado de un largo sueño. Al escuchar rumores sobre un saiyan que ha vencido a Freezer, Bils parte a la búsqueda de Goku. Emocionado por el hecho de que haya aparecido un oponente tan poderoso tras tanto tiempo, Goku ignora las advertencias de Kaito y decide enfrentarse a él.",
+      "genre": "Animación, Acción, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Dragon Ball Z: La galaxia corre peligro (1993)",
       "contentId": "40338",
       "group": "movies",
@@ -12713,6 +12749,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/5213ac6e6e7a3c6d8f73c409e687a75a.jpg",
       "rating": 7.1,
       "plot": "El rico Gyosan Money organiza un nuevo torneo de las artes marciales y Mr. Satán desafía a todos los luchadores. Mientras Piccolo y Vegeta se mantienen al margen, Gohan, Trunks y Krilín se clasifican para la final del torneo. Lo que desconocen es que el poderoso Bojack y su banda han escapado de su prisión en el planeta Kaito y pretenden conquistar el Universo. Goku observa desde el Más Allá cómo sus amigos van cayendo hasta quedar sólo Gohan.",
+      "genre": "Acción, Animación, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "Dragon Ball Z: La resurrección de F (2015)",
+      "contentId": "55197",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55197.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOMfAicPwyuAViqDsFmQrQn14qc94Xd8gMIWS8gVyPCPs.jpg",
+      "rating": 6.9,
+      "plot": "Después de que Bills, el Dios de la destrucción, decidiera no destruir la Tierra, se vive una gran época de paz. Hasta que Sorbet y Tagoma, antiguos miembros élite de la armada de Freezer, llegan a la Tierra con el objetivo de revivir a su líder por medio de las Bolas de Dragón. Su deseo es concedido y ahora Freezer planea su venganza en contra de los Saiyan. La historia hace que una gran oleada de hombres bajo el mando de Freezer lo acompañe.",
       "genre": "Acción, Animación, Ciencia ficción",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
@@ -29504,6 +29552,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Puñales por la espalda: De entre los muertos (2025)",
+      "contentId": "55198",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55198.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOF4gg36nXadM8oBKSkHTCsOgUIrgOvldQC7CEvzhkDNA.jpg",
+      "rating": 7.6,
+      "plot": "El detective Benoit Blanc se une a un joven y honesto sacerdote para investigar un crimen totalmente imposible en la iglesia de un pequeño pueblo con una oscura historia.",
+      "genre": "Misterio, Crimen",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Puñales por la espalda: El misterio de Glass Onion (2022)",
       "contentId": "31675",
       "group": "movies",
@@ -33606,6 +33666,18 @@
       "rating": 5.7,
       "plot": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
       "genre": "Misterio, Suspense, Acción",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "The Running Man (2025)",
+      "contentId": "55199",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55199.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9CYoyVpYsUsHFHmCegUzFMf6VBVRKLYaOY8je-JdV_I.jpg",
+      "rating": 6.7,
+      "plot": "En una América distópica en el año 2025, Ben Richards participa en el violento reality show \"The Running Man\" con el fin de ganar suficiente dinero para revivir a su hija gravemente enferma.",
+      "genre": "Acción, Suspense, Ciencia ficción",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
