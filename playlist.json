@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Dec 18 12:36:06 2025",
+    "generated_at": "Thu Dec 18 18:26:22 2025",
     "version": "v99.3_Fix_Logic"
   },
   "premieres": [
@@ -10035,6 +10035,18 @@
       "source_alias": "LatinaPro_MX"
     },
     {
+      "title": "Caos (2005)",
+      "contentId": "55221",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55221.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOz3-8KRddowTulCT3VwF5jelXHlVZkn0U9s75Bad2zY4.jpg",
+      "rating": 5.3,
+      "plot": "Dos chicas adolescentes de clase acomodada abandonan la seguridad de sus hogares en las afueras de la ciudad para explorar el peligroso ambiente de Los Ángeles Este, un barrio conflictivo donde aprenden que hasta las acciones más inocentes pueden tener consecuencias...",
+      "genre": "Crimen, Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
       "title": "Capital humano (2020)",
       "contentId": "18459",
       "group": "movies",
@@ -14845,6 +14857,18 @@
       "rating": 7.9,
       "plot": "Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el \"Ringling Bros. and Barnum & Bailey Circus\", conocido como \"el mayor espectáculo en la tierra\".",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "LatinaPro_MX"
+    },
+    {
+      "title": "El gurú de las bodas (2015)",
+      "contentId": "55222",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55222.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOvp9vO6LCkG8JeMM1cqLetwKYeI2r5PV98RRlmYIiiVE.jpg",
+      "rating": 6.5,
+      "plot": "A menos de dos semanas de casarse con Gretchen, la chica de sus sueños, Doug Harris no encuentra siquiera a un conocido que pueda hacer de padrino en su boda, por lo que termina contratando a Jimmy Callahan, propietario de una empresa que provee de falsos padrinos a novios solitarios como él.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "LatinaPro_MX"
     },
