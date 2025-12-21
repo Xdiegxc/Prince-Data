@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Dec 20 18:21:36 2025",
+    "generated_at": "Sun Dec 21 01:24:56 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4084,6 +4084,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "230"
+    },
+    {
+      "title": "Si la vida te da mandarinas... (2025)",
+      "contentId": "301",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=301",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFAVxQ2GJHYh-qS6Y3FLlarmKdKrqe2GtzP0u5JYRw9M.jpg",
+      "rating": 9.0,
+      "plot": "En la isla de Jeju, una chica llena de vida y un joven decidido viven una historia repleta de desafíos y triunfos que demuestra que el amor puede trascender el tiempo.",
+      "genre": "Drama",
+      "releaseDate": "2025-03-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "301"
     },
     {
       "title": "Simplemente Alicia (2025)",
@@ -40716,6 +40730,20 @@
       "series_id": "230"
     },
     {
+      "title": "Si la vida te da mandarinas... (2025)",
+      "contentId": "301",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=301",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFAVxQ2GJHYh-qS6Y3FLlarmKdKrqe2GtzP0u5JYRw9M.jpg",
+      "rating": 9.0,
+      "plot": "En la isla de Jeju, una chica llena de vida y un joven decidido viven una historia repleta de desafíos y triunfos que demuestra que el amor puede trascender el tiempo.",
+      "genre": "Drama",
+      "releaseDate": "2025-03-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "301"
+    },
+    {
       "title": "Silicon Valley (2014)",
       "contentId": "129",
       "group": "series",
@@ -41021,6 +41049,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "213"
+    },
+    {
+      "title": "The Witcher: El origen de la sangre (2022)",
+      "contentId": "300",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=300",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-7vtcJ0IaM82D3WULePCQa0JjS3iavcwvrtwC86zDGQ.jpg",
+      "rating": 7.0,
+      "plot": "Esta serie de acción trepidante, ambientada 1200 años antes de la historia de ‘The Witcher’, revela los orígenes de un cazador de monstruos. Sophia Brown, Laurence O'Fuarain y Michelle Yeoh interpretan a unos guerreros en un mundo élfico asolado por la violencia, la lucha de clases y el caos.",
+      "genre": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+      "releaseDate": "2022-12-25",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "300"
     },
     {
       "title": "Tiro de Gracia (2015)",
