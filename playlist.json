@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Dec 22 12:35:50 2025",
+    "generated_at": "Mon Dec 22 18:25:49 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1574,6 +1574,20 @@
       "genre": "Ciencia ficción, Terror, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "El hombre contra el bebé (2025)",
+      "contentId": "303",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=303",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOk_WTWvcZ64vcSs1sKddF3SlqPF2fw-Nh53FriLbCf78.jpg",
+      "rating": 7.0,
+      "plot": "¡Hacer de padre no es su fuerte! A pocos días de Navidad, el cuidador de un lujoso ático de Londres se topa con un gran contratiempo... lidiar también con un bebé abandonado.",
+      "genre": "Comedia, Familia",
+      "releaseDate": "2025-12-11",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "303"
     },
     {
       "title": "El hombre más afortunado de América (2025)",
@@ -38081,6 +38095,20 @@
       "series_id": "42"
     },
     {
+      "title": "Dos hombres y medio (2003)",
+      "contentId": "302",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=302",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgeh8zZg32Kc3ncqLFfXLD_4NAG_zyijeVox4Y5Ne9Js.jpg",
+      "rating": 7.0,
+      "plot": "Charlie Harper es un soltero con dinero que tiene una casa en la playa y gran éxito con las mujeres. Pero su informal estilo de vida en Malibú se ve bruscamente interrumpido cuando su hermano Alan, muy deprimido por su divorcio, y su hijo Jake, llegan para quedarse a vivir con él. La situación se complica aún más gracias a Evelyn, la egocéntrica y controladora madre de Charlie y Alan. A pesar de la complejidad de sus vidas y de sus tensas relaciones, Charlie y Alan tienen una cosa en común: adoran a Jake y quieren lo mejor para él.",
+      "genre": "Comedia",
+      "releaseDate": "2003-09-22",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "302"
+    },
+    {
       "title": "Dragon Ball Daima (2024)",
       "contentId": "263",
       "group": "series",
@@ -38530,6 +38558,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "190"
+    },
+    {
+      "title": "El hombre contra el bebé (2025)",
+      "contentId": "303",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=303",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOk_WTWvcZ64vcSs1sKddF3SlqPF2fw-Nh53FriLbCf78.jpg",
+      "rating": 7.0,
+      "plot": "¡Hacer de padre no es su fuerte! A pocos días de Navidad, el cuidador de un lujoso ático de Londres se topa con un gran contratiempo... lidiar también con un bebé abandonado.",
+      "genre": "Comedia, Familia",
+      "releaseDate": "2025-12-11",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "303"
     },
     {
       "title": "El problema de los 3 cuerpos (2024)",
