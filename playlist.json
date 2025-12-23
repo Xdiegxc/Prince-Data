@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Dec 22 18:25:49 2025",
+    "generated_at": "Tue Dec 23 01:19:55 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5486,6 +5486,15 @@
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/144.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/ac1fd1f9916f13902eed337d5de20d17.jpg",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Es: Gol Play",
+      "contentId": "55259",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55259.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeK_OHmDaFBW3ImpOlbCB_7_wRw3A0ecRGUw&s",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
