@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Dec 23 18:25:45 2025",
+    "generated_at": "Wed Dec 24 01:19:05 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1893,6 +1893,18 @@
       "rating": 5.7,
       "plot": "Un mercenario acepta el encargo de localizar a un objetivo en un avión, pero debe protegerla cuando se ven rodeados de gente que intentan matarlos a ambos.",
       "genre": "Acción, Comedia, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Five Nights at Freddy's 2 (2025)",
+      "contentId": "55260",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55260.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZX21xgtBfYlH9NW32T0XGJGoX4YPK0mTIswEF5CZaLQ.jpg",
+      "rating": 6.3,
+      "plot": "Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Con la verdad oculta, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, desencadenando una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror oculto durante décadas.",
+      "genre": "Terror, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -18106,6 +18118,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/e4fbd5497348939d1576935f752ea4d3.jpg",
       "rating": 8.6,
       "plot": "Un guardia de seguridad con problemas comienza a trabajar en Freddy Fazbear's Pizza. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de superar.",
+      "genre": "Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Five Nights at Freddy's 2 (2025)",
+      "contentId": "55260",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55260.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZX21xgtBfYlH9NW32T0XGJGoX4YPK0mTIswEF5CZaLQ.jpg",
+      "rating": 6.3,
+      "plot": "Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Con la verdad oculta, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, desencadenando una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror oculto durante décadas.",
       "genre": "Terror, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
