@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Dec 24 12:35:53 2025",
+    "generated_at": "Wed Dec 24 18:25:06 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1855,6 +1855,18 @@
       "rating": 5.5,
       "plot": "Marvin Gable, un agente inmobiliario que trabaja en un barrio a las afueras de Milwaukee, recibe un sobre rojo de Rose, una antigua cómplice a la que daba por muerta y se verá de nuevo arrastrado a un mundo de francotiradores implacables plagado de traiciones y eventos inmobiliarios convertidos en trampas letales.",
       "genre": "Acción, Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Eternity (2025)",
+      "contentId": "55293",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55293.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO4RluokC7r7YxnWAGqFglAfIRh98YeYGAiXX7O63fFhY.jpg",
+      "rating": 7.1,
+      "plot": "En un más allá donde las almas tienen una semana para decidir dónde pasarán la eternidad, Joan (Elizabeth Olsen) se enfrenta a la diabólica disyuntiva de elegir entre el hombre con el que ha compartido su vida (Miles Teller) y su primer amor (Callum Turner), que murió joven y ha estado décadas esperando a que ella llegara.",
+      "genre": "Romance, Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -4008,6 +4020,20 @@
       "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Robin Hood (2025)",
+      "contentId": "304",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=304",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgrM0EUzkEkItalgRQnntMsqf_x5PocM_0b_Wvoy2Q4c.jpg",
+      "rating": 8.0,
+      "plot": "Serie que reimagina la leyenda de Robin Hood, con un enfoque moderno del forajido que roba a los ricos para dárselo a los pobres y la historia de amor entre él y Marian. Tras la invasión normanda de Inglaterra, Rob, hijo de un guardabosques sajón, y Marian, hija de un lord normando, se enamoran y luchan juntos por la justicia y la libertad. Mientras Rob se convierte en el líder de una banda de forajidos rebeldes, Marian se infiltra en el poder de la corte, y ambos trabajan juntos para frustrar la corrupción real y traer la paz a la tierra.",
+      "genre": "Drama, Action & Adventure",
+      "releaseDate": "2025-11-02",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "304"
     },
     {
       "title": "Robot salvaje (2024)",
@@ -17595,6 +17621,18 @@
       "rating": 6.8,
       "plot": "Drama ambientado en irlanda sobre Joan y Tom, un veterano matrimonio que se enfrenta a un gran impacto emocional cuando a ella la diagnostican cáncer de mama.",
       "genre": "Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Eternity (2025)",
+      "contentId": "55293",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55293.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO4RluokC7r7YxnWAGqFglAfIRh98YeYGAiXX7O63fFhY.jpg",
+      "rating": 7.1,
+      "plot": "En un más allá donde las almas tienen una semana para decidir dónde pasarán la eternidad, Joan (Elizabeth Olsen) se enfrenta a la diabólica disyuntiva de elegir entre el hombre con el que ha compartido su vida (Miles Teller) y su primer amor (Callum Turner), que murió joven y ha estado décadas esperando a que ella llegara.",
+      "genre": "Romance, Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -40722,6 +40760,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "260"
+    },
+    {
+      "title": "Robin Hood (2025)",
+      "contentId": "304",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=304",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgrM0EUzkEkItalgRQnntMsqf_x5PocM_0b_Wvoy2Q4c.jpg",
+      "rating": 8.0,
+      "plot": "Serie que reimagina la leyenda de Robin Hood, con un enfoque moderno del forajido que roba a los ricos para dárselo a los pobres y la historia de amor entre él y Marian. Tras la invasión normanda de Inglaterra, Rob, hijo de un guardabosques sajón, y Marian, hija de un lord normando, se enamoran y luchan juntos por la justicia y la libertad. Mientras Rob se convierte en el líder de una banda de forajidos rebeldes, Marian se infiltra en el poder de la corte, y ambos trabajan juntos para frustrar la corrupción real y traer la paz a la tierra.",
+      "genre": "Drama, Action & Adventure",
+      "releaseDate": "2025-11-02",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "304"
     },
     {
       "title": "Rojo carmesí (2024)",
