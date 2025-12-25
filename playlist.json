@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Dec 25 12:35:10 2025",
+    "generated_at": "Thu Dec 25 18:24:24 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5660,6 +5660,15 @@
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/162.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/ecb749796a8d9e6a99531038938263b3.jpg",
       "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Es: Skysports La Liga",
+      "contentId": "55294",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55294.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s",
+      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
