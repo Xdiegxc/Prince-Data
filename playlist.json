@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Dec 26 12:35:07 2025",
+    "generated_at": "Fri Dec 26 18:24:34 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4272,6 +4272,20 @@
       "genre": "Acción, Ciencia ficción, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Spartacus: La Casa de Ashur (2025)",
+      "contentId": "306",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=306",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOwKKFdDDxtw2gu-0iT2dFS9JGu_ALoPG78oU8JG56fGM.jpg",
+      "rating": 6.0,
+      "plot": "¿Y si Ashur hubiese vivido y hubiese recibido el ludus donde antes sangró? Con Achillia, una gladiadora, desata espectáculos que desafían a Roma y sorprenden a la élite.",
+      "genre": "Drama, Action & Adventure",
+      "releaseDate": "2025-12-05",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "306"
     },
     {
       "title": "Splitsville (2025)",
@@ -41034,6 +41048,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "27"
+    },
+    {
+      "title": "Spartacus: La Casa de Ashur (2025)",
+      "contentId": "306",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=306",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOwKKFdDDxtw2gu-0iT2dFS9JGu_ALoPG78oU8JG56fGM.jpg",
+      "rating": 6.0,
+      "plot": "¿Y si Ashur hubiese vivido y hubiese recibido el ludus donde antes sangró? Con Achillia, una gladiadora, desata espectáculos que desafían a Roma y sorprenden a la élite.",
+      "genre": "Drama, Action & Adventure",
+      "releaseDate": "2025-12-05",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "306"
     },
     {
       "title": "Star Wars: Andor (2022)",
