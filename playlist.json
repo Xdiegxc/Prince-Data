@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Dec 28 01:28:42 2025",
+    "generated_at": "Sun Dec 28 06:25:57 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5700,15 +5700,6 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Es: Skysports La Liga",
-      "contentId": "55294",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55294.ts",
-      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Es: Teledeporte Hd (P)",
       "contentId": "187",
       "group": "sports",
@@ -6566,6 +6557,15 @@
       "group": "music",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5491.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Lat: MTV Live Hd",
+      "contentId": "296",
+      "group": "music",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/296.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDzzGdz9qDliRCTs-gfjmC66vDuMGXcwU8dw&s",
       "quality": "HD",
       "source_alias": "MainProvider"
     },
