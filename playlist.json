@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Dec 27 18:23:30 2025",
+    "generated_at": "Sun Dec 28 01:28:42 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2536,6 +2536,18 @@
       "series_id": "244"
     },
     {
+      "title": "La Navidad en sus manos 2 (2025)",
+      "contentId": "55315",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55315.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBHnThURAYTBlz9uS5fva0Gbs1rQVN62hU2CF9L9gV_A.jpg",
+      "rating": 5.8,
+      "plot": "Salva y sus amigos se reencontrarán con Papá Noel y tendrán que volver a salvar las Navidades.",
+      "genre": "Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La Salsa Vive (2025)",
       "contentId": "54585",
       "group": "movies",
@@ -3452,6 +3464,17 @@
       "rating": 6.9,
       "plot": "Una tarea de escritura creativa produce resultados complejos entre un maestro y su estudiante talentosa.",
       "genre": "Misterio, Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mirreyes contra Godínez: Un Especial de Navidad (2025)",
+      "contentId": "55314",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55314.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO6F41tMEyvRhfJNrqltU3jGRGi0BgVvPkbl5PSGDJxPU.jpg",
+      "plot": "Hay que cerrar un trato, y si fracasan, habrán traído a sus romeritos en vano. En medio de la conversación, Genaro recibe una visita inesperada: el fantasma de Don Francisco, que le enseñará el verdadero significado de la Navidad.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -5947,6 +5970,15 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Lat: Golf Hd",
+      "contentId": "55321",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55321.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDKe2Csih2q47HdUbdynLI5ILR3ssbapVDg&s",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Lat: Univision Deportes",
       "contentId": "886",
       "group": "sports",
@@ -6033,6 +6065,42 @@
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4491.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/820b128c3afc31349237f2c4f9689d6c.jpg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mex: Sky Sports 16 Hd",
+      "contentId": "55319",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55319.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/JLwVVWwPe66JPFb0ohRtGwnq65W-MhikEta7rXyMmkCYOwQsnHR17R1WeqJLC7Efq3XJluRJLcWZb3nvrKUjJpHbs1p553lKY16LdXsWgAnP-JMk-ZPtifIwrFJA88B7RrlRR2yU26mMLKk48YTpmewmG4hqf_5oij7wtEPg3Wc.jpg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mex: Sky Sports 21 Hd",
+      "contentId": "55318",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55318.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBDaACqv9CTjUYZnd9ZYVXvwUhiLrAe7ucNw&s",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mex: Sky Sports 24",
+      "contentId": "55317",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55317.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVINMHyiihmZ5CALc_G2HvHMocbEy7lIRag&s",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mex: Sky Sports Hd",
+      "contentId": "55316",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55316.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s",
       "quality": "HD",
       "source_alias": "MainProvider"
     },
@@ -6178,15 +6246,6 @@
       "group": "kids",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1142.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/203468c212764d84fb6a2596715687ce.jpg",
-      "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: Nick Hd",
-      "contentId": "1141",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1141.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/5b9b9a4e7d6eb970ef06a221a2c7d9c6.jpg",
       "quality": "HD",
       "source_alias": "MainProvider"
     },
@@ -22103,6 +22162,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La Navidad en sus manos 2 (2025)",
+      "contentId": "55315",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55315.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBHnThURAYTBlz9uS5fva0Gbs1rQVN62hU2CF9L9gV_A.jpg",
+      "rating": 5.8,
+      "plot": "Salva y sus amigos se reencontrarán con Papá Noel y tendrán que volver a salvar las Navidades.",
+      "genre": "Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La Niebla (2007)",
       "contentId": "39884",
       "group": "movies",
@@ -26677,6 +26748,17 @@
       "rating": 8.2,
       "plot": "La superheroína, que ha cautivado los corazones de millones de fans en todo el mundo, llega por primera vez al cine. Ladybug tendrá que unir fuerzas con Cat Noir, la carismática y franca justiciera enmascarada, para luchar contra los supervillanos que amenazan con destruir París.",
       "genre": "Animación, Familia, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Mirreyes contra Godínez: Un Especial de Navidad (2025)",
+      "contentId": "55314",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55314.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO6F41tMEyvRhfJNrqltU3jGRGi0BgVvPkbl5PSGDJxPU.jpg",
+      "plot": "Hay que cerrar un trato, y si fracasan, habrán traído a sus romeritos en vano. En medio de la conversación, Genaro recibe una visita inesperada: el fantasma de Don Francisco, que le enseñará el verdadero significado de la Navidad.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
