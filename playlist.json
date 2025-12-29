@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Dec 29 01:25:57 2025",
+    "generated_at": "Mon Dec 29 06:29:31 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3108,6 +3108,20 @@
       "genre": "Suspense, Crimen, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Los abandonados (2025)",
+      "contentId": "307",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=307",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdkDJZwU6d2VWNsB7rJC583am8LT2pPb_VhGcn5EOEPI.jpg",
+      "rating": 6.0,
+      "plot": "En los Estados Unidos de 1850, dos familias de distinta clase social encabezadas por sus valerosas matriarcas luchan por la supremacía en una tierra sin ley.",
+      "genre": "Western, Drama",
+      "releaseDate": "2025-12-04",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "307"
     },
     {
       "title": "Los amos del aire (2024)",
@@ -40013,6 +40027,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "142"
+    },
+    {
+      "title": "Los abandonados (2025)",
+      "contentId": "307",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=307",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdkDJZwU6d2VWNsB7rJC583am8LT2pPb_VhGcn5EOEPI.jpg",
+      "rating": 6.0,
+      "plot": "En los Estados Unidos de 1850, dos familias de distinta clase social encabezadas por sus valerosas matriarcas luchan por la supremacía en una tierra sin ley.",
+      "genre": "Western, Drama",
+      "releaseDate": "2025-12-04",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "307"
     },
     {
       "title": "Los amos del aire (2024)",
