@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Dec 30 12:36:22 2025",
+    "generated_at": "Tue Dec 30 18:26:15 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4996,6 +4996,18 @@
       "rating": 7.4,
       "plot": "Ambientada en la Tierra de Oz, mucho antes de la llegada de Dorothy Gale desde Kansas, la trama abarca los acontecimientos del primer acto del musical de Broadway. Elphaba es una joven incomprendida por su inusual color verde que aún no ha descubierto su verdadero poder. Glinda es una popular joven marcada por sus privilegios y su ambición que aún no ha descubierto su verdadera pasión. Las dos se conocen como estudiantes de la Universidad Shiz, en la fantástica Tierra de Oz, y forjan una insólita pero profunda amistad.",
       "genre": "Drama, Romance, Fantasía",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Wicked Parte II (2025)",
+      "contentId": "55356",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55356.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOonnaVjRtbWdwV05MpaQgo1YkKEKxsHfSIesAv6HK0vI.jpg",
+      "rating": 6.8,
+      "plot": "Mientras la multitud alza su clamor contra la Bruja Malvada, Glinda y Elphaba deberán unirse una vez más. Con su singular amistad convertida en el punto de inflexión de su futuro, tendrán que mirarse a los ojos con honestidad y compasión para afrontar su transformación personal y cambiar el destino de todo Oz.",
+      "genre": "Fantasía, Aventura, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -33164,6 +33176,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Superinteligencia (2020)",
+      "contentId": "55355",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55355.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQONc4lil31lofDfTCin8n3Ff7rWtziwy08RhJmfHYD4aA.jpg",
+      "rating": 6.0,
+      "plot": "La vida de Carol Peters se trastorna cuando es seleccionada para ser examinada por la primera superinteligencia del mundo, una forma de inteligencia artificial que puede o no conquistar el mundo.",
+      "genre": "Comedia, Ciencia ficción, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Superman (2025)",
       "contentId": "54703",
       "group": "movies",
@@ -36768,6 +36792,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Wicked Parte II (2025)",
+      "contentId": "55356",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55356.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOonnaVjRtbWdwV05MpaQgo1YkKEKxsHfSIesAv6HK0vI.jpg",
+      "rating": 6.8,
+      "plot": "Mientras la multitud alza su clamor contra la Bruja Malvada, Glinda y Elphaba deberán unirse una vez más. Con su singular amistad convertida en el punto de inflexión de su futuro, tendrán que mirarse a los ojos con honestidad y compasión para afrontar su transformación personal y cambiar el destino de todo Oz.",
+      "genre": "Fantasía, Aventura, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Willow (1988)",
       "contentId": "24315",
       "group": "movies",
@@ -37156,6 +37192,18 @@
       "rating": 7.5,
       "plot": "El Asesino del Zodiaco mató, entre 1966 y 1978, a numerosas personas en San Francisco, al tiempo que enviaba a los medios de comunicación cartas con pistas. La acción se centra en las largas pesquisas de dos detectives que intentaron darle caza y en las investigaciones de dos periodistas que trataron de averiguar su identidad...",
       "genre": "Crimen, Drama, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Zohan: Licencia para peinar (2008)",
+      "contentId": "55354",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55354.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOlHIEAfcmNI7RMxoFWjyks4IuzS9v9yuW1tzk7TYe9yo.jpg",
+      "rating": 5.7,
+      "plot": "Zohan, un peculiar y muy competente agente israelí de los servicios secretos del Mossad, finge su muerte para poder trasladarse de Israel a Nueva York y cumplir allí el sueño de su vida: convertirse en peluquero y estilista. Aunque Zohan se ha propuesto olvidar su peligrosa vida como agente de la lucha antiterrorista, pronto se da cuenta de que no es tan sencillo.",
+      "genre": "Comedia, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
