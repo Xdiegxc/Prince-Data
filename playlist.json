@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Dec 30 18:26:15 2025",
+    "generated_at": "Wed Dec 31 01:21:33 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3884,6 +3884,20 @@
       "genre": "Animación, Aventura, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Pluribus (2025)",
+      "contentId": "308",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=308",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOIGAfwKaoKTCP0xI6_ikdUceOgCObwJ4CyzBwTFklIso.jpg",
+      "rating": 8.0,
+      "plot": "La persona más desgraciada de la Tierra tiene que salvar al mundo de la felicidad.",
+      "genre": "Drama, Sci-Fi & Fantasy",
+      "releaseDate": "2025-11-06",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "308"
     },
     {
       "title": "Predator: Asesino de asesinos (2025)",
@@ -40750,6 +40764,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "267"
+    },
+    {
+      "title": "Pluribus (2025)",
+      "contentId": "308",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=308",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOIGAfwKaoKTCP0xI6_ikdUceOgCObwJ4CyzBwTFklIso.jpg",
+      "rating": 8.0,
+      "plot": "La persona más desgraciada de la Tierra tiene que salvar al mundo de la felicidad.",
+      "genre": "Drama, Sci-Fi & Fantasy",
+      "releaseDate": "2025-11-06",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "308"
     },
     {
       "title": "Pocholo (2007)",
