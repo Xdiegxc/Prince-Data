@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Dec 31 12:36:05 2025",
+    "generated_at": "Wed Dec 31 18:24:23 2025",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4665,6 +4665,18 @@
       "rating": 8.0,
       "plot": "La historia jamás contada del origen de Optimus Prime y Megatron y de cómo pasaron de ser hermanos de armas que cambiaron el destino de Cybertron para siempre, a convertirse en enemigos acérrimos.",
       "genre": "Animación, Ciencia ficción, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Trap House (2025)",
+      "contentId": "55376",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55376.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqv94nBAXZGnUDJUU59AfP5euy6WIuvOq5jc8tydXW1Y.jpg",
+      "rating": 6.3,
+      "plot": "Un agente de la DEA y su compañero persiguen un peculiar grupo de ladrones: sus propios hijos adolescentes rebeldes, que han empezado a robar a un peligroso cártel, utilizando para ello las tácticas de sus padres y la información de alto secreto.",
+      "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -13872,13 +13884,13 @@
     },
     {
       "title": "El Grinch (2018)",
-      "contentId": "18678",
+      "contentId": "55313",
       "group": "movies",
-      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/18678.mkv",
-      "hdPosterUrl": "http://latinapro.net:25461/images/c9f9a1a43a19dd16def3200e80c6c856.jpg",
-      "rating": 6.8,
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55313.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOKxwHzQ8QQJglcz87WF8GmBj69CLKe00MFOmWba7uNAk.jpg",
+      "rating": 6.9,
       "plot": "El Grinch, la película de animación basada en el popular clásico navideño del Dr. Seuss, cuenta la historia de un cínico cascarrabias que se propone robar la Navidad hasta que el desbordante espíritu navideño de una niña le hace cambiar de opinión. Divertida, enternecedora y visualmente impactante, se trata de una historia universal sobre el indómito poder del optimismo.",
-      "genre": "Animación, Familia, Comedia",
+      "genre": "Familia, Comedia, Animación",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -34984,6 +34996,18 @@
       "rating": 6.2,
       "plot": "Dos años después de derrotar a los Decepticons, las vidas de Sam y los Autobots han cambiado mucho. Mientras Sam se prepara para ir a la universidad, sus amigos robots se han integrado en una fuerza de élite que captura a enemigos renegados. Pero todo cambia con la llegada de un malvado enemigo que, con un enrevesado plan, planea un nuevo alzamiento de los Decepticons. La humanidad vuelve a estar en peligro, y Sam y los Autobots tendrán que formar una vez más equipo para salvarla.",
       "genre": "Ciencia ficción, Acción, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Trap House (2025)",
+      "contentId": "55376",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55376.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqv94nBAXZGnUDJUU59AfP5euy6WIuvOq5jc8tydXW1Y.jpg",
+      "rating": 6.3,
+      "plot": "Un agente de la DEA y su compañero persiguen un peculiar grupo de ladrones: sus propios hijos adolescentes rebeldes, que han empezado a robar a un peligroso cártel, utilizando para ello las tácticas de sus padres y la información de alto secreto.",
+      "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
