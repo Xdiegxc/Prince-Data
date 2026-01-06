@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Jan  5 18:27:23 2026",
+    "generated_at": "Tue Jan  6 01:21:46 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3920,6 +3920,18 @@
       "rating": 8.0,
       "plot": "Esta antología original de animación narra las aventuras de tres de los guerreros más fieros de la historia de la humanidad: una saqueadora vikinga que guía a su hijo en su sangrienta búsqueda de la venganza, un ninja del Japón feudal que se enfrenta a su hermano samurái en una brutal batalla por la sucesión y un piloto de la Segunda Guerra Mundial que surca los cielos para investigar una amenaza extraterrestre contra los Aliados.",
       "genre": "Animación, Ciencia ficción, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Predator: Badlands (2025)",
+      "contentId": "55411",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55411.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgPo48Q-3H8DaDq42bUQZlby0rulLuWqqrezzTvpmA5k.jpg",
+      "rating": 7.3,
+      "plot": "Un joven Predator rechazado por su clan encuentra un aliado inesperado en Thia y emprende un peligroso viaje en busca del adversario definitivo.",
+      "genre": "Acción, Ciencia ficción, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -29976,6 +29988,18 @@
       "rating": 8.0,
       "plot": "Esta antología original de animación narra las aventuras de tres de los guerreros más fieros de la historia de la humanidad: una saqueadora vikinga que guía a su hijo en su sangrienta búsqueda de la venganza, un ninja del Japón feudal que se enfrenta a su hermano samurái en una brutal batalla por la sucesión y un piloto de la Segunda Guerra Mundial que surca los cielos para investigar una amenaza extraterrestre contra los Aliados.",
       "genre": "Animación, Ciencia ficción, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Predator: Badlands (2025)",
+      "contentId": "55411",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55411.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgPo48Q-3H8DaDq42bUQZlby0rulLuWqqrezzTvpmA5k.jpg",
+      "rating": 7.3,
+      "plot": "Un joven Predator rechazado por su clan encuentra un aliado inesperado en Thia y emprende un peligroso viaje en busca del adversario definitivo.",
+      "genre": "Acción, Ciencia ficción, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
