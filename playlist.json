@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Jan  6 06:28:47 2026",
+    "generated_at": "Tue Jan  6 12:37:10 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1269,6 +1269,20 @@
       "genre": "Drama, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Dinastía Casillas (2025)",
+      "contentId": "309",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=309",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOulW9hB8-MXZCqymxdy6j2CSyuqr3p0OLFtFbPZOJ878.jpg",
+      "rating": 8.0,
+      "plot": "Tras la misteriosa desaparición de Aurelio, Ismael Casillas se ve obligado a enfrentar una despiadada batalla por el legado y la familia. Proteger a los suyos le exige alianzas y sacrificios.",
+      "genre": "Drama, Action & Adventure, Misterio",
+      "releaseDate": "2025-10-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "309"
     },
     {
       "title": "Dogman (2025)",
@@ -38391,6 +38405,20 @@
       "series_id": "40"
     },
     {
+      "title": "Dinastía Casillas (2025)",
+      "contentId": "309",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=309",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOulW9hB8-MXZCqymxdy6j2CSyuqr3p0OLFtFbPZOJ878.jpg",
+      "rating": 8.0,
+      "plot": "Tras la misteriosa desaparición de Aurelio, Ismael Casillas se ve obligado a enfrentar una despiadada batalla por el legado y la familia. Proteger a los suyos le exige alianzas y sacrificios.",
+      "genre": "Drama, Action & Adventure, Misterio",
+      "releaseDate": "2025-10-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "309"
+    },
+    {
       "title": "Diomedes - El Cacique de La Junta (2015)",
       "contentId": "46",
       "group": "series",
@@ -40203,6 +40231,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "220"
+    },
+    {
+      "title": "Love, Death & Robots (2019)",
+      "contentId": "310",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=310",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgh2jCJsGEf1OYa7Mk-g_9sqsW71JK1j2Ft_cLbGb9T4.jpg",
+      "rating": 8.0,
+      "plot": "Seres terroríficos, sorpresas retorcidas y humor negro convergen en esta antología de relatos animados para adultos presentada por Tim Miller y David Fincher.",
+      "genre": "Animación, Sci-Fi & Fantasy",
+      "releaseDate": "2019-03-15",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "310"
     },
     {
       "title": "Luis Miguel: La Serie (2018)",
