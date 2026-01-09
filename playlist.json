@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Jan  8 18:22:57 2026",
+    "generated_at": "Fri Jan  9 01:22:31 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3088,6 +3088,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Lo que aprendí de mi pingüino (2025)",
+      "contentId": "55511",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55511.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOhqeh9-XRn9myybBpkGhJmldYUR7Oe8agh528Ef_Jk5o.jpg",
+      "rating": 7.1,
+      "plot": "The Penguin Lessons es la historia real de un inglés desilusionado que comenzó a trabajar en una escuela en Argentina en 1976. Esperando un viaje fácil, descubrió en cambio una nación complicada y dividida, y una clase de jóvenes prácticamente imposibles de enseñar. Cuando encuentra un pequeño pingüino varado en una playa manchada de petróleo, su vida da un vuelco y el pingüino se convierte no sólo en un valioso amigo, sino también en un maestro de las lecciones más importantes de la vida, para Tom, los niños y muchos otros. .",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Longlegs (2024)",
       "contentId": "52695",
       "group": "movies",
@@ -5457,6 +5469,15 @@
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4695.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/68b885f876355c6e18a063bfc0558aee.jpg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Colombia: Winsports Plus Hd Backup",
+      "contentId": "55512",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55512.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/ISlAIhDn7UvoAONvRYNezhSWjTesf2Dew6k3WySL8DzwbappLJEafy9Jap7Hv0Ve-bOE6hSALO1L-stGIvrw6l2YdQl13sAmEULeavKZjx-ByXNBHJy5_28Da5gzGHCTKomzq7y7KcIAHji2pumjUQ.jpg",
       "quality": "HD",
       "source_alias": "MainProvider"
     },
@@ -24633,6 +24654,18 @@
       "rating": 7.4,
       "plot": "María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos comienzan sus vacaciones de invierno en Tailandia en busca de unos días en un paraiso tropical. Pero en la mañana del 26 de Diciembre, mientras disfrutan de sus relajantes vacaciones en la piscina tras la celebración de la Navidad y Nochebuena, un terrible rugido emerge del centro de la tierra. Mientras María se paraliza de miedo, un inmenso muro de agua oscura corre por los jardines del hotel hacia ella. Largometraje sobre el tsunami que azotó el sudeste asiático en 2004.",
       "genre": "Aventura, Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Lo que aprendí de mi pingüino (2025)",
+      "contentId": "55511",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55511.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOhqeh9-XRn9myybBpkGhJmldYUR7Oe8agh528Ef_Jk5o.jpg",
+      "rating": 7.1,
+      "plot": "The Penguin Lessons es la historia real de un inglés desilusionado que comenzó a trabajar en una escuela en Argentina en 1976. Esperando un viaje fácil, descubrió en cambio una nación complicada y dividida, y una clase de jóvenes prácticamente imposibles de enseñar. Cuando encuentra un pequeño pingüino varado en una playa manchada de petróleo, su vida da un vuelco y el pingüino se convierte no sólo en un valioso amigo, sino también en un maestro de las lecciones más importantes de la vida, para Tom, los niños y muchos otros. .",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
