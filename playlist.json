@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Jan 11 18:23:51 2026",
+    "generated_at": "Mon Jan 12 01:25:37 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -41880,6 +41880,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "14"
+    },
+    {
+      "title": "Él y ella (2026)",
+      "contentId": "311",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=311",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOzvMZ_3Xc7b_-lqvFxGwrwXdt0VMwcv7uqOaquOURO7w.jpg",
+      "rating": 6.0,
+      "plot": "Un matrimonio formado por un inspector de policía y una periodista compite para resolver un caso de asesinato en el que ambos ven al otro como el principal sospechoso.",
+      "genre": "Misterio, Crimen, Drama",
+      "releaseDate": "2026-01-08",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "311"
     },
     {
       "title": "Élite (2018)",
