@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Jan 14 12:38:12 2026",
+    "generated_at": "Wed Jan 14 18:28:09 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4917,6 +4917,18 @@
       "rating": 6.1,
       "plot": "Una ejecutiva publicitaria sobrecargada de trabajo lidia con un jefe sexista, un marido perezoso, una amiga egocéntrica y una hermana difícil. Tras conocer a una sanadora mística, de repente pierde el control y empieza a decir lo que piensa sin tapujos.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Una noche en Zoopolis (2025)",
+      "contentId": "55543",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55543.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9N_gkcu5BSdZMheZpvJInOsCQS7FGgYRpXUtIUlnyOA.jpg",
+      "rating": 6.6,
+      "plot": "Una noche, un meteorito se estrella en el zoo de Colepepper desatando un virus que transforma a los animales en extraños y divertidísimos mutantes zombis babosos. Gracie, una joven loba estrafalaria, forma equipo con un rudo y temible puma para encontrar la forma de volver con su manada. Ahora, como el zoo está invadido deben idear un plan para que todos los animales vuelvan a la normalidad.",
+      "genre": "Animación, Comedia, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -35961,6 +35973,18 @@
       "rating": 7.1,
       "plot": "Tras la derrota de Cassius Clay de Sonny Liston en 1964, el boxeador se reúne con Malcolm X, Sam Cooke y Jim Brown para cambiar el curso de la historia en el segregado Sur.",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Una noche en Zoopolis (2025)",
+      "contentId": "55543",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55543.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9N_gkcu5BSdZMheZpvJInOsCQS7FGgYRpXUtIUlnyOA.jpg",
+      "rating": 6.6,
+      "plot": "Una noche, un meteorito se estrella en el zoo de Colepepper desatando un virus que transforma a los animales en extraños y divertidísimos mutantes zombis babosos. Gracie, una joven loba estrafalaria, forma equipo con un rudo y temible puma para encontrar la forma de volver con su manada. Ahora, como el zoo está invadido deben idear un plan para que todos los animales vuelvan a la normalidad.",
+      "genre": "Animación, Comedia, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
