@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Jan 13 18:27:11 2026",
+    "generated_at": "Wed Jan 14 01:24:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4061,6 +4061,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Rental Family (2025)",
+      "contentId": "55522",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55522.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOg-KZzHQPMq3MUE7SRZrluri20o74ZElqK0X6VjTqd9I.jpg",
+      "rating": 7.8,
+      "plot": "Ambientada en el Tokio actual, sigue a un actor estadounidense que lucha por encontrar un propósito en la vida hasta que consigue un trabajo inusual: trabajar para una agencia japonesa de \"familias de alquiler\", interpretando papeles de suplente para desconocidos. A medida que se sumerge en el mundo de sus clientes, comienza a establecer vínculos genuinos que difuminan las líneas entre la actuación y la realidad. Al enfrentarse a las complejidades morales de su trabajo, redescubre el propósito, la pertenencia y la tranquila belleza de las relaciones humanas.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Respira (2024)",
       "contentId": "53414",
       "group": "movies",
@@ -4359,6 +4371,18 @@
       "rating": 6.8,
       "plot": "Después de someterse a un tratamiento de vanguardia para el Alzheimer, un ex detective de homicidios vuelve a examinar un caso de hace una década que involucra el brutal asesinato de un profesor universitario, y es como si estuviera investigando el caso por primera vez.",
       "genre": "Misterio, Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Song Sung Blue - Canción para dos (2025)",
+      "contentId": "55521",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55521.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO4m40YyO_Y4_fbCv0HdOYiANmGT-ZQHco1cbD8w8sNBU.jpg",
+      "rating": 7.3,
+      "plot": "La historia de dos músicos de poca fortuna que se lanzan con ilusión a formar una banda tributo a Neil Diamond, demostrando que nunca es demasiado tarde para encontrar el amor y cumplir tus sueños.",
+      "genre": "Drama, Música, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -30749,6 +30773,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Rental Family (2025)",
+      "contentId": "55522",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55522.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOg-KZzHQPMq3MUE7SRZrluri20o74ZElqK0X6VjTqd9I.jpg",
+      "rating": 7.8,
+      "plot": "Ambientada en el Tokio actual, sigue a un actor estadounidense que lucha por encontrar un propósito en la vida hasta que consigue un trabajo inusual: trabajar para una agencia japonesa de \"familias de alquiler\", interpretando papeles de suplente para desconocidos. A medida que se sumerge en el mundo de sus clientes, comienza a establecer vínculos genuinos que difuminan las líneas entre la actuación y la realidad. Al enfrentarse a las complejidades morales de su trabajo, redescubre el propósito, la pertenencia y la tranquila belleza de las relaciones humanas.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Reprisal (2018)",
       "contentId": "17977",
       "group": "movies",
@@ -32677,6 +32713,18 @@
       "rating": 6.8,
       "plot": "Un traficante de marihuana se crea una familia ficticia con una stripper y dos jóvenes como parte de su plan para pasar un gran cargamento de Estados Unidos a México.",
       "genre": "Comedia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Song Sung Blue - Canción para dos (2025)",
+      "contentId": "55521",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55521.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO4m40YyO_Y4_fbCv0HdOYiANmGT-ZQHco1cbD8w8sNBU.jpg",
+      "rating": 7.3,
+      "plot": "La historia de dos músicos de poca fortuna que se lanzan con ilusión a formar una banda tributo a Neil Diamond, demostrando que nunca es demasiado tarde para encontrar el amor y cumplir tus sueños.",
+      "genre": "Drama, Música, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
