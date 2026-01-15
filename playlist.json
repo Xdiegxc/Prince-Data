@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Jan 14 18:28:09 2026",
+    "generated_at": "Thu Jan 15 01:20:49 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -38019,6 +38019,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "29"
+    },
+    {
+      "title": "Amor De Oficina (2026)",
+      "contentId": "312",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=312",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQONqwwn4uKr5rHEO3FgOyRcUvZ_zgI90r6CkPpk_DAVEE.jpg",
+      "rating": 6.0,
+      "plot": "Una dedicada empleada y el atractivo hijo del jefe compiten por el puesto de CEO de una gran empresa de ropa interior... pero el romance amenaza con sabotear sus planes.",
+      "genre": "Comedia",
+      "releaseDate": "2026-01-01",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "312"
     },
     {
       "title": "Amor de carnaval (2012)",
