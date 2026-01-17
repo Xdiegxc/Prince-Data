@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Jan 17 12:33:04 2026",
+    "generated_at": "Sat Jan 17 18:23:31 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -14662,6 +14662,18 @@
       "rating": 8.3,
       "plot": "Cantinflas, un repartidor de periódicos, decide ser bombero para cubrir gastos, ya que su mejor amigo ha muerto y debe mantener a la hija de éste. pero lo que no sabe es que la niña es heredera de una gran fortuna y que unos malhechores quieren raptarla. En uno de los incendios salva a su antiguo jefe, quien le pide que regrese a su antiguo oficio y se haga cargo de un barrio muy peligroso.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El botín (2026)",
+      "contentId": "55558",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55558.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPRfgwBd68fYaBy02uJmeTIMyY_54qKHTHDPCXW8MF14.jpg",
+      "rating": 7.2,
+      "plot": "El descubrimiento de varios millones de dólares en efectivo en un zulo abandonado de Miami quiebra la confianza de un grupo de policías. Ahora, todo y todos están bajo sospecha.",
+      "genre": "Acción, Suspense, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
