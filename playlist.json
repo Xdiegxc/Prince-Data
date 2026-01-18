@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Jan 17 18:23:31 2026",
+    "generated_at": "Sun Jan 18 01:28:25 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5991,7 +5991,7 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN Backup",
+      "title": "Lat: ESPN Colombia Backup",
       "contentId": "50829",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50829.ts",
