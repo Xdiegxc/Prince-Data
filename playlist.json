@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Jan 18 12:33:10 2026",
+    "generated_at": "Sun Jan 18 18:22:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -38292,6 +38292,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "30"
+    },
+    {
+      "title": "Chepe Fortuna (2010)",
+      "contentId": "313",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=313",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOpF1RmK27ynCn5Dv8kBaewjxHzSDNDMDsLrFs9JxcU6o.jpg",
+      "rating": 6.0,
+      "plot": "Las diferencias de clases sociales son el impedimento más grande para el amor de Chepe Fortuna y Niña Cabrales. Él es un humilde pescador del barrio el Tiburón que sueña con ser alcalde, y Niña Cabrales es una ecologista ambiental, que desciende de una acaudalada familia de la costa norte colombiana y sueña con ayudar a los pescadores de su tierra natal. Aunque ambos no se conocen personalmente, ellos sueñan el uno con el otro, sin saber que el futuro los unirá.",
+      "genre": "Soap, Comedia, Drama",
+      "releaseDate": "2010-07-26",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "313"
     },
     {
       "title": "Chernobyl (2019)",
