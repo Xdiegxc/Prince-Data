@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Jan 19 12:41:22 2026",
+    "generated_at": "Mon Jan 19 18:27:15 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2276,6 +2276,18 @@
       "rating": 6.0,
       "plot": "Su primera semana de instituto y la mayor fiesta del año. Cuatro chicos se desmelenan en una noche loca donde no faltarán los equívocos.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Inexplicable (2024)",
+      "contentId": "55715",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55715.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOIT13qjnAoannkAo6ehN_A6fSyQeWscIaiZeGAuOy-1g.jpg",
+      "rating": 7.8,
+      "plot": "Basada en una historia real. Cuando a un niño de 8 años apasionado por el fútbol le diagnostican una grave enfermedad, su familia necesita fuerza y fe para afrontar las complicaciones de la enfermedad.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -9231,6 +9243,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Babel (Subtitulado) (2006)",
+      "contentId": "55716",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55716.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqIA6JVoZbrc88wpUmCfgTOttBL-jnL2y5gUIx52XCX4.jpg",
+      "rating": 7.2,
+      "plot": "Ambientada en Marruecos, Túnez, México y Japón. Armados con un Winchester, dos muchachos marroquíes salen en busca del rebaño de cabras de la familia. En medio del silencio del desierto, deciden probar el rifle, sin conocer el alcance de la bala. En un instante, entran en colisión las vidas de cuatro grupos de personas que viven en tres continentes distintos.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Baby Driver (2017)",
       "contentId": "17899",
       "group": "movies",
@@ -15626,6 +15650,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El hombre de la máscara de hierro (1998)",
+      "contentId": "55714",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55714.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVL9xIVl5ejMQ_O0TnKOjIseF6I0H4zjGzExkB48aisw.jpg",
+      "rating": 6.6,
+      "plot": "Francia se muere de hambre, mientras el Rey Luis XIV mantiene un reinado de terror. Sólo \"los tres mosqueteros\" podrán salir al rescate. Su misión: liberar a un misterioso prisionero en La Bastilla, en cuya identidad radica el secreto que podrá salvar a la nación...",
+      "genre": "Aventura, Acción, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El hombre del norte (2022)",
       "contentId": "25005",
       "group": "movies",
@@ -20636,6 +20672,18 @@
       "rating": 6.0,
       "plot": "Su primera semana de instituto y la mayor fiesta del año. Cuatro chicos se desmelenan en una noche loca donde no faltarán los equívocos.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Inexplicable (2024)",
+      "contentId": "55715",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55715.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOIT13qjnAoannkAo6ehN_A6fSyQeWscIaiZeGAuOy-1g.jpg",
+      "rating": 7.8,
+      "plot": "Basada en una historia real. Cuando a un niño de 8 años apasionado por el fútbol le diagnostican una grave enfermedad, su familia necesita fuerza y fe para afrontar las complicaciones de la enfermedad.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
