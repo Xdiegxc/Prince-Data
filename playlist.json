@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Jan 19 18:27:15 2026",
+    "generated_at": "Tue Jan 20 01:22:04 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -39089,6 +39089,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "201"
+    },
+    {
+      "title": "El caballero de los Siete Reinos (2026)",
+      "contentId": "314",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=314",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOYbtFT2QqIe1bXDuV1qAMWerSoYBR88-JeeDZoNcWFBA.jpg",
+      "rating": 8.0,
+      "plot": "Un siglo antes de los acontecimientos de \"Juego de Tronos\", dos héroes improbables vagaban por Poniente: un joven e ingenuo, pero valiente caballero, Ser Duncan el Alto, y su pequeño escudero, Egg. Ambientada en una época en la que el linaje Targaryen aún ostenta el Trono de Hierro y el recuerdo del último dragón aún no ha desaparecido de la memoria viva, grandes destinos, poderosos enemigos y peligrosas hazañas aguardan a estos improbables e incomparables amigos.",
+      "genre": "Drama, Sci-Fi & Fantasy, Action & Adventure",
+      "releaseDate": "2026-01-18",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "314"
     },
     {
       "title": "El encargado (2022)",
