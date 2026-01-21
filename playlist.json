@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Jan 21 01:24:44 2026",
+    "generated_at": "Wed Jan 21 06:30:55 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1598,6 +1598,18 @@
       "rating": 5.8,
       "plot": "Después de que una prueba experimental de drogas sale terriblemente mal, los sujetos de prueba sobrevivientes tienen que luchar contra el sueño y entre ellos para mantenerse con vida.",
       "genre": "Ciencia ficción, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El gran diluvio (2025)",
+      "contentId": "55743",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55743.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOd0hnlaeQCD3GR4rfmOzkD1HPQdot3IQsxNpAwk9UbUc.jpg",
+      "rating": 6.0,
+      "plot": "En el que podría ser el último día en la Tierra, una lucha a vida o muerte en un piso inundado se convierte en la única esperanza de supervivencia de la humanidad.",
+      "genre": "Ciencia ficción, Aventura, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -15478,6 +15490,18 @@
       "rating": 6.6,
       "plot": "Stan, un agente inmobiliario sin escrúpulos, aterrado ante el hecho de ir a la cárcel por culpa de un delito de estafa, tratará de aprender una misteriosa arte marcial gracias a un maestro que le instruirá para intimidar a los reclusos y ser así respetado dentro de la cárcel.",
       "genre": "Comedia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El gran diluvio (2025)",
+      "contentId": "55743",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55743.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOd0hnlaeQCD3GR4rfmOzkD1HPQdot3IQsxNpAwk9UbUc.jpg",
+      "rating": 6.0,
+      "plot": "En el que podría ser el último día en la Tierra, una lucha a vida o muerte en un piso inundado se convierte en la única esperanza de supervivencia de la humanidad.",
+      "genre": "Ciencia ficción, Aventura, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -32244,6 +32268,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/ce238110bfac648b5fc9b4cf336cd366.jpg",
       "rating": 7.4,
       "plot": "En la zona fronteriza que se extiende entre Estados Unidos y México la joven Kate Macer, una idealista agente del FBI, es reclutada por una fuerza de élite del Gobierno para luchar contra el narcotráfico. Bajo el mando de Matt Graver, un frío miembro de las fuerzas gubernamentales, y de Alejandro, un enigmático asesor, el equipo emprende una misión que lleva a la mujer a cuestionarse sus convicciones sobre la guerra contra los narcos y los límites de la ley.",
+      "genre": "Acción, Crimen, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Sicario: El día del soldado (2018)",
+      "contentId": "55744",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55744.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOilQGEQjN64-ES1RolyW8yAXDa-70IO3pVpDa9w3WkUQ.jpg",
+      "rating": 6.9,
+      "plot": "La guerra contra los cárteles de la droga se ha intensificado en la frontera entre Estados Unidos y México a medida que éstos se han metido en el negocio de tráfico de personas, introduciendo en suelo americano a terroristas islámicos. Para hacer frente a esta nueva guerra sucia, el agente federal Matt Graver planea una idea para que los carteles se enfrenten entre ellos. Para ello volverá a reclutar para la peligrosa misión al volátil mercenario Alejandro Gillick… Secuela de 'Sicario' (2015).",
       "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
