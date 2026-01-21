@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Jan 21 12:41:33 2026",
+    "generated_at": "Wed Jan 21 18:37:38 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -7716,6 +7716,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Aftersun (2022)",
+      "contentId": "55749",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55749.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmAkVtLmjdOHtTw8a1mV2kBOvZ_bjW-3gd8gppd7qfsM.jpg",
+      "rating": 7.7,
+      "plot": "Sophie reflexiona sobre la alegría compartida y la melancolía privada de unas vacaciones que hizo con su padre veinte años atrás. Los recuerdos reales e imaginarios llenan los espacios entre las imágenes mientras intenta reconciliar al padre que conoció con el hombre que no conoció.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Agencia Secreta de Control Mágico (2021)",
       "contentId": "24946",
       "group": "movies",
@@ -8327,6 +8339,18 @@
       "rating": 6.1,
       "plot": "Un hombre sin identificar sube a Internet un post en el que explica que ha secuestrado a dos extraños y que pretende asesinar a uno de ellos antes de que termine el día. Su intención, aclara, es la de realizar un juicio online. Mientras que las autoridades tratan de entender lo que está sucediendo, a medida que pasan las horas se hace cada vez más evidente que el público que está conectado a la red tendrá que convertirse en juez y jurado por unas horas.",
       "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "American History X (1998)",
+      "contentId": "55750",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55750.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO34xh_9q6gNrn4cB-yEI2cLhRnQbHlicTjnVEVqly544.jpg",
+      "rating": 8.3,
+      "plot": "Derek (Edward Norton) es un joven californiano que se convierte en el líder de una banda de neonazis tras el asesinato de su padre. Su hermano pequeño, Danny, le admira y sigue sus pasos de odio y violencia. Cuando Derek mata a dos ladrones negros, es condenado a tres años de cárcel, donde cambia su forma de pensar al conocer a otros presos. Al salir, intenta alejar a Danny del racismo y la delincuencia, pero se encuentra con la resistencia de sus antiguos compañeros y las consecuencias de su pasado.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
