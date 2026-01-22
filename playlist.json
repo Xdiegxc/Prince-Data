@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Jan 22 12:40:40 2026",
+    "generated_at": "Thu Jan 22 18:27:17 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1514,6 +1514,18 @@
       "rating": 7.6,
       "plot": "Dos agentes de élite son secretamente asignados a torres de vigilancia en los lados opuestos de un vasto desfiladero, para proteger al mundo de un misterioso mal que acecha en su interior. Se unen en la distancia, pero han de mantenerse alerta para defenderse del enemigo invisible. Cuando se les revela una amenaza fatal para la humanidad, deben trabajar juntos y poner a prueba su fuerza física y mental para mantener el secreto del desfiladero antes de que sea demasiado tarde.",
       "genre": "Acción, Suspense, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El candidato honesto (2024)",
+      "contentId": "55752",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55752.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOf6eCNuPOXx4qyHttdSY25VftZanY3j2eXS9PqEEGSpo.jpg",
+      "rating": 6.6,
+      "plot": "Tona alguna vez fue un líder con ideales, pero con el tiempo se convirtió en un político corrupto. Ahora que es candidato a la presidencia y está a un paso de ganar las elecciones, sufre el hechizo de su abuela que le impide hacer nada deshonesto. ¿Cómo podrá ganar las elecciones si no puede decir mentiras? ¿Cuál será su futuro como político si está obligado a decir siempre la verdad?",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -10868,6 +10880,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Cars (2006)",
+      "contentId": "55753",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55753.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOsKR5cVp8Qt_d7aFKj4IAbXV-RjGuny9GAG5JYsH7334.jpg",
+      "rating": 7.0,
+      "plot": "El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.",
+      "genre": "Animación, Aventura, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Cars 2 (2011)",
       "contentId": "18646",
       "group": "movies",
@@ -14842,6 +14866,18 @@
       "rating": 7.0,
       "plot": "El 11 de noviembre de 2009 Enrique Bunbury actuó en el Estadio Azteca de México, convirtiéndose en el primer músico español en congregar 90.000 personas en un solo concierto en Latinoamérica y en solitario. Unos meses después, la estrella de rock decide afrontar un nuevo reto adentrándose en un fascinante e inédito tour por carretera a lo largo y ancho de Estados Unidos, en compañía de su banda, su mujer y su gato, dando conciertos en lugares nunca antes explorados por el rock español. Lo que en un principio parecía un apasionante viaje para conquistar nueva audiencia y un nuevo mercado, pronto se torna en un inesperado viaje interior de Enrique a sus propias luces y sombras con la música.",
       "genre": "Documental, Música",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El candidato honesto (2024)",
+      "contentId": "55752",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55752.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOf6eCNuPOXx4qyHttdSY25VftZanY3j2eXS9PqEEGSpo.jpg",
+      "rating": 6.6,
+      "plot": "Tona alguna vez fue un líder con ideales, pero con el tiempo se convirtió en un político corrupto. Ahora que es candidato a la presidencia y está a un paso de ganar las elecciones, sufre el hechizo de su abuela que le impide hacer nada deshonesto. ¿Cómo podrá ganar las elecciones si no puede decir mentiras? ¿Cuál será su futuro como político si está obligado a decir siempre la verdad?",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
