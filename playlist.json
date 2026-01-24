@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Jan 24 12:33:58 2026",
+    "generated_at": "Sat Jan 24 18:25:06 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4168,6 +4168,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "260"
+    },
+    {
+      "title": "Risqué (2025)",
+      "contentId": "55769",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55769.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmj0okiiQkYR8kyQcqYZuVFss8iYvfhFeURH2i65fktc.jpg",
+      "rating": 7.5,
+      "plot": "Un grupo de strippers busca vengarse de sus jefes robando en los clubes de striptease en los que trabajan.",
+      "genre": "Acción, Crimen, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "Rivales (2024)",
@@ -31247,6 +31259,18 @@
       "rating": 5.0,
       "plot": "Precuela de 'The Ring', que contará como una joven mujer se preocupa por su novio cuando él decide explorar una oscura subcultura cuyo centro de atención es una misteriosa cinta de video que, aparentemente, mata al observador siete días después de que éste la ha visto. La joven se sacrifica para salvar a su novio y al mismo tiempo hace un terrible descubrimiento: hay una \"película dentro de la película\" que nadie ha visto antes",
       "genre": "Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Risqué (2025)",
+      "contentId": "55769",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55769.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmj0okiiQkYR8kyQcqYZuVFss8iYvfhFeURH2i65fktc.jpg",
+      "rating": 7.5,
+      "plot": "Un grupo de strippers busca vengarse de sus jefes robando en los clubes de striptease en los que trabajan.",
+      "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
