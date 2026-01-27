@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Jan 26 18:29:59 2026",
+    "generated_at": "Tue Jan 27 01:28:06 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2060,6 +2060,17 @@
       "rating": 7.1,
       "plot": "El mundialmente famoso Garfield, el gato casero que odia los lunes y que adora la lasaña, está a punto de vivir una aventura ¡en el salvaje mundo exterior! Tras una inesperada reunión con su largamente perdido padre – el desaliñado gato callejero Vic – Garfield y su amigo canino Odie se ven forzados a abandonar sus perfectas y consentidas vidas al unirse a Vic en un hilarante y muy arriesgado atraco.",
       "genre": "Animación, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Gassed Up (2024)",
+      "contentId": "55771",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55771.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEvN4D8f5OWTW6X0xH9a2MpY8kB8V-zXruSGOc5AKvHY.jpg",
+      "rating": 5.3,
+      "genre": "Drama, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -5263,6 +5274,18 @@
       "rating": 6.7,
       "plot": "Una madre que huye de su marido, relacionado con la mafia, encuentra refugio en casa de un vagabundo llamado Jake, pero cuando los hombres de su marido se acercan, Jake resulta ser más peligroso que cualquiera de los que ella huye.",
       "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Zootopia 2 (2025)",
+      "contentId": "55772",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55772.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmZ_caWd4SY7uFfDfWmz0rnKG9qaW7DegZwb9E5s0RaE.jpg",
+      "rating": 7.6,
+      "plot": "Después de resolver el caso más importante en la historia de Zootrópolis, los policías novatos Judy Hopps y Nick Wilde descubren que su asociación no es tan sólida como pensaban cuando el Jefe Bogo les ordena unirse al programa de consejería \"Compañeros en Crisis\". Pero no pasa mucho tiempo para que su asociación se ponga a prueba al máximo, cuando la llegada de Gary, la serpiente, pone la ciudad patas arriba.",
+      "genre": "Animación, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -12885,6 +12908,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Descubriendo a los Robinsons (2007)",
+      "contentId": "55770",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55770.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOTr9hecQLBK6smrrWnZbZAYqy4sbyuqu6LO3o8G2wR38.jpg",
+      "rating": 6.9,
+      "plot": "Cuando Lewis conoce a un misterioso chico que viene del futuro llamado Wilbur Robinson, ambos harán un viaje en el tiempo donde Lewis descubre el asombroso secreto de la familia Robinson.",
+      "genre": "Animación, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Desencantada: Vuelve Giselle (2022)",
       "contentId": "29342",
       "group": "movies",
@@ -18993,6 +19028,17 @@
       "rating": 7.6,
       "plot": "Basada en la vida de los inseparables hermanos Von Erich, que hicieron historia en el competitivo mundo de la lucha libre profesional a principios de la década de los 80. A través de la tragedia y el triunfo, bajo la sombra de su dominante padre y entrenador, los hermanos buscan la inmortalidad en el escenario más importante del deporte.",
       "genre": "Drama, Historia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Gassed Up (2024)",
+      "contentId": "55771",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55771.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEvN4D8f5OWTW6X0xH9a2MpY8kB8V-zXruSGOc5AKvHY.jpg",
+      "rating": 5.3,
+      "genre": "Drama, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -37683,6 +37729,18 @@
       "rating": 6.7,
       "plot": "Una madre que huye de su marido, relacionado con la mafia, encuentra refugio en casa de un vagabundo llamado Jake, pero cuando los hombres de su marido se acercan, Jake resulta ser más peligroso que cualquiera de los que ella huye.",
       "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Zootopia 2 (2025)",
+      "contentId": "55772",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55772.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmZ_caWd4SY7uFfDfWmz0rnKG9qaW7DegZwb9E5s0RaE.jpg",
+      "rating": 7.6,
+      "plot": "Después de resolver el caso más importante en la historia de Zootrópolis, los policías novatos Judy Hopps y Nick Wilde descubren que su asociación no es tan sólida como pensaban cuando el Jefe Bogo les ordena unirse al programa de consejería \"Compañeros en Crisis\". Pero no pasa mucho tiempo para que su asociación se ponga a prueba al máximo, cuando la llegada de Gary, la serpiente, pone la ciudad patas arriba.",
+      "genre": "Animación, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
