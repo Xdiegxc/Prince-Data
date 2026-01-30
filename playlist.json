@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Jan 29 18:38:40 2026",
+    "generated_at": "Fri Jan 30 01:45:55 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1818,6 +1818,18 @@
       "rating": 6.8,
       "plot": "Cuenta la historia de Elio, un niño de 11 años, que lucha por encajar hasta que de repente es transportado por extraterrestres y es elegido para ser el embajador galáctico de la Tierra.",
       "genre": "Animación, Familia, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Ella McCay (2025)",
+      "contentId": "55822",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55822.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOv8EwYO81shbEhc2gl3VpjCXvGs86o_8SBvk6ewzRImQ.jpg",
+      "rating": 5.4,
+      "plot": "Una joven política idealista hace malabarismos con sus problemas familiares y su estresante vida laboral mientras se prepara para ocupar nada menos que el puesto de gobernadora de su estado, ocupando el puesto de su mentor.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -17347,6 +17359,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Ella McCay (2025)",
+      "contentId": "55822",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55822.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOv8EwYO81shbEhc2gl3VpjCXvGs86o_8SBvk6ewzRImQ.jpg",
+      "rating": 5.4,
+      "plot": "Una joven política idealista hace malabarismos con sus problemas familiares y su estresante vida laboral mientras se prepara para ocupar nada menos que el puesto de gobernadora de su estado, ocupando el puesto de su mentor.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Elle: La Nueva Cenicienta (2010)",
       "contentId": "18471",
       "group": "movies",
@@ -25529,6 +25553,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Los hermanos demolición (2026)",
+      "contentId": "55824",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55824.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOWa037-X3P44oiIKztok7SCnfDM8ukkq-dXKuT10fzWI.jpg",
+      "rating": 6.3,
+      "plot": "Un improbable dúo de hermanastros, uno un impulsivo detective y el otro un disciplinado, se ven atraídos por el asesinato de su padre en Hawai, lo que les lleva a un peligroso viaje para desenmascarar una conspiración de largo alcance.",
+      "genre": "Acción, Comedia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Los hombres libres de Jones (2016)",
       "contentId": "18452",
       "group": "movies",
@@ -26356,6 +26392,18 @@
       "rating": 6.0,
       "plot": "A finales de los años 30, en los bajos fondos de Los Ángeles, una rica y bella heredera encarga a Marlowe que busque a su antiguo amante, que ha desaparecido. Pronto descubre que tras la desaparición de ese hombre hay una red corrupta que le pone en el punto de mira de algunos de los mandatarios más acomodados y peligrosos de la ciudad.",
       "genre": "Misterio, Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Marmaduke (2010)",
+      "contentId": "55823",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55823.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObWH3zZ8eJ86l8jjYUKd1cZG5RdHsGH05JiiaUDrs2no.jpg",
+      "rating": 5.2,
+      "plot": "La historia versa sobre un travieso perro de raza Gran Danés que vive con la familia Winslow. Este perro apareció después en varios episodios animados de 'Heathcliff' (Isidoro) y 'Garfield and Friends'. La película mostrará cómo Marmaduke se encuentra tras mudarse de domicilio en medio de una lucha por el territorio entre chuchos callejeros y perros con Pedigree, además de que intentará conquistar a la perra de sus sueños",
+      "genre": "Familia, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
