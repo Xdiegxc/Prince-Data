@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Feb  1 12:40:33 2026",
+    "generated_at": "Sun Feb  1 18:29:27 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -40656,6 +40656,19 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "223"
+    },
+    {
+      "title": "Las de siempre (2026)",
+      "contentId": "316",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=316",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOtjM_xDyy9JoqbANZseYrXHTuX4IwwsHIK0NtvHSpD6k.jpg",
+      "rating": 7.0,
+      "genre": "Soap, Drama",
+      "releaseDate": "2026-01-13",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "316"
     },
     {
       "title": "Las hermanas Grimm (2025)",
