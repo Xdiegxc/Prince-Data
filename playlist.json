@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Jan 31 18:26:20 2026",
+    "generated_at": "Sun Feb  1 01:59:49 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -832,6 +832,18 @@
       "rating": 6.4,
       "plot": "La nueva estudiante Cady Heron es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado \"Las Plásticas\", gobernado por la intrigante abeja reina Regina George y sus secuaces Gretchen y Karen. Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels, se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis y Damian, Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Christy (2025)",
+      "contentId": "55830",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55830.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOuW3E2ftUhvE1bi2cRu7RskE30PDvzmvwvB698rRtKnY.jpg",
+      "rating": 7.3,
+      "plot": "Biopic de Christy Martin, la boxeadora de más éxito de los años 90.",
+      "genre": "Historia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -4381,6 +4393,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "301"
+    },
+    {
+      "title": "Si pudiera, te daría una patada (2025)",
+      "contentId": "55831",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55831.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUSca7SC80TpzCCMxdPRc234KKXnsgf79pZxKMIcVuMQ.jpg",
+      "rating": 6.6,
+      "plot": "Con su vida literalmente derrumbándose a su alrededor, Linda intenta lidiar con la misteriosa enfermedad de su hija, su marido ausente, una persona desaparecida y una relación cada vez más hostil con su terapeuta.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "Simplemente Alicia (2025)",
@@ -11399,6 +11423,18 @@
       "rating": 7.3,
       "plot": "En esta nueva aventura de acción real, el niño que se embarcó en innumerables aventuras en el bosque de los Cien Acres con su banda de animales de peluche, ha crecido y…  ha perdido el rumbo. Ahora les toca a sus amigos de la infancia aventurarse en nuestro mundo y ayudar a Christopher Robin a recordar al niño cariñoso y juguetón que aún tiene dentro.",
       "genre": "Aventura, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Christy (2025)",
+      "contentId": "55830",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55830.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOuW3E2ftUhvE1bi2cRu7RskE30PDvzmvwvB698rRtKnY.jpg",
+      "rating": 7.3,
+      "plot": "Biopic de Christy Martin, la boxeadora de más éxito de los años 90.",
+      "genre": "Historia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -32485,6 +32521,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Si pudiera, te daría una patada (2025)",
+      "contentId": "55831",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55831.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUSca7SC80TpzCCMxdPRc234KKXnsgf79pZxKMIcVuMQ.jpg",
+      "rating": 6.6,
+      "plot": "Con su vida literalmente derrumbándose a su alrededor, Linda intenta lidiar con la misteriosa enfermedad de su hija, su marido ausente, una persona desaparecida y una relación cada vez más hostil con su terapeuta.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Si yo fuera diputado (1952)",
       "contentId": "18028",
       "group": "movies",
@@ -33571,6 +33619,18 @@
       "rating": 6.9,
       "plot": "Una joven tiene una aventura de una noche con un tipo inquietante, comenzando así una persecución de pesadilla.",
       "genre": "Crimen, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Street Fighter II: La película (1994)",
+      "contentId": "55829",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55829.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOOeilJsFHj9bfcRxbxhf6q9ouLtH14WeZLN-qLHkjpC0.jpg",
+      "rating": 7.1,
+      "plot": "Shadowlaw, sindicato del crimen organizado que trafica con drogas y armas por todo el mundo, se está consolidando como una amenaza mundial para todos los gobiernos democráticos de la tierra, alcanzando unos niveles de terrorismo internacional cada vez más preocupantes para la estabilidad mundial. Una investigación de la Interpol, liderada por Chun-Li y Guile, tiende como objetivo desvelar la base paramilitar desde donde se organizan los atentados terroristas de Shadowlaw, para posteriormente eliminarla bajo un ataque sorpresa. Para llevar a cabo la misión cuenta con Ryu, uno de los mejores luchadores de artes marciales del mundo. Por desgracia, su mejor amigo, Ken, ha sido capturado por Shadowlaw y convertido en un poderoso y fiel servidor... Adaptación libre del videojuego \"Street Fighter II\".",
+      "genre": "Animación, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
