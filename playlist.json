@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Feb  2 18:37:52 2026",
+    "generated_at": "Tue Feb  3 01:51:17 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6518,15 +6518,6 @@
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/302.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
       "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: Nick 2 Hd",
-      "contentId": "1142",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1142.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/203468c212764d84fb6a2596715687ce.jpg",
-      "quality": "HD",
       "source_alias": "MainProvider"
     },
     {
