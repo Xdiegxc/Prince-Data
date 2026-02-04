@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Feb  4 12:51:39 2026",
+    "generated_at": "Wed Feb  4 18:42:25 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -14562,6 +14562,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El Show de los Muppets (2026)",
+      "contentId": "55857",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55857.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOTqW2qSqkSDbKhbuhXHl2M3K3F98vRp6qaKnlEgueK5E.jpg",
+      "rating": 7.0,
+      "plot": "Siguiendo la tradición de su clásico programa de variedades, los emblemáticos personajes de los Muppets regresan a la televisión por primera vez en más de cuatro décadas con música nueva, sketches cómicos y mucho caos entre bastidores, mientras se vuelven a presentar tanto a sus fans de toda la vida como a una nueva generación de espectadores.",
+      "genre": "Comedia, Familia, Música",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El Siete Machos (1951)",
       "contentId": "18023",
       "group": "movies",
@@ -22652,6 +22664,18 @@
       "rating": 6.4,
       "plot": "Papi y Yiyo heredan un edificio antiguo, sin saber que los inquilinos esconden un secreto complicado.",
       "genre": "Comedia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La Meta es el Amor (2026)",
+      "contentId": "55858",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55858.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOu9C0fDvqwocxe28eVGaZGEaEU9TNxswnZ8tTFVIrhwE.jpg",
+      "rating": 7.5,
+      "plot": "Cuando la brillante productora de televisión Leah Caldwell (Kelly Rowland) está a punto de hacer historia como la primera mujer en dirigir el programa matutino más importante de Nueva York, su ex, Jarrett Roy (Clifford \"Method Man\" Smith), aparece para competir por el mismo puesto. Afirma ser un hombre diferente, transformado por la sabiduría del bestseller del New York Times, \"Relationship Goals\".Mientras su círculo íntimo de amigos se sumerge en el mismo libro transformador, todos comienzan a redescubrir su propósito en el amor. Sin embargo, Leah, completamente centrada en romper el techo de cristal, no está lista para creer en encontrar el amor, incluso cuando la innegable química con su ex amenaza con reavivar viejas llamas.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
