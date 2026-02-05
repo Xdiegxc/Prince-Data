@@ -1,9 +1,20 @@
 {
   "meta": {
-    "generated_at": "Thu Feb  5 12:54:06 2026",
+    "generated_at": "Thu Feb  5 18:42:19 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
+    {
+      "title": "1 Million Followers (2024)",
+      "contentId": "55865",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55865.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVwiUt9y5gBjMLXKQd_t4qv_pO1uTg0JAWvxc5bCK_CQ.jpg",
+      "rating": 4.5,
+      "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
     {
       "title": "10 vidas (2024)",
       "contentId": "52769",
@@ -257,6 +268,18 @@
       "rating": 7.5,
       "plot": "Una niña pasa por una experiencia difícil y entonces empieza a ver a los amigos imaginarios de todo el mundo que se han ido quedando atrás a medida que sus amigos de la vida real han ido creciendo.",
       "genre": "Comedia, Fantasía, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Amor y vino (2025)",
+      "contentId": "55867",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55867.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOiFpi-kP4wAkyTUXiHslrKToPSLVLWY5Nrc8HmDOOo1k.jpg",
+      "rating": 6.4,
+      "plot": "El heredero de un prestigioso viñedo intercambia identidades con su humilde amigo de la infancia para demostrar que su éxito con las mujeres no tiene nada que ver con el dinero.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7008,6 +7031,17 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "1 Million Followers (2024)",
+      "contentId": "55865",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55865.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVwiUt9y5gBjMLXKQd_t4qv_pO1uTg0JAWvxc5bCK_CQ.jpg",
+      "rating": 4.5,
+      "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "10 Guerra de las galaxias VIII Los últimos Jedi DUAL (2017)",
       "contentId": "19200",
       "group": "movies",
@@ -8655,6 +8689,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/bd0318a6d882aaea7063239b417ac32e.jpg",
       "rating": 6.4,
       "plot": "Saltan chispas cuando una abogada acepta el caso de un cliente encantador. Este va a demandar a una web de citas que garantiza a sus clientes que van a encontrar el amor.",
+      "genre": "Romance, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Amor y vino (2025)",
+      "contentId": "55867",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55867.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOiFpi-kP4wAkyTUXiHslrKToPSLVLWY5Nrc8HmDOOo1k.jpg",
+      "rating": 6.4,
+      "plot": "El heredero de un prestigioso viñedo intercambia identidades con su humilde amigo de la infancia para demostrar que su éxito con las mujeres no tiene nada que ver con el dinero.",
       "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
