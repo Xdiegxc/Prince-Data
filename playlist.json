@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Feb  4 18:42:25 2026",
+    "generated_at": "Thu Feb  5 01:47:33 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5412,6 +5412,15 @@
       "is_manual": true
     },
     {
+      "title": "Honduras: Azteca Honduras",
+      "contentId": "34248",
+      "group": "live_tv",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34248.ts",
+      "hdPosterUrl": "https://yt3.googleusercontent.com/rfH4xcB5QR-0TSH3ruvBvCzHYC4CW8O1qzJMqjKtdkyG4qQYjhZjtJUW-7et_fv2mqO47YTr=s900-c-k-c0x00ffffff-no-rj",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Honduras: Canal 5",
       "contentId": "34247",
       "group": "live_tv",
@@ -6436,11 +6445,20 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Peru: Gol Tv HD (P)",
+      "title": "Peru: La Liga 1 Hd",
       "contentId": "359",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/359.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/8e031c267d67cfc3cadefe0f3ed8f2ec.jpeg",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrfURPHcJblk8-4OwMaBBYfg1Gb7ZchC0yQ&s",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Peru: La Liga Max Hd",
+      "contentId": "55859",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55859.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jN4beKo2S793wY2X4JtMRx2mdmHt2EWZRQ&s",
       "quality": "HD",
       "source_alias": "MainProvider"
     },
