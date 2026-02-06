@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Feb  6 12:51:46 2026",
+    "generated_at": "Fri Feb  6 18:43:09 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -352,6 +352,18 @@
       "rating": 5.7,
       "plot": "En el misterioso planeta Ash, Riya se despierta y descubre que su tripulación ha sido masacrada. Cuando un hombre llamado Brion llega para rescatarla, se desata un calvario de terror psicológico y físico mientras Riya y Brion deben decidir si pueden confiar el uno en el otro para sobrevivir.",
       "genre": "Ciencia ficción, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Atena (2025)",
+      "contentId": "55902",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55902.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmeHgmr2-RvPt_afs_Yc-taaR5FFC94JzKKtbBHNEGs8.jpg",
+      "rating": 4.5,
+      "plot": "Atena, una mujer que sufrió abusos de su padre en la infancia, convierte su dolor en determinación para luchar contra la violencia hacia las mujeres. Junto a Helena, otra sobreviviente, formam um grupo que atrae, captura y juzga agresores, acutando como un tribunal clandestino. Carlos, un periodista de investigación.",
+      "genre": "Acción, Suspense, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -6959,6 +6971,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "(500) días juntos (2009)",
+      "contentId": "55900",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55900.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOpMwGLNJKIs-WT5oK2kTBzOoHrgDfP0cvWqkUYIbTnPY.jpg",
+      "rating": 7.3,
+      "plot": "Tom aún sigue creyendo, incluso en este cínico mundo moderno, en la noción de un amor transformador, predestinado por el cosmos y que golpea como un rayo sólo una vez. Summer no cree lo mismo, para nada. La mecha se enciende desde el primer día, cuando Tom, un arquitecto en ciernes convertido en un sensiblero escritor de tarjetas de felicitación, se encuentra con Summer, la bella y fresca nueva secretaria de su jefe. Aunque aparentemente está fuera de su alcance, Tom pronto descubre que tienen un montón de cosas en común. La historia de Tom y Summer cubre desde el enamoramiento, las citas y el sexo hasta la separación, las recriminaciones y la redención, todo lo cual se suma al caleidoscópico retrato del por qué y el cómo seguimos esforzándonos de modo tan risible y rastrero para encontrar sentido al amor… y esperar convertirlo en realidad.",
+      "genre": "Comedia, Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "01 La Guerra De Las Galaxias I La Amenaza Fantasma DUAL (1999)",
       "contentId": "19191",
       "group": "movies",
@@ -9220,6 +9244,18 @@
       "rating": 4.8,
       "plot": "Virginia hará lo imposible para rescatar a su pequeña hija que ha sido secuestrada. Deberá elegir entre la muerte o vivir un día más para intentar salvarla. En su camino enfrentará actos que la harán descubrir que hay cosas peores que la muerte.",
       "genre": "Suspense, Terror, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Atena (2025)",
+      "contentId": "55902",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55902.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmeHgmr2-RvPt_afs_Yc-taaR5FFC94JzKKtbBHNEGs8.jpg",
+      "rating": 4.5,
+      "plot": "Atena, una mujer que sufrió abusos de su padre en la infancia, convierte su dolor en determinación para luchar contra la violencia hacia las mujeres. Junto a Helena, otra sobreviviente, formam um grupo que atrae, captura y juzga agresores, acutando como un tribunal clandestino. Carlos, un periodista de investigación.",
+      "genre": "Acción, Suspense, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -38012,6 +38048,18 @@
       "rating": 6.2,
       "plot": "Haití, 1962. Un hombre vuelve de entre los muertos para trabajar en las infernales plantaciones de azúcar. 55 años después, una joven haitiana le dice a sus amigas su secreto familiar, sin saber que esto llevará a una de ellas a cometer una atrocidad.",
       "genre": "Fantasía, Terror, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Zombie camp (2015)",
+      "contentId": "55901",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55901.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOoO4NowwWfcHEXYKLiVNjEme-ZhvES1YefxlpOHYdSlI.jpg",
+      "rating": 6.6,
+      "plot": "Tres Scouts, en la víspera de su último campamento, descubre el verdadero significado de la amistad cuando tratan de salvar a su pueblo de un brote de zombis.",
+      "genre": "Comedia, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
