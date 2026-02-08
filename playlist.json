@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Feb  8 02:10:38 2026",
+    "generated_at": "Sun Feb  8 06:44:10 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -460,6 +460,18 @@
       "rating": 7.2,
       "plot": "Eve Macarro es una asesina entrenada por la Ruska Roma desde su infancia, la misma organización criminal encargada del adiestramiento de John Wick. En esta violenta historia de venganza, Eve intentará por todos los medios averiguar quién está detrás del asesinato de su padre. En su lucha por conocer la verdad, tendrá que atenerse a las normas de la Alta Mesa y, por supuesto, a las del Hotel Continental, donde descubrirá que existen secretos ocultos sobre su pasado.",
       "genre": "Acción, Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Baja de paternidad (2025)",
+      "contentId": "55904",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55904.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_9M5DD4PBhNJVmpOTtd_A_WO50XAtKDO6sgHTKSOzQ0.jpg",
+      "rating": 6.0,
+      "plot": "Leo es una adolescente de quince años que ha crecido en Alemania sin padre. Cuando descubre su identidad, se pone inmediatamente en marcha para localizarlo. Lo encuentra en un chiringuito de la costa del norte de Italia. El reencuentro deja a Paolo abrumado y en conflicto. Tras la repentina aparición de Leo en su vida, lucha por equilibrar su relación con ella y con la familia que tiene ahora. Al principio, Leo solo quiere respuestas, pero pronto empieza a desear formar parte de la vida de Paolo.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -1668,6 +1680,18 @@
       "rating": 5.8,
       "plot": "Después de que una prueba experimental de drogas sale terriblemente mal, los sujetos de prueba sobrevivientes tienen que luchar contra el sueño y entre ellos para mantenerse con vida.",
       "genre": "Ciencia ficción, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El fiscal (2024)",
+      "contentId": "55905",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55905.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZBuBjStexmUw4oLXkZ2n-xvmncBbA6afNwFH5fgD64k.jpg",
+      "rating": 6.9,
+      "plot": "Un exdetective se convierte en fiscal y enfrenta la corrupción en el sistema judicial. Al investigar un caso lleno de dudas, se embarca en una misión personal para hacer justicia, enfrentándose a traficantes de drogas, conspiraciones y jueces corruptos en un intenso thriller de acción.",
+      "genre": "Acción, Drama, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -9680,6 +9704,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Baja de paternidad (2025)",
+      "contentId": "55904",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55904.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_9M5DD4PBhNJVmpOTtd_A_WO50XAtKDO6sgHTKSOzQ0.jpg",
+      "rating": 6.0,
+      "plot": "Leo es una adolescente de quince años que ha crecido en Alemania sin padre. Cuando descubre su identidad, se pone inmediatamente en marcha para localizarlo. Lo encuentra en un chiringuito de la costa del norte de Italia. El reencuentro deja a Paolo abrumado y en conflicto. Tras la repentina aparición de Leo en su vida, lucha por equilibrar su relación con ella y con la familia que tiene ahora. Al principio, Leo solo quiere respuestas, pero pronto empieza a desear formar parte de la vida de Paolo.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Bajo sospecha (2019)",
       "contentId": "20440",
       "group": "movies",
@@ -15746,6 +15782,18 @@
       "rating": 5.3,
       "plot": "Tras un misterioso cataclismo, un hombre se propone atravesar el país de punta a punta afrontando mil y un peligros con tal de reencontrarse con su novia embarazada.",
       "genre": "Ciencia ficción, Suspense, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El fiscal (2024)",
+      "contentId": "55905",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55905.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZBuBjStexmUw4oLXkZ2n-xvmncBbA6afNwFH5fgD64k.jpg",
+      "rating": 6.9,
+      "plot": "Un exdetective se convierte en fiscal y enfrenta la corrupción en el sistema judicial. Al investigar un caso lleno de dudas, se embarca en una misión personal para hacer justicia, enfrentándose a traficantes de drogas, conspiraciones y jueces corruptos en un intenso thriller de acción.",
+      "genre": "Acción, Drama, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
