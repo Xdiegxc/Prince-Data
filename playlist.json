@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Feb  8 18:31:24 2026",
+    "generated_at": "Mon Feb  9 01:54:29 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -26391,6 +26391,30 @@
       "rating": 6.9,
       "plot": "Cuenta la historia de cuatro divertidos animales del zoo de Central Park, Nueva York, (Alex el león, Marty la cebra, Gloria la hipopótamo y Melman la jirafa). Llevan toda su vida encerrados en cautividad sin poder experiemtnar el sabor de la libertad y se han propuesto idear un plan para salir de allí juntos. Un día, una serie de casualidades les llevan a lograr lo que tanto ansiaban y huyen de aquel lugar. Terminan en plena naturaleza, concretamente en la idílica isla de Madagascar. Allí descubrirán, a base de apasionantes aventuras, que la vida salvaje es muy diferente a lo que ellos pensaban y que vivir en libertad no es tan fácil como imaginaban.",
       "genre": "Familia, Animación, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Madagascar 2 (2008)",
+      "contentId": "55906",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55906.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUGVqRGZPMkgp1-i_DnRAWeTJMobkY5n06-DwBWUo2wM.jpg",
+      "rating": 6.5,
+      "plot": "Abandonados en las lejanas costas de Madagascar, los neoyorquinos han ideado un plan tan loco que hasta podría funcionar. Con precisión militar, los pingüinos han reparado un viejo avión estrellado. Una vez a bordo, esta improbable tripulación permanece en el aire el tiempo suficiente para aterrizar en el lugar más salvaje de todos: las vastas llanuras de la propia África, donde la tripulación se encuentra por primera vez con seres de su propia especie.",
+      "genre": "Aventura, Animación, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Madagascar 3: De marcha por Europa (2012)",
+      "contentId": "55907",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55907.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOsxQCaLyes-nQpVfPUWeenXZ8CzWIZx4Ovd1rRSR8xfs.jpg",
+      "rating": 6.6,
+      "plot": "Alex el león, Marty la cebra, Melman la jirafa y Gloria la hipopótamo están decididos a regresar como sea al Zoo de Central Park en Nueva York. Tras abandonar África, toman un desvío y emergen, literalmente, en Europa, persiguiendo a los pingüinos y chimpancés que se las han arreglado para hacer saltar la banca de un casino de Montecarlo. Pronto, los animales son descubiertos por la capitana Chantel DuBois, una testaruda francesa encargada del control de animales, y a la que no le gusta nada que unos animales del zoo anden sueltos por su ciudad.",
+      "genre": "Animación, Familia, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
