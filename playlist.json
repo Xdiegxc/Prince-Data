@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Feb 10 13:04:51 2026",
+    "generated_at": "Tue Feb 10 19:00:44 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -793,6 +793,18 @@
       "rating": 7.7,
       "plot": "Tras recibir un diagnóstico que cambiará su vida, un prometedor chef halla consuelo, risa y esperanza gracias a la inesperada compañía de un amigo de cuatro patas.",
       "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cariñena, vino del mar (2025)",
+      "contentId": "55910",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55910.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOWu-rVCj6WeX9kYlvKFEKRLLda2E_uyo4ONQxQEypMiQ.jpg",
+      "rating": 6.4,
+      "plot": "Galicia, 1978. Antón (Diego Garisa), un joven de 18 años tan inexperto como lleno de dudas, huye del servicio militar, dejando atrás su tierra natal y a un padre que ya había trazado su destino. En Zaragoza, se integra en un colectivo de objetores de conciencia, mientras empieza a explorar su vocación como escritor y vive de cerca los primeros latidos de la democracia. La búsqueda de trabajo lo lleva a Cariñena, donde conoce a Miguel (Alejandro Bordanove), un joven sin rumbo, tan extrovertido y mentiroso como entrañable, con quien forja una amistad inesperada. Entre barracones, viñedos y risas, Antón encuentra también el amor fugaz de Cris, una joven idealista y la amistad de Palmira e Isidro, dos figuras que le ayudan a crecer y comprender el mundo al que se enfrenta. Una historia sobre crecer, elegir, y escribir el propio destino en un país que también intenta encontrarse a sí mismo.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -2977,6 +2989,18 @@
       "rating": 6.7,
       "plot": "Las vidas de una aspirante a actriz y un prolífico asesino en serie se cruzan en los setenta cuando ambos entran al programa «El juego de las citas».",
       "genre": "Crimen, Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La niebla de la guerra (2025)",
+      "contentId": "55911",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55911.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOKgkOk-8eU1XbEiWaJSyGjKwViYw2Vu88bnyDKqpIpqI.jpg",
+      "rating": 5.5,
+      "plot": "Un piloto estadounidense herido, Gene, y su prometida, agente de OSS, se retiran a una finca remota en Massachusetts para visitar a su familia extendida. Los OSS han reclutado a Gene para espiar a la familia y a la comunidad circundante.",
+      "genre": "Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -11108,6 +11132,18 @@
       "rating": 6.4,
       "plot": "Cargo nos lleva hasta un mundo azotado por un apocalipsis zombi. Un hombre que es mordido e infectado por la epidemia zombi trata de poner a salvo a su hija de unos meses de vida antes de convertirse en un muerto viviente.",
       "genre": "Drama, Suspense, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cariñena, vino del mar (2025)",
+      "contentId": "55910",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55910.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOWu-rVCj6WeX9kYlvKFEKRLLda2E_uyo4ONQxQEypMiQ.jpg",
+      "rating": 6.4,
+      "plot": "Galicia, 1978. Antón (Diego Garisa), un joven de 18 años tan inexperto como lleno de dudas, huye del servicio militar, dejando atrás su tierra natal y a un padre que ya había trazado su destino. En Zaragoza, se integra en un colectivo de objetores de conciencia, mientras empieza a explorar su vocación como escritor y vive de cerca los primeros latidos de la democracia. La búsqueda de trabajo lo lleva a Cariñena, donde conoce a Miguel (Alejandro Bordanove), un joven sin rumbo, tan extrovertido y mentiroso como entrañable, con quien forja una amistad inesperada. Entre barracones, viñedos y risas, Antón encuentra también el amor fugaz de Cris, una joven idealista y la amistad de Palmira e Isidro, dos figuras que le ayudan a crecer y comprender el mundo al que se enfrenta. Una historia sobre crecer, elegir, y escribir el propio destino en un país que también intenta encontrarse a sí mismo.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -24034,6 +24070,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La niebla de la guerra (2025)",
+      "contentId": "55911",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55911.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOKgkOk-8eU1XbEiWaJSyGjKwViYw2Vu88bnyDKqpIpqI.jpg",
+      "rating": 5.5,
+      "plot": "Un piloto estadounidense herido, Gene, y su prometida, agente de OSS, se retiran a una finca remota en Massachusetts para visitar a su familia extendida. Los OSS han reclutado a Gene para espiar a la familia y a la comunidad circundante.",
+      "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La niña de la mina (2016)",
       "contentId": "19013",
       "group": "movies",
@@ -35176,6 +35224,16 @@
       "rating": 4.6,
       "plot": "Carson Phillips es una antigua estrella del fútbol americano que decide convertirse en policía. El último de sus casos trata sobre una serie de desapariciones que podría ser una rutina premeditada. Cuando Carson se da cuenta de que estas desapariciones son producto de una red de crímenes y que su hija es la principal sospechosa; este agente tendrá las horas contadas para salvar a la joven, resolver los asesinatos y destapar los oscuros secretos que se ocultan en la ciudad.",
       "genre": "Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Post (2023)",
+      "contentId": "55912",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55912.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOYtnu9B4bjpyAZBWd6NCq6tkV10j3SI9xCZpBZBxDKqM.jpg",
+      "genre": "Drama, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
