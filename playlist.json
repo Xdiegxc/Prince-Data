@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Feb 11 13:00:51 2026",
+    "generated_at": "Wed Feb 11 18:57:25 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -18602,6 +18602,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Fargo (1996)",
+      "contentId": "55923",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55923.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOxi8lpl_ltMPFFDWt5bUDN9iPNRnjpM_F4qXFuRraC9w.jpg",
+      "rating": 7.8,
+      "plot": "Un hombre apocado y tímido, casado con la hija de un millonario que le impide disfrutar de su fortuna, decide contratar a dos delincuentes para que secuestren a su mujer con el fin de montar un negocio propio con el dinero del rescate. Pero, por una serie de azarosas circunstancias, al secuestro se suman tres brutales asesinatos, lo que obliga a la policía a intervenir.",
+      "genre": "Crimen, Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Farming (2018)",
       "contentId": "21889",
       "group": "movies",
@@ -21691,6 +21703,18 @@
       "rating": 6.4,
       "plot": "En un futuro próximo, se ha creado el sorteo de la Gran Lotería. El truco es matar al ganador antes del anochecer y reclamar legalmente el bote multimillonario. Cuando Katie Kim se hace con el boleto ganador por error, se une a regañadientes al agente novato de protección de la lotería Noel Cassidy, que deberá mantenerla con vida a cambio de una parte del premio.",
       "genre": "Acción, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Jacuzzi al pasado (2010)",
+      "contentId": "55922",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55922.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBpOLNc_3u45mbQfJ3WaEsLJ61XyabT4hEfxyDf1GmC8.jpg",
+      "rating": 6.0,
+      "plot": "Tres amigos del instituto que llevan tiempo sin verse deciden pasar un fin de semana en un hotel de montaña en el que estuvieron 20 años antes y del que guardan un recuerdo inolvidable. Cuando llegan al lugar se dan cuenta de que nada es como recordaban, pero todo cambia cuando deciden probar el jacuzzi y descubren que es una máquina del tiempo, que los transporta hasta los años 80, concretamente a 1986. Inicialmente creerán que deben hacer exactamente lo mismo que hicieron anteriormente, pero luego se darán cuenta de que están ante una oportunidad única de cambiar sus vidas. Sólo hay un pequeño problema: el futuro no es tan sencillo de modificar como piensan...",
+      "genre": "Ciencia ficción, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -34674,6 +34698,18 @@
       "rating": 3.7,
       "plot": "Aren es reclutado por una sociedad secreta de negros mágicos que dedican sus vidas a una causa de suma importancia.",
       "genre": "Fantasía, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Baker (2023)",
+      "contentId": "55921",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55921.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO2GDV1imEX5ZNFIX0dnww3loPfE-naqgrGw5dVnidjmY.jpg",
+      "rating": 6.3,
+      "plot": "Un viejo panadero se ve obligado a pasar de contrabando una barra de pan gigante llena de droga para salvar la vida de su hijo.",
+      "genre": "Acción, Drama, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
