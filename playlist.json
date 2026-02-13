@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Feb 13 12:51:47 2026",
+    "generated_at": "Fri Feb 13 18:41:55 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2805,6 +2805,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La boda de mi madres (2025)",
+      "contentId": "55929",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55929.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUYrWh9-xjn_FdLG5Nv35kD0e3Xj1FWHZjJL_G5t49ng.jpg",
+      "rating": 7.1,
+      "plot": "Tres hermanas regresan a su casa para la tercera boda de su madre. Pero madre e hijas se ven obligadas a volver a visitar el pasado y confrontar el futuro, con la ayuda de un colorido grupo de invitados inesperados a la boda.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La casa de David (2025)",
       "contentId": "274",
       "group": "series",
@@ -2827,6 +2839,18 @@
       "rating": 6.7,
       "plot": "La conductora, un irreverente thriller de ritmo frenético, cuenta la historia de una mujer que, en su adolescencia, fue conductora de huidas en coche y que en el presente se ve obligada a revivir su desagradable pasado cuando un antiguo jefe le brinda la oportunidad de salvar la vida de su exnovio, quien nunca ha sido de fiar. La conductora está escrita y dirigida por Shawn Simmons y protagonizada por Samara Weaving en el papel principal de Edie, también conocida como Eenie Meanie.",
       "genre": "Suspense, Acción, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La cosecha (2025)",
+      "contentId": "55928",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55928.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO0VWQIP3O6I5Cqn6Wqldeb9qGcpAlk4YqAYt91SAh5AY.jpg",
+      "rating": 6.0,
+      "plot": "Sigue la reacción de los aldeanos ante tres recién llegados, que se convierten en chivos expiatorios en una época de agitación económica.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -23150,6 +23174,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La boda de mi madres (2025)",
+      "contentId": "55929",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55929.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUYrWh9-xjn_FdLG5Nv35kD0e3Xj1FWHZjJL_G5t49ng.jpg",
+      "rating": 7.1,
+      "plot": "Tres hermanas regresan a su casa para la tercera boda de su madre. Pero madre e hijas se ven obligadas a volver a visitar el pasado y confrontar el futuro, con la ayuda de un colorido grupo de invitados inesperados a la boda.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La bóveda (2017)",
       "contentId": "19006",
       "group": "movies",
@@ -23386,6 +23422,18 @@
       "rating": 6.8,
       "plot": "Marie Colvin (Rosamund Pike) fue una periodista reconocida mundialmente por su trabajo en distintos conflictos bélicos. Testigo de algunas cruentas batallas recientes, especialmente de lo sucedido en Oriente Medio, Colvin contaba con el respeto tanto de los lectores como de sus compañeros de profesión por su enorme valentía y humildad. Sin embargo, su personalidad era caótica y autodestructiva: abusaba del alcohol y su vida personal era, un auténtico desastre. Tras recibir el impacto de una granada en Sri Lanka, comienza a llevar un distintivo parche en el ojo mientras se sienta a tomar martinis rodeada de la alta sociedad londinense a la que tanto aborrece, hasta que un día recibe el más peligroso de todos los encargos, que acepta junto a su también prestigioso fotógrafo de guerra, Paul Conroy (Jamie Dornan). Juntos viajan a Siria para cubrir lo que sucede en la ciudad de Homs, donde aprenderá el verdadero coste de la guerra, tanto física como psicológicamente.",
       "genre": "Drama, Bélica",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La cosecha (2025)",
+      "contentId": "55928",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55928.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO0VWQIP3O6I5Cqn6Wqldeb9qGcpAlk4YqAYt91SAh5AY.jpg",
+      "rating": 6.0,
+      "plot": "Sigue la reacción de los aldeanos ante tres recién llegados, que se convierten en chivos expiatorios en una época de agitación económica.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -30841,6 +30889,18 @@
       "rating": 7.4,
       "plot": "Un acaudalado y frío hombre de negocios conoce en Hollywood Boulevard a una joven y atractiva prostituta a la que alquila durante una semana para que sea su acompañante en sus cenas con los clientes. Para ello la chica se verá sometida a todo un cambio de look tras el que nadie podrá ver, a simple vista, que es una chica de la calle.",
       "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Primate (2026)",
+      "contentId": "55930",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55930.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOSPiPwtJZwgEZPWtpqgmj_vaMaIlZsgtZ4feKtZv3pzk.jpg",
+      "rating": 6.6,
+      "plot": "Lucy, una estudiante universitaria, pasa las vacaciones con sus amigos en la casa de su familia en Hawái, donde vive con su mascota, un chimpancé llamado Ben. Sin embargo, cuando Ben contrae rabia tras ser mordido por un animal rabioso, el grupo debe luchar por su vida para evitar al ahora violento chimpancé.",
+      "genre": "Terror, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
