@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Feb 14 18:29:17 2026",
+    "generated_at": "Sun Feb 15 01:55:52 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2674,6 +2674,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "199"
+    },
+    {
+      "title": "La Celda de los Milagros (2025)",
+      "contentId": "55941",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55941.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqWsOuD6D8Aqt_S5DhOB4h4kLU70IlLIG2o1wJBWSzcc.jpg",
+      "rating": 6.0,
+      "plot": "Tras ser acusado falsamente de un crimen terrible, Héctor, un hombre con discapacidad neurológica, va a una prisión secreta. Su bondad conquista a los presos, que planean probar su inocencia.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "La Hija Del Mariachi (2025) (2025)",
@@ -22644,6 +22656,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/7f506962ecbdde061f9020d4b2a23879.jpg",
       "rating": 2.0,
       "plot": "Una tragedia familiar golpea a una familia arequipeña. Un joven, convencido de que la tragedia está quedando impune, decide tomar la justicia en sus propias manos.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La Celda de los Milagros (2025)",
+      "contentId": "55941",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55941.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqWsOuD6D8Aqt_S5DhOB4h4kLU70IlLIG2o1wJBWSzcc.jpg",
+      "rating": 6.0,
+      "plot": "Tras ser acusado falsamente de un crimen terrible, Héctor, un hombre con discapacidad neurológica, va a una prisión secreta. Su bondad conquista a los presos, que planean probar su inocencia.",
       "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
