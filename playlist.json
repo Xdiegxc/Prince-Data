@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Feb 15 06:46:27 2026",
+    "generated_at": "Sun Feb 15 12:41:07 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5520,16 +5520,6 @@
     }
   ],
   "live_tv": [
-    {
-      "title": "Canal VIP Ejemplo (Manual)",
-      "contentId": "manual.vip.01",
-      "group": "live_tv",
-      "url": "http://ejemplo.com/video.m3u8",
-      "hdPosterUrl": "https://via.placeholder.com/300",
-      "quality": "HD",
-      "source_alias": "ManualVIP",
-      "is_manual": true
-    },
     {
       "title": "Honduras: Azteca Honduras",
       "contentId": "34248",
