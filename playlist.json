@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Feb 16 18:37:43 2026",
+    "generated_at": "Tue Feb 17 01:49:56 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -8802,6 +8802,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Amor y otras drogas (2010)",
+      "contentId": "55946",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55946.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOk0Yi48fRNuzKgz_JfDAWzTra2BJMvzrLDcWUyYOTFvo.jpg",
+      "rating": 7.0,
+      "plot": "Maggie es una mujer independiente que ha decidido vivir sin ataduras. Pero conoce a Jamie, un joven cuyo irresistible encanto funciona no sólo con las mujeres, sino también dentro del despiadado mundo de las ventas farmacéuticas. La relación entre Maggie y Jamie, para sorpresa de ambos, desemboca en amor. La película se basa en una historia real: la de Jamie Reidy, un vendedor de Pfizer (laboratorio que desarrolló la Viagra), quien sacó a la luz algunas prácticas dudosas empleadas por estas compañías farmacéuticas.",
+      "genre": "Drama, Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Amor y vino (2025)",
       "contentId": "55867",
       "group": "movies",
@@ -15570,6 +15582,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El diablo viste a la moda (2006)",
+      "contentId": "55947",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55947.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOC-XCIwmzmsRikiKAIhrA5HpNyC85-vmCSz23ZVYQqwg.jpg",
+      "rating": 7.4,
+      "plot": "En el vertiginoso mundo de la moda en Nueva York, la revista 'Runway' es el Santo Grial. Dirigida con puño de hierro y elegante manicura por Miranda Priestly, trabajar en ella es un temible reto para todo aquel que quiera triunfar en ese mundo. Hacerlo como ayudante de Miranda podría abrirle cualquier puerta a Andy Sachs, recientemente graduada. Pero ella es una chica que destaca por su desaliño dentro del pequeño ejército de guapísimas redactoras de la revista. Andy comprende muy pronto que para triunfar en ese negocio va a necesitar algo más que iniciativa y determinación. Y la prueba definitiva está delante de ella, vestida de Prada de pies a cabeza.",
+      "genre": "Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El diario de Greg 2: La ley de Rodrick (2022)",
       "contentId": "29396",
       "group": "movies",
@@ -18034,6 +18058,18 @@
       "rating": 7.0,
       "plot": "La vida de Robert Clayton Dean va a cambiar. Una casualidad pondrá en peligro su feliz hogar y su brillante carrera como abogado cuando hasta sus manos llega una cinta de video con las imágenes del asesinato de un miembro del Congreso de los Estados Unidos, en la que aparecen involucrados agentes del gobierno.",
       "genre": "Acción, Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Enemigo a las puertas (2001)",
+      "contentId": "55945",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55945.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOWZEDN3689dTqV-krkjp-d3EOOQT3dF_0esZDmtO3RdY.jpg",
+      "rating": 7.4,
+      "plot": "Mientras los ejércitos de Alemania y la Unión Soviética luchan encarnizadamente y el mundo espera con ansiedad el desenlace de la batalla de Stalingrado, un francotirador ruso, Vassili Zaitsev, persevera en la empresa de eliminar a sus enemigos uno por uno. Modesto y reservado, Vassili es un hombre corriente que simplemente cumple con su deber con una destreza extraordinaria. Danilov -el oficial encargado de la propaganda soviética- se da cuenta del enorme valor de este antiguo campesino, y convierte al sencillo pastor de los Urales en un héroe nacional",
+      "genre": "Drama, Bélica, Historia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
