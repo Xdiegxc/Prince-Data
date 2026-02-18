@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Feb 17 18:52:45 2026",
+    "generated_at": "Wed Feb 18 01:53:24 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4738,6 +4738,17 @@
       "series_id": "221"
     },
     {
+      "title": "Sunray: Fallen Soldier (2025)",
+      "contentId": "55951",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55951.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOz96GV9N-tJzzegbp30Fbb0bPJ7Wnm4NTq9f0JyMarfY.jpg",
+      "rating": 6.1,
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Superdetective en Hollywood: Axel F. (2024)",
       "contentId": "40983",
       "group": "movies",
@@ -4926,6 +4937,18 @@
       "rating": 6.5,
       "plot": "A finales de los 90, el prometedor artista marcial mixto Mark Kerr aspira a convertirse en el mejor luchador del mundo. Sin embargo, también debe luchar contra su adicción a los opioides y una relación inestable con su novia Dawn.",
       "genre": "Historia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Surrender (2025)",
+      "contentId": "55949",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55949.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOYF_2jWI4UhQefS9jWwpJOoseIorenAmJRF6-H5oQTcI.jpg",
+      "rating": 5.5,
+      "plot": "Cuando el patriarca de la familia muere, una madre y una hija afligidas arriesgan sus vidas para llevar a cabo un brutal ritual de resurrección y resucitarlo de entre los muertos.",
+      "genre": "Drama, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -5226,6 +5249,18 @@
       "rating": 6.5,
       "plot": "Tras el atentado contra el centro clandestino de Polonia, el Navy SEAL Jake Harris recibe la orden de escoltar al sospechoso de terrorismo Amin Mansur hasta Washington D.C. para ser interrogado.",
       "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Uno equis dos (2025)",
+      "contentId": "55950",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55950.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-I4rTE3Ujooj05JUpFgrD_vrivO0D7qjnSlJL0FE35c.jpg",
+      "rating": 5.6,
+      "plot": "Chino y Josu, dos amigos de unos 40 años, han estado jugando a la quiniela juntos desde que se conocieron en la universidad. Este fin de semana, han acertado los primeros 12 resultados y, junto con sus parejas, Paula y Cris, deciden seguir el final de la jornada en la casa de campo de la familia de Chino. Al plan se une David, un compañero de trabajo de Cris que acaba de divorciarse. A medida que la posibilidad de hacerse ricos aumenta con cada nuevo resultado, los cinco se enfrentarán a las verdades ocultas de sus relaciones y a su verdadera identidad, en una escalada imparable y caótica de violencia y malas decisiones.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7421,6 +7456,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPiYlR0TffjubSkEFLveFlZtaO5dhK2NQAwk2LCsb6us.jpg",
       "rating": 7.1,
       "plot": "Años transcurridos tras los sucesos de \"28 semanas después\", el virus de la ira ha regresado y un grupo de supervivientes debe sobrevivir en un mundo asolado por hordas de infectados. Realizada con un iPhone 15 Pro Max y con la ayuda de numerosos accesorios especializados.",
+      "genre": "Terror, Suspense, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "28 años después: El templo de los huesos (2026)",
+      "contentId": "55952",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55952.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFjroa03B3sNbgKrkEwbn3bZ_L-Ue-OJ_YXXK46ZVknM.jpg",
+      "rating": 7.2,
+      "plot": "El Dr. Kelson (Ralph Fiennes) se ve envuelto en una nueva y sorprendente relación, cuyas consecuencias podrían cambiar el mundo tal y como se conoce. Por otra parte, el encuentro de Spike (Alfie Williams) con el Gran Lord Jimmy Crystal (Jack O'Connell) se convierte en una pesadilla de la que el chico no puede escapar. En este mundo, los infectados ya no son la mayor amenaza para la supervivencia, ya que la inhumanidad de los supervivientes puede ser aún más extraña y aterradora.",
       "genre": "Terror, Suspense, Ciencia ficción",
       "quality": "SD",
       "source_alias": "MainProvider"
@@ -34188,6 +34235,17 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Sunray: Fallen Soldier (2025)",
+      "contentId": "55951",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55951.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOz96GV9N-tJzzegbp30Fbb0bPJ7Wnm4NTq9f0JyMarfY.jpg",
+      "rating": 6.1,
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Sunshine (2007)",
       "contentId": "40204",
       "group": "movies",
@@ -35521,6 +35579,18 @@
       "contentId": "19143",
       "group": "movies",
       "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/19143.mp4",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Surrender (2025)",
+      "contentId": "55949",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55949.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOYF_2jWI4UhQefS9jWwpJOoseIorenAmJRF6-H5oQTcI.jpg",
+      "rating": 5.5,
+      "plot": "Cuando el patriarca de la familia muere, una madre y una hija afligidas arriesgan sus vidas para llevar a cabo un brutal ritual de resurrección y resucitarlo de entre los muertos.",
+      "genre": "Drama, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -37018,6 +37088,18 @@
       "rating": 8.5,
       "plot": "Henry, un niño de trece años de Brooklyn, vive fascinado con el mundo de los gángsters. Su sueño se hace realidad cuando entra a formar parte de la familia Pauline, dueña absoluta de la zona, que lo educan como un miembro más de la banda convirtiéndole en un destacado mafioso.",
       "genre": "Drama, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Uno equis dos (2025)",
+      "contentId": "55950",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55950.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-I4rTE3Ujooj05JUpFgrD_vrivO0D7qjnSlJL0FE35c.jpg",
+      "rating": 5.6,
+      "plot": "Chino y Josu, dos amigos de unos 40 años, han estado jugando a la quiniela juntos desde que se conocieron en la universidad. Este fin de semana, han acertado los primeros 12 resultados y, junto con sus parejas, Paula y Cris, deciden seguir el final de la jornada en la casa de campo de la familia de Chino. Al plan se une David, un compañero de trabajo de Cris que acaba de divorciarse. A medida que la posibilidad de hacerse ricos aumenta con cada nuevo resultado, los cinco se enfrentarán a las verdades ocultas de sus relaciones y a su verdadera identidad, en una escalada imparable y caótica de violencia y malas decisiones.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
