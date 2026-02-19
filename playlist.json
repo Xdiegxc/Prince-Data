@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Feb 19 12:57:14 2026",
+    "generated_at": "Thu Feb 19 18:45:09 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -30023,6 +30023,18 @@
       "rating": 7.2,
       "plot": "La joven dueña de un exitoso negocio online dedicado a la moda no se toma demasiado bien el hecho de que la compañía contrate como becario a un hombre de 70 años, pero eso irá cambiando progresivamente, ya que poco a poco el hombre comienza a convertirse en alguien indispensable.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Pasión obsesiva (1996)",
+      "contentId": "55955",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55955.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOQvhpfjgmgisL1ugfWcAOYPiiLymS6k-Oqt-Cq1KPTno.jpg",
+      "rating": 6.5,
+      "plot": "Nicole Walker es una bella joven de 16 años que vive con su padre, su madrastra y su hermanastro. Una noche al salir a una fiesta con su mejor amiga, conoce a David en una discoteca, y desde esa noche comienzan una tórrida relación adolescente. En un comienzo todo va muy bien porque David parece encanatador, pero poco a poco David, a raíz de los celos y de la pésima relación con el padre de ella, empieza a mostrar su verdera personalidad hasta convertirse en una pesadilla para Nicole y toda su familia.\n Cuenado Nicole decide terminar con David provocará el despertar del psicópata que él lleva adentro pues él jamás aceptará esta decisión, desembocando todo en un final trágico.",
+      "genre": "Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
