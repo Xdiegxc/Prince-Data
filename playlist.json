@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Feb 18 18:49:07 2026",
+    "generated_at": "Thu Feb 19 01:52:28 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -33255,6 +33255,18 @@
       "rating": 6.2,
       "plot": "La increíble historia real de Chris Lemons (Finn Cole), un buzo profesional que, tras un extraño accidente, queda atrapado en el fondo del Mar del Norte. Con tan solo 10 minutos de oxígeno de emergencia y a más de media hora de cualquier esperanza de rescate, esta es la lucha imposible de un hombre por sobrevivir a 90 metros de profundidad. Mientras tanto, en la superficie, sus compañeros Duncan (Woody Harrelson) y Dave (Simu Liu) lucharán contra una feroz tormenta y harán todo lo posible por rescatarlo con vida.",
       "genre": "Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Sin piedad (2026)",
+      "contentId": "55954",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55954.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO98p1-OSrmAaQ-hMyH8msjVd7zXUXJ3k4wErsDnuq5eA.jpg",
+      "rating": 6.7,
+      "plot": "En un futuro próximo, un detective (Chris Pratt) es acusado de asesinar a su esposa. Tiene 90 minutos para demostrar su inocencia ante la Jueza de la I.A. avanzada (Rebecca Ferguson), a la que él mismo defendió en su día, antes de que esta decida su destino.",
+      "genre": "Ciencia ficción, Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
