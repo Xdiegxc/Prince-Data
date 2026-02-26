@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Feb 26 12:57:25 2026",
+    "generated_at": "Thu Feb 26 18:47:26 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -8032,6 +8032,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Admitido (2006)",
+      "contentId": "55990",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55990.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO6VkXHbu5TSzklh-0d4W_piOybYXs2p7-1rSkfbK7Zhw.jpg",
+      "rating": 6.4,
+      "plot": "Cuando un joven de un instituto descubre que ha sido rechazado por todas las universidades en las que pidió el ingreso, decide crear una universidad ficticia para engañar a sus exigentes padres. Pero cuando centenares de estudiantes empiezan a apuntarse a ésta, deberá poner en marcha el más fabuloso engaño para escolarizar a toda una legión de juerguistas e inadaptados...",
+      "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "After Earth (2013)",
       "contentId": "39579",
       "group": "movies",
@@ -15749,6 +15761,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El engaño (2026)",
+      "contentId": "55993",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55993.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOxTb2RnxfKu7c1HMo9yWz65tUiXQfr28457sR4w6PQz4.jpg",
+      "rating": 5.5,
+      "plot": "Una pirata retirada que vive tranquilamente en una remota isla debe enfrentarse a su pasado y usar sus habilidades letales para salvar a su familia de un implacable asedio cuando su antiguo capitán aparece para vengarse de ella.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El equipo A (2010)",
       "contentId": "17927",
       "group": "movies",
@@ -19335,6 +19359,18 @@
       "rating": 6.6,
       "plot": "En 1975, el leñador Travies Walton (D.B. Sweeney) y sus compañeros vieron un OVNI suspendido en el aire inmóvil. Los amigos de Walton lograron huir, pero él no tuvo esa suerte. Lo introdujeron en la extraña nave y allí lo sometieron al más intensivo y doloroso examen médico. Walton fue encontrado cinco días después, manchado de sangre y lleno de moratones. Todos ellos tuvieron que soportar las burlas de los incrédulos. Mientras tanto, un investigador (Garner) sospecha que la increíble historia puede ser la tapadera de un asesinato.",
       "genre": "Ciencia ficción, Drama, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Fuga de Alcatraz (1979)",
+      "contentId": "55991",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55991.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO0A9iyprnhKQZzrrrsVfBcvx1CMLyeGYc-moVXIghLDo.jpg",
+      "rating": 7.5,
+      "plot": "Bahía de San Francisco, 18 de enero de 1960. Frank Lee Morris es trasladado a Alcatraz, una prisión de máxima seguridad situada en una isla rocosa. A pesar de que nadie ha conseguido nunca evadirse de allí, Frank y otros reclusos empiezan a preparar minuciosamente un plan de fuga.",
+      "genre": "Drama, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
