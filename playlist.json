@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Feb 28 18:27:53 2026",
+    "generated_at": "Sun Mar  1 01:58:06 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -12764,6 +12764,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Cumbres  borrascosas (1992)",
+      "contentId": "55995",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55995.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO5yekKgSaJ0Pd3SysXjpnZld0YgCs6w_LbDD3EPg8sXA.jpg",
+      "rating": 6.6,
+      "plot": "Heathcliff es hermano de crianza de Cathy Earnshaw; mas bien, es su otra mitad. Cuando los fuerzan a separarlos, Heathcliff da rienda suelta a la venganza contra aquellos que considera responsables.\n Algunos años antes de que protagonizaran \"El paciente inglés\", Binoche y Fiennes ya habían trabajado juntos en esta adaptación de la famosa novela homónima de Emily Brontë.",
+      "genre": "Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Cyborg X (2016)",
       "contentId": "17918",
       "group": "movies",
@@ -12944,10 +12956,10 @@
     },
     {
       "title": "Dallas Buyers Club (2013)",
-      "contentId": "18428",
+      "contentId": "55994",
       "group": "movies",
-      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/18428.mkv",
-      "hdPosterUrl": "http://latinapro.net:25461/images/38b0a168d7078a9b808ed3f371f87d46.jpg",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55994.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi9_7DNcTYjRS9BtI30ZEF38GO7XLqaPbzmGi1GIMzns.jpg",
       "rating": 7.9,
       "plot": "Basada en la vida real de Ron Woodroof, un cowboy de rodeo texano, drogadicto y mujeriego, al que en 1986 le diagnosticaron SIDA y le pronosticaron un mes de vida. Empezó entonces a tomar AZT, el único medicamento disponible en aquella época para luchar contra tan terrible enfermedad",
       "genre": "Drama, Historia",
@@ -18045,6 +18057,18 @@
       "rating": 7.3,
       "plot": "Adaptación del musical de Broadway de Lin-Manuel Miranda en el que el propietario de una bodega sueña cada día con volver a su tierra de República Dominicana mientras todo el barrio se despierta con la noticia de un boleto de lotería premiado.",
       "genre": "Drama, Música, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "En un instante (2026)",
+      "contentId": "55996",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55996.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEVHWu4s6jpDn0IHpDAKjz8P1_dUrPGtwY1QkChe_r-k.jpg",
+      "rating": 6.2,
+      "plot": "Tres historias interconectadas reflexionan sobre la esperanza, las relaciones humanas y el ciclo de la vida a lo largo de miles de años.",
+      "genre": "Drama, Ciencia ficción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
