@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar  2 01:49:14 2026",
+    "generated_at": "Mon Mar  2 06:52:41 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6350,7 +6350,7 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN Premium Hd (P)",
+      "title": "Lat: ESPN Premium Hd",
       "contentId": "40234",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.ts",
