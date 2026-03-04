@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Mar  4 12:48:04 2026",
+    "generated_at": "Wed Mar  4 18:42:09 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -280,6 +280,18 @@
       "rating": 6.4,
       "plot": "El heredero de un prestigioso viñedo intercambia identidades con su humilde amigo de la infancia para demostrar que su éxito con las mujeres no tiene nada que ver con el dinero.",
       "genre": "Romance, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Anaconda (2025)",
+      "contentId": "56003",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56003.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQONYfCOLSFAeCDv50b2gPjRAVMA9a4NUjTFuKP8EgS4U4.jpg",
+      "rating": 5.8,
+      "plot": "Doug y Griff son muy buenos amigos desde que eran niños y siempre han soñado con hacer un remake de su película favorita de todos los tiempos: el «clásico cinematográfico» Anaconda. Cuando una crisis de mediana edad les anima a lanzarse por fin a la aventura, se adentran en la selva amazónica para empezar a rodar. Pero las cosas se ponen serias cuando aparece una anaconda gigante de verdad, convirtiendo su caótico y cómico plató de rodaje en una situación mortal.",
+      "genre": "Aventura, Comedia, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -8909,6 +8921,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Anaconda (2025)",
+      "contentId": "56003",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56003.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQONYfCOLSFAeCDv50b2gPjRAVMA9a4NUjTFuKP8EgS4U4.jpg",
+      "rating": 5.8,
+      "plot": "Doug y Griff son muy buenos amigos desde que eran niños y siempre han soñado con hacer un remake de su película favorita de todos los tiempos: el «clásico cinematográfico» Anaconda. Cuando una crisis de mediana edad les anima a lanzarse por fin a la aventura, se adentran en la selva amazónica para empezar a rodar. Pero las cosas se ponen serias cuando aparece una anaconda gigante de verdad, convirtiendo su caótico y cómico plató de rodaje en una situación mortal.",
+      "genre": "Aventura, Comedia, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Anatomía de una caída (2023)",
       "contentId": "40641",
       "group": "movies",
@@ -10106,6 +10130,18 @@
       "rating": 7.1,
       "plot": "Tras una inesperada tragedia familiar, tres generaciones de la familia Deetz regresan a Winter River. La vida de Lydia, todavía atormentada por Bitelchús, da un vuelco cuando su rebelde hija adolescente, Astrid, descubre la misteriosa maqueta de la ciudad en el desván y el portal al Más Allá se abre accidentalmente. Con los problemas que se avecinan en ambos reinos, es sólo cuestión de tiempo que alguien diga el nombre de Bitelchús tres veces y el travieso demonio regrese para desatar su propio caos.",
       "genre": "Comedia, Fantasía, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Begin Again (2014)",
+      "contentId": "56002",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56002.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO7epCFBltLixzhSMpM66KnDcnnJFbIixdETiRkeaQnb8.jpg",
+      "rating": 7.2,
+      "plot": "La pasión por la música lleva a Gretta y a Dave, novios desde el instituto, hasta Nueva York. Pero cuando él, una vez alcanzado el éxito y la fama, la abandona, ella se queda completamente desolada. Una noche, un productor de discos recién despedido, la ve actuar en un bar de Manhattan y queda cautivado por su talento.",
+      "genre": "Comedia, Música, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
