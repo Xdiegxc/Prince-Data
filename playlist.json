@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Mar  5 01:48:46 2026",
+    "generated_at": "Thu Mar  5 06:45:35 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6497,21 +6497,21 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Mex: ESPN 4 HD",
+      "contentId": "5490",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/40e64337cd1d5252dde0710ebc84f9bf.jpg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Mex: ESPN Hd",
       "contentId": "5487",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5487.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/e1bd9e9008c137da501e5e0dca12d8b9.png",
       "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Mex: ESPN PLUS",
-      "contentId": "5490",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5490.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/40e64337cd1d5252dde0710ebc84f9bf.jpg",
-      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
