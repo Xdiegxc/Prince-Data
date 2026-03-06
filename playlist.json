@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar  6 06:41:50 2026",
+    "generated_at": "Fri Mar  6 12:45:47 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3745,6 +3745,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Mi padre, el asesino BTK (2025)",
+      "contentId": "56004",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56004.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFBQrX-ibetsM-3fzIifqlEakBjjI_61eP0f02PrnKwo.jpg",
+      "rating": 6.8,
+      "plot": "Criada por un hombre que llevaba una monstruosa doble vida, la hija del asesino en serie BTK comparte su escalofriante historia en este documental sobre crímenes reales.",
+      "genre": "Documental, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Mickey 17 (2025)",
       "contentId": "53924",
       "group": "movies",
@@ -5035,6 +5047,18 @@
       "rating": 7.1,
       "plot": "Una pareja con problemas en su relación se muda al campo, donde descubren una cueva con una fuerza sobrenatural. Al beber agua de la cueva, comienzan a experimentar transformaciones físicas y emocionales que reflejan su codependencia.",
       "genre": "Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Tom y Jerry: Aventura en el tiempo (2025)",
+      "contentId": "56005",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56005.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBukEggeD6aQlKcxT6z7waHv9g7TYHtT9m_Eg-jhoai4.jpg",
+      "rating": 5.3,
+      "plot": "Tom y Jerry viajan en el tiempo. Tras una loca persecución en el Museo Metropolitan de Nueva York, un portal del tiempo los transporta a una ciudad dorada inspirada en la Antigua China, llena de magia, guerreros y criaturas sorprendentes. Para regresar a casa, viven una increíble aventura repleta de acción y humor, donde deben enfrentarse a nuevos enemigos… ¡y quizás aprender a trabajar juntos!",
+      "genre": "Animación, Comedia, Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -27633,6 +27657,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Mi padre, el asesino BTK (2025)",
+      "contentId": "56004",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56004.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFBQrX-ibetsM-3fzIifqlEakBjjI_61eP0f02PrnKwo.jpg",
+      "rating": 6.8,
+      "plot": "Criada por un hombre que llevaba una monstruosa doble vida, la hija del asesino en serie BTK comparte su escalofriante historia en este documental sobre crímenes reales.",
+      "genre": "Documental, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Mi pequeño gran hombre (2018)",
       "contentId": "18093",
       "group": "movies",
@@ -36134,6 +36170,18 @@
       "rating": 6.9,
       "plot": "Tom el gato y Jerry el ratón son expulsados de su casa y se trasladan a un elegante hotel de Nueva York, donde una empleada descuidada llamada Kayla perderá su trabajo si no puede desalojar a Jerry antes de una boda de clase alta en el hotel. ¿Su solución? Contratar a Tom para deshacerse del molesto ratón.",
       "genre": "Comedia, Familia, Animación",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Tom y Jerry: Aventura en el tiempo (2025)",
+      "contentId": "56005",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56005.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBukEggeD6aQlKcxT6z7waHv9g7TYHtT9m_Eg-jhoai4.jpg",
+      "rating": 5.3,
+      "plot": "Tom y Jerry viajan en el tiempo. Tras una loca persecución en el Museo Metropolitan de Nueva York, un portal del tiempo los transporta a una ciudad dorada inspirada en la Antigua China, llena de magia, guerreros y criaturas sorprendentes. Para regresar a casa, viven una increíble aventura repleta de acción y humor, donde deben enfrentarse a nuevos enemigos… ¡y quizás aprender a trabajar juntos!",
+      "genre": "Animación, Comedia, Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
