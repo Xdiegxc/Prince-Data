@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar  6 12:45:47 2026",
+    "generated_at": "Fri Mar  6 18:38:33 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3630,6 +3630,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Marty Supreme (2025)",
+      "contentId": "56007",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56007.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO6zDk_1m3Pw0BgPOimYPUPtvL7zuwgDHKiXHBYnfaAWI.jpg",
+      "rating": 7.5,
+      "plot": "Biopic de Marty Reisman, un buscavidas convertido en campeón de ping pong, desde que empezó a jugar por apuestas en Manhattan hasta ganar 22 títulos importantes y convertirse en el más veterano en ganar una competición nacional de deportes de raqueta, con 67 años.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Mascotas al rescate (2025)",
       "contentId": "55106",
       "group": "movies",
@@ -4598,6 +4610,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "297"
+    },
+    {
+      "title": "Sin conexión (2025)",
+      "contentId": "56006",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56006.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr1dYjFRC-iPrFsBVkArSWbTHEWKLvTWqAm-1P5dCuyQ.jpg",
+      "rating": 6.5,
+      "plot": "Mientras su matrimonio se desmorona silenciosamente, Alex se enfrenta a la mediana edad y a un divorcio inminente, buscando un nuevo propósito en el mundo de la comedia neoyorquina, mientras que Tess se enfrenta a los sacrificios que ha hecho por su familia, lo que les obliga a lidiar con la crianza compartida, la identidad y si el amor puede adoptar una nueva forma.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "Sin oxígeno (2025)",
@@ -27086,6 +27110,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Marty Supreme (2025)",
+      "contentId": "56007",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56007.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO6zDk_1m3Pw0BgPOimYPUPtvL7zuwgDHKiXHBYnfaAWI.jpg",
+      "rating": 7.5,
+      "plot": "Biopic de Marty Reisman, un buscavidas convertido en campeón de ping pong, desde que empezó a jugar por apuestas en Manhattan hasta ganar 22 títulos importantes y convertirse en el más veterano en ganar una competición nacional de deportes de raqueta, con 67 años.",
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Marvel detrás de la máscara (2021)",
       "contentId": "21490",
       "group": "movies",
@@ -33387,6 +33423,18 @@
       "rating": 6.3,
       "plot": "Emma (Natalie Portman) y Adam (Ashton Kutcher) son, desde hace mucho tiempo, dos buenos amigos, pero casi arruinan su relación por pasar una noche juntos. Deciden, entonces, preservar su amistad por encima de todo, aunque tengan relaciones íntimas. Muy pronto descubrirán que es muy difícil mantener una relación estrictamente física sin contraer compromiso alguno y al margen de los sentimientos",
       "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Sin conexión (2025)",
+      "contentId": "56006",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56006.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr1dYjFRC-iPrFsBVkArSWbTHEWKLvTWqAm-1P5dCuyQ.jpg",
+      "rating": 6.5,
+      "plot": "Mientras su matrimonio se desmorona silenciosamente, Alex se enfrenta a la mediana edad y a un divorcio inminente, buscando un nuevo propósito en el mundo de la comedia neoyorquina, mientras que Tess se enfrenta a los sacrificios que ha hecho por su familia, lo que les obliga a lidiar con la crianza compartida, la identidad y si el amor puede adoptar una nueva forma.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
