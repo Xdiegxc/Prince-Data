@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Mar  7 12:38:33 2026",
+    "generated_at": "Sat Mar  7 18:28:13 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -39221,6 +39221,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "181"
+    },
+    {
+      "title": "A Otro Nivel 2026 (2026)",
+      "contentId": "317",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=317",
+      "hdPosterUrl": "http://latinapro.net:25461/images/lqh9jXZOLl9j6BVRzqafelJ3kgV-aSj3proCWxCXlQfdIHk7k5N7nlD1uBWRRz45BiglUJymE43Lnb7rZOwwfaH26Q1unfNJgXYT1nC1XOE28jPUoH7vFF4-FTMs3sNg.jpeg",
+      "plot": "Es un reality musical de competencia en el que cantantes profesionales buscan avanzar por distintas etapas del concurso. En el formato original, cada participante entra a un ascensor y canta durante 90 segundos; si al menos dos de tres jurados aprueban la presentación, sube al escenario y entra oficialmente a la competencia. Luego vienen rondas de fusiones, trabajo en equipo y eliminaciones hasta llegar a los finalistas.\n\nEn la temporada 2026, Caracol le metió un giro importante: ya no solo buscan voces individuales, sino formar un grupo musical ganador. En la primera fase los aspirantes vuelven a cantar dentro del ascensor; si dos jurados los aprueban, entran, y si los tres los aprueban, pueden quedar como líderes. Después, esos líderes eligen integrantes para formar grupos, compiten entre sí y el premio es 600 millones de pesos más un contrato de un año con Caracol para girar por Colombia.",
+      "releaseDate": "2026",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "317"
     },
     {
       "title": "A Otro Nivel Canta Conmigo (2020)",
