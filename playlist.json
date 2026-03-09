@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar  9 12:54:33 2026",
+    "generated_at": "Mon Mar  9 18:46:15 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -28637,6 +28637,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Máquina de guerra (2026)",
+      "contentId": "56022",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56022.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZEDbi0KL1sL4GUrv09CusdmqZJfhzTBpmGdw66dVNWc.jpg",
+      "rating": 7.0,
+      "plot": "En una última misión agotadora durante el entrenamiento para ser ranger, un ingeniero de combate debe liderar a su unidad contra una gigantesca máquina asesina de otro mundo.",
+      "genre": "Acción, Ciencia ficción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Más allá de la verdad (2019)",
       "contentId": "20644",
       "group": "movies",
@@ -30179,6 +30191,18 @@
       "rating": 6.8,
       "plot": "Cuando el magnate de la tecnología Slater King (Channing Tatum) conoce a la camarera Frida (Naomi Ackie) en su gala de recaudación de fondos, saltan chispas. Él la invita a acompañarle a él y a sus amigos a unas vacaciones de ensueño en su isla privada. Un auténtico paraíso. Las noches salvajes se mezclan con mañanas bañadas por el sol y todo el mundo se lo pasa en grande. Nadie quiere que el viaje termine, pero cuando empiezan a suceder cosas extrañas, Frida intuye que algo anda mal en ese lugar. Tendrá que descubrir la verdad si quiere salir viva de la fiesta.",
       "genre": "Misterio, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Parque Lezama (2026)",
+      "contentId": "56021",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56021.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdltLGPWOm9VEs1snyhOzf_t9xJCXBo1OsweJp9T0GKw.jpg",
+      "rating": 6.5,
+      "plot": "Un exmilitante comunista y un hombre que cree en el «vive y deja vivir» entablan una amistad en un banco del parque, entre historias llenas de humor y ternura.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
