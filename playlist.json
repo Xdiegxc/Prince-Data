@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar 13 01:47:42 2026",
+    "generated_at": "Fri Mar 13 06:46:54 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1818,6 +1818,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "203"
+    },
+    {
+      "title": "El quarterback y yo (2025)",
+      "contentId": "56043",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56043.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOzyM9gm3D5c1keaVW-51kzuob7-Dvv_3xgY9bfsDY7Xk.jpg",
+      "rating": 6.1,
+      "plot": "Cuando Dallas, una joven y ambiciosa bailarina que sueña con escapar de su pueblo, conoce al quarterback y estrella del equipo, las chispas saltan y la tensión aumenta. Decidida a conseguir una codiciada beca para estudiar danza en una prestigiosa escuela de baile, ella se centra en su futuro, mientras que él se enfrenta a sus propias incertidumbres tras la universidad. A pesar de su innegable química, sus ambiciones enfrentadas y la inminente separación les obligan a enfrentarse a la pregunta más difícil de todas: ¿puede sobrevivir el amor cuando el futuro parece decidido a separarlos?",
+      "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "El reino del planeta de los simios (2024)",
@@ -17233,6 +17245,18 @@
       "rating": 5.2,
       "plot": "Lucía y su hijo viven aislados de la sociedad en un lugar llano donde prácticamente no hay vida. La pequeña unidad familiar formada por madre e hijo casi nunca recibe visitas y su objetivo es llevar una existencia tranquila. Al principio lo consiguen, pero la aparición de una misteriosa y violenta criatura que comienza a acechar su pequeña casa pondrá a prueba la relación que los une.",
       "genre": "Drama, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El quarterback y yo (2025)",
+      "contentId": "56043",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56043.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOzyM9gm3D5c1keaVW-51kzuob7-Dvv_3xgY9bfsDY7Xk.jpg",
+      "rating": 6.1,
+      "plot": "Cuando Dallas, una joven y ambiciosa bailarina que sueña con escapar de su pueblo, conoce al quarterback y estrella del equipo, las chispas saltan y la tensión aumenta. Decidida a conseguir una codiciada beca para estudiar danza en una prestigiosa escuela de baile, ella se centra en su futuro, mientras que él se enfrenta a sus propias incertidumbres tras la universidad. A pesar de su innegable química, sus ambiciones enfrentadas y la inminente separación les obligan a enfrentarse a la pregunta más difícil de todas: ¿puede sobrevivir el amor cuando el futuro parece decidido a separarlos?",
+      "genre": "Comedia, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
