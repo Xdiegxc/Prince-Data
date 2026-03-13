@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar 13 06:46:54 2026",
+    "generated_at": "Fri Mar 13 12:51:17 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3027,6 +3027,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "294"
+    },
+    {
+      "title": "La idea de tenerte (2024)",
+      "contentId": "56044",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56044.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO5H_xnFnqbg3sTi2wsZI9SYTIzDCRE2x7zhMMbVpGvms.jpg",
+      "rating": 7.3,
+      "plot": "Solène, madre soltera de 40 años, comienza un romance inesperado con Hayes Campbell, de 24 años, el cantante principal de August Moon, la banda de chicos más popular del planeta.",
+      "genre": "Romance, Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "La joven y el mar (2024)",
@@ -24189,6 +24201,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La idea de tenerte (2024)",
+      "contentId": "56044",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56044.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO5H_xnFnqbg3sTi2wsZI9SYTIzDCRE2x7zhMMbVpGvms.jpg",
+      "rating": 7.3,
+      "plot": "Solène, madre soltera de 40 años, comienza un romance inesperado con Hayes Campbell, de 24 años, el cantante principal de August Moon, la banda de chicos más popular del planeta.",
+      "genre": "Romance, Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La invocación (2020)",
       "contentId": "21557",
       "group": "movies",
@@ -35292,6 +35316,18 @@
       "rating": 5.6,
       "plot": "Con la Tierra en guerra y en mitad de una crisis energética, un equipo de astronautas se encuentra en el espacio tratando de dar con una solución a los problemas del planeta. Pero durante una maniobra fallida, quedan flotando sin saber muy bien qué o cómo volver a su lugar de origen, y las cosas dentro de la nave ocultan una realidad mucho más terrorífica.",
       "genre": "Terror, Ciencia ficción, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Collective (2023)",
+      "contentId": "56045",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56045.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGl1SBNpNlpH48RFTL0WRZzF4E5sa7GBTOFkVZo1jJrg.jpg",
+      "rating": 5.6,
+      "plot": "Un grupo de justos asesinos llamado The Collective apuntan a una red de tráfico de personas altamente sofisticada respaldada por una red de multimillonarios intocables. Con la espalda contra la pared, The Collective no tiene más remedio que poner su misión más importante en manos del asesino novato Sam Alexander.",
+      "genre": "Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
