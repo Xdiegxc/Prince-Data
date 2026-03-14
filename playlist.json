@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar 13 18:36:09 2026",
+    "generated_at": "Sat Mar 14 01:45:22 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6416,15 +6416,6 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN Colombia Backup",
-      "contentId": "50829",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50829.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/a694c0cbf1c56aae292026d91d15db8d.png",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Lat: ESPN HD (P)",
       "contentId": "21",
       "group": "sports",
@@ -6434,7 +6425,7 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN Premium Hd",
+      "title": "Lat: ESPN Premium Hd (P)",
       "contentId": "40234",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/40234.ts",
@@ -6755,15 +6746,6 @@
       "group": "kids",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/155.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Es: Dreamworks",
-      "contentId": "184",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/184.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/OJ_LLAMA7ikgxcMX6uCVwQr1mRU-0D5QCoMFnpJ0qgfztdLFRC7wMSOnvVVr-6YZLTR89XYdDTcPDbYjU-DNuTZRm4HK5_IU9O3pVlY2ddU.png",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
