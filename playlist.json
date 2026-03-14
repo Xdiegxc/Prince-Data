@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Mar 14 01:45:22 2026",
+    "generated_at": "Sat Mar 14 06:40:13 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -41324,6 +41324,15 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "96"
+    },
+    {
+      "title": "La caza (2026)",
+      "contentId": "318",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=318",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "318"
     },
     {
       "title": "La dama del lago (2024)",
