@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Mar 15 18:33:17 2026",
+    "generated_at": "Mon Mar 16 02:02:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4987,6 +4987,20 @@
       "genre": "Acción, Suspense, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Pitt (2025)",
+      "contentId": "319",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=319",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVop3wfQoqe0alSTlHRxAE56TknZz2ZXx5vJD5zAl0EI.jpg",
+      "rating": 9.0,
+      "plot": "The Pitt ofrece una visión realista de los retos a los que se enfrenta el personal sanitario en los Estados Unidos de hoy, visto a través de la lente de los héroes de primera línea que trabajan en un hospital de la actualidad en Pittsburgh, Pensilvania.",
+      "genre": "Drama",
+      "releaseDate": "2025-01-09",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "319"
     },
     {
       "title": "The Running Man (2025)",
@@ -40508,6 +40522,20 @@
       "series_id": "303"
     },
     {
+      "title": "El mentalista (2008)",
+      "contentId": "320",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=320",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmtDSgtuI3ExCxG2oCc06glE1ULRjQ9sqYFZFKYaZNuM.jpg",
+      "rating": 8.0,
+      "plot": "El mentalista es una serie policiaca americana sobre Patrick Jane, ex médium, que trabaja de asesor para la Oficina de Investigación de California (California Bureau of Investigation), usando su altamente desarrollada capacidad de observación, que anteriormente usaba para \"leer\" mentes.",
+      "genre": "Crimen, Drama, Misterio",
+      "releaseDate": "2008-09-23",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "320"
+    },
+    {
       "title": "El problema de los 3 cuerpos (2024)",
       "contentId": "203",
       "group": "series",
@@ -43138,6 +43166,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "102"
+    },
+    {
+      "title": "The Pitt (2025)",
+      "contentId": "319",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=319",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVop3wfQoqe0alSTlHRxAE56TknZz2ZXx5vJD5zAl0EI.jpg",
+      "rating": 9.0,
+      "plot": "The Pitt ofrece una visión realista de los retos a los que se enfrenta el personal sanitario en los Estados Unidos de hoy, visto a través de la lente de los héroes de primera línea que trabajan en un hospital de la actualidad en Pittsburgh, Pensilvania.",
+      "genre": "Drama",
+      "releaseDate": "2025-01-09",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "319"
     },
     {
       "title": "The Walking Dead (2010)",
