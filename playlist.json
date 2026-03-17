@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar 16 18:56:16 2026",
+    "generated_at": "Tue Mar 17 01:50:13 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -2481,6 +2481,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Invencible: Un niño fuera de serie (2025)",
+      "contentId": "56152",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56152.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOp2sxb0ZdoEpVKQOq_6uaR_BOIDgYgn1nGgskP0_iUSM.jpg",
+      "rating": 7.7,
+      "plot": "Cuando Scott y Teresa LeRette se enteran de que su hijo Austin es autista y padece la enfermedad de los huesos de cristal, al principio se preocupan por su futuro. Pero con la creciente fe de Scott y el increíble espíritu de Austin, se vuelven inquebrantables y encuentran alegría, gratitud y valentía incluso en los momentos más difíciles.",
+      "genre": "Familia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "It: Bienvenidos a Derry (2025)",
       "contentId": "299",
       "group": "series",
@@ -2915,6 +2927,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "219"
+    },
+    {
+      "title": "La educación de Polly McClusky (2025)",
+      "contentId": "56151",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56151.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO2RfO2D3dPRJar8Jg3_c6RHA9c-NOUU1wI-LlO6P2pEU.jpg",
+      "rating": 7.0,
+      "plot": "Tras salir de prisión, Nate debe proteger a su hija Polly de una peligrosa banda que ha puesto precio a sus vidas. Juntos emprenden una huida violenta y desesperada por el desierto, mientras él le enseña a sobrevivir en un mundo brutal. En el camino, padre e hija forjan un profundo vínculo marcado por la redención y el crecimiento mutuo... Adaptación de la premiada novela de Jordan Harper.",
+      "genre": "Acción, Suspense, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "La encrucijada (2025)",
@@ -21862,6 +21886,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Invencible: Un niño fuera de serie (2025)",
+      "contentId": "56152",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56152.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOp2sxb0ZdoEpVKQOq_6uaR_BOIDgYgn1nGgskP0_iUSM.jpg",
+      "rating": 7.7,
+      "plot": "Cuando Scott y Teresa LeRette se enteran de que su hijo Austin es autista y padece la enfermedad de los huesos de cristal, al principio se preocupan por su futuro. Pero con la creciente fe de Scott y el increíble espíritu de Austin, se vuelven inquebrantables y encuentran alegría, gratitud y valentía incluso en los momentos más difíciles.",
+      "genre": "Familia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Invicto 3: Redención (2010)",
       "contentId": "31790",
       "group": "movies",
@@ -23825,6 +23861,18 @@
       "rating": 7.4,
       "plot": "La vida de Sara (Cameron Diaz) y Brian Fitzgerald (Jason Patric) cambia radicalmente cuando a su hija Kate (Vassilieva), de sólo dos años, le diagnostican una leucemia. Inmediatamente, Sara abandona su carrera de abogado para dedicarse por entero al cuidado de su hija. Su única esperanza para salvarla es tener otro hijo. La ingeniería genética es un campo que plantea aún cuestiones morales muy espinosas, pero para los Fitzgerald es la única opción. Así es cómo nace Anne (Breslin), y entre ella y Kate se establece una relación mucho más profunda de lo normal, sobre todo porque ambas tendrán que someterse a diversos tratamientos médicos y compartirán largas estancias en el hospital.",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La educación de Polly McClusky (2025)",
+      "contentId": "56151",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56151.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO2RfO2D3dPRJar8Jg3_c6RHA9c-NOUU1wI-LlO6P2pEU.jpg",
+      "rating": 7.0,
+      "plot": "Tras salir de prisión, Nate debe proteger a su hija Polly de una peligrosa banda que ha puesto precio a sus vidas. Juntos emprenden una huida violenta y desesperada por el desierto, mientras él le enseña a sobrevivir en un mundo brutal. En el camino, padre e hija forjan un profundo vínculo marcado por la redención y el crecimiento mutuo... Adaptación de la premiada novela de Jordan Harper.",
+      "genre": "Acción, Suspense, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -31883,6 +31931,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/1974d161cdf92fe67fe687ee3cdb4782.jpg",
       "rating": 7.0,
       "genre": "Documental",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Regreso al futuro (1985)",
+      "contentId": "56153",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56153.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGZIkUFTZ_-kXgzuSDufM_h63-s_kBszk5RyOr0g-0Jg.jpg",
+      "rating": 8.3,
+      "plot": "El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible.",
+      "genre": "Aventura, Comedia, Ciencia ficción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
