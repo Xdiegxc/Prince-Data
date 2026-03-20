@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar 20 12:52:08 2026",
+    "generated_at": "Fri Mar 20 18:41:56 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -30543,6 +30543,18 @@
       "rating": 5.6,
       "plot": "Un conductor socialmente torpe y un pasajero cansado intentan llegar a su destino mientras son perseguidos por una amenaza sobrenatural.",
       "genre": "Suspense, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Peaky Blinders: El hombre inmortal (2026)",
+      "contentId": "56198",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56198.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgpJjgS8eTSzAz-XmFijNQy2fWUm0NjwsPRWRcafOm7M.jpg",
+      "rating": 8.3,
+      "plot": "El gánster Tommy Shelby regresa a Birmingham para salvar a su familia —y a su país— cuando su hijo, del que se ha distanciado, se ve envuelto en un complot nazi.",
+      "genre": "Crimen, Drama, Bélica",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
