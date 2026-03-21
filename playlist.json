@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Mar 21 12:39:44 2026",
+    "generated_at": "Sat Mar 21 18:30:36 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -24,6 +24,18 @@
       "rating": 8.1,
       "plot": "Beckett es un gato mimado y egoísta que da por sentada la suerte que le ha tocado. Sin embargo, todo eso está a punto de cambiar cuando pierde por descuido su novena vida. Ante lo inevitable, suplica que le permitan volver a su vida perfecta.",
       "genre": "Animación, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "13 días, 13 noches (2025)",
+      "contentId": "56200",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56200.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOkJUeotwFzz1Cnfm71bFlBV-NeK_g3Qxbf4m8jVgxXDY.jpg",
+      "rating": 6.6,
+      "plot": "Kabul, agosto de 2021. Mientras las tropas estadounidenses se preparan para abandonar el país, los talibanes asaltan la capital y toman el poder. En medio del caos, el comandante Bida intenta garantizar la seguridad de aquellos que se encuentran en el único refugio que queda en la ciudad, la embajada francesa. Con cientos de vidas en juego, Bida negocia con los talibanes con el fin de organizar un convoy hacia el aeropuerto. Comienza entonces una carrera contrarreloj para huir del infierno de Kabul antes de que sea demasiado tarde.",
+      "genre": "Bélica, Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7437,6 +7449,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "13 días, 13 noches (2025)",
+      "contentId": "56200",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56200.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOkJUeotwFzz1Cnfm71bFlBV-NeK_g3Qxbf4m8jVgxXDY.jpg",
+      "rating": 6.6,
+      "plot": "Kabul, agosto de 2021. Mientras las tropas estadounidenses se preparan para abandonar el país, los talibanes asaltan la capital y toman el poder. En medio del caos, el comandante Bida intenta garantizar la seguridad de aquellos que se encuentran en el único refugio que queda en la ciudad, la embajada francesa. Con cientos de vidas en juego, Bida negocia con los talibanes con el fin de organizar un convoy hacia el aeropuerto. Comienza entonces una carrera contrarreloj para huir del infierno de Kabul antes de que sea demasiado tarde.",
+      "genre": "Bélica, Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "14 Cameras (2018)",
       "contentId": "18925",
       "group": "movies",
@@ -10616,6 +10640,18 @@
       "rating": 6.1,
       "plot": "Cuando Esme (Megalyn Echikunwoke) y su hijo de diez años, Luna (Yonas Kibreab), se mudan a un pequeño pueblo del desierto, atraen todas las miradas, pero de manera negativa. Esme tendrá que proteger a su hijo de los locales y por si esto no fuera suficiente, hay un secreto terrorífico que les amenaza.",
       "genre": "Fantasía, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Blood Relatives (2022)",
+      "contentId": "56199",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56199.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_Uc3-SatFXfDSKi5JUPZQjVo1Fu3ka83IheRMdn7isk.jpg",
+      "rating": 4.6,
+      "plot": "Un recluso nómada que vive al margen de la sociedad reconsidera su legado sediento de sangre cuando aparece una adolescente que dice ser su hija.",
+      "genre": "Terror, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -20109,6 +20145,18 @@
       "rating": 8.2,
       "plot": "Años 60. Cuando Tony Lip, un rudo italoamericano del Bronx, es contratado como chófer del virtuoso pianista negro Don Shirley durante una gira de conciertos por el Sur de Estados Unidos, deberá confiar en \"El libro verde\", una guía de los pocos establecimientos seguros para los afroamericanos, para encontrar alojamiento. Son dos personas que tendrán que hacer frente al racismo y los prejuicios, pero a las que la bondad y el sentido del humor unirán, obligándoles a dejar de lado las diferencias para sobrevivir y prosperar en el viaje de su vida.",
       "genre": "Drama, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Greenland 2 (2026)",
+      "contentId": "56201",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56201.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOaQpqQLUuTPN6GZVbC-TvOPgtTWWjYTOfX-KpC4bY8zc.jpg",
+      "rating": 6.4,
+      "plot": "La familia Garrity superviviente debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar.",
+      "genre": "Aventura, Suspense, Ciencia ficción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
