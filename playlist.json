@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Mar 22 01:55:10 2026",
+    "generated_at": "Sun Mar 22 06:45:19 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6006,15 +6006,6 @@
       "contentId": "52674",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52674.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
-      "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Dazn 2 Hd (Eventos)",
-      "contentId": "52675",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52675.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
       "quality": "HD",
       "source_alias": "MainProvider"
