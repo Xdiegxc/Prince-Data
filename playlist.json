@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar 23 01:56:05 2026",
+    "generated_at": "Mon Mar 23 07:04:41 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5957,12 +5957,12 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Colombia: WinSports Hd (P)",
+      "title": "Colombia: WinSports (P)",
       "contentId": "1",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/1.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/5bafd47eb3141e29872cade169c83b19.jpg",
-      "quality": "HD",
+      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
