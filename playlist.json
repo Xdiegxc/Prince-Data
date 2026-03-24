@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Mar 24 01:48:01 2026",
+    "generated_at": "Tue Mar 24 06:59:16 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -96,6 +96,18 @@
       "rating": 7.1,
       "plot": "El ambicioso actor neoyorquino Edward se somete a una intervención quirúrgica radical para transformar drásticamente su aspecto. Como resultado, muchas cosas cambian en su vida y, sin embargo, todo sigue perturbadoramente igual. Aunque haya cambiado exteriormente y pueda empezar una nueva vida, sigue siendo quien es y no quien quiere ser. Entonces se pierde el papel de su vida y su nuevo rostro de ensueño se convierte en una pesadilla.",
       "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "A Working Man (2025)",
+      "contentId": "56211",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56211.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOASxHQAMXdQVJJ3tBRkkOJECQrSJDijaBqRekL6Js4b0.jpg",
+      "rating": 6.7,
+      "plot": "Levon Cade dejó atrás una condecorada carrera militar en las operaciones encubiertas para vivir una vida sencilla trabajando en la construcción. Pero cuando la hija de su jefe, que para él es como de la familia, es secuestrada por traficantes de personas, su búsqueda para traerla a casa descubre un mundo de corrupción mucho mayor de lo que jamás podría haber imaginado.",
+      "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7879,6 +7891,18 @@
       "contentId": "19098",
       "group": "movies",
       "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/19098.mp4",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "A Working Man (2025)",
+      "contentId": "56211",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56211.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOASxHQAMXdQVJJ3tBRkkOJECQrSJDijaBqRekL6Js4b0.jpg",
+      "rating": 6.7,
+      "plot": "Levon Cade dejó atrás una condecorada carrera militar en las operaciones encubiertas para vivir una vida sencilla trabajando en la construcción. Pero cuando la hija de su jefe, que para él es como de la familia, es secuestrada por traficantes de personas, su búsqueda para traerla a casa descubre un mundo de corrupción mucho mayor de lo que jamás podría haber imaginado.",
+      "genre": "Acción, Crimen, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -38947,6 +38971,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Zeta (2026)",
+      "contentId": "56210",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56210.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO1YOGqMxvHKiCY_VBlX0X35UJvkEG-EVquR4oATJZkZY.jpg",
+      "rating": 6.8,
+      "plot": "Cuatro ex-oficiales de inteligencia españoles son asesinados al mismo tiempo en distintas embajadas del mundo. El CNI descubre que todos participaron hace 35 años en la oculta “Operación Ciénaga”, que ocurrió en Colombia y donde un quinto oficial de inteligencia –el único que ha escapado de los asesinos– estuvo implicado. Encontrarle será el primer objetivo para el CNI, que pone al frente de la misión a su mejor miembro: Zeta.",
+      "genre": "Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Zodiac (2007)",
       "contentId": "18542",
       "group": "movies",
@@ -42343,6 +42379,20 @@
       "series_id": "227"
     },
     {
+      "title": "Mujeres imperfectas (2026)",
+      "contentId": "322",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=322",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOjIqCwRoe1ZTqi87Ju0ALIyx9NyrRpsnjtkQMCRJ1yJQ.jpg",
+      "rating": 5.0,
+      "plot": "Tras un asesinato que destruye las vidas de tres amigos, su vínculo de décadas se pone a prueba cuando una investigación revela verdades impactantes.",
+      "genre": "Drama, Misterio, Crimen",
+      "releaseDate": "2026-03-17",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "322"
+    },
+    {
       "title": "Muñeca Brava (1998)",
       "contentId": "243",
       "group": "series",
@@ -42920,6 +42970,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "121"
+    },
+    {
+      "title": "Rooster (2026)",
+      "contentId": "321",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=321",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPVhUqdZqfh9uleDSnBjHB2w2AxoelIqXCbCFhREzGmM.jpg",
+      "rating": 7.0,
+      "plot": "Un aclamado escritor llamado Greg Russo se ve arrastrado al mundo académico por su hija adulta Katie, profesora en una universidad de élite cuyo marido la engaña. Él intenta apoyarla sin sobrepasarse, tratando de lidiar con esta complicada y cambiante relación, al tiempo que transita un nuevo entorno que siente fuera de su alcance.",
+      "genre": "Comedia",
+      "releaseDate": "2026-03-08",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "321"
     },
     {
       "title": "Rosario Tijeras (2016)",
