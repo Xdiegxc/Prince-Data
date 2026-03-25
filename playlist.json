@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Mar 25 13:00:52 2026",
+    "generated_at": "Wed Mar 25 18:51:28 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1752,6 +1752,18 @@
       "rating": 5.8,
       "plot": "Después de que una prueba experimental de drogas sale terriblemente mal, los sujetos de prueba sobrevivientes tienen que luchar contra el sueño y entre ellos para mantenerse con vida.",
       "genre": "Ciencia ficción, Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El falsecuestro (2025)",
+      "contentId": "56223",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56223.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOOqKTg_RA4q7Zl8_IzKYV_UV1vWepvm9YAkNMMFCZjdg.jpg",
+      "rating": 6.4,
+      "plot": "Sattam, un empresario fracasado y padre en apuros, se ve envuelto en un descabellado plan cuando decide saldar sus deudas secuestrando a su propio padre.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -16240,6 +16252,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El falsecuestro (2025)",
+      "contentId": "56223",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56223.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOOqKTg_RA4q7Zl8_IzKYV_UV1vWepvm9YAkNMMFCZjdg.jpg",
+      "rating": 6.4,
+      "plot": "Sattam, un empresario fracasado y padre en apuros, se ve envuelto en un descabellado plan cuando decide saldar sus deudas secuestrando a su propio padre.",
+      "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El faro (2019)",
       "contentId": "18521",
       "group": "movies",
@@ -19790,6 +19814,18 @@
       "rating": 6.5,
       "plot": "Cuando la cumbre del G20 sufre un ataque, la presidenta de EE. UU. Danielle Sutton se convierte en el objetivo número uno. Tras evitar ser capturada por los atacantes, debe derrotar al enemigo para proteger a su familia, defender a su país y poner a salvo a los líderes del mundo en esta trepidante película cargada de acción.",
       "genre": "Acción, Misterio, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "GOAT: Como cabras (2026)",
+      "contentId": "56224",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56224.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOODnIqVZzK4d3VnUSt_2QMearPGDxPVn5-UpgKkAWKfI.jpg",
+      "rating": 7.5,
+      "plot": "Will es una pequeña cabra con grandes sueños que recibe una oportunidad única en la vida para unirse a los profesionales y jugar al rugebol, un deporte de alta intensidad, mixto y de contacto total dominado por los animales más rápidos y feroces del mundo. A los nuevos compañeros de equipo de Will no les entusiasma tener a una cabrita en su plantilla, pero Will está decidido a revolucionar el deporte y demostrar de una vez por todas que «¡los pequeños saben jugar!».",
+      "genre": "Animación, Comedia, Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
