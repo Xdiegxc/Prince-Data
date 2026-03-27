@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Mar 27 12:57:44 2026",
+    "generated_at": "Fri Mar 27 18:50:53 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -28147,6 +28147,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Mike y Nick y Nick y Alice (2026)",
+      "contentId": "56228",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56228.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOY-91UNgxpIUlZymk5zS-MaXfUZwNMM8WVnOIDb7LZDc.jpg",
+      "rating": 7.0,
+      "plot": "Dos gángsters y la mujer a la que aman intentan sobrevivir a la noche más peligrosa de sus vidas, en la que está implicada una máquina del tiempo.",
+      "genre": "Acción, Comedia, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Mil maneras de morder el polvo (2014)",
       "contentId": "21980",
       "group": "movies",
@@ -32901,6 +32913,18 @@
       "rating": 6.0,
       "plot": "Thriller de ciencia ficción que se centra en un neurocientífico que, después de sufrir un accidente de coche y que en este muriera su familia, no se detendrá ante nada para traerlos de vuelta, incluso si eso significa enfrentarse a él mismo dentro de un laboratorio controlado por el gobierno, un grupo de trabajo de policía y las leyes físicas de la ciencia.",
       "genre": "Ciencia ficción, Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Réquiem por un sueño (2000)",
+      "contentId": "56227",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56227.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOWmJW6AYwj1hzhdM_E_b9f7BN884P0ZSKUpHKmvP39a4.jpg",
+      "rating": 8.0,
+      "plot": "Harry (Jared Leto) vive con su atormentada madre Sara (Ellen Burstyn), y mientras él sueña con una vida mejor, ella está permanentemente a dieta para el día que pueda cumplir su mayor ilusión; aparecer en su concurso televisivo preferido. La ambición de Harry y su novia Marion (Jennifer Connelly) es hacerse ricos vendiendo droga con su amigo Tyrone (Marlon Wayans), y utilizar las ganancias para abrir un negocio propio, pero nunca llega el dinero suficiente para iniciar su plan. A pesas de todo, Harry y Marion no se resignan a vivir una existencia que consideran despreciable, por lo que harán lo impensable para conseguir la vida que anhelan.",
+      "genre": "Crimen, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
