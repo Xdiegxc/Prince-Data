@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Mar 28 01:51:57 2026",
+    "generated_at": "Sat Mar 28 06:54:27 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -28148,11 +28148,11 @@
     },
     {
       "title": "Mike y Nick y Nick y Alice (2026)",
-      "contentId": "56228",
+      "contentId": "56232",
       "group": "movies",
-      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56228.mkv",
-      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOY-91UNgxpIUlZymk5zS-MaXfUZwNMM8WVnOIDb7LZDc.jpg",
-      "rating": 7.0,
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56232.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOiXwcLGZ4RTDveKhGPu87OsBAbXtKE_ONvKqmDJg2oQE.jpg",
+      "rating": 6.8,
       "plot": "Dos gángsters y la mujer a la que aman intentan sobrevivir a la noche más peligrosa de sus vidas, en la que está implicada una máquina del tiempo.",
       "genre": "Acción, Comedia, Ciencia ficción",
       "quality": "SD",
@@ -31594,6 +31594,18 @@
       "rating": 5.9,
       "plot": "Un director con dificultades hace un intento desesperado por profundizar en la leyenda urbana sobre una película filmada por un fantasma, arriesgando su propia vida.",
       "genre": "Terror, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Pretty Lethal (2026)",
+      "contentId": "56233",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56233.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOzu90YrujTmG-UZRmo85ithDPCeFNm-VRTT7NQt-bUoQ.jpg",
+      "rating": 6.8,
+      "plot": "Un grupo de bailarinas lucha por sobrevivir mientras intentan escapar de una remota posada después de que su autobús se averíe de camino a una competición.",
+      "genre": "Acción, Suspense, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
