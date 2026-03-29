@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Mar 29 02:03:33 2026",
+    "generated_at": "Sun Mar 29 06:58:16 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1005,6 +1005,18 @@
       "rating": 7.1,
       "plot": "En un futuro cercano donde América está sumida en una cruenta guerra civil, un equipo de periodistas y fotógrafos de guerra emprenderá un viaje por carretera en dirección a Washington DC. Su misión: llegar antes de que las fuerzas rebeldes asalten la Casa Blanca y arrebaten el control al presidente de los Estados Unidos.",
       "genre": "Bélica, Acción, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Con el agua al cuello (2024)",
+      "contentId": "56268",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56268.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFmw87W4IxMFcTYgJF07UEOSzUeuoTaiVt-JoG5LY2oQ.jpg",
+      "rating": 6.4,
+      "plot": "La película ambientada en el Los Ángeles contemporáneo durante las vacaciones cuenta la historia del marchante de arte Andy Goodrich (Keaton), un hombre cuya vida da un vuelco cuando su segunda esposa más joven lo deja y entra en un programa de rehabilitación de 90 días mientras también amenaza con divorciarse. Andy se hace cargo de sus gemelos de nueve años y lo empuja al mundo de la paternidad moderna para el que no está preparado. Con su carrera quedando en el camino, Andy se apoya en su hija Grace (Kunis), ya adulta y embarazada, y finalmente se convierte en el padre que Grace nunca tuvo. Con todas sus relaciones puestas a prueba, Andy aprende el verdadero significado de tenerlo todo.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -9419,6 +9431,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Argentina 1985 (2022)",
+      "contentId": "56266",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56266.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOcxTEyHOaVU0SP6F6eJJKuzkCyRZ56FGH2BbPklr9BfU.jpg",
+      "rating": 7.8,
+      "plot": "Narra la estrategia de dos fiscales para llevar adelante el juicio que sentó en el banquillo de los acusados por crímenes de lesa humanidad a los comandantes de la última dictadura militar.",
+      "genre": "Drama, Historia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Argentina Vs Francia 4k (Mundial 2022)",
       "contentId": "29529",
       "group": "movies",
@@ -9842,6 +9866,18 @@
       "rating": 5.9,
       "plot": "Película derivada de la exitosa de Disney/Pixar dirigida por John Lasseter, Cars. En esta ocasión no son coches sino aviones, los que van a sumergirse en una divertida historia de acción y aventuras.  El protagonista, un avión llamado Dusty Crophopper, tiene verdadero terror a las alturas. Pero desafiará sus miedos para poder cumplir uno de sus grandes deseos: poder correr en la carrera más grandiosa que exiten en todo el mundo. Dusty sabe que este será el mayor reto de su vida, pero también será la experiencia más apasionante y sobrecogedora que va a vivir jamás.",
       "genre": "Animación, Familia, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Awareness (2023)",
+      "contentId": "56267",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56267.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-N-L3D0jbrTNxMQ6VPwrAWwjdlDKmpI-g_oLAnyKD7c.jpg",
+      "rating": 5.9,
+      "plot": "Ian es un adolescente rebelde que vive con su padre al margen de la sociedad. Sobreviven a base de pequeños timos gracias a la extraordinaria habilidad de Ian para proyectar ilusiones visuales en la mente de los demás. Tras perder el control sobre sus poderes en público, dos bandos enfrentados empiezan a perseguirlo. En su huida, Ian tendrá que decidir en qué lado va a librar esa guerra en la que se ha visto obligado a participar.",
+      "genre": "Ciencia ficción, Misterio, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -12376,6 +12412,18 @@
       "rating": 6.7,
       "plot": "Narra cómo una relación entre dos jóvenes amigos, Dylan y Jamie, se complica cuando deciden involucrarse románticamente. Pensaban que seguir siendo amigos y tener sexo iba a ser fácil de llevar, pero pronto se darán cuenta de que no lo va a ser tanto.",
       "genre": "Romance, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Con el agua al cuello (2024)",
+      "contentId": "56268",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56268.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOFmw87W4IxMFcTYgJF07UEOSzUeuoTaiVt-JoG5LY2oQ.jpg",
+      "rating": 6.4,
+      "plot": "La película ambientada en el Los Ángeles contemporáneo durante las vacaciones cuenta la historia del marchante de arte Andy Goodrich (Keaton), un hombre cuya vida da un vuelco cuando su segunda esposa más joven lo deja y entra en un programa de rehabilitación de 90 días mientras también amenaza con divorciarse. Andy se hace cargo de sus gemelos de nueve años y lo empuja al mundo de la paternidad moderna para el que no está preparado. Con su carrera quedando en el camino, Andy se apoya en su hija Grace (Kunis), ya adulta y embarazada, y finalmente se convierte en el padre que Grace nunca tuvo. Con todas sus relaciones puestas a prueba, Andy aprende el verdadero significado de tenerlo todo.",
+      "genre": "Comedia, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
