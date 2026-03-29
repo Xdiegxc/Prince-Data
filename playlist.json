@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Mar 28 18:34:44 2026",
+    "generated_at": "Sun Mar 29 02:03:33 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -9542,6 +9542,18 @@
       "rating": 6.5,
       "plot": "Robert Rath es un combatiente en un campo de batalla que la mayoría de la gente ni tan siquiera sabe que existe, allí es donde practica un juego mortal en el que los jugadores están sentenciados y la única salida es una bala. Reclutado inicialmente por la urgente causa de la Guerra Fría, Rath llevó a cabo trabajos para los que pocos hombres estaban preparados y ahora quiere dejarlo. Después de haber sido el indiscutilble número uno, alguien llamado Miguel Bain comienza a acosar ese liderazgo. Apasionado y ambicioso, este estudiante de Historia disfruta con la emoción de matar y sabe que su momento ha llegado y que sólo Rath le impide realizar su destino. en el camino de ambos se cruzará Electra, una experta en vigilancia y astuta ladrona en el mundo de la información que comparte con Rath el deseo de salirse de un mundo que le ha absorbido durante años y le hace llevar una vida nómada.",
       "genre": "Acción, Aventura, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Asesinos natos (1994)",
+      "contentId": "56234",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56234.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO1WoC15sGUpb1FpU5TfIFf5kT4VH3rJva7CetJ3kszzQ.jpg",
+      "rating": 7.1,
+      "plot": "Micky y Mallory son una poco convencional pareja de jovenes amantes que sienten que han nacido para matar: son dos despiadados criminales que tienen atemorizada a la población. Un presentador de un programa sensacionalista se aprovecha de la fascinación que su personalidad ejerce sobre el público y convierte a los asesinos en héroes televisivos.",
+      "genre": "Crimen, Suspense, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
