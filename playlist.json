@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Mar 29 12:46:47 2026",
+    "generated_at": "Sun Mar 29 18:36:23 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -41040,6 +41040,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "184"
+    },
+    {
+      "title": "Emergencia radiactiva (2026)",
+      "contentId": "324",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=324",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOqMb4rkcuYHw-NiUplXFl1mej7QdZQzD83jRROIlqANc.jpg",
+      "rating": 8.0,
+      "plot": "En esta serie dramática inspirada en hechos reales, físicos y médicos intentan contener una catástrofe radiológica y salvar miles de vidas.",
+      "genre": "Drama, Misterio, Action & Adventure",
+      "releaseDate": "2026-03-18",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "324"
     },
     {
       "title": "Enfermeras (2019)",
