@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar 30 13:11:02 2026",
+    "generated_at": "Mon Mar 30 18:54:33 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -436,6 +436,18 @@
       "rating": 8.0,
       "plot": "Brasil, 1971. Un país en las garras de una dictadura militar. Una madre se ve obligada a reinventarse cuando la vida de su familia se ve destrozada por un acto de violencia arbitraria.",
       "genre": "Drama, Historia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Aún es de Noche en Caracas (2025)",
+      "contentId": "56286",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56286.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUaXSD1YvjULNaS6W0OIlwnZpRJjtsaiQiGhfJRufJro.jpg",
+      "rating": 5.5,
+      "plot": "Tras la muerte de su madre, Adelaida lucha por sobrevivir al colapso de Venezuela bajo una nueva y frágil identidad, pero el dolor y la violencia política la rodean.",
+      "genre": "Acción, Aventura, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -3909,6 +3921,18 @@
       "rating": 6.9,
       "plot": "Una tarea de escritura creativa produce resultados complejos entre un maestro y su estudiante talentosa.",
       "genre": "Misterio, Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Miraculous World : Tokyo, Stellar Force (2025)",
+      "contentId": "56285",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56285.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9crBFA6vBrgZX7rNbrWwRa-Wxs0rgj_a3fukG_REuzc.jpg",
+      "rating": 8.0,
+      "plot": "Cuando Ladybug viaja a Tokio, se reúne con Miki y Kazuno, unos viejos amigos de Kagami que forman parte de los Stellar, un equipo de superhéroes japoneses. Juntos,  unen fuerzas para evitar que un nuevo supervillano cause estragos en la ciudad. Durante esta aventura, junto a Kagami, Marinette descubre que hay mucho del pasado de su amiga que aún desconoce.",
+      "genre": "Animación, Familia, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -9890,6 +9914,18 @@
       "rating": 8.0,
       "plot": "Brasil, 1971. Un país en las garras de una dictadura militar. Una madre se ve obligada a reinventarse cuando la vida de su familia se ve destrozada por un acto de violencia arbitraria.",
       "genre": "Drama, Historia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Aún es de Noche en Caracas (2025)",
+      "contentId": "56286",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56286.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUaXSD1YvjULNaS6W0OIlwnZpRJjtsaiQiGhfJRufJro.jpg",
+      "rating": 5.5,
+      "plot": "Tras la muerte de su madre, Adelaida lucha por sobrevivir al colapso de Venezuela bajo una nueva y frágil identidad, pero el dolor y la violencia política la rodean.",
+      "genre": "Acción, Aventura, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -28347,6 +28383,18 @@
       "rating": 6.3,
       "plot": "Mollie (Kirstie Alley) se ha quedado embarazada de un hombre casado. Entonces decide criar sola a su hijo y buscar para él un padre perfecto. Pero el niño tiene sus propias opiniones al respecto, y no se priva de hacer todo tipo de comentarios sobre los posibles candidatos. Él quiere como padre al taxista (John Travolta) que le ayudó al nacer.",
       "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Miraculous World : Tokyo, Stellar Force (2025)",
+      "contentId": "56285",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56285.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO9crBFA6vBrgZX7rNbrWwRa-Wxs0rgj_a3fukG_REuzc.jpg",
+      "rating": 8.0,
+      "plot": "Cuando Ladybug viaja a Tokio, se reúne con Miki y Kazuno, unos viejos amigos de Kagami que forman parte de los Stellar, un equipo de superhéroes japoneses. Juntos,  unen fuerzas para evitar que un nuevo supervillano cause estragos en la ciudad. Durante esta aventura, junto a Kagami, Marinette descubre que hay mucho del pasado de su amiga que aún desconoce.",
+      "genre": "Animación, Familia, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
