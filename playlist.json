@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Mar 30 18:54:33 2026",
+    "generated_at": "Tue Mar 31 02:01:52 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6126,6 +6126,15 @@
       "contentId": "34137",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34137.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/c3f8f9d641b3e793e2cb66680a3208e5.jpeg",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Deportes 4 Hd Eventos",
+      "contentId": "56289",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/56289.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/c3f8f9d641b3e793e2cb66680a3208e5.jpeg",
       "quality": "HD",
       "source_alias": "MainProvider"
