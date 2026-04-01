@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Mar 31 18:56:58 2026",
+    "generated_at": "Wed Apr  1 02:10:19 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -328,6 +328,18 @@
       "rating": 7.0,
       "plot": "Anora, una joven prostituta de Brooklyn, tiene la oportunidad de vivir una historia de Cenicienta cuando conoce e impulsivamente se casa con el hijo de un oligarca. Cuando la noticia llega a Rusia, su cuento de hadas se ve amenazado, ya que los padres parten hacia Nueva York para intentar conseguir la anulación del matrimonio.",
       "genre": "Romance, Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Apocalipsis Z: el principio del fin (2024)",
+      "contentId": "56317",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56317.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOl2LzMHIRvw1E5MPQaZjl_T9QaRvSAi0TfWQm4Bs3EsU.jpg",
+      "rating": 6.7,
+      "plot": "Cuando una especie de rabia que transforma a la gente en criaturas agresivas se extiende por el planeta, Manel se aísla en casa con su gato, recurriendo a su ingenio para sobrevivir; pero pronto deberán salir a buscar comida, por tierra y por mar, sorteando muchos peligros.",
+      "genre": "Drama, Acción, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -9321,6 +9333,18 @@
       "rating": 6.6,
       "plot": "La vida de una joven diseñadora de moda gira en espiral a medida que sus pensamientos internos más oscuros se manifiestan en algo espantoso que no deja de crecer.",
       "genre": "Terror, Misterio, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Apocalipsis Z: el principio del fin (2024)",
+      "contentId": "56317",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56317.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOl2LzMHIRvw1E5MPQaZjl_T9QaRvSAi0TfWQm4Bs3EsU.jpg",
+      "rating": 6.7,
+      "plot": "Cuando una especie de rabia que transforma a la gente en criaturas agresivas se extiende por el planeta, Manel se aísla en casa con su gato, recurriendo a su ingenio para sobrevivir; pero pronto deberán salir a buscar comida, por tierra y por mar, sorteando muchos peligros.",
+      "genre": "Drama, Acción, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -27761,6 +27785,18 @@
       "rating": 6.7,
       "plot": "Quedan veinte horas para la irrupción de las máquinas en Sión, el último bastión de los humanos libres. Mientras el cuerpo de Neo permanece en coma, su consciencia se encuentra en tierra de nadie, en un lugar entre el mundo humano y el de las máquinas.",
       "genre": "Aventura, Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Max 2: El héroe de la Casa Blanca (2017)",
+      "contentId": "56318",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56318.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOvbs6--_7he_C5qzxTaWmI4KXERdBeUyay4ppnOUbYNA.jpg",
+      "rating": 7.0,
+      "plot": "Max es asignado a la Casa Blanca mientras que Butch, el perro del servicio secreto, está de baja por maternidad. Max conoce a TJ, un niño de 12 años que es el hijo del Presidente. Como su padre es muy importante, él se tiene que esforzar para llevar una vida normal. Durante la visita del Presidente de Rusia, que viene con su hija Alex, TJ acompaña a Alex y se hace amigo de ella. Cuando se meten en problemas será Max el que venga al rescate.",
+      "genre": "Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
