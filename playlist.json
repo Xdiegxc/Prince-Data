@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr  2 01:57:54 2026",
+    "generated_at": "Thu Apr  2 07:06:40 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6640,6 +6640,15 @@
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/12.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/6e22b09ece58db8c5692ee8c88415334.jpg",
       "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Lat: Espn Colombia",
+      "contentId": "56327",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/56327.ts",
+      "hdPosterUrl": "http://latinapro.net:25461/images/_bgE4zU2_lJcht1YRTVSQ713EB35n8Eoee0E8yA_ryX3Af2qI9pbiI4cUNGmr9ML6XeGbBAwzF0k2Avj4GW_VYmynIPqHHaTVZYKHWscMLY.png",
+      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
