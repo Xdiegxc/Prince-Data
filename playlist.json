@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Apr  1 18:56:16 2026",
+    "generated_at": "Thu Apr  2 01:57:54 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -12433,6 +12433,18 @@
       "rating": 6.1,
       "plot": "Sarah es una estudiante adolescente que toca fondo anímicamente tras huir de casa. Una vez sola, no tiene a nadie que le ayude a superar sus recurrentes pesadillas. Su única oportunidad de sobrevivir pasa por participar en un estudio universitario en la que entabla amistad con el científico supervisor, llamado Jeremy. Sin embargo, hay algo extraño en el procedimiento al que se somete, y con el paso de los días las pesadillas de Sarah empiezan a empeorar.",
       "genre": "Ciencia ficción, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Como Dios manda (2023)",
+      "contentId": "56324",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56324.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyENFO1xKEqFGWN-_2YlTGGsIlkMLlZ0dnB-NxiuAwe4.jpg",
+      "rating": 5.8,
+      "plot": "Andrés Cuadrado es un rígido y exitoso funcionario que por circunstancias de la vida acaba en una situación en la que no esperaba y donde se encuentra más perdido y desubicado que nunca. Como consecuencia, no le quedará más remedio que reinventarse y seguir adelante con humor y ganas.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -33082,6 +33094,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Ruta de escape (2026)",
+      "contentId": "56326",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56326.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOn4jW3RhmpBsQ2dlbiBWtvW6hxi4smk-jAF9yKz3cF2g.jpg",
+      "rating": 6.9,
+      "plot": "Davis es un escurridizo ladrón cuyos atracos de alto riesgo tienen desconcertada a la policía. Davis está planeando su mayor golpe, con la esperanza de que sea el último, cuando se cruza en su camino Sharon, una desilusionada ejecutiva de seguros con la que se ve obligado a trabajar, y Orman un ladrón rival, con métodos mucho más inquietantes que los de Davis. A medida que se acerca el golpe multimillonario, el implacable teniente Lubesnik, se acerca a la operación, aumentando considerablemente el riesgo de lo que está en juego y difuminando la línea entre cazador y presa. Pronto, cada uno tendrá que aceptar el coste de sus decisiones asumiendo que no hay vuelta atrás.",
+      "genre": "Crimen, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Réplicas (2018)",
       "contentId": "25158",
       "group": "movies",
@@ -34318,6 +34342,18 @@
       "rating": 4.4,
       "plot": "“El hombre más pálido. El traje más oscuro. Más grande que el gigante más alto. Ten miedo de este hombre: Slender Man ya que puede hacer lo que nadie puede”. Estas son algunas de las características que usuarios del internet dieron al personaje ficticio de terror Slender Man (el hombre delgado). Ahora la criatura llega a la gran pantalla con este film de terror, que nace de una de las leyendas urbanas de la web más populares, en base de una recopilación de imágenes en el foro Something Awful y, hoy en día, pertenece a la cultura \"creepypasta\".",
       "genre": "Terror, Misterio, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Slumdog Millionaire (2008)",
+      "contentId": "56325",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56325.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOlgN97LfWHOBsnlqiNXN6aZVUFeHYBnMsfEET4V9Cc24.jpg",
+      "rating": 7.7,
+      "plot": "Jamal Malik es un adolescente pobre de Bombay que, por un motivo desconocido, está concursando en la versión hindú del programa \"¿Quién quiere ser millonario?\". A punto de conseguir los 20 millones de rupias como premio mayor del concurso, el joven es interrogado por la policía, bajo la sospecha de estar haciendo trampas. Pero para cada una de las preguntas, Jamal tiene una respuesta...",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
