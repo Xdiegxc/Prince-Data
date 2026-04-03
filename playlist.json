@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Apr  3 12:56:11 2026",
+    "generated_at": "Fri Apr  3 18:40:35 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -8608,6 +8608,18 @@
       "rating": 6.8,
       "plot": "Cuando la Interpol envía una \"Alerta roja\", significa que los departamentos de Policía de todo el mundo deben estar alerta para capturar a los criminales más buscados. Todas las alarmas saltan cuando un temerario robo une al mejor agente del FBI (Johnson) con dos criminales rivales entre sí (Gadot & Reynolds). Una coincidencia que hará que suceda lo impredecible.",
       "genre": "Acción, Comedia, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Algo pasa en Las Vegas (2008)",
+      "contentId": "56360",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56360.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOhlFxAnS0RJaaKPtHoxBvXe-ODAvk_JD4jdSs-laU3_U.jpg",
+      "rating": 6.1,
+      "plot": "Al juerguista Jack Fuller le acaba de despedir de la empresa su propio padre. Por otro lado a la atractiva Joy McNally, su novio le ha dejado plantada. Ambos deciden irse a Las Vegas, y allí se conocen en una equivocación de habitaciones de su hotel. Tras irse de fiesta, a la mañana siguiente se despiertan... y descubren que se han casado tras una noche de locura y descontrol. Justo en su primera discusión, Jack gana un jackpot de 3 millones de dólares en una máquina del casino jugando con una moneda de Joy. Ambos intentarán quedarse con el dinero, aunque el amor quizá aparezca en el camino...",
+      "genre": "Comedia, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
