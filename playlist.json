@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Apr  3 18:40:35 2026",
+    "generated_at": "Sat Apr  4 01:52:07 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -26268,6 +26268,18 @@
       "rating": 6.7,
       "plot": "Lee Harker, una nueva y talentosa agente del FBI, ha sido asignada a un caso sin resolver de un asesino en serie. A medida que la investigación se complica y se descubren pruebas ocultistas, Harker se da cuenta de que existe un vínculo personal con el despiadado asesino y debe actuar con rapidez para evitar otro asesinato familiar.",
       "genre": "Terror, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Looney Tunes: De nuevo en acción (2003)",
+      "contentId": "56361",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56361.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOeJ2dvzLV24jtiWQRF4a4cvc0K89nYaw4PXZMnTOJXZQ.jpg",
+      "rating": 6.4,
+      "plot": "Cansado de que toda la atención vaya a parar a Bugs Bunny, el pato Daffy abandona Hollywood y se une al especialista en doblaje recientemente despedido Bobby Delmont para embarcarse juntos en una aventura. Su misión: encontrar un diamante azul desaparecido del padre de Bobby, y permanecer un paso por delante de Bugs Bunny y una ejecutiva del estudio que van tras su pista... Mezcla de personajes de animación de la Warner Bros. -los creados por Chuck Jones- y actores reales, escrita por uno de los responsables de la serie \"Los Simpsons\". (FILMAFFINITY)",
+      "genre": "Animación, Comedia, Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
