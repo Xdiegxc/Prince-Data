@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Apr  6 13:01:47 2026",
+    "generated_at": "Mon Apr  6 18:53:13 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -39662,6 +39662,18 @@
       "rating": 5.9,
       "plot": "Una joven pareja de Brooklyn se dirige al norte del estado para desconectarse de sus teléfonos y volver a conectarse con ellos mismos. Separados de sus dispositivos, se pierden la noticia de que el planeta está siendo atacado.",
       "genre": "Comedia, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "¡La novia! (2026)",
+      "contentId": "56366",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56366.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOp2N0cCTfYPO9oO8NZRePlq1E4vxwkREUJjWQuSWz1Ss.jpg",
+      "rating": 6.3,
+      "plot": "En el Chicago de los años 30, Frankenstein pide ayuda al Dr. Euphronius para crear una compañera. Dan vida a una mujer asesinada como la Novia, lo que desencadena un romance, el interés de la policía y un cambio social radical.",
+      "genre": "Ciencia ficción, Terror, Fantasía",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
