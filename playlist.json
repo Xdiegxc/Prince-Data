@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Apr 14 13:17:40 2026",
+    "generated_at": "Tue Apr 14 19:07:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -18436,6 +18436,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Embestida (2026)",
+      "contentId": "56388",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56388.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQODWty3qB2fL6szgM4sMg8aQTxo5tM93L7wds3TxYFXL4.jpg",
+      "rating": 6.1,
+      "plot": "Cuando un catastrófico huracán azota un pueblo costero, el nivel del mar sube rápidamente y sus habitantes deben sobrevivir a un montón de hambrientos tiburones.",
+      "genre": "Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Emboscada (2022)",
       "contentId": "23737",
       "group": "movies",
@@ -30533,6 +30545,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Outcome (2026)",
+      "contentId": "56387",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56387.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOx890Mx9JA5GsrdXmyPHIiwG7IqThFnOQDw5XcK3fHwQ.jpg",
+      "rating": 5.3,
+      "plot": "Reef Hawk, emblema de Hollywood desde los seis años, está en crisis. Ante un chantaje relacionado con un misterioso vídeo, Reef decide emprender una gira de redención para enmendar sus errores, enfrentarse a sus demonios y evitar ser cancelado.",
+      "genre": "Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Overlord (2018)",
       "contentId": "21834",
       "group": "movies",
@@ -34721,6 +34745,18 @@
       "rating": 6.7,
       "plot": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
       "genre": "Comedia, Familia, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Solo necesitas matar (Subtitulada) (2026)",
+      "contentId": "56386",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56386.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObxFEwNk1c86uvCSq83XrTVzraskjuWxoSsrRz_PI21M.jpg",
+      "rating": 6.0,
+      "plot": "Una soldado revive una y otra vez el día antes de morir en batalla contra una invasión alienígena. Para romper el ciclo y cambiar su destino, debe descubrir la clave para sobrevivir.",
+      "genre": "Animación, Acción, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
