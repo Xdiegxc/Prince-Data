@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 16 13:22:04 2026",
+    "generated_at": "Thu Apr 16 19:06:26 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -10301,6 +10301,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/d58d63d918cdd1b7add960348fd8dce2.jpg",
       "rating": 7.9,
       "genre": "Documental",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Balls Up: Con un par (2026)",
+      "contentId": "56402",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56402.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOsZoKYWVRxI4GzT0iaWpCsKZyCQcuPqU2HqKyrzOd4WQ.jpg",
+      "rating": 5.9,
+      "plot": "Los ejecutivos de marketing Brad y Elijah lanzan un audaz patrocinio de preservativos de cobertura total directamente a la Copa del Mundo. Después de que su ebria celebración en Brasil desencadene un escándalo mundial, deberán huir de hinchas furiosos, delincuentes y funcionarios sedientos de poder para salvar sus carreras y volver a casa con vida.",
+      "genre": "Comedia, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -29766,6 +29778,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Niño rico (1994)",
+      "contentId": "56400",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56400.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGVdYh_6QaUS4b3-lW7dDSXaTmVe7EUB1czeCEqVw96Q.jpg",
+      "rating": 5.9,
+      "plot": "Ricky Ricón es el niño más rico del mundo; tiene su propio parque de atracciones, un Burguer en su casa y su profesora de gimnasia es la mismísima Claudia Schiffer. Richie tiene además el amor de sus padres, pero no es feliz; echa de menos jugar al béisbol en la calle con los chicos del barrio. Cuando sus padres desaparecen en el Triángulo de las Bermudas, el muchacho sospecha que detrás de la desaparición se encuentra Laurence Van Dogh, un ejecutivo de Industrias Richie que pretende hacerse con la compañía asesinando a sus padres. Sin embargo, Richie y su nueva pandilla de chiflados amiguetes no están dispuestos a rendirse a la primera... son capaces de cualquier travesura y la fuerza de la amistad es muy poderosa. Con su ayuda intentará liberar a sus padres y salvar la compañía",
+      "genre": "Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Niños grandes (2010)",
       "contentId": "18097",
       "group": "movies",
@@ -37528,6 +37552,18 @@
       "rating": 6.9,
       "plot": "Tiene una semana para reunir el dinero necesario para pagar las clases y el dentista de su hija. Pero ganarse la vida como cazador de vampiros cada vez es más arriesgado.",
       "genre": "Acción, Fantasía, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Turno de noche (2026)",
+      "contentId": "56401",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56401.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOoFLkO4JIFbcGr4mwEGEvxaKCPhnFjmxhY_88JeJ_CGI.jpg",
+      "rating": 6.7,
+      "plot": "Cuando un hongo mutante altamente contagioso escapa de una instalación sellada, dos jóvenes empleados, acompañados por un veterano agente de bioterrorismo, deben sobrevivir al turno de noche más alocado de la historia para salvar a la humanidad de la extinción, mientras el microorganismo se propaga y destruye todo a su paso.",
+      "genre": "Terror, Ciencia ficción, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
