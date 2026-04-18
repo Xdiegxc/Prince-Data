@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Apr 18 12:54:33 2026",
+    "generated_at": "Sat Apr 18 18:41:39 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -32885,6 +32885,18 @@
       "rating": 6.5,
       "plot": "El Hada de los Dientes ha vuelto. 15 años después de los eventos de la primera película, Corey, ahora adulto pero con cicatrices mentales, fue a una reunión de clase. Sin embargo, el Hada de los Dientes ha regresado, y esta vez, es mejor que haya usado el hilo dental correctamente.",
       "genre": "Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Return to Silent Hill (2026)",
+      "contentId": "56408",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56408.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOPU8lx7x1YMn4E_2aHVplEJJ4A8jdornhCk6khkZnSmM.jpg",
+      "rating": 5.1,
+      "plot": "Impulsado por las sombras de su pasado, James Sunderland regresa a Silent Hill para encontrar a su amor perdido, Mary Crane. Pero el pequeño pueblo oscuro y deprimente ya no es el lugar de sus recuerdos. James se encuentra con personajes que le parecen demasiado familiares y que intentan distraerlo de su búsqueda de Mary. Cuanto más busca a Mary, más comienza a preguntarse si esto sigue siendo la realidad, o si ha caído en el oscuro inframundo de Jacob Crane.",
+      "genre": "Misterio, Drama, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
