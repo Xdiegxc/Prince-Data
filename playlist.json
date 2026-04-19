@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sun Apr 19 02:13:53 2026",
+    "generated_at": "Sun Apr 19 07:13:33 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -12588,6 +12588,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Compañeras de cuarto (2026)",
+      "contentId": "56410",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56410.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOH0Crk7qd4Ak09nftKPIFMN106K1yJ4047YPXerZFV_w.jpg",
+      "rating": 6.3,
+      "plot": "Cuando Devon, tímida y recién llegada a la uni, le pide a la popular Celeste compartir cuarto, su nueva amistad se convierte en una guerra de pasivoagresividad.",
+      "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Con Air (Convictos en el aire) (1997)",
       "contentId": "55854",
       "group": "movies",
@@ -20947,6 +20959,18 @@
       "rating": 5.8,
       "plot": "Goro, un autor intelectual criminal, conspira para robar un enorme alijo de oro de la familia Rossini. Sin el conocimiento de Goro y sus soldados de la fortuna, uno de los invitados de Rossini es un agente extranjero altamente capacitado que lucha no solo por salvar a los rehenes y el oro, sino a su familia en peligro.",
       "genre": "Suspense, Acción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Hard Rain (1998)",
+      "contentId": "56409",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56409.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOtNjOdUPw0rj5t407HMrfnA6qJcshU9rlEo1mLde9d-0.jpg",
+      "rating": 5.9,
+      "plot": "Las lluvias torrenciales han convertido la localidad de Huntingburg en un caos. Totalmente sumergida bajo el agua, la ciudad es evacuada por el sheriff. Lo que este no sabe, es que no lejos de allí, una banda de atracadores está planeando asaltar el furgón blindado que transporta la totalidad de los fondos locales y que también ha quedado atrapado por las aguas. A partir de ese momento se desarrolla una caza humana, en la que están implicados los atracadores, los conductores del furgón y una joven, cuya intención es salvar de la catástrofe la histórica Iglesia del lugar.",
+      "genre": "Suspense, Crimen, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -31636,6 +31660,18 @@
       "rating": 6.1,
       "plot": "Alemania 1945, Max, un sobreviviente judío del Holocausto, se encuentra con un grupo radical de combatientes de la resistencia judíos que, como él, perdieron toda esperanza en su futuro después de que les robaron su existencia y sus familias enteras fueron asesinadas por los nazis. Sueñan con represalias a una escala épica para el pueblo judío. Ojo por ojo, diente por diente. Max comienza a identificarse con los monstruosos planes del grupo ...",
       "genre": "Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Plan de escape 2: Hades (2018)",
+      "contentId": "56411",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56411.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi7Q_AFlit_SY1kIdv95kU1MheePj3YsrZR9GbV7jxdo.jpg",
+      "rating": 5.2,
+      "plot": "Ray Breslin (Sylvester Stallone) lidera a un equipo de especialistas en seguridad entrenados para sacar a presos de las cárceles más impenetrables. Cuando uno de sus miembros es secuestrado y encerrado en una de las cárceles más sofisticadas del mundo, Ray tendrá que dar con él con la ayuda de algunos de sus amigos. Secuela de \"Escape Plan\" (2013).",
+      "genre": "Acción, Suspense, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
