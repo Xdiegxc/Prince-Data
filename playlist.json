@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Apr 20 13:21:48 2026",
+    "generated_at": "Mon Apr 20 18:59:12 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -43463,6 +43463,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "267"
+    },
+    {
+      "title": "Perros de caza (2023)",
+      "contentId": "326",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=326",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOiX61_S3IDOQW6DySte1hPBDTP9xNNFajhDCl-2QY0lA.jpg",
+      "rating": 8.0,
+      "plot": "Dos jóvenes boxeadores se alían con un prestamista benévolo para acabar con un despiadado usurero que se aprovecha de los más endeudados... y desesperados.",
+      "genre": "Drama, Action & Adventure, Crimen",
+      "releaseDate": "2023-06-09",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "326"
     },
     {
       "title": "Pluribus (2025)",
