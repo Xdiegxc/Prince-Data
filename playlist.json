@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Apr 21 19:06:00 2026",
+    "generated_at": "Wed Apr 22 02:08:27 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1187,6 +1187,18 @@
       "rating": 6.9,
       "plot": "Noah, de 18 años, se traslada de Estados Unidos a Londres con su madre, que se ha enamorado recientemente de William, un adinerado hombre de negocios británico. Noah conoce al hijo de William, el malote Nick. Pese a los esfuerzos de ambos por evitarlo, se sienten atraídos. Mientras Noah pasa el verano adaptándose a su nueva vida, su doloroso pasado la irá atrapando a la vez que se va enamorando.",
       "genre": "Romance, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Culpa tuya (2024)",
+      "contentId": "56461",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56461.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr4A53usKZiT0GDZGkzTduO5oIR3WqW6RQz_Wyn42-H8.jpg",
+      "rating": 7.1,
+      "plot": "El amor entre Noah y Nick parece inquebrantable, a pesar de las maniobras de sus padres por separarles. Pero el trabajo de él y la entrada de ella en la universidad, abre sus vidas a nuevas relaciones. La aparición de una exnovia que busca venganza y de la madre Nick con intenciones poco claras, removerán los cimientos no solo de su relación, sino de la propia familia Leister. Cuando tantas personas están dispuestas a destruir una relación, ¿puede realmente acabar bien?",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -4675,6 +4687,17 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Sarah's Oil (2025)",
+      "contentId": "56451",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56451.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO7Mi_XQBa8BAIbB7avRFTe4FOTx60_R64TK1zbMUwOQo.jpg",
+      "rating": 8.1,
+      "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Saturday Night (2024)",
       "contentId": "53386",
       "group": "movies",
@@ -5836,15 +5859,6 @@
       "group": "live_tv",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34248.ts",
       "hdPosterUrl": "https://yt3.googleusercontent.com/rfH4xcB5QR-0TSH3ruvBvCzHYC4CW8O1qzJMqjKtdkyG4qQYjhZjtJUW-7et_fv2mqO47YTr=s900-c-k-c0x00ffffff-no-rj",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Honduras: Canal 5",
-      "contentId": "34247",
-      "group": "live_tv",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/34247.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/1ea837a058e4f805396513c6d548d119.png",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7281,15 +7295,6 @@
       "group": "music",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5332.ts",
       "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: MTV HD",
-      "contentId": "5491",
-      "group": "music",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/5491.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/4d9288371d184ced9d6e739146a40d71.jpg",
-      "quality": "HD",
       "source_alias": "MainProvider"
     },
     {
@@ -13271,6 +13276,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Culpa mía (2023)",
+      "contentId": "56460",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56460.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOfcWR54IMUbHnilpqAU5AD9u2xBmm1vkP9qfKflxxmyY.jpg",
+      "rating": 7.7,
+      "plot": "Noah debe dejar su ciudad, novio y amigos para mudarse a la mansión de William Leister, el flamante y rico marido de su madre Rafaela. Por otro lado, con 17 años, orgullosa e independiente, Noah se resiste a vivir en una mansión rodeada de lujo. Allí conoce a Nick, su nuevo hermanastro, y el choque de sus fuertes personalidades se hace evidente desde el primer momento.",
+      "genre": "Drama, Romance, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Culpa mía: Londres (2025)",
       "contentId": "53544",
       "group": "movies",
@@ -13279,6 +13296,18 @@
       "rating": 6.9,
       "plot": "Noah, de 18 años, se traslada de Estados Unidos a Londres con su madre, que se ha enamorado recientemente de William, un adinerado hombre de negocios británico. Noah conoce al hijo de William, el malote Nick. Pese a los esfuerzos de ambos por evitarlo, se sienten atraídos. Mientras Noah pasa el verano adaptándose a su nueva vida, su doloroso pasado la irá atrapando a la vez que se va enamorando.",
       "genre": "Romance, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Culpa tuya (2024)",
+      "contentId": "56461",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56461.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOr4A53usKZiT0GDZGkzTduO5oIR3WqW6RQz_Wyn42-H8.jpg",
+      "rating": 7.1,
+      "plot": "El amor entre Noah y Nick parece inquebrantable, a pesar de las maniobras de sus padres por separarles. Pero el trabajo de él y la entrada de ella en la universidad, abre sus vidas a nuevas relaciones. La aparición de una exnovia que busca venganza y de la madre Nick con intenciones poco claras, removerán los cimientos no solo de su relación, sino de la propia familia Leister. Cuando tantas personas están dispuestas a destruir una relación, ¿puede realmente acabar bien?",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -33671,6 +33700,17 @@
       "rating": 6.5,
       "plot": "Precuela de la aclamada serie \"Los Soprano\", centrada en la juventud del gángster de Nueva Jersey, Tony Soprano. El guión de la película ha sido escrito por David Chase, el creador de la serie original de HBO y también director del drama independiente \"Not Fade Away\".",
       "genre": "Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Sarah's Oil (2025)",
+      "contentId": "56451",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56451.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO7Mi_XQBa8BAIbB7avRFTe4FOTx60_R64TK1zbMUwOQo.jpg",
+      "rating": 8.1,
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
