@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Apr 22 02:08:27 2026",
+    "generated_at": "Wed Apr 22 07:26:53 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1186,6 +1186,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_xer0G_i4MxiNJzCunRMYWb5pO9FI0vyErHaaaUaYSU.jpg",
       "rating": 6.9,
       "plot": "Noah, de 18 años, se traslada de Estados Unidos a Londres con su madre, que se ha enamorado recientemente de William, un adinerado hombre de negocios británico. Noah conoce al hijo de William, el malote Nick. Pese a los esfuerzos de ambos por evitarlo, se sienten atraídos. Mientras Noah pasa el verano adaptándose a su nueva vida, su doloroso pasado la irá atrapando a la vez que se va enamorando.",
+      "genre": "Romance, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Culpa nuestra (2025)",
+      "contentId": "56462",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56462.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi80T9Xen6OdvXjWg92Jg1WAXN7ziQwX89aR632VAGpE.jpg",
+      "rating": 7.4,
+      "plot": "La boda de Jenna y Lion propicia el tan deseado reencuentro entre Noah y Nick tiempo después de su ruptura. La incapacidad de Nick para perdonar a Noah se alza como una barrera insalvable. Él, heredero de las empresas de su abuelo y ella, empezando su vida laboral, se resisten a alimentar una llama que aún sigue viva. Pero una vez que sus caminos se han vuelto a cruzar, ¿será el amor más fuerte que el rencor? Secuela de \"Culpa tuya\".",
       "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
@@ -5843,16 +5855,6 @@
     }
   ],
   "live_tv": [
-    {
-      "title": "Canal VIP Ejemplo (Manual)",
-      "contentId": "manual.vip.01",
-      "group": "live_tv",
-      "url": "http://ejemplo.com/video.m3u8",
-      "hdPosterUrl": "https://via.placeholder.com/300",
-      "quality": "HD",
-      "source_alias": "ManualVIP",
-      "is_manual": true
-    },
     {
       "title": "Honduras: Azteca Honduras",
       "contentId": "34248",
@@ -13295,6 +13297,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_xer0G_i4MxiNJzCunRMYWb5pO9FI0vyErHaaaUaYSU.jpg",
       "rating": 6.9,
       "plot": "Noah, de 18 años, se traslada de Estados Unidos a Londres con su madre, que se ha enamorado recientemente de William, un adinerado hombre de negocios británico. Noah conoce al hijo de William, el malote Nick. Pese a los esfuerzos de ambos por evitarlo, se sienten atraídos. Mientras Noah pasa el verano adaptándose a su nueva vida, su doloroso pasado la irá atrapando a la vez que se va enamorando.",
+      "genre": "Romance, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Culpa nuestra (2025)",
+      "contentId": "56462",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56462.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOi80T9Xen6OdvXjWg92Jg1WAXN7ziQwX89aR632VAGpE.jpg",
+      "rating": 7.4,
+      "plot": "La boda de Jenna y Lion propicia el tan deseado reencuentro entre Noah y Nick tiempo después de su ruptura. La incapacidad de Nick para perdonar a Noah se alza como una barrera insalvable. Él, heredero de las empresas de su abuelo y ella, empezando su vida laboral, se resisten a alimentar una llama que aún sigue viva. Pero una vez que sus caminos se han vuelto a cruzar, ¿será el amor más fuerte que el rencor? Secuela de \"Culpa tuya\".",
       "genre": "Romance, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
