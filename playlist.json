@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 23 13:19:17 2026",
+    "generated_at": "Thu Apr 23 19:02:30 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -36411,6 +36411,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "The Dreadful (2026)",
+      "contentId": "56488",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56488.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO4gEiBkPAY_D_syOiQFULyzt8ZSNOL7LwMMF9netL5wU.jpg",
+      "rating": 6.2,
+      "plot": "Una mujer vive en la sociedad medieval inglesa hasta que un hombre de su pasado regresa de la guerra con una maldición.",
+      "genre": "Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "The Drug King (2018)",
       "contentId": "17935",
       "group": "movies",
@@ -39328,6 +39340,18 @@
       "rating": 8.4,
       "plot": "El objetivo de Andrew Neiman, un joven y ambicioso baterista de jazz, es triunfar en el elitista Conservatorio de Música de la Costa Este en el que estudia. Marcado por el fracaso de la carrera literaria de su padre, Andrew alberga sueños de grandeza. Terence Fletcher, un profesor conocido tanto por su talento como por sus rigurosos métodos de enseñanza, dirige el mejor conjunto de jazz del Conservatorio. Cuando Fletcher elige a Andrew y para formar parte del conjunto musical que dirige, cambia para siempre la vida del joven. La pasión de Andrew por alcanzar la perfección se convierte en obsesión, al tiempo que su despiadado profesor lo lleva al límite de su capacidad y de su salud mental.",
       "genre": "Drama, Música",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Whistle: El silbido del mal (2026)",
+      "contentId": "56487",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56487.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOeUGwYkA_Ld5ym6PfscVr-q4qRZVKPn0j9oihMLRx-Jw.jpg",
+      "rating": 6.0,
+      "plot": "Un grupo de estudiantes inadaptados encuentra por accidente un objeto maldito: un antiguo silbato de la muerte azteca. Al soplarlo, descubren que el terrorífico sonido que produce invoca a sus propias muertes futuras para perseguirlos. Mientras las víctimas aumentan, los amigos intentan descubrir el origen del artefacto y detener la terrible cadena de sucesos que han provocado.",
+      "genre": "Terror, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
