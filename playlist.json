@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 23 02:12:32 2026",
+    "generated_at": "Thu Apr 23 07:45:02 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -13186,6 +13186,18 @@
       "rating": 6.5,
       "plot": "Kate Pierce (Darby Camp), que ahora es una cínica adolescente, se reúne inesperadamente con Santa Claus (Kurt Russell) cuando un misterioso malhechor amenaza con destruir la Navidad para siempre.",
       "genre": "Familia, Fantasía, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cualquiera menos tú (2023)",
+      "contentId": "56482",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56482.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOVSX-9kTo6vbzwCzyZexxI7_WfL6tug_LsdV6oLJn31w.jpg",
+      "rating": 6.8,
+      "plot": "Bea y Ben se conocen y parecen la pareja perfecta, pero tras una increíble primera cita sucede algo que enfría su fuerte atracción, hasta que meses después ambos se encuentran inesperadamente en una boda en Australia. Obligados a verse, y a pesar de su rechazo mutuo, por conveniencia para ambos deciden fingir que son una pareja.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
