@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Apr 22 19:07:39 2026",
+    "generated_at": "Thu Apr 23 02:12:32 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -44071,6 +44071,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "245"
+    },
+    {
+      "title": "Suits: la clave del éxito (2011)",
+      "contentId": "327",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=327",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQORBPIdyWdglX4K68kirAOiz5T6BRLIUP3N5Ke-2x55MU.jpg",
+      "rating": 8.0,
+      "plot": "Michael Ross se gana la vida sobre la delgada línea de la legalidad. Es un joven con una inteligencia abrumadora, pero las malas compañías con las que se junta en la universidad le hicieron salirse y buscar una opción más vistosa a corto plazo, mejorar su economía.\n\nEntre sus triquiñuelas destaca el número de veces que se presenta en nombre de otros a los exámenes de acceso a la facultad de derecho.\n\nEl azar le acabará situando en el despacho de uno de los abogados más jóvenes y brillantes de Manhattan, Harvey Specter.\n\nLa inteligencia y dotes de Michael le asombrarán tanto que le tomará como su pupilo, a pesar de que no tenga la licenciatura. Juntos trabajarán mano a mano, ocultándole al resto del mundo la verdad: que juntos sólo suman un único título universitario.",
+      "genre": "Drama",
+      "releaseDate": "2011-06-23",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "327"
     },
     {
       "title": "Sunny (2024)",
