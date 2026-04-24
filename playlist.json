@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Apr 24 13:14:59 2026",
+    "generated_at": "Fri Apr 24 18:42:59 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6137,15 +6137,6 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Dazn 1 Hd (Eventos)",
-      "contentId": "52674",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52674.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/5ccf358bea9dad226d8964340c35cc8d.png",
-      "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Dazn 3 Hd (Eventos)",
       "contentId": "52676",
       "group": "sports",
@@ -6457,6 +6448,15 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Fubo Sports Hd (Eventos)",
+      "contentId": "52674",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/52674.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGGP9M64adVy-H4vB-r4UfSg9fCnKP9dDORg&s",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Honduras: TVC Deportes",
       "contentId": "34249",
       "group": "sports",
@@ -6502,39 +6502,12 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN 2 Backup",
-      "contentId": "50830",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50830.ts",
-      "hdPosterUrl": "https://static.wikia.nocookie.net/espn/images/7/79/ESPN2-Logo-D795.png/revision/latest/scale-to-width-down/284?cb=20130819193813",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Lat: ESPN 2 HD (P)",
       "contentId": "6",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/6.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/973822139bde28ada94071e8bf9479b9.jpg",
       "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: ESPN 3 Backup",
-      "contentId": "50831",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50831.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/a0ca928385757f710e2de8201061f0b4.png",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: ESPN 4 Backup",
-      "contentId": "50832",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50832.ts",
-      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfx6VvH5StHtDrMuZ3wocAJdT_ZTYsVLMAw&s",
-      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
@@ -6547,15 +6520,6 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN 5 Backup",
-      "contentId": "50833",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50833.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/907085002d003a37bd34affa1bb4633b.png",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Lat: ESPN 5 Hd (P)",
       "contentId": "5",
       "group": "sports",
@@ -6565,30 +6529,12 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Lat: ESPN 6 Backup",
-      "contentId": "50834",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50834.ts",
-      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6VUhFxO7U4xEE3vn5OirOrhjFJtaS8nN_9g&s",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
       "title": "Lat: ESPN 6 Hd (P)",
       "contentId": "306",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/306.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/2ef5557a4324ad01fba06cd598d75806.png",
       "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: ESPN 7 Backup",
-      "contentId": "50835",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/50835.ts",
-      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc-S1jyAq6cjYncKBJgvEmdS5FzAQj04KqYw&s",
-      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
@@ -6931,15 +6877,6 @@
       "group": "kids",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/153.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/c9a18fbd54fbb8862cb47be63a1f5393.jpg",
-      "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Es: Disney Junior (P)",
-      "contentId": "155",
-      "group": "kids",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/155.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/fbfbcee2b758b879c2c34cd9960bd077.jpg",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -7315,15 +7252,6 @@
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/3972.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/c4f05c68c32927b620946a89c7037012.png",
       "quality": "FHD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Peru: BHTV",
-      "contentId": "4314",
-      "group": "music",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4314.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/4784811cbdda84a7b81878119c8f6ed0.png",
-      "quality": "SD",
       "source_alias": "MainProvider"
     }
   ],
