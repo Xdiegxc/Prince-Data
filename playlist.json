@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 23 19:02:30 2026",
+    "generated_at": "Fri Apr 24 02:12:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -10332,6 +10332,18 @@
       "rating": 6.8,
       "plot": "A lo largo de un verano, dos chicas adolescentes entablan una amistad casi perfecta. Sólo hay un \"pequeño\" problema: una de ellas está saliendo con el ex de la otra.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Bandidas (2006)",
+      "contentId": "56489",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56489.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO882sI1vJH4PmelYedtQrKYOt8DYxAJTUZDih36rsPYc.jpg",
+      "rating": 6.0,
+      "plot": "Sara Sandoval es una bella y altiva aristócrata mexicana que se ha educado en Europa y disfruta de los privilegios de una plácida existencia, sin privaciones de ninguna clase. Al otro extremo del espectro social está María Álvarez. Volcánica y rebelde, ella es la deslumbrante hija de un peón de campo. Ellas provienen de lados opuestos de la escala social y, en circunstancias normales, sus caminos probablemente no se hubiesen cruzado nunca. Pero el destino une a estas dos mujeres cuando una banda de pistoleros a sueldo, que trabajan para unos avariciosos barones del ferrocarril, roba las tierras de sus respectivas familias, atacando y asesinando a sus seres más queridos. Empujadas por la necesidad, María y Sara forman de mala gana una alianza con la intención de hallar cumplida venganza. Al decidir tomar cartas en el asunto, se convierten a su vez en prófugas de la ley y en ladronas de bancos.",
+      "genre": "Acción, Comedia, Western",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
