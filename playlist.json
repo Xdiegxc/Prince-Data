@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Apr 25 12:56:04 2026",
+    "generated_at": "Sat Apr 25 18:43:34 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -13784,6 +13784,18 @@
       "rating": 6.2,
       "plot": "Un grupo de policías de Los Angeles se enfrenta a un misterioso asesino que descuartiza a sus víctimas con un salvajismo inusitado. Pronto, el jefe del grupo, el capitán Harrigan, descubrirá que su enemigo es un alienígena llegado a la Tierra con el único propósito de practicar la caza.",
       "genre": "Ciencia ficción, Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Depredador dominante (2026)",
+      "contentId": "56573",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56573.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOQhXbomVGjo_ozIbVHBAT8nFjkb-gha2X1GOJdRmIg0Q.jpg",
+      "rating": 6.4,
+      "plot": "Una mujer en duelo se adentra en la naturaleza de Australia para ponerse a prueba y queda atrapada en un juego mortal con un astuto asesino que la considera su presa.",
+      "genre": "Suspense, Acción",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
