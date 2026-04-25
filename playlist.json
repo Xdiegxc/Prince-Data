@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri Apr 24 18:42:59 2026",
+    "generated_at": "Sat Apr 25 02:03:04 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -27267,6 +27267,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Loving Pablo (2017)",
+      "contentId": "56553",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56553.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOubLOgX3oWibIypSckXU7NVELNeRscThVBoN2dxHO-nQ.jpg",
+      "rating": 6.3,
+      "plot": "Drama sobre el narcotraficante colombiano Pablo Escobar, basado en el libro de memorias de la periodista colombiana Virginia Vallejo donde cuenta la relación amorosa que mantuvo con el narcotraficante a mediados de los años 90.",
+      "genre": "Crimen, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Luca (2021)",
       "contentId": "22581",
       "group": "movies",
@@ -38787,6 +38799,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Venganza (2026)",
+      "contentId": "56551",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56551.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOhKnDvpURADJu06wPeVH2n-AS0PnXHCj1Ak1zZdqR27w.jpg",
+      "rating": 6.9,
+      "plot": "Carlos y Miguel son dos soldados de élite de las fuerzas especiales mexicanas y mejores amigos cuyas vidas cambian para siempre cuando Carlos es testigo del brutal asesinato de su esposa por manos de un despiadado asesino. Determinado a buscar justicia, emprende un peligroso viaje de venganza, alimentado por el dolor y armado con una lotería que cambia su vida.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Venganza Silenciosa (2023)",
       "contentId": "40236",
       "group": "movies",
@@ -40088,6 +40112,18 @@
       "rating": 6.8,
       "plot": "Sigue la historia de Lee Israel, una respetada biógrafa en decadencia que comienza a falsificar cartas de escritores y celebridades fallecidas con el fin de pagar el alquiler. Cuando las falsificaciones empiezan a levantar sospechas, Israel roba y vende las verdaderas cartas de los archivos sin saber que el FBI está investigando el asunto.",
       "genre": "Drama, Crimen, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "¿Quieres Ser Mi Novia? (2026)",
+      "contentId": "56552",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56552.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOebgNQ7dJBiHbEwZLqUxPjrGrM3o8cwxSPYGJm0K-UPc.jpg",
+      "rating": 8.2,
+      "plot": "La relación de Javi y Lu enfrenta pruebas cuando surgen tentaciones: una joven con quien Javi tiene química, y un hombre maduro que persigue a Lu. Entre humor y enredos, su amor es puesto a prueba",
+      "genre": "Comedia, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
