@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Apr 27 13:44:08 2026",
+    "generated_at": "Mon Apr 27 19:13:16 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -24342,6 +24342,18 @@
       "rating": 6.0,
       "plot": "Sigue la reacción de los aldeanos ante tres recién llegados, que se convierten en chivos expiatorios en una época de agitación económica.",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La creación de los dioses: El reino de las tormentas (2023)",
+      "contentId": "56588",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56588.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUzoyFpmvNIUsN22hPLd0QrfpGJ4Mrf0_dzN3ijrTfCQ.jpg",
+      "rating": 7.1,
+      "plot": "Una epopeya de fantasía oriental que recrea las prolongadas guerras míticas entre humanos, inmortales y monstruos que tuvieron lugar hace más de tres mil años.",
+      "genre": "Acción, Fantasía, Bélica",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
