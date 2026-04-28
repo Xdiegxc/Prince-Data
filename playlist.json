@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon Apr 27 19:13:16 2026",
+    "generated_at": "Tue Apr 28 02:35:02 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3054,6 +3054,18 @@
       "rating": 6.0,
       "plot": "Sigue la reacción de los aldeanos ante tres recién llegados, que se convierten en chivos expiatorios en una época de agitación económica.",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La creación de los dioses 2: Fuerza demoníaca (2025)",
+      "contentId": "56589",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56589.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-1NuX1hk1o9I9HqhoZnPgb6Z-xmr66ZrXrlEDGy92Ks.jpg",
+      "rating": 6.3,
+      "plot": "Taishi Wen Zhong condujo a Xiqi al ejército de la dinastía Shang, incluidos Deng Chanyu y cuatro generales de la familia Mo. Con la ayuda de inmortales de Kunlun como Jiang Ziya, Ji Fa dirigió al ejército y a los civiles de Xiqi para defender su patria.",
+      "genre": "Acción, Fantasía, Bélica",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -24342,6 +24354,18 @@
       "rating": 6.0,
       "plot": "Sigue la reacción de los aldeanos ante tres recién llegados, que se convierten en chivos expiatorios en una época de agitación económica.",
       "genre": "Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La creación de los dioses 2: Fuerza demoníaca (2025)",
+      "contentId": "56589",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56589.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO-1NuX1hk1o9I9HqhoZnPgb6Z-xmr66ZrXrlEDGy92Ks.jpg",
+      "rating": 6.3,
+      "plot": "Taishi Wen Zhong condujo a Xiqi al ejército de la dinastía Shang, incluidos Deng Chanyu y cuatro generales de la familia Mo. Con la ayuda de inmortales de Kunlun como Jiang Ziya, Ji Fa dirigió al ejército y a los civiles de Xiqi para defender su patria.",
+      "genre": "Acción, Fantasía, Bélica",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
