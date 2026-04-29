@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue Apr 28 19:27:31 2026",
+    "generated_at": "Wed Apr 29 02:35:04 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -7544,6 +7544,18 @@
       "rating": 5.1,
       "plot": "Una familia alquila una casa preciosa para pasar las vacaciones de verano, pero el precio parece demasiado bueno para ser real. Lo que no sospechan es que, sin su conocimiento, el lascivo dueño de la casa ha colocado una serie de cámaras con las que documenta sus momentos más íntimos para luego publicarlos en directo en la 'dark web'.",
       "genre": "Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "180 (2026)",
+      "contentId": "56609",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56609.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZwlYzLdUSgo4OvDo-6sRZnn2UQ18Py9POAf-_eJTz7k.jpg",
+      "rating": 5.7,
+      "plot": "Un inesperado incidente de tráfico deja a su hijo en estado crítico. El padre, enfurecido, se adentra en una oscura espiral de confusión emocional y venganza.",
+      "genre": "Suspense, Crimen, Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -21616,6 +21628,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Hoppers (2026)",
+      "contentId": "56608",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56608.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUKCTCoLLsFw5eBQ5JF9qkhEiGqOr5FakW2Lg-i53GKQ.jpg",
+      "rating": 7.6,
+      "plot": "Una amante de los animales aprovecha la oportunidad de utilizar una tecnología que coloca su conciencia en un castor robótico, descubriendo misterios dentro del mundo animal que van más allá de lo que podría haber imaginado.",
+      "genre": "Animación, Familia, Ciencia ficción",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Hostel (2005)",
       "contentId": "18994",
       "group": "movies",
@@ -27316,9 +27340,9 @@
     },
     {
       "title": "Loving Pablo (2017)",
-      "contentId": "56553",
+      "contentId": "56606",
       "group": "movies",
-      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56553.mkv",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56606.mkv",
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOubLOgX3oWibIypSckXU7NVELNeRscThVBoN2dxHO-nQ.jpg",
       "rating": 6.3,
       "plot": "Drama sobre el narcotraficante colombiano Pablo Escobar, basado en el libro de memorias de la periodista colombiana Virginia Vallejo donde cuenta la relación amorosa que mantuvo con el narcotraficante a mediados de los años 90.",
@@ -30248,6 +30272,18 @@
       "rating": 5.6,
       "plot": "Superproducción épica sobre la figura bíblica de Noé. En un mundo destruido por la perversión de los hombres, un humilde carpintero llamado Noé recibe una importante misión que será trascendental para la evolución y el desarrollo de la raza humana.  Dios, cansado del corrupto y depravado comportamiento de los seres humanos a los que él mismo dio vida, advierte a Noé de un necesario e inminente diluvio universal que depure y libere a la tierra de la acción humana.  Noé tendrá que construir un arca gigante para salvar a su familia, donde deberá reunir a una pareja de cada especie animal para preservar su conservación y crecimiento tras el apocalíptico diluvio que acabará con la humanidad y su fatídica conducta. El arca evitará que los seres que estén dentro mueran ahogados y los mantendrá con vida para una posterior reconstrucción del universo.",
       "genre": "Drama, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Nuestros amantes (2016)",
+      "contentId": "56611",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56611.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOgrKN7ViAwmBq5dkVOHoJd62TFbVgD6-MCHe30mLycXg.jpg",
+      "rating": 7.2,
+      "plot": "Carlos es un guionista cinematográfico que se siente frustrado profesionalmente, e Irene no tiene claro qué quiere hacer con su vida. Cuando Irene se encuentra con Carlos en un café, se acerca a él y, aunque no le conoce, le propone un juego.",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -37772,6 +37808,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOBHEwKwla27SmEWAJ31f-3i7E28xFEp25QY7cujj0N5k.jpg",
       "rating": 7.2,
       "genre": "Crimen, Comedia, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Un Lobo Adolecente (1985)",
+      "contentId": "56607",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56607.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOt4S1Ce76Mfg3awtLRNwadsSir7abQHpWVt4dpETxhd0.jpg",
+      "rating": 6.2,
+      "plot": "Un adolescente descubre que se está produciendo una mutación en su cuerpo. Aunque en un principio su estado le provoca una terrible preocupación, poco a poco irá desarrollando sus nuevas, ágiles y peludas cualidades para ligar con las chicas y ganar al baloncesto.",
+      "genre": "Comedia, Fantasía, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
