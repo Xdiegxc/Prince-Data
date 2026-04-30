@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 30 13:46:09 2026",
+    "generated_at": "Thu Apr 30 19:14:08 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6132,7 +6132,7 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Colombia: Winsports Plus HD (P)",
+      "title": "Colombia: Winsports Plus HD",
       "contentId": "4695",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/4695.ts",
@@ -6848,21 +6848,21 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Peru: La Liga 1 Hd (P)",
+      "contentId": "55859",
+      "group": "sports",
+      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55859.ts",
+      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jN4beKo2S793wY2X4JtMRx2mdmHt2EWZRQ&s",
+      "quality": "HD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Peru: La Liga 1 Max (P)",
       "contentId": "359",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/359.ts",
       "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrfURPHcJblk8-4OwMaBBYfg1Gb7ZchC0yQ&s",
       "quality": "SD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Peru: La Liga Max Hd",
-      "contentId": "55859",
-      "group": "sports",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/55859.ts",
-      "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jN4beKo2S793wY2X4JtMRx2mdmHt2EWZRQ&s",
-      "quality": "HD",
       "source_alias": "MainProvider"
     },
     {
