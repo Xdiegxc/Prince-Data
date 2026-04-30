@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed Apr 29 19:19:10 2026",
+    "generated_at": "Thu Apr 30 02:36:07 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5868,6 +5868,16 @@
   ],
   "live_tv": [
     {
+      "title": "Canal VIP Ejemplo (Manual)",
+      "contentId": "manual.vip.01",
+      "group": "live_tv",
+      "url": "http://ejemplo.com/video.m3u8",
+      "hdPosterUrl": "https://via.placeholder.com/300",
+      "quality": "HD",
+      "source_alias": "ManualVIP",
+      "is_manual": true
+    },
+    {
       "title": "Honduras: Azteca Honduras",
       "contentId": "34248",
       "group": "live_tv",
@@ -6838,12 +6848,12 @@
       "source_alias": "MainProvider"
     },
     {
-      "title": "Peru: La Liga 1 Hd",
+      "title": "Peru: La Liga 1 Max (P)",
       "contentId": "359",
       "group": "sports",
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/359.ts",
       "hdPosterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrfURPHcJblk8-4OwMaBBYfg1Gb7ZchC0yQ&s",
-      "quality": "HD",
+      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
