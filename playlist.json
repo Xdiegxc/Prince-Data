@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu Apr 30 19:14:08 2026",
+    "generated_at": "Fri May  1 02:41:54 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -24604,6 +24604,18 @@
       "rating": 6.9,
       "plot": "Un genio cazatesoros reúne a un equipo para una misión que cambiará vidas. Pero para esquivar y superar los obstáculos que se encontrará, necesitará a alguien más listo que él: su distanciada hermana.",
       "genre": "Aventura, Fantasía, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La fuerza del honor (2011)",
+      "contentId": "56682",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56682.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOsN8kz4mQtfQhnwcFMmfTt_LLAO2LdvbgtGZLehH07Vk.jpg",
+      "rating": 7.6,
+      "plot": "En “Courageous” conocemos a cuatro oficiales de policía y a su nuevo amigo, Javier. Cuatro hombres, un sólo objetivo: servir y proteger. Como agentes del orden son hombres preparados para hacerle frente al peor peligro de las calles y, sin embargo, al final del día, se enfrentan a lo que ninguno de ellos está realmente preparado: el reto de ser padres de familia. Cuando la tragedia los golpea en casa, estos hombres luchan contra sus temores con esperanza y fe.",
+      "genre": "Drama",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
