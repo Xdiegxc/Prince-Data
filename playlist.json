@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri May  1 13:11:23 2026",
+    "generated_at": "Fri May  1 19:06:02 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -12257,6 +12257,42 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Cincuenta sombras de Grey (2015)",
+      "contentId": "56693",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56693.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO65HUxmRovK2EOb2Zsr4rMOJzyF59t9lBfbmwBH7JR5g.jpg",
+      "rating": 5.9,
+      "plot": "Cuando la estudiante de Literatura Anastasia Steele recibe el encargo de entrevistar al exitoso y joven empresario Christian Grey, queda impresionada al encontrarse ante un hombre atractivo, seductor y también muy intimidante. La inexperta e inocente Ana intenta olvidarle, pero pronto comprende cuánto le desea. Cuando la pareja por fin inicia una apasionada relación, Ana se sorprende por las peculiares prácticas eróticas de Grey, al tiempo que descubre los límites de sus propios y más oscuros deseos.",
+      "genre": "Drama, Romance, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cincuenta sombras liberadas (2018)",
+      "contentId": "56695",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56695.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOcnpRkhgyY-N7ZcIGYfUYEIOtL4vsW44XtnATKfr1NFM.jpg",
+      "rating": 6.7,
+      "plot": "Creyendo que han dejado atrás las sombras del pasado, Christian y Anastasia disfrutan de su relación y de su vida llena de lujos. Pero justo cuando Ana empieza a relajarse, aparecen nuevas amenazas que ponen en riesgo su felicidad.",
+      "genre": "Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cincuenta sombras más oscuras (2017)",
+      "contentId": "56694",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56694.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOJphVJeDws7XAtAJieuoZ38A-FHrxJbhQXtO-2AS2BE4.jpg",
+      "rating": 6.5,
+      "plot": "Cuando Christian Grey, que se siente herido, intenta convencer a Anastasia Steele de que vuelva a formar parte de su vida, ella le exige un nuevo acuerdo antes de aceptar. Pero cuando la pareja empieza a ser más confiada y a tener una cierta estabilidad, aparecen mujeres del pasado de Christian decididas a frenar en seco sus esperanzas de un futuro juntos...",
+      "genre": "Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Cisne negro (2010)",
       "contentId": "18409",
       "group": "movies",
@@ -23551,6 +23587,18 @@
       "rating": 6.1,
       "plot": "Con cuentas de oración en una mano y un hacha en la otra, un monje persigue a un espíritu milenario que posee a los humanos y desata el infierno en la Tierra.",
       "genre": "Misterio, Suspense, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La Bamba (1987)",
+      "contentId": "56696",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56696.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOkUlyz-4yfNGZlmKywZ8MM-apVSpsC1h9SKUJoV0DBUI.jpg",
+      "rating": 7.3,
+      "plot": "Narra la meteórica carrera de Ritchie Valens, un mexicano-americano de 17 años, que pasó de ganarse la vida en el campo a convertirse en una estrella del Rock & Roll.",
+      "genre": "Drama, Música",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
