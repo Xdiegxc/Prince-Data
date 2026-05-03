@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat May  2 18:53:34 2026",
+    "generated_at": "Sun May  3 02:33:26 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -35974,6 +35974,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/5a3d45a1b8f58f255de37d3c3ac27bca.jpg",
       "plot": "En la búsqueda de sus sueños, una joven conoce a un hombre que la convence de viajar a Colombia. Aunque promete ayudarla a avanzar en ella allí, convierte su vida en un infierno.",
       "genre": "Romance, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Te van a matar (2026)",
+      "contentId": "56698",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56698.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOZXOvsCL8V4ZQ1RreGtmQUcaRxWvh_O9IWTK-xMUO9zo.jpg",
+      "rating": 6.6,
+      "plot": "Una mujer acepta un trabajo como ama de llaves en un rascacielos de Nueva York, sin conocer el historial de desapariciones del edificio. Pronto se da cuenta de que la comunidad está rodeada de misterio.",
+      "genre": "Acción, Comedia, Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
