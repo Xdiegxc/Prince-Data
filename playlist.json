@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon May  4 13:49:50 2026",
+    "generated_at": "Mon May  4 19:23:34 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -185,6 +185,18 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "240"
+    },
+    {
+      "title": "Agente infiltrado (2025)",
+      "contentId": "56699",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56699.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOCJgZARGSVxReTeN7yrLLcuuAzjkU7g64hTijFfweuGo.jpg",
+      "rating": 4.8,
+      "plot": "Emmanuel intenta infiltrarse en una secta liderada por The Bokushi, que recluta veteranos de guerra con trastorno por estrés postraumático para crear un ejército de Shinjas devotos que empiezan a preocupar al gobierno. Sin éxito, recluta a un exdiscípulo y exmilitar, que acepta usar su conocimiento sobre el enigmático líder mientras intenta vengarse de él por haberle quitado todo lo que tenía.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
     },
     {
       "title": "Aguas Siniestras (2024)",
@@ -8371,6 +8383,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/22357e662f4092471b472b6617ddade1.jpg",
       "rating": 6.0,
       "plot": "La CIA está siendo chantajeada: alguien está asesinando periodistas extranjeros y haciendo que la Agencia parezca la responsable. Mientras el mundo comienza a unir sus fuerzas contra EE.UU., la CIA decide recuperar a su agente retirado más brillante y rebelde, forzándole a enfrentarse a su pasado para que intente desenmascarar una conspiración internacional.",
+      "genre": "Acción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Agente infiltrado (2025)",
+      "contentId": "56699",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56699.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOCJgZARGSVxReTeN7yrLLcuuAzjkU7g64hTijFfweuGo.jpg",
+      "rating": 4.8,
+      "plot": "Emmanuel intenta infiltrarse en una secta liderada por The Bokushi, que recluta veteranos de guerra con trastorno por estrés postraumático para crear un ejército de Shinjas devotos que empiezan a preocupar al gobierno. Sin éxito, recluta a un exdiscípulo y exmilitar, que acepta usar su conocimiento sobre el enigmático líder mientras intenta vengarse de él por haberle quitado todo lo que tenía.",
       "genre": "Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
