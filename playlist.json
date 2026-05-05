@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue May  5 02:26:38 2026",
+    "generated_at": "Tue May  5 08:03:38 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -24250,6 +24250,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La caja azul (2026)",
+      "contentId": "56711",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56711.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUJNNMTDoqpkQ_F23xCsyvp4-IIWongkNgqRweMsZwDI.jpg",
+      "rating": 8.1,
+      "plot": "Pablo, un joven millonario solitario que vive en la Patagonia, sigue perseguido por un trágico accidente automovilístico que le cambió la vida. Su rutina aislada comienza a cambiar cuando conoce a Lara a través de una aplicación de citas centrada en una premisa peculiar: el intercambio de un objeto misterioso conocido como «la caja azul». A medida que su conexión se profundiza, Lara saca gradualmente a Pablo de su soledad autoimpuesta. Sin embargo, una advertencia anónima pronto plantea interrogantes inquietantes sobre su identidad y sus verdaderas intenciones. Lo que comienza como una relación íntima se convierte rápidamente en un tenso juego psicológico de manipulación y sospecha",
+      "genre": "Romance, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La calle del terror - Parte 1: 1994 (2021)",
       "contentId": "22632",
       "group": "movies",
@@ -35714,6 +35726,18 @@
       "rating": 7.0,
       "plot": "En el 2057, ante la inminente extinción de la humanidad a causa del envejecimiento del Sol, una nave espacial debe reactivar el astro con un dispositivo nuclear. Pero durante el viaje, la tripulación recibe una señal de socorro de la nave espacial Ícaro I, desaparecida años atrás tras intentar realizar la misma misión.",
       "genre": "Drama, Ciencia ficción, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Super Mario Galaxy la película (2026)",
+      "contentId": "56712",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56712.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOJiq-7LVVDtxnvKWh2MyRUqoX9EpQYrmNWlU5kcLQikE.jpg",
+      "rating": 6.7,
+      "plot": "Secuela de 'Super Mario Bros: La película', basada en la saga 'Mario Galaxy'. Los hermanos Mario y Luigi y la princesa Peach emprenden una aventura hasta los confines del espacio y a través de la galaxia.",
+      "genre": "Familia, Comedia, Aventura",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
