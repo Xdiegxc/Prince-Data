@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon May  4 19:23:34 2026",
+    "generated_at": "Tue May  5 02:26:38 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -4312,6 +4312,20 @@
       "genre": "Familia, Aventura, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
+    },
+    {
+      "title": "Par de ideotas (2025)",
+      "contentId": "329",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=329",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOClxeORyg333nRusF8Jkg0CeE1n-qcytjUSBORehwXRE.jpg",
+      "rating": 9.0,
+      "plot": "Vadhir y José Eduardo Derbez se asocian para abrir un bar y ser anfitriones de las noches más épicas. Juntos enfrentan los desafíos y retos de emprender un negocio.",
+      "genre": "Reality, Comedia, Drama",
+      "releaseDate": "2025-03-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "329"
     },
     {
       "title": "Parpadea dos veces (2024)",
@@ -43662,6 +43676,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "264"
+    },
+    {
+      "title": "Par de ideotas (2025)",
+      "contentId": "329",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=329",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOClxeORyg333nRusF8Jkg0CeE1n-qcytjUSBORehwXRE.jpg",
+      "rating": 9.0,
+      "plot": "Vadhir y José Eduardo Derbez se asocian para abrir un bar y ser anfitriones de las noches más épicas. Juntos enfrentan los desafíos y retos de emprender un negocio.",
+      "genre": "Reality, Comedia, Drama",
+      "releaseDate": "2025-03-07",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "329"
     },
     {
       "title": "Paraíso Travel (2018)",
