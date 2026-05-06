@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed May  6 02:30:18 2026",
+    "generated_at": "Wed May  6 13:59:20 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -41732,6 +41732,20 @@
       "series_id": "190"
     },
     {
+      "title": "El fuego de la venganza (2026)",
+      "contentId": "331",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=331",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOK4kIOcC0VyQYhCBna7AoFg5fox8X9Ryij37QHyhviuY.jpg",
+      "rating": 6.0,
+      "plot": "Atormentado por su pasado y perseguido por sus enemigos, un veterano de las Fuerzas Especiales lucha por salvar a una joven en las peligrosas calles de Río de Janeiro.",
+      "genre": "Action & Adventure, Crimen",
+      "releaseDate": "2026-04-30",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "331"
+    },
+    {
       "title": "El hombre contra el bebé (2025)",
       "contentId": "303",
       "group": "series",
@@ -41936,6 +41950,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "76"
+    },
+    {
+      "title": "FROM (2022)",
+      "contentId": "330",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=330",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOSEgGavlb0f2q1PRAoCrnVwgh8y-qb44wCAEANIdbkj0.jpg",
+      "rating": 8.0,
+      "plot": "Desvela el misterio de un pueblo de pesadilla en el centro de Norteamérica que atrapa a todos los que entran. Mientras los residentes involuntarios luchan por mantener una sensación de normalidad y buscan una salida, también deben sobrevivir a las amenazas del bosque circundante, incluidas las aterradoras criaturas que salen cuando se pone el sol.",
+      "genre": "Misterio, Drama, Sci-Fi & Fantasy",
+      "releaseDate": "2022-02-20",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "330"
     },
     {
       "title": "Falsa identidad (2018)",
