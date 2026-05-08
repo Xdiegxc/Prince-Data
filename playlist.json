@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri May  8 13:23:59 2026",
+    "generated_at": "Fri May  8 19:11:28 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -33738,6 +33738,18 @@
       "rating": 5.4,
       "plot": "Eva, una joven y prometedora abogada española afincada en Edimburgo, ve peligrar sus planes de boda con el heredero de una importante y ultraconservadora familia escocesa cuando se entera de que su abuela, Sofía, ha decidido casarse…",
       "genre": "Comedia, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Salsa (1988)",
+      "contentId": "56755",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56755.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO5is0tH_9YdbWPqlONnbR5L7e4jyKAQmf7YfhLD9Jo4Q.jpg",
+      "rating": 6.9,
+      "plot": "Durante la noche, cuando escapa de la rutina de su trabajo como mecánico, Rico (Roby Rosa) -un muchacho de origen puertorriqueño- entra en su habitad natural: el exuberante club de salsa \"La Luna\". Allí, el junto a su novia Vicky, buscaran ser \"el rey y la reina de la salsa\" en la próxima gran competencia de \"La Luna\".",
+      "genre": "Música, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
