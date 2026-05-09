@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat May  9 02:32:37 2026",
+    "generated_at": "Sat May  9 07:51:09 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1871,6 +1871,18 @@
       "rating": 6.0,
       "plot": "En el que podría ser el último día en la Tierra, una lucha a vida o muerte en un piso inundado se convierte en la única esperanza de supervivencia de la humanidad.",
       "genre": "Ciencia ficción, Aventura, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El hilo rojo (2025)",
+      "contentId": "56757",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56757.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdB4SGLT17PXwdbq-Lc771vfDSiM1NVu3eI_pW23ZGME.jpg",
+      "rating": 7.7,
+      "plot": "Abril, una azafata rebelde y audaz, y Manuel, un tímido y tradicional empresario, se conocen en un avión y sienten instantáneamente una atracción innegable.",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -16863,6 +16875,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "El hilo rojo (2025)",
+      "contentId": "56757",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56757.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOdB4SGLT17PXwdbq-Lc771vfDSiM1NVu3eI_pW23ZGME.jpg",
+      "rating": 7.7,
+      "plot": "Abril, una azafata rebelde y audaz, y Manuel, un tímido y tradicional empresario, se conocen en un avión y sienten instantáneamente una atracción innegable.",
+      "genre": "Drama, Romance",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "El hobbit: La batalla de los cinco ejércitos (2014)",
       "contentId": "19207",
       "group": "movies",
@@ -27384,6 +27408,18 @@
       "rating": 7.1,
       "plot": "La vida es perfecta para el profesor John Brennan (Russell Crowe) hasta que su esposa, Laura (Elizabeth Banks), es acusada de un asesinato que no ha cometido. Durante tres largos años, John se ve condenado a sacar adelante a su hijo sin ninguna ayuda, a seguir dando clase en el colegio como si nada hubiera ocurrido y a reunir las pruebas necesarias para probar la inocencia de Laura.Pero su esposa está tan desesperada que intenta suicidarse. Después de esta traumática experiencia, a John no le queda otro remedio que idear un plan para ayudarle a escapar de la cárcel. Está dispuesto a dejar de ser quien es con tal de salvar a la mujer que ama.",
       "genre": "Romance, Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Los puentes de Madison (1995)",
+      "contentId": "56758",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56758.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyc8EBcc0u_7Lk6poIqk_WNZHTnNXjH4ENMUV-KODXCo.jpg",
+      "rating": 7.7,
+      "plot": "La apacible pero anodina vida de Francesca Johnson, un ama de casa que vive en una granja con su familia, se ve alterada con la llegada de Robert Kincaid, un veterano fotógrafo de la revista National Geographic, que visita el condado de Madison para fotografiar sus viejos puentes. Cuando Francesca invita a Robert a cenar, un amor verdadero y una pasión desconocida nacerá entre ellos.",
+      "genre": "Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
