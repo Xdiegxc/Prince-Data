@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Fri May  8 19:11:28 2026",
+    "generated_at": "Sat May  9 02:32:37 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -3348,6 +3348,18 @@
       "rating": 4.2,
       "plot": "Es el 21 cumpleaños de Alex, pero está atrapada en la sala de máquinas recreativas en un turno de noche, así que sus amigos deciden darle una sorpresa, pero un asesino enmascarado vestido de Mickey Mouse decide jugar un juego propio con ellos al que ella debe sobrevivir. Primera película de terror creada tras le caída de Mickey Mouse en el dominio público en su versión de \"Steamboat Willie\" de 1928.",
       "genre": "Terror, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La venganza de Popeye (2025)",
+      "contentId": "56756",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56756.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyP4JKk1RQLaRbWHkdabylEe7uG9rOppnMkVUe39oen8.jpg",
+      "rating": 4.7,
+      "plot": "La leyenda de Popeye persigue a un grupo de concejales cuando pretenden abrir un campamento de verano.",
+      "genre": "Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -25765,6 +25777,18 @@
       "rating": 7.7,
       "plot": "Mónica tiene 13 años y ya se ha rebelado contra todo. Ha creado su propio mundo, en la calle, donde lucha con coraje para defender lo poco que tiene: sus amigas¸ tan niñas como ella; su novio, que vende droga, y su dignidad y su orgullo que no le hace concesiones a nadie. En la noche de Navidad, como todas las noches, vende rosas para ganarse la vida, y para comprarse el sueño de una fiesta con pólvora¸ estrenar ropa¸ y salir con su novio. Pero la vida le depara una nueva cita con la soledad, la pobreza, la droga y la muerte. Mónica es la otra cara de una ciudad intensa y cruel como Medellín¸ como la de cualquier ciudad en donde los niños de la calle no tienen lugar en este mundo¸ en el que apenas viven el tiempo inútil de su inexistencia. Hizo parte de la Selección Oficial¸ del 51° Festival Internacional de Cine de Cannes - Francia, 1998.",
       "genre": "Drama, Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La venganza de Popeye (2025)",
+      "contentId": "56756",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56756.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOyP4JKk1RQLaRbWHkdabylEe7uG9rOppnMkVUe39oen8.jpg",
+      "rating": 4.7,
+      "plot": "La leyenda de Popeye persigue a un grupo de concejales cuando pretenden abrir un campamento de verano.",
+      "genre": "Terror",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
