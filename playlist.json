@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue May 12 14:11:55 2026",
+    "generated_at": "Tue May 12 19:44:55 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -32469,6 +32469,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Proyecto Salvación (2026)",
+      "contentId": "56784",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56784.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOs7ksHn-oPcPbgJwrqQo0JHUjeCq0JZn27JW9wlJGxLA.jpg",
+      "rating": 8.3,
+      "plot": "El profesor de ciencias Ryland Grace se despierta en una nave espacial a años luz de casa sin recordar quién es ni cómo ha llegado hasta allí. A medida que recupera la memoria, empieza a descubrir su misión: resolver el enigma de la misteriosa sustancia que provoca la extinción del sol. Deberá recurrir a sus conocimientos científicos y a sus ideas poco ortodoxas para salvar todo lo que hay en la Tierra de la extinción... pero una amistad inesperada significa que quizá no tenga que hacerlo solo.",
+      "genre": "Ciencia ficción, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Proyecto X (2012)",
       "contentId": "18104",
       "group": "movies",
@@ -40655,6 +40667,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "206"
+    },
+    {
+      "title": "40 y 20 (2016)",
+      "contentId": "332",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=332",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUNl2YZF4r_tViEZGJ1wnd2hUwAJp54Su3SEod9onAEs.jpg",
+      "rating": 8.0,
+      "plot": "40 y 20 cuenta la hostoria de Paco (Jorge “Burro” Van Rankin), un cuarentón divorciado que con una gran inestabilidad emocional a prueba de balas, comparte su inmadurez con su hijo Fran.",
+      "genre": "Comedia",
+      "releaseDate": "2016-04-01",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "332"
     },
     {
       "title": "9-1-1 (2018)",
