@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed May 13 14:24:09 2026",
+    "generated_at": "Wed May 13 19:49:14 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -25518,6 +25518,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "La peor semana (2018)",
+      "contentId": "56801",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56801.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGb6DTtL9sDZdMI4I-ZhEumo7n4wCjU3ZFukidwSs-6k.jpg",
+      "rating": 5.5,
+      "plot": "Un devoto padre de clase media (Adam Sandler) está decidido a pagar la boda de su hija a pesar de las insistencias del padre del novio, que es mucho más rico (Chris Rock). Una serie de calamidades obliga a los padres (y sus familias) a unirse y soportar la semana más larga de sus vidas.",
+      "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "La perfección (2018)",
       "contentId": "18472",
       "group": "movies",
@@ -27527,6 +27539,18 @@
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQObvusKypxoa5KEALmqUS25aivw8TRn55Zc5diBDBp8R0.jpg",
       "rating": 7.5,
       "genre": "Animación, Familia, Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Los tres caballeros (1944)",
+      "contentId": "56803",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56803.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOsTdmyb_yC_IpNuZW9zLVeLwqGMCcXwdSsN00vszzi44.jpg",
+      "rating": 6.3,
+      "plot": "El gallo Panchito, el loro José Carioca y el pato Donald protagonizan esta comedia musical en la que se combinan personajes reales con dibujos animados. Mucho ritmo, chicas guapas y diversión son los principales ingredientes.",
+      "genre": "Animación, Familia, Música",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -37112,6 +37136,18 @@
       "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/55912.mkv",
       "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOYtnu9B4bjpyAZBWd6NCq6tkV10j3SI9xCZpBZBxDKqM.jpg",
       "genre": "Drama, Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "The Punisher: One Last Kill (2026)",
+      "contentId": "56802",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56802.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOX5zdPlNA8SC_XsydKOABB6mDSbeiYIaCsJ7Y6ZfwXBw.jpg",
+      "rating": 8.1,
+      "plot": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha.",
+      "genre": "Acción, Drama, Crimen",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
