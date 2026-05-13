@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed May 13 02:44:27 2026",
+    "generated_at": "Wed May 13 08:39:22 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -13162,6 +13162,18 @@
       "rating": 5.3,
       "plot": "La tarea de Daisy como nueva empleada doméstica de una familia rica es cuidar a un niño, pero, sin saberlo, está siendo observada por el padre del niño. Cuando surge la tentación, la vida de la familia y de Daisy comienza a desmoronarse.",
       "genre": "Suspense",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Criaturas luminosas (2026)",
+      "contentId": "56788",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56788.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOTYczTsrK85TQNzEgBwco7WqTbh_O2kM-5jJLpNLE65Q.jpg",
+      "rating": 8.3,
+      "plot": "En este drama, basado en el bestseller homónimo, una viuda forja un vínculo con un pulpo muy listo y un joven a la deriva mientras trabaja de noche en un pequeño acuario.",
+      "genre": "Drama, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -33906,6 +33918,18 @@
       "rating": 6.8,
       "plot": "Sam Cleary (Javon \"Wanna\" Walton), un joven de 13 años, sospecha que su misterioso y solitario vecino, el Sr. Smith (Sylvester Stallone), es en realidad un personaje legendario que se esconde a plena vista. Hace 20 años, el vigilante superpoderoso de Granite City, Samaritan, fue declarado muerto tras una batalla en un almacén con su rival, Némesis. La gente cree que Samaritan falleció en el incendio, pero algunos ciudadanos como Sam tienen la esperanza de que siga vivo. Con la delincuencia en aumento y la ciudad al borde del caos, Sam se propone sacar a su vecino de su escondite para salvar la ciudad de la ruina.",
       "genre": "Acción, Crimen, Fantasía",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Sangre asesina (2026)",
+      "contentId": "56787",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56787.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOxdfpCtiG8Ac1EzQGDr-Xwvp4FWOSi6eOS7MQSmAZjew.jpg",
+      "rating": 8.5,
+      "plot": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
+      "genre": "Acción, Drama, Romance",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
