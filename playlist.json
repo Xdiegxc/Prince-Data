@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu May 14 02:45:30 2026",
+    "generated_at": "Thu May 14 08:32:53 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5659,6 +5659,18 @@
       "rating": 6.2,
       "plot": "Un año después de la misteriosa desaparición de su hermana Melanie, Clover y sus amigas se dirigen al remoto valle donde desapareció en busca de respuestas. Mientras exploran un centro de visitantes abandonado, son acechadas por un asesino enmascarado que las mata una a una de forma horrible… para después despertar y encontrarse de nuevo al principio de la misma noche.",
       "genre": "Terror, Misterio",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Upgrade: Primera clase (2024)",
+      "contentId": "56806",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56806.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUtuaeiBf5q7QT00j0RLG0enXd1xxd8XznwVs-qO2rJI.jpg",
+      "rating": 7.2,
+      "plot": "Ana, aspirante a becaria en una galería de arte, acaba en primera clase de forma inesperada en un vuelo de trabajo a Londres con su jefa. Mientras se acostumbra a un estilo de vida más cómodo en el avión, conoce al rico y apuesto William y decide alargar la fantasía un poco más de lo que debería.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -38920,6 +38932,18 @@
       "rating": 7.9,
       "plot": "Tras atar miles de globos a su casa, Carl Fredricksen, un vendedor de globos jubilado, se embarca en el mundo de los sueños de la infancia. Pero sin que Carl lo sepa, Russell, un explorador de 8 años, se encuentra en el lugar equivocado en el momento equivocado: el porche delantero de la casa. El dúo más improbable conoce a fantásticos amigos como Dug, un perro con un collar especial que le permite hablar, y Kevin, un pájaro de cuatro metros de altura que no vuela. Atrapados en la selva, Carl se da cuenta de que a veces las mayores aventuras de la vida son las que menos esperabas.",
       "genre": "Animación, Comedia, Familia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Upgrade: Primera clase (2024)",
+      "contentId": "56806",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56806.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOUtuaeiBf5q7QT00j0RLG0enXd1xxd8XznwVs-qO2rJI.jpg",
+      "rating": 7.2,
+      "plot": "Ana, aspirante a becaria en una galería de arte, acaba en primera clase de forma inesperada en un vuelo de trabajo a Londres con su jefa. Mientras se acostumbra a un estilo de vida más cómodo en el avión, conoce al rico y apuesto William y decide alargar la fantasía un poco más de lo que debería.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
