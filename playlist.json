@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat May 16 13:13:55 2026",
+    "generated_at": "Sat May 16 18:58:52 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -27508,6 +27508,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Los reyes del mambo tocan canciones de amor (1992)",
+      "contentId": "56835",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56835.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOznT0FYsRCRiGMycT9oiimmIFYF2xNeWFLK3rItK9vcg.jpg",
+      "rating": 6.3,
+      "plot": "Los hermanos César y Néstor Castillo son dos músicos que abandonan la isla de Cuba en los años cincuenta con destino a Nueva York. Allí consiguen alcanzar la fama como los máximos representantes de la música latina en los Estados Unidos. César es el mayor, el hombre de negocios y el más mujeriego mientras que Néstor es más tímido y retraído, compone las canciones y no puede olvidar a la mujer que rompió su corazón en Cuba.",
+      "genre": "Drama, Música",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Los secretos que ocultamos (2020)",
       "contentId": "20820",
       "group": "movies",
@@ -30213,6 +30225,18 @@
       "rating": 5.8,
       "plot": "En el instituto John Hughes los chicos son como cualquier adolescente en cualquier otra peli de adolescentes. El chico deportista y popular apuesta con Austin, el rubito guapo, a que es capaz de transformar a Janey, la fea del colegio, en la reina del baile de fin de curso. Pero dos maquiavélicas compañeras intentarán que Jake pierda la apuesta: su hermana Catherine y Priscilla, la jefa de las animadoras. El resto de la pandilla tampoco es muy distinta a la de cualquier otra película de adolescentes americana. Y claro; los alumnos del instituto viven un curso lleno de fiestas, diversión, alcohol y sexo.",
       "genre": "Comedia",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "No es país para solteros (2026)",
+      "contentId": "56836",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56836.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOGJuV1go5fSjLYuSQ47wzi9EfbFdF_N10PnQaelofvec.jpg",
+      "rating": 6.6,
+      "plot": "En un pintoresco pueblo de la Toscana, el mundo de Elisa cambia cuando el regreso de un amigo de la infancia despierta viejas emociones.",
+      "genre": "Romance, Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
