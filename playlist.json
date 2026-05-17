@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat May 16 18:58:52 2026",
+    "generated_at": "Sun May 17 02:43:37 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -35942,6 +35942,18 @@
       "rating": 6.7,
       "plot": "Secuela de 'Super Mario Bros: La película', basada en la saga 'Mario Galaxy'. Los hermanos Mario y Luigi y la princesa Peach emprenden una aventura hasta los confines del espacio y a través de la galaxia.",
       "genre": "Familia, Comedia, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Super... Quien? (2022)",
+      "contentId": "56837",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56837.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQORjM2aHzSgDPcY1zFOClon_CSEOn3F85UIUQeDV9Fe34.jpg",
+      "rating": 6.3,
+      "plot": "Cedric (Philippe Lacheau) intenta ganarse la vida como actor, pero parece destinado al fracaso. No tiene dinero y su novia le ha dejado. Su padre, su hermana y sus mejores amigos tampoco dan un duro por él. Hasta que por fin consigue un papel protagonista: el del superhéroe \"Badman\". Se le presenta la oportunidad de salir de un pozo de desgracias y ganarse de nuevo el respeto de su padre. ¡Pero el destino tiene otros planes! Un día Cedric se marcha del rodaje a toda prisa sin quitarse el traje de superhéroe y tiene un accidente de tráfico. Se despierta con amnesia, convencido de que es un superhéroe y cree que tiene una misión. ¿Tiene lo que hay que tener para plantarle cara al mal, defender a los débiles y acabar con los malos? Uno no se convierte en héroe, y mucho menos en superhéroe, de la noche a la mañana... ¡Sobre todo alguien como Cedric!",
+      "genre": "Comedia, Acción, Familia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
