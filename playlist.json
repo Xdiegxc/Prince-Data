@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon May 18 15:21:02 2026",
+    "generated_at": "Mon May 18 19:40:20 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -16463,6 +16463,18 @@
       "rating": 7.5,
       "plot": "A medida que las plataformas digitales se vuelven más importantes para mantenernos conectados, expertos explican cómo esta interacción está reprogramando la civilización, revelando qué se esconde al otro lado de la pantalla",
       "genre": "Documental, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "El discurso del rey (2010)",
+      "contentId": "56842",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56842.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQO_2yvUnzSjaJ1edCbMYfjK1qntaU0yGLzCzKyeQ7UEY8.jpg",
+      "rating": 7.7,
+      "plot": "El duque de York se convirtió en rey de Gran Bretaña con el nombre de Jorge VI (1936-1952), tras la abdicación de su hermano mayor Eduardo VIII. Su tartamudez, que constituía un gran inconveniente para el ejercicio de sus funciones, lo llevó a buscar la ayuda de Lionel Logue, un experto logopeda, que consiguió, aplicando una serie de técnicas poco ortodoxas, eliminar este defecto del rey.",
+      "genre": "Drama, Historia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
