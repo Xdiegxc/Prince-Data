@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue May 19 02:50:27 2026",
+    "generated_at": "Tue May 19 09:35:24 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -12675,6 +12675,18 @@
       "rating": 6.1,
       "plot": "Sarah es una estudiante adolescente que toca fondo anímicamente tras huir de casa. Una vez sola, no tiene a nadie que le ayude a superar sus recurrentes pesadillas. Su única oportunidad de sobrevivir pasa por participar en un estudio universitario en la que entabla amistad con el científico supervisor, llamado Jeremy. Sin embargo, hay algo extraño en el procedimiento al que se somete, y con el paso de los días las pesadillas de Sarah empiezan a empeorar.",
       "genre": "Ciencia ficción, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Come, reza, ladra (2026)",
+      "contentId": "56870",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56870.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOjF6-le8-PpvpfIRB4jUoe3yVtI2ivGIVjuasQrU2P-0.jpg",
+      "rating": 5.7,
+      "plot": "Cinco dueños de perros desobedientes recurren a un famoso adiestrador que vive en las montañas para que los ayude. Pero sus peludos no son los que necesitan que los eduquen.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
