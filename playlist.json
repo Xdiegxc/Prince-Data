@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Mon May 18 19:40:20 2026",
+    "generated_at": "Tue May 19 02:50:27 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -1052,6 +1052,18 @@
       "rating": 7.1,
       "plot": "En un futuro cercano donde América está sumida en una cruenta guerra civil, un equipo de periodistas y fotógrafos de guerra emprenderá un viaje por carretera en dirección a Washington DC. Su misión: llegar antes de que las fuerzas rebeldes asalten la Casa Blanca y arrebaten el control al presidente de los Estados Unidos.",
       "genre": "Bélica, Acción, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cleaner (2025)",
+      "contentId": "56844",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56844.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQODogOcp5wybWx94vWe1pbGZd_kOkGHQIAcWUsF6WC2h8.jpg",
+      "rating": 6.4,
+      "plot": "Después de que un grupo de activistas se apodere de la gala anual de una compañía energética para denunciar su corrupción, su justa causa es secuestrada por un extremista dispuesto a asesinar a las 300 personas presentes en el edificio para transmitir su mensaje anárquico. Una ex soldado convertida en limpiacristales, suspendida 50 pisos en el exterior del rascacielos londinense, es la encargada de intentar salvar a los que están atrapados dentro, incluido su hermano pequeño.",
+      "genre": "Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -12471,6 +12483,18 @@
       "rating": 6.4,
       "plot": "Atormentado por una vida pasada, el basurero Clean intenta una vida de tranquila redención. Pero cuando sus buenas intenciones lo marcan como objetivo de un jefe del crimen local, Clean se ve obligado a reconciliarse con la violencia de su pasado.",
       "genre": "Crimen",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Cleaner (2025)",
+      "contentId": "56844",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56844.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQODogOcp5wybWx94vWe1pbGZd_kOkGHQIAcWUsF6WC2h8.jpg",
+      "rating": 6.4,
+      "plot": "Después de que un grupo de activistas se apodere de la gala anual de una compañía energética para denunciar su corrupción, su justa causa es secuestrada por un extremista dispuesto a asesinar a las 300 personas presentes en el edificio para transmitir su mensaje anárquico. Una ex soldado convertida en limpiacristales, suspendida 50 pisos en el exterior del rascacielos londinense, es la encargada de intentar salvar a los que están atrapados dentro, incluido su hermano pequeño.",
+      "genre": "Acción, Suspense",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -25322,6 +25346,18 @@
       "rating": 6.9,
       "plot": "El legionario Rick O'Connell y su socio descubren durante una batalla en Egipto las ruinas de Hamunaptra, la ciudad de los muertos. Pasado un tiempo, este descubrimiento le permitirá salvar su vida y volver al lugar con una egiptóloga y su hermano, donde coinciden con un grupo de americanos. Todos ellos, seducidos por la aventura, provocarán la resurrección de la momia de un diabólico sacerdote egipcio que intenta desesperadamente recuperar a su amada.",
       "genre": "Aventura, Acción, Fantasía",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "La momia de Lee Cronin (2026)",
+      "contentId": "56843",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56843.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOCREBBvdhOZWddZlFYiR85VqvH8vdv87Rm6rcf_Es6YI.jpg",
+      "rating": 6.7,
+      "plot": "La joven hija de un periodista desaparece en el desierto sin dejar rastro—ocho años más tarde, la familia rota se conmociona cuando ella es devuelta a ellos, y lo que debiera haber sido una reunión jubilosa se convierte en una auténtica pesadilla.",
+      "genre": "Terror, Misterio",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
