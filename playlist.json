@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Tue May 19 19:48:01 2026",
+    "generated_at": "Wed May 20 02:50:59 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -5623,6 +5623,18 @@
       "rating": 6.2,
       "plot": "Cuatro inadaptados se encuentran luchando con problemas ordinarios cuando de repente se ven arrastrados a través de un misterioso portal al Mundo Exterior: un extraño país de las maravillas cúbico que se nutre de la imaginación. Para volver a casa, tendrán que dominar este mundo mientras se embarcan en una búsqueda mágica con un inesperado experto artesano, Steve.",
       "genre": "Familia, Comedia, Aventura",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Una pequeña confusión (2024)",
+      "contentId": "56880",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56880.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmty1QTez9aDj2RwKJPArjPNwZ2TI8asNqyyU1ZH25Oo.jpg",
+      "rating": 7.4,
+      "plot": "En esta comedia llena de eventos, dos parejas que buscan tener hijos recurren a la inseminación artificial como último recurso. La ciencia no falla y la prueba da positivo, pero los humanos sí: “Una pequeña confusión” (nada pequeña) provoca que la doctora (Diana Bovio) intercambie accidentalmente las muestras de esperma. Ahora… cada futura mamá lleva el bebé de un completo extraño. Este ligero cambio de planes trastoca las vidas de Lola y Cuauh (Ana de la Reguera y Cristo Fernández), una pareja progresista de clase media con espíritu libre, y de Iñigo y Majo (Juanpa Zurita y Vico Escorcia), un dúo joven y conservador que vive en una burbuja de privilegio.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
@@ -36592,6 +36604,17 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "The 7th Dimension (2010)",
+      "contentId": "56881",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56881.mp4",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOEZTQ7NLn3nBCJfV4wY8CR_6gVMcdZZzHW7gu-YuNJak.jpg",
+      "rating": 4.6,
+      "genre": "Ciencia ficción, Suspense, Terror",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "The Aeronauts (2019)",
       "contentId": "18516",
       "group": "movies",
@@ -38860,6 +38883,18 @@
       "rating": 7.4,
       "plot": "Siguiendo la tradición familiar, Teresa y Montoya se incorporan a la policía, solo para encontrar que sus convicciones y esperanzas son aplastadas por un sistema disfuncional. Ante la hostilidad a la que se exponen, solo les queda su vínculo amoroso como refugio. Como un experimento documental y narrativo innovador, Una película de policías sumerge al espectador en un espacio inusual. La película pone el reflector sobre la policía, una de las instituciones más controvertidas de México y el mundo",
       "genre": "Documental, Crimen, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
+      "title": "Una pequeña confusión (2024)",
+      "contentId": "56880",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56880.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOmty1QTez9aDj2RwKJPArjPNwZ2TI8asNqyyU1ZH25Oo.jpg",
+      "rating": 7.4,
+      "plot": "En esta comedia llena de eventos, dos parejas que buscan tener hijos recurren a la inseminación artificial como último recurso. La ciencia no falla y la prueba da positivo, pero los humanos sí: “Una pequeña confusión” (nada pequeña) provoca que la doctora (Diana Bovio) intercambie accidentalmente las muestras de esperma. Ahora… cada futura mamá lleva el bebé de un completo extraño. Este ligero cambio de planes trastoca las vidas de Lola y Cuauh (Ana de la Reguera y Cristo Fernández), una pareja progresista de clase media con espíritu libre, y de Iñigo y Majo (Juanpa Zurita y Vico Escorcia), un dúo joven y conservador que vive en una burbuja de privilegio.",
+      "genre": "Comedia",
       "quality": "SD",
       "source_alias": "MainProvider"
     },
