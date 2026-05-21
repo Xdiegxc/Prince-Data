@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu May 21 14:56:42 2026",
+    "generated_at": "Thu May 21 19:48:02 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -42560,6 +42560,19 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "299"
+    },
+    {
+      "title": "James. (2026)",
+      "contentId": "336",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=336",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOuzw90Ga4xg0dUCeP5Pw2h3CLZNQ2xkjffeopWAZp4oA.jpg",
+      "plot": "En esta serie documental, James Rodríguez, el fabuloso dorsal 10 de Colombia, cuenta los detalles de cómo llegó a la élite del fútbol y al mayor escenario del deporte.",
+      "genre": "Documental",
+      "releaseDate": "2026-05-21",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "336"
     },
     {
       "title": "Jesús de Nazaret (1977)",
