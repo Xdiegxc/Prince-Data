@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Thu May 21 02:54:04 2026",
+    "generated_at": "Thu May 21 09:32:58 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -22810,6 +22810,18 @@
       "source_alias": "MainProvider"
     },
     {
+      "title": "Jack Ryan de Tom Clancy: Guerra Encubierta (2026)",
+      "contentId": "56884",
+      "group": "movies",
+      "url": "http://latinapro.net:25461/movie/lazaroperez/perez3/56884.mkv",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOQM4YbAMghz_BOT6lhnhsyWU-jhBpkxDSfvl3dmpHTBI.jpg",
+      "rating": 7.0,
+      "plot": "En esta nueva película, Jack Ryan se ve empujado de vuelta al espionaje cuando una misión secreta internacional destapa una conspiración mortal. Contra reloj, se une a Mike November y James Greer, sus aliados de la CIA, y a Emma Marlow, una perspicaz agente del MI6, para enfrentarse a una unidad de operaciones encubiertas en una batalla muy personal y arriesgada.",
+      "genre": "Acción, Suspense, Drama",
+      "quality": "SD",
+      "source_alias": "MainProvider"
+    },
+    {
       "title": "Jack y Jill (DUAL) (2011)",
       "contentId": "34182",
       "group": "movies",
@@ -43615,6 +43627,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "136"
+    },
+    {
+      "title": "Margo tiene problemas de dinero (2026)",
+      "contentId": "335",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=335",
+      "hdPosterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zqUvfOQtaffnkQL0ZVKPD7Z1KIR.jpg",
+      "rating": 8.0,
+      "plot": "La escritora en ciernes Margo Millet se queda embarazada, lo que la obliga a dejar la universidad y la lleva a la ruina. Pero cuando aparece su padre, un ex luchador profesional con el que no tenía relación, Margo halla una forma inesperada de rentabilizar su talento para contar historias.",
+      "genre": "Drama, Comedia",
+      "releaseDate": "2026-04-14",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "335"
     },
     {
       "title": "María Magdalena (2018)",
