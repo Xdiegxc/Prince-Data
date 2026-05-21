@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Wed May 20 20:09:06 2026",
+    "generated_at": "Thu May 21 02:54:04 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [
@@ -6018,15 +6018,6 @@
       "url": "http://latinapro.net:25461/live/lazaroperez/perez3/22.ts",
       "hdPosterUrl": "http://latinapro.net:25461/images/181ac44cf0bfbb742f1d343e75126ce6.jpg",
       "quality": "HD",
-      "source_alias": "MainProvider"
-    },
-    {
-      "title": "Lat: Telemundo Los Angeles",
-      "contentId": "8151",
-      "group": "live_tv",
-      "url": "http://latinapro.net:25461/live/lazaroperez/perez3/8151.ts",
-      "hdPosterUrl": "http://latinapro.net:25461/images/29954f763db683bddfe240c844a28d13.jpg",
-      "quality": "SD",
       "source_alias": "MainProvider"
     },
     {
@@ -41041,6 +41032,20 @@
       "quality": "SD",
       "source_alias": "MainProvider",
       "series_id": "312"
+    },
+    {
+      "title": "Amor Real (2003)",
+      "contentId": "334",
+      "group": "series",
+      "url": "http://latinapro.net:25461/player_api.php?username=lazaroperez&password=perez3&action=get_series_info&series_id=334",
+      "hdPosterUrl": "http://latinapro.net:25461/images/vZXgbGvgk4ZyK0XaeXPbKzdRQpzplXpvAzUkMAKD1v3oHNBQMMuCasUl8gFrrrQOInP4SGaDGFFQ-cdvXjA7j-A3hrz5mPEoE8B81PnrsNo.jpg",
+      "rating": 8.0,
+      "plot": "En el siglo XIX, Matilde Peñalver y Beristain, contraviniendo las reglas de la aristocracia a la que pertenecía, se enamoró de Adolfo Solís –un militar sin fortuna-, confiando en que su bondadoso padre la dejaría casarse, pero Augusta tenía que casar a su hija con un hombre rico para salvar a la familia de la ruina económica. Manuel Fuentes Guerra era el candidato perfecto ya que era joven, guapo, de buenos sentimientos y acababa de heredar una gran fortuna. Augusta ignoraba que Manuel era hijo bastardo de Joaquín Fuentes Guerra, un poderoso terrateniente que abusó de una humilde pueblerina y hacía tan sólo unos meses había reconocido a Manuel como su hijo. Para lograr sus planes, Augusta y su hijo Humberto lograron que Adolfo fuera a prisión e hicieron creer a Matilde que su amado era casado y tenía hijos. Matilde, despechada, presionada por su madre y sabiendo que Manuel cubrió las deudas de su familia, acepta casarse. Al escapar Adolfo de prisión, lo primero que hace es buscar a su adorada Matilde, y se encuentra con que ella se acaba de casar con Manuel. Desesperado, Adolfo logra hablar a escondidas con Matilde y aclarar los malos entendidos. Jurándose amor eterno, deciden huir juntos, pero Manuel los descubre y, herido en lo más hondo, arremete contra Matilde, aun cuando no está dispuesto a renunciar a ella. La lleva a su hacienda y allí consuma el matrimonio. Es amarga la estancia de Matilde en la hacienda porque no ama a su marido y además tiene que soportar los atrevimientos y las intrigas de Antonia, hija del antiguo administrador, que está enamorada de Manuel. Por su parte, luego de una intensa búsqueda, Adolfo averigua el paradero de Matilde y suplanta al nuevo administrador de la hacienda para llevársela de allí. Manuel, sin saber quién es en realidad el nuevo administrador, simpatiza con él, dándole un trato amistoso. Adolfo, a pesar de los celos, tiene que admitir que Manuel es un hombre honrado y cabal. Es durante este tiempo que Manuel y Matilde descubren haber sido víctimas de la codicia y las intrigas de Augusta y Humberto. Al mismo tiempo, las sutiles atenciones, las miradas llenas de pasión y el deseo siempre latente de Manuel, terminan par hacer mella en el corazón de Matilde, que un día, de repente, se da cuenta de que al amor que sentía por Adolfo ha desaparecido y que en su lugar existe un nuevo sentimiento, más intenso y más real hacia su marido. Matilde enfrenta con dolor decirle la verdad a Adolfo, al que ya no ama, pero que no quiere lastimar. Él acepta haber perdido y, con el corazón roto, abandona la hacienda, el mismo día que Matilde anuncia a Manuel que van a ser padres. Pero la felicidad de la pareja dura poco. Manuel descubre que el ex administrador era el antiguo enamorado de su mujer. De nada sirven las explicaciones y las súplicas de Matilde, pues Manuel no le perdona que nuevamente lo engañara. Furioso y hasta poniendo en duda la paternidad de la criatura, corre a Matilde de la hacienda. Poco después intenta olvidarla con Antonia, iniciando una relación que lo compromete y le dificultará volver con Matilde. La pareja sigue amándose con locura a pesar de la separación pero ambos tendrán que enfrentar muchos conflictos e intrigas hasta lograr un amor real.",
+      "genre": "Soap, Drama",
+      "releaseDate": "2003-06-09",
+      "quality": "SD",
+      "source_alias": "MainProvider",
+      "series_id": "334"
     },
     {
       "title": "Amor de carnaval (2012)",
