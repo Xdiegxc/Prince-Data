@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "Sat Aug  8 01:14:49 2026",
+    "generated_at": "Sat Aug  8 02:32:14 2026",
     "version": "v100.0_Stable"
   },
   "premieres": [],
@@ -13,7 +13,8 @@
       "hdPosterUrl": "https://via.placeholder.com/300",
       "quality": "HD",
       "source_alias": "ManualVIP",
-      "is_manual": true
+      "is_manual": true,
+      "id": "manual.vip.01"
     }
   ],
   "sports": [],
