@@ -30,9 +30,14 @@ USER_AGENT = "IPTVSmartersPro/98.2"
 
 # --- TUNING DE RENDIMIENTO ---
 # 50 es un número seguro para no saturar al proveedor y evitar bloqueos de IP
-MAX_CONCURRENT_CHECKS = 50 
+MAX_CONCURRENT_CHECKS = 50
 HTTP_TIMEOUT = 25
 MAX_RETRIES = 3
+
+# Si es True, se verifica cada canal LIVE con HEAD/GET y se descartan los que
+# no respondan. Muchos streams IPTV no contestan a HEAD, así que ponlo en False
+# si el Live TV te sale vacío.
+ENABLE_LIVE_HEALTHCHECK = False
 
 # --- CANALES MANUALES (VIP / PROTEGIDOS) ---
 MANUAL_OVERRIDES = [
@@ -61,12 +66,12 @@ PATTERNS = {
     # --- Región & Idioma ---
     "MX_STRICT": re.compile(r"\b(mx|mex|mexico|méxico|latam|latino|spanish|español)\b", RE_FLAGS),
     "MX_CHANNELS": re.compile(r"\b(azteca|televisa|estrellas|canal 5|imagen|adn 40|foro tv|milenio|multimedios|once|canal 22|tdn|tudn|afizzionados|univision|unimas|telemundo)\b", RE_FLAGS),
-    "SPAIN_ALLOW": re.compile(r"\b(spain|españa|es)\b", RE_FLAGS),
+    "SPAIN_ALLOW": re.compile(r"\b(spain|españa)\b", RE_FLAGS),
 
     # --- Bloqueos (Hard Block) ---
     # Eliminamos canales 24/7 de series repetitivas, adultos y países no deseados
-    "HARD_BLOCK": re.compile(r"\b(usa|uk|canada|adult|xxx|porn|sex|hindi|arab|turk|korea|french|german|italian|brasil|brazil|portugal|pt|24/7)\b", RE_FLAGS),
-    "SPORTS_BLOCK": re.compile(r"\b(brasil|brazil|portugal|pt)\b", RE_FLAGS), # Deportes que NO queremos
+    "HARD_BLOCK": re.compile(r"\b(usa|uk|canada|adult|xxx|porn|sex|hindi|arab|turk|korea|french|german|italian|brasil|brazil|portugal|24/7)\b", RE_FLAGS),
+    "SPORTS_BLOCK": re.compile(r"\b(brasil|brazil|portugal)\b", RE_FLAGS), # Deportes que NO queremos
 
     # --- Categorías ---
     "SPORTS": re.compile(r"(deporte|sport|espn|fox|ufc|nfl|nba|mlb|f1|liga|chivas|beisbol|tenis|racing|dazn|claro|win|gol|tudn|tyc)", RE_FLAGS),
@@ -78,7 +83,7 @@ PATTERNS = {
     "4K": re.compile(r"\b(4k|uhd|2160p)\b", RE_FLAGS),
     "FHD": re.compile(r"\b(fhd|1080p|hevc)\b", RE_FLAGS),
     "HD": re.compile(r"\b(hd|720p)\b", RE_FLAGS),
-    "PREMIERE_YEAR": re.compile(r"(2024|2025)", RE_FLAGS)
+    "PREMIERE_YEAR": re.compile(r"(2024|2025|2026)", RE_FLAGS)
 }
 
 # ==============================================================================
@@ -101,10 +106,14 @@ class StreamItem:
     series_id: str = ""
     api_url: str = ""
     is_manual: bool = False  # Flag crítico para que el deduplicador no borre canales manuales
-    
+
     def to_dict(self):
         # Solo retornamos valores que no estén vacíos para ahorrar espacio en el JSON
-        return {k: v for k, v in asdict(self).items() if v}
+        d = {k: v for k, v in asdict(self).items() if v}
+        # Roku (MainScene.brs) espera el campo `id`; lo derivamos de contentId.
+        if self.contentId:
+            d["id"] = self.contentId
+        return d
 
 class ContentFilter:
     @staticmethod
@@ -142,7 +151,7 @@ async def fetch_json(session: aiohttp.ClientSession, url: str) -> Any:
             async with session.get(url, timeout=HTTP_TIMEOUT, ssl=False) as response:
                 if response.status == 200:
                     try:
-                        return await response.json()
+                        return await response.json(content_type=None)
                     except:
                         # Fallback: Algunos servers envían JSON con header text/html
                         text = await response.text()
@@ -150,8 +159,10 @@ async def fetch_json(session: aiohttp.ClientSession, url: str) -> Any:
                 elif response.status == 429:
                     # Rate limiting
                     await asyncio.sleep(2)
+                else:
+                    logger.warning(f"HTTP {response.status} en {url.split('?')[0]}")
         except Exception as e:
-            # logger.debug(f"Fetch error ({attempt+1}/{MAX_RETRIES}): {e}")
+            logger.debug(f"Fetch error ({attempt+1}/{MAX_RETRIES}): {e}")
             await asyncio.sleep(1)
     return None
 
@@ -164,7 +175,7 @@ async def check_stream_health(session: aiohttp.ClientSession, url: str, semaphor
                 if response.status < 400: return True
                 if response.status == 405: pass # Method Not Allowed -> Intentar GET
                 else: return False
-            
+
             # Método 2: GET (Fallback seguro)
             async with session.get(url, timeout=6, ssl=False, allow_redirects=True) as response:
                 return response.status < 400
@@ -178,10 +189,9 @@ async def check_stream_health(session: aiohttp.ClientSession, url: str, semaphor
 async def process_manual_streams(session, playlist_container, semaphore):
     """ Procesa la lista MANUAL_OVERRIDES. Estos tienen prioridad máxima. """
     if not MANUAL_OVERRIDES: return
-    
+
     logger.info(f"[Manual] Procesando {len(MANUAL_OVERRIDES)} canales VIP...")
-    tasks = []
-    
+    count = 0
     for item in MANUAL_OVERRIDES:
         stream_obj = StreamItem(
             title=item['title'],
@@ -193,37 +203,33 @@ async def process_manual_streams(session, playlist_container, semaphore):
             source_alias="ManualVIP",
             is_manual=True
         )
-        # Verificamos salud también de los manuales
-        tasks.append((stream_obj, check_stream_health(session, item['url'], semaphore)))
-    
-    if tasks:
-        results = await asyncio.gather(*[t[1] for t in tasks])
-        count = 0
-        for (stream, is_alive) in zip(tasks, results):
-            # Opcional: Si quieres forzar que aparezcan aunque estén offline, quita el 'if is_alive'
-            if is_alive:
-                playlist_container[stream[0].group].append(stream[0].to_dict())
-                count += 1
-        logger.info(f"[Manual] Agregados: {count}")
+        # Los manuales entran siempre (son VIP protegidos).
+        playlist_container[stream_obj.group].append(stream_obj.to_dict())
+        count += 1
+    logger.info(f"[Manual] Agregados: {count}")
 
 async def process_xtream_live(session, source, playlist_container, semaphore):
     """ Procesa canales en vivo desde Xtream Codes. """
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_live_streams"
     data = await fetch_json(session, url)
-    
-    if not isinstance(data, list): 
-        logger.error(f"[{source['alias']}] Error: No se recibió lista de canales.")
+
+    if not isinstance(data, list):
+        logger.error(f"[{source['alias']}] Error: No se recibió lista de canales LIVE.")
         return
 
     tasks = []
     logger.info(f"[{source['alias']}] Analizando {len(data)} canales LIVE...")
+    blocked = 0
+    skipped = 0
 
     for item in data:
         name = item.get('name', '')
-        
+
         # 1. BLOQUEO DURO (Hard Block)
-        if PATTERNS["HARD_BLOCK"].search(name): continue
-        
+        if PATTERNS["HARD_BLOCK"].search(name):
+            blocked += 1
+            continue
+
         # 2. CATEGORIZACIÓN INTELIGENTE
         group = None
         should_include = False
@@ -245,82 +251,96 @@ async def process_xtream_live(session, source, playlist_container, semaphore):
         elif PATTERNS["MX_STRICT"].search(name) or PATTERNS["MX_CHANNELS"].search(name):
             group = "live_tv"
             should_include = True
-        
+        else:
+            # Todo canal no clasificado va a live_tv en lugar de perderse.
+            group = "live_tv"
+            should_include = True
+
         # 3. CREACIÓN DEL OBJETO
         if should_include and group:
             stream_id = item.get('stream_id')
+            if stream_id is None:
+                skipped += 1
+                continue
             # URL final para el reproductor (.ts)
             play_url = f"{source['host']}/live/{source['user']}/{source['pass']}/{stream_id}.ts"
-            
+
             stream_obj = StreamItem(
                 title=name,
                 contentId=str(stream_id),
                 group=group,
                 url=play_url,
-                hdPosterUrl=item.get('stream_icon'),
+                hdPosterUrl=item.get('stream_icon') or "",
                 quality=ContentFilter.detect_quality(name),
                 source_alias=source['alias']
             )
-            
-            # Agregamos a la cola de verificación de salud
-            tasks.append((stream_obj, check_stream_health(session, play_url, semaphore)))
 
-    # 4. EJECUCIÓN PARALELA (Async Gather)
-    if tasks:
+            if ENABLE_LIVE_HEALTHCHECK:
+                tasks.append((stream_obj, check_stream_health(session, play_url, semaphore)))
+            else:
+                playlist_container[stream_obj.group].append(stream_obj.to_dict())
+
+    # 4. EJECUCIÓN PARALELA (Async Gather) solo si hay health check
+    if ENABLE_LIVE_HEALTHCHECK and tasks:
         results = await asyncio.gather(*[t[1] for t in tasks])
-        
         valid_count = 0
         for (task, is_alive) in zip(tasks, results):
             if is_alive:
                 stream_item = task[0]
                 playlist_container[stream_item.group].append(stream_item.to_dict())
                 valid_count += 1
-
-        logger.info(f"[{source['alias']}] Canales LIVE procesados: {valid_count} aceptados.")
+        logger.info(f"[{source['alias']}] LIVE: {valid_count} vivos / {blocked} bloqueados.")
+    else:
+        logger.info(f"[{source['alias']}] LIVE: agregados sin health check / {blocked} bloqueados.")
 
 async def process_xtream_vod(session, source, playlist_container, action_type="get_vod_streams"):
     """ Procesa Películas (VOD). No hacemos health check individual para ahorrar tiempo. """
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action={action_type}"
     data = await fetch_json(session, url)
-    if not isinstance(data, list): return
+    if not isinstance(data, list):
+        logger.error(f"[{source['alias']}] Error: No se recibió lista VOD.")
+        return
 
     logger.info(f"[{source['alias']}] Procesando VOD ({action_type})...")
-    
+
     count = 0
     for item in data:
         name = item.get('name', '')
         if PATTERNS["HARD_BLOCK"].search(name): continue
 
         stream_id = item.get('stream_id')
+        if stream_id is None: continue
         ext = item.get('container_extension', 'mp4')
-        
+
         obj = StreamItem(
             title=name,
             contentId=str(stream_id),
             group="movies",
             url=f"{source['host']}/movie/{source['user']}/{source['pass']}/{stream_id}.{ext}",
-            hdPosterUrl=item.get('stream_icon'),
+            hdPosterUrl=item.get('stream_icon') or "",
             rating=ContentFilter.clean_rating(item.get('rating')),
             plot=item.get('plot', ''),
             genre=item.get('genre', ''),
-            releaseDate=item.get('releasedate') or item.get('releaseDate'),
+            releaseDate=item.get('releasedate') or item.get('releaseDate') or "",
             quality=ContentFilter.detect_quality(name),
             source_alias=source['alias']
         ).to_dict()
 
         if ContentFilter.is_premiere(item, name):
             playlist_container["premieres"].append(obj)
-        
+
         playlist_container["movies"].append(obj)
         count += 1
-    
+
     logger.info(f"[{source['alias']}] Películas agregadas: {count}")
 
 async def process_xtream_series(session, source, playlist_container):
     """ Procesa Series. Solo la info base, Roku carga episodios bajo demanda. """
     url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series"
     data = await fetch_json(session, url)
-    if not isinstance(data, list): return
+    if not isinstance(data, list):
+        logger.error(f"[{source['alias']}] Error: No se recibió lista de series.")
+        return
 
     logger.info(f"[{source['alias']}] Procesando Series...")
     count = 0
@@ -328,22 +348,23 @@ async def process_xtream_series(session, source, playlist_container):
         name = item.get('name', '')
         if PATTERNS["HARD_BLOCK"].search(name): continue
 
-        series_id = str(item.get('series_id'))
-        # La URL aquí no es de video, sino para que la Task de Roku pida la info
-        api_url = f"{source['host']}/player_api.php?username={source['user']}&password={source['pass']}&action=get_series_info&series_id={series_id}"
-        
+        series_id = item.get('series_id')
+        if series_id is None: continue
+        series_id = str(series_id)
+
         obj = StreamItem(
             title=name,
             contentId=series_id,
             group="series",
-            url=api_url, # URL lógica para SeriesLoaderTask
-            hdPosterUrl=item.get('cover'),
+            # URL lógica (SeriesLoaderTask arma la real con host/user/pass/id).
+            url=f"series://{series_id}",
+            hdPosterUrl=item.get('cover') or "",
             rating=ContentFilter.clean_rating(item.get('rating')),
             plot=item.get('plot', ''),
             genre=item.get('genre', ''),
-            releaseDate=item.get('releaseDate'),
+            releaseDate=item.get('releaseDate') or "",
             source_alias=source['alias'],
-            series_id=series_id # Importante para Roku
+            series_id=series_id
         ).to_dict()
 
         playlist_container["series"].append(obj)
@@ -360,28 +381,28 @@ async def process_xtream_series(session, source, playlist_container):
 def deduplicate_and_sort(playlist: Dict[str, Any]):
     """ Ordena por prioridad y elimina duplicados basados en nombre normalizado. """
     logger.info("Optimizando y Desduplicando Playlist...")
-    
+
     # Rango de calidad para el sort
     quality_rank = {"4K": 4, "FHD": 3, "HD": 2, "SD": 1}
 
     for category in playlist:
         if category == "meta": continue
-        
+
         # 1. ORDENAR: Manual primero -> Título -> Mejor Calidad
         playlist[category].sort(key=lambda x: (
             not x.get('is_manual', False), # False < True, así que manual va primero
-            x['title'], 
+            x.get('title', ''),
             -quality_rank.get(x.get('quality', 'SD'), 1)
         ))
 
         # 2. DEDUPLICAR
         seen = set()
         unique_list = []
-        
+
         for item in playlist[category]:
             # Normalizar título (eliminar signos, espacios, minúsculas)
-            norm_title = re.sub(r'[^a-z0-9]', '', item['title'].lower())
-            
+            norm_title = re.sub(r'[^a-z0-9]', '', item.get('title', '').lower())
+
             # Si es manual, siempre entra (aunque parezca duplicado)
             if item.get('is_manual', False):
                 unique_list.append(item)
@@ -389,7 +410,7 @@ def deduplicate_and_sort(playlist: Dict[str, Any]):
             elif norm_title not in seen:
                 unique_list.append(item)
                 seen.add(norm_title)
-        
+
         playlist[category] = unique_list
         logger.info(f"   └── {category}: {len(unique_list)} items finales.")
 
@@ -416,7 +437,7 @@ def push_to_github(filename: str):
 
 async def main():
     start_time = time.time()
-    
+
     # Estructura JSON que espera Roku
     playlist = {
         "meta": { "generated_at": time.ctime(), "version": "v100.0_Stable" },
@@ -436,21 +457,23 @@ async def main():
 
     async with aiohttp.ClientSession(connector=connector, headers={"User-Agent": USER_AGENT}) as session:
         tasks = []
-        
+
         # 1. Procesar Manuales
         tasks.append(process_manual_streams(session, playlist, semaphore))
-        
+
         # 2. Procesar Fuentes Xtream
         for src in SOURCES:
-            if not src.get('host'): continue
-            
+            if not src.get('host'):
+                logger.error("🚫 Fuente sin host: revisa las variables XT_HOST/XT_USER/XT_PASS.")
+                continue
+
             # Live TV
             tasks.append(process_xtream_live(session, src, playlist, semaphore))
             # VOD
             tasks.append(process_xtream_vod(session, src, playlist))
             # Series
             tasks.append(process_xtream_series(session, src, playlist))
-        
+
         # Esperar a que todo termine
         await asyncio.gather(*tasks)
 
@@ -463,7 +486,7 @@ async def main():
         json.dump(playlist, f, indent=2, ensure_ascii=False)
 
     logger.info(f"--- PROCESO COMPLETADO EN {time.time() - start_time:.2f} SEGUNDOS ---")
-    
+
     # Subir a la nube
     push_to_github(final_filename)
 
@@ -473,19 +496,11 @@ if __name__ == "__main__":
     else:
         try:
             # Fix para Windows SelectorEventLoop
-            if os.name == 'nt': 
+            if os.name == 'nt':
                 asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-            
+
             asyncio.run(main())
         except KeyboardInterrupt:
             logger.info("Proceso interrumpido por el usuario.")
         except Exception as e:
             logger.exception(f"Error inesperado: {e}")
-
-
-
-
-
-
-
-
